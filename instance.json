@@ -4287,6 +4287,2920 @@
             "forge"
           ]
         }
+      },
+      {
+        "name": "FTB Library (Forge)",
+        "version": "ftb-library-forge-2001.2.10.jar",
+        "optional": true,
+        "file": "ftb-library-forge-2001.2.10.jar",
+        "type": "mods",
+        "description": "Common code for all GUI stuff in FTB Mods",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 404465,
+        "curseForgeFileId": 6807424,
+        "curseForgeProject": {
+          "id": 404465,
+          "name": "FTB Library (Forge)",
+          "authors": [
+            {
+              "id": 17809311,
+              "name": "FTB",
+              "url": "https://www.curseforge.com/members/ftb"
+            },
+            {
+              "id": 129670203,
+              "name": "FTBTeam",
+              "url": "https://www.curseforge.com/members/ftbteam"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Common code for all GUI stuff in FTB Mods",
+          "categories": [
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 421,
+          "classId": 6,
+          "slug": "ftb-library-forge",
+          "isFeatured": false,
+          "dateModified": "2025-10-30T16:38:29.1Z",
+          "dateCreated": "2020-08-25T23:29:22.82Z",
+          "dateReleased": "2025-10-30T16:33:14.927Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge",
+            "wikiUrl": "https://go.ftb.team/docs-library",
+            "issuesUrl": "https://github.com/FTBTeam/FTB-GUI-Library/issues",
+            "sourceUrl": "https://github.com/FTBTeam/FTB-GUI-Library"
+          },
+          "logo": {
+            "id": 972575,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/972/575/256/256/638474885844428954.png",
+            "title": "638474885844428954.png",
+            "url": "https://media.forgecdn.net/avatars/972/575/638474885844428954.png",
+            "modId": 404465
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 7167217
+        },
+        "curseForgeFile": {
+          "id": 6807424,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "ftb-library-forge-2001.2.10.jar",
+          "fileName": "ftb-library-forge-2001.2.10.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-07-24T16:54:08.133Z",
+          "fileLength": 791875,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 238222,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 310111,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 419699,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 93242417,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 2990687815,
+              "name": "ftblibrary-common.mixins.json"
+            },
+            {
+              "fingerprint": 3836774794,
+              "name": "ftblibrary.accesswidener"
+            },
+            {
+              "fingerprint": 1091646804,
+              "name": "kubejs.classfilter.txt"
+            },
+            {
+              "fingerprint": 3121994881,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 1680686693,
+              "name": "ftb-library-common-refmap.json"
+            },
+            {
+              "fingerprint": 344783043,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 665401165,
+              "name": "dev"
+            },
+            {
+              "fingerprint": 211789513,
+              "name": "architectury_inject_FTBLibrary1201_common_6d1d42cd7a4c41818cce5ea5199c975b_a73a2670e1a554f69eff84020cacde83fa386c1e36327c191a0ee065d51d3f29ftblibrary2001210devjar"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "9472bb30d0e38cb774b9cc7852bdd8dbf845622b",
+              "algo": 1
+            },
+            {
+              "value": "ae5292127a5a0d85d793bbce8f1e24dd",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 1946083881,
+          "modId": 404465
+        }
+      },
+      {
+        "name": "FTB Teams (Forge)",
+        "version": "ftb-teams-forge-2001.3.1.jar",
+        "optional": true,
+        "file": "ftb-teams-forge-2001.3.1.jar",
+        "type": "mods",
+        "description": "Library for mods that can utilize team progression",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 404468,
+        "curseForgeFileId": 6130786,
+        "curseForgeProject": {
+          "id": 404468,
+          "name": "FTB Teams (Forge)",
+          "authors": [
+            {
+              "id": 17809311,
+              "name": "FTB",
+              "url": "https://www.curseforge.com/members/ftb"
+            },
+            {
+              "id": 129670203,
+              "name": "FTBTeam",
+              "url": "https://www.curseforge.com/members/ftbteam"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Library for mods that can utilize team progression",
+          "categories": [
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 421,
+          "classId": 6,
+          "slug": "ftb-teams-forge",
+          "isFeatured": false,
+          "dateModified": "2025-10-31T15:36:02.113Z",
+          "dateCreated": "2020-08-25T23:29:22.803Z",
+          "dateReleased": "2025-10-31T15:33:36.867Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge",
+            "wikiUrl": "https://go.ftb.team/docs-teams",
+            "issuesUrl": "https://github.com/FTBTeam/FTB-Mods-Issues/issues",
+            "sourceUrl": "https://github.com/FTBTeam/FTB-Teams"
+          },
+          "logo": {
+            "id": 972581,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/972/581/256/256/638474887222710106.png",
+            "title": "638474887222710106.png",
+            "url": "https://media.forgecdn.net/avatars/972/581/638474887222710106.png",
+            "modId": 404468
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 7170718
+        },
+        "curseForgeFile": {
+          "id": 6130786,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "ftb-teams-forge-2001.3.1.jar",
+          "fileName": "ftb-teams-forge-2001.3.1.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-01-27T16:07:52.11Z",
+          "fileLength": 248592,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 404465,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 419699,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3251480731,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1031928546,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 4244743998,
+              "name": "kubejs.classfilter.txt"
+            },
+            {
+              "fingerprint": 239616976,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 2030039995,
+              "name": "dev"
+            },
+            {
+              "fingerprint": 545496934,
+              "name": "architectury_inject_FTBTeams1201_common_1ee79bfd5d3945f8b9d70a68125aa821_1562cab8e9c854ebd250ea5564637144d28d812977892c6929955a76d0822cebftbteams200131devjar"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "c2af94e0b86631cb75daa8de2377ff72527651ca",
+              "algo": 1
+            },
+            {
+              "value": "98efb58ba7cecfb39034544eced0389f",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 1240744296,
+          "modId": 404468
+        }
+      },
+      {
+        "name": "FTB Quests (Forge)",
+        "version": "ftb-quests-forge-2001.4.14.jar",
+        "optional": true,
+        "file": "ftb-quests-forge-2001.4.14.jar",
+        "type": "mods",
+        "description": "Questing Mod by FTB",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 289412,
+        "curseForgeFileId": 6829212,
+        "curseForgeProject": {
+          "id": 289412,
+          "name": "FTB Quests (Forge)",
+          "authors": [
+            {
+              "id": 17809311,
+              "name": "FTB",
+              "url": "https://www.curseforge.com/members/ftb"
+            },
+            {
+              "id": 129670203,
+              "name": "FTBTeam",
+              "url": "https://www.curseforge.com/members/ftbteam"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Questing Mod by FTB",
+          "categories": [
+            {
+              "name": "Adventure and RPG",
+              "slug": "adventure-rpg",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/adventure-rpg",
+              "dateModified": "2014-05-08T17:42:09.54Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 422,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/37/635351497295252123.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Server Utility",
+              "slug": "server-utility",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/server-utility",
+              "dateModified": "2014-05-08T17:44:55.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 435,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/48/635351498950580836.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Map and Information",
+              "slug": "map-information",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/map-information",
+              "dateModified": "2014-05-08T17:42:23.74Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 423,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/38/635351497437388438.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 422,
+          "classId": 6,
+          "slug": "ftb-quests-forge",
+          "isFeatured": false,
+          "dateModified": "2025-10-21T17:07:46.327Z",
+          "dateCreated": "2018-08-18T19:47:31.233Z",
+          "dateReleased": "2025-10-21T16:59:34.02Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge",
+            "wikiUrl": "https://docs.feed-the-beast.com",
+            "issuesUrl": "https://github.com/FTBTeam/FTB-Mods-Issues/issues",
+            "sourceUrl": "https://github.com/FTBTeam/FTB-Quests"
+          },
+          "logo": {
+            "id": 972571,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/972/571/256/256/638474884805475097.png",
+            "title": "638474884805475097.png",
+            "url": "https://media.forgecdn.net/avatars/972/571/638474884805475097.png",
+            "modId": 289412
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 7133722
+        },
+        "curseForgeFile": {
+          "id": 6829212,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "ftb-quests-forge-2001.4.14.jar",
+          "fileName": "ftb-quests-forge-2001.4.14.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-07-30T15:39:30.857Z",
+          "fileLength": 1222711,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 889915,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 419699,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 404465,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 404468,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 2919677429,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 2633498262,
+              "name": "data"
+            },
+            {
+              "fingerprint": 3087340005,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 239616976,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 421271835,
+              "name": "dev"
+            },
+            {
+              "fingerprint": 3024030566,
+              "name": "architectury_inject_FTBQuests1201_common_7aa76bc5086641c192c2b961d474b303_395fbd61c837a6a6b58ff90c5b3417f5b935c8f07663c326da2b23f77b42ad94ftbquests2001414devjar"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "479d9ad654984f5cedf23c14a311f3cff4efbcb7",
+              "algo": 1
+            },
+            {
+              "value": "a02b8885bc618a54f41885ddb24e2d8f",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 2465662834,
+          "modId": 289412
+        }
+      },
+      {
+        "name": "FTB XMod Compat",
+        "version": "ftb-xmod-compat-forge-2.1.3.jar",
+        "optional": true,
+        "file": "ftb-xmod-compat-forge-2.1.3.jar",
+        "type": "mods",
+        "description": "Official multi-mod integrations support for the FTB Mods",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 889915,
+        "curseForgeFileId": 6402486,
+        "curseForgeProject": {
+          "id": 889915,
+          "name": "FTB XMod Compat",
+          "authors": [
+            {
+              "id": 17809311,
+              "name": "FTB",
+              "url": "https://www.curseforge.com/members/ftb"
+            },
+            {
+              "id": 129670203,
+              "name": "FTBTeam",
+              "url": "https://www.curseforge.com/members/ftbteam"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Official multi-mod integrations support for the FTB Mods",
+          "categories": [
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 421,
+          "classId": 6,
+          "slug": "ftb-xmod-compat",
+          "isFeatured": false,
+          "dateModified": "2025-09-09T10:05:54.583Z",
+          "dateCreated": "2023-07-18T12:44:50.013Z",
+          "dateReleased": "2025-09-09T10:00:00.96Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat",
+            "wikiUrl": "https://go.ftb.team/docs-xmod",
+            "issuesUrl": "https://github.com/FTBTeam/FTB-Mods-Issues/issues",
+            "sourceUrl": "https://github.com/FTBTeam/FTB-XMod-Compat"
+          },
+          "logo": {
+            "id": 850409,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/850/409/256/256/638251965015898859.png",
+            "title": "638251965015898859.png",
+            "url": "https://media.forgecdn.net/avatars/850/409/638251965015898859.png",
+            "modId": 889915
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 6979171
+        },
+        "curseForgeFile": {
+          "id": 6402486,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "ftb-xmod-compat-forge-2.1.3.jar",
+          "fileName": "ftb-xmod-compat-forge-2.1.3.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-04-09T10:47:38.837Z",
+          "fileLength": 129725,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 310111,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 289412,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 419699,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 314905,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 268655,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 404465,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 238222,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 238086,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 245755,
+              "relationType": 2
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 2601027792,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1906588422,
+              "name": "kubejs.plugins.txt"
+            },
+            {
+              "fingerprint": 118629613,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 3703427272,
+              "name": "kubejs.classfilter.txt"
+            },
+            {
+              "fingerprint": 2250763913,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 3847457515,
+              "name": "dev"
+            },
+            {
+              "fingerprint": 325484272,
+              "name": "architectury_inject_FTBXModCompat1201_common_ff28572996724c77b2ddd312179ced9a_0bae31cb40f3adf2afeabe6d94b534752b8d99f828fbdefad40a7def4a08500cftbxmodcompat213devjar"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "0584f628d2bc6a612d79dee368324357ebae1423",
+              "algo": 1
+            },
+            {
+              "value": "6d01bd4bc73c6ce36d0d91c56bb27772",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 2853914731,
+          "modId": 889915
+        }
+      },
+      {
+        "name": "FTB Filter System",
+        "version": "[FORGE] FTB Filter System 20.0.1 MC 1.20.1",
+        "optional": true,
+        "file": "ftb-filter-system-forge-20.0.1.jar",
+        "type": "mods",
+        "description": "FTB Filter System (aka FFS) is a powerful item filtering mod with friendly GUI editing",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 943925,
+        "curseForgeFileId": 6466153,
+        "curseForgeProject": {
+          "id": 943925,
+          "name": "FTB Filter System",
+          "authors": [
+            {
+              "id": 17809311,
+              "name": "FTB",
+              "url": "https://www.curseforge.com/members/ftb"
+            },
+            {
+              "id": 129670203,
+              "name": "FTBTeam",
+              "url": "https://www.curseforge.com/members/ftbteam"
+            }
+          ],
+          "gameId": 432,
+          "summary": "FTB Filter System (aka FFS) is a powerful item filtering mod with friendly GUI editing",
+          "categories": [
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 5191,
+          "classId": 6,
+          "slug": "ftb-filter-system",
+          "isFeatured": false,
+          "dateModified": "2025-08-18T09:34:31.023Z",
+          "dateCreated": "2023-12-04T15:09:15.99Z",
+          "dateReleased": "2025-08-18T09:30:13.413Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ftb-filter-system",
+            "issuesUrl": "https://github.com/FTBTeam/FTB-Mods-Issues/issues",
+            "sourceUrl": "https://github.com/FTBTeam/FTB-Filter-System"
+          },
+          "logo": {
+            "id": 912316,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/912/316/256/256/638367662386549023.png",
+            "title": "638367662386549023.png",
+            "url": "https://media.forgecdn.net/avatars/912/316/638367662386549023.png",
+            "modId": 943925
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 769908,
+              "description": "Out of the box we support a large selection of different filtering options along with having an easy-to-use API to add more",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/769/908/310/172/item-filters-4.png",
+              "title": "Filter types",
+              "url": "https://media.forgecdn.net/attachments/769/908/item-filters-4.png",
+              "modId": 943925
+            },
+            {
+              "id": 769907,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/769/907/310/172/item-filters-5.png",
+              "title": "NBT filtering",
+              "url": "https://media.forgecdn.net/attachments/769/907/item-filters-5.png",
+              "modId": 943925
+            },
+            {
+              "id": 769906,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/769/906/310/172/item-filters-3.png",
+              "title": "Durability filtering",
+              "url": "https://media.forgecdn.net/attachments/769/906/item-filters-3.png",
+              "modId": 943925
+            },
+            {
+              "id": 769905,
+              "description": "You can filter by lots of different factors, like tags, durability, and NBT data",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/769/905/310/172/item-filters-2.png",
+              "title": "Tag filtering",
+              "url": "https://media.forgecdn.net/attachments/769/905/item-filters-2.png",
+              "modId": 943925
+            },
+            {
+              "id": 769904,
+              "description": "Simple GUI that allows you to build a tree of filters based on different filter types",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/769/904/310/172/item-filters-1.png",
+              "title": "An easy to use Filter Gui",
+              "url": "https://media.forgecdn.net/attachments/769/904/item-filters-1.png",
+              "modId": 943925
+            }
+          ],
+          "mainFileId": 6899528
+        },
+        "curseForgeFile": {
+          "id": 6466153,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "[FORGE] FTB Filter System 20.0.1 MC 1.20.1",
+          "fileName": "ftb-filter-system-forge-20.0.1.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-04-26T08:49:57.267Z",
+          "fileLength": 197884,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 419699,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3900715610,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 2670922137,
+              "name": "architectury_inject_FTBFilterSystem1201_common_ade771b348464a4686743ed5cb84b926_fabdd79c4e635ddc36524aed278f4a13fb6c1e3c41226913a9ad0d32c455088fftbfiltersystem2001devjar"
+            },
+            {
+              "fingerprint": 3073026055,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 143884291,
+              "name": "data"
+            },
+            {
+              "fingerprint": 4064707652,
+              "name": "dev"
+            },
+            {
+              "fingerprint": 3023142323,
+              "name": "ftbfiltersystem-common.mixins.json"
+            },
+            {
+              "fingerprint": 2093659501,
+              "name": "ftbfiltersystem.mixins.json"
+            },
+            {
+              "fingerprint": 1114446186,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "812de9759fe87cb405e14cbb0fe5b72a7ee11f42",
+              "algo": 1
+            },
+            {
+              "value": "e94ddd33cf0d6ed5a5eeaefcea8f5089",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "NeoForge",
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 2703039268,
+          "modId": 943925
+        }
+      },
+      {
+        "name": "FTB Chunks (Forge)",
+        "version": "ftb-chunks-forge-2001.3.6.jar",
+        "optional": true,
+        "file": "ftb-chunks-forge-2001.3.6.jar",
+        "type": "mods",
+        "description": "A mod that allows you to claim chunks to protect your blocks and view minimap / large map",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 314906,
+        "curseForgeFileId": 6431735,
+        "curseForgeProject": {
+          "id": 314906,
+          "name": "FTB Chunks (Forge)",
+          "authors": [
+            {
+              "id": 17809311,
+              "name": "FTB",
+              "url": "https://www.curseforge.com/members/ftb"
+            },
+            {
+              "id": 129670203,
+              "name": "FTBTeam",
+              "url": "https://www.curseforge.com/members/ftbteam"
+            }
+          ],
+          "gameId": 432,
+          "summary": "A mod that allows you to claim chunks to protect your blocks and view minimap / large map",
+          "categories": [
+            {
+              "name": "Map and Information",
+              "slug": "map-information",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/map-information",
+              "dateModified": "2014-05-08T17:42:23.74Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 423,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/38/635351497437388438.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Server Utility",
+              "slug": "server-utility",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/server-utility",
+              "dateModified": "2014-05-08T17:44:55.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 435,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/48/635351498950580836.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 435,
+          "classId": 6,
+          "slug": "ftb-chunks-forge",
+          "isFeatured": false,
+          "dateModified": "2025-10-27T19:32:14.287Z",
+          "dateCreated": "2020-08-26T18:36:04.823Z",
+          "dateReleased": "2025-10-27T19:28:46.403Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-forge",
+            "wikiUrl": "https://feedthebeast.notion.site/FTB-Mod-Documentation-da2e359bad2449459d58d787edda3168",
+            "issuesUrl": "https://github.com/FTBTeam/FTB-Mods-Issues/issues",
+            "sourceUrl": "https://github.com/FTBTeam/FTB-Chunks"
+          },
+          "logo": {
+            "id": 972573,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/972/573/256/256/638474885347244172.png",
+            "title": "638474885347244172.png",
+            "url": "https://media.forgecdn.net/avatars/972/573/638474885347244172.png",
+            "modId": 314906
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 7157142
+        },
+        "curseForgeFile": {
+          "id": 6431735,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "ftb-chunks-forge-2001.3.6.jar",
+          "fileName": "ftb-chunks-forge-2001.3.6.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-04-17T08:07:07.033Z",
+          "fileLength": 1158842,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 404465,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 419699,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 404468,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 314905,
+              "relationType": 2
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 2886028921,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 779100352,
+              "name": "architectury_inject_FTBChunks1201_common_89436b607dae4a788e2887a1464902a9_6d0bf2fdfaddd92d3c64a0c1c5fc23342fdd30d8068df8b4013872d377d240daftbchunks200136devjar"
+            },
+            {
+              "fingerprint": 60516502,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 3261404175,
+              "name": "data"
+            },
+            {
+              "fingerprint": 1599916809,
+              "name": "dev"
+            },
+            {
+              "fingerprint": 2293319317,
+              "name": "ftb-chunks-common-refmap.json"
+            },
+            {
+              "fingerprint": 1303181545,
+              "name": "ftbchunks-common.mixins.json"
+            },
+            {
+              "fingerprint": 812797178,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "7fde7917655a3356cab92f17ad2bca34962c4928",
+              "algo": 1
+            },
+            {
+              "value": "64af750c0cbcadd4b27fb58236654814",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 3415363214,
+          "modId": 314906
+        }
+      },
+      {
+        "name": "Blood Magic ",
+        "version": "bloodmagic-1.20.1-3.3.3-45.jar",
+        "optional": true,
+        "file": "bloodmagic-1.20.1-3.3.3-45.jar",
+        "type": "mods",
+        "description": "An arcane art for ultimate power",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 224791,
+        "curseForgeFileId": 5290993,
+        "curseForgeProject": {
+          "id": 224791,
+          "name": "Blood Magic ",
+          "authors": [
+            {
+              "id": 6831960,
+              "name": "WayofTime",
+              "url": "https://www.curseforge.com/members/wayoftime"
+            },
+            {
+              "id": 8596063,
+              "name": "TehNut",
+              "url": "https://www.curseforge.com/members/tehnut"
+            }
+          ],
+          "gameId": 432,
+          "summary": "An arcane art for ultimate power",
+          "categories": [
+            {
+              "name": "Magic",
+              "slug": "magic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/magic",
+              "dateModified": "2014-05-08T17:40:24.787Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 419,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/34/635351496247862494.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Blood Magic",
+              "slug": "blood-magic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons/blood-magic",
+              "dateModified": "2015-02-16T15:32:14.707Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 4485,
+              "iconUrl": "https://media.forgecdn.net/avatars/14/464/635596759347078801.png",
+              "parentCategoryId": 426,
+              "classId": 6
+            },
+            {
+              "name": "Armor, Tools, and Weapons",
+              "slug": "armor-weapons-tools",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/armor-weapons-tools",
+              "dateModified": "2014-05-08T17:44:39.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 434,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/47/635351498790409758.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 419,
+          "classId": 6,
+          "slug": "blood-magic",
+          "isFeatured": false,
+          "dateModified": "2024-07-26T11:40:38.48Z",
+          "dateCreated": "2014-10-09T19:21:20.91Z",
+          "dateReleased": "2024-04-25T16:49:17.273Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/blood-magic",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/WayofTime/BloodMagic/issues",
+            "sourceUrl": "https://github.com/WayofTime/BloodMagic"
+          },
+          "logo": {
+            "id": 145026,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/145/26/256/256/636559774600919459.jpeg",
+            "title": "636559774600919459.jpeg",
+            "url": "https://media.forgecdn.net/avatars/145/26/636559774600919459.jpeg",
+            "modId": 224791
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 225432,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/225/432/310/172/1mcvcqotni.png",
+              "title": "Reap of the Harvest Moon",
+              "url": "https://media.forgecdn.net/attachments/225/432/1mcvcqotni.png",
+              "modId": 224791
+            },
+            {
+              "id": 225431,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/225/431/310/172/dylygn3nau.png",
+              "title": "A nice start",
+              "url": "https://media.forgecdn.net/attachments/225/431/dylygn3nau.png",
+              "modId": 224791
+            }
+          ],
+          "mainFileId": 3870899
+        },
+        "curseForgeFile": {
+          "id": 5290993,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "bloodmagic-1.20.1-3.3.3-45.jar",
+          "fileName": "bloodmagic-1.20.1-3.3.3-45.jar",
+          "releaseType": 3,
+          "fileStatus": 4,
+          "fileDate": "2024-04-25T16:48:48.897Z",
+          "fileLength": 14419429,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 306770,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 238222,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 253449,
+              "relationType": 2
+            }
+          ],
+          "alternateFileId": 5290994,
+          "modules": [
+            {
+              "fingerprint": 2800798748,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 3661069754,
+              "name": ".cache"
+            },
+            {
+              "fingerprint": 1895481996,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 2643374049,
+              "name": "bloodmagic.mixins.json"
+            },
+            {
+              "fingerprint": 1907643639,
+              "name": "data"
+            },
+            {
+              "fingerprint": 1354411325,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 719835423,
+              "name": "wayoftime"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "ec15dfd15a8b9f3ebb05038038f92c79ff5ceb02",
+              "algo": 1
+            },
+            {
+              "value": "412d67549b556de3250e5ee4c757a58a",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Server"
+            }
+          ],
+          "gameVersions": [
+            "Client",
+            "1.20.1",
+            "Forge",
+            "Server"
+          ],
+          "fileFingerprint": 2293068334,
+          "modId": 224791
+        },
+        "modrinthProject": {
+          "id": "PbNc6qBY",
+          "slug": "blood-magic",
+          "project_type": "mod",
+          "team": "HM6Rxm16",
+          "title": "Blood Magic",
+          "description": "An arcane art for ultimate power",
+          "body": "## Gruesome? Probably. Worth it? Definitely! [Discord](https://discord.gg/VtNrGrs)\n\nHave you ever picked up a magic mod for Minecraft, and thought that it was too tame? Was there not enough danger involved when creating your next high-tech gadget? Bored with all of those peaceful animals just staring at you without a care in the world? Well then, I am glad you came here!  \n  \n\nBlood Magic is an arcane art that is practiced by mages who attempt to gather a vast amount of power through utilizing a forbidden material: blood. Even though it does grant a huge amount of power, every single action that is performed with this volatile magic can prove deadly. You have been warned.  \n  \n\nFor the best experience, you should install [JustEnoughItems](https://modrinth.com/mod/jei) to find your way through the recipes.\n\n## Contact\nHave discord? We now have a server if you want to come chat with us! [Here's the link](https://discord.gg/VtNrGrs).\n\n## Getting Started\nGetting started in Blood Magic has changed slightly since 1.7.10. Rather than finding a Diamond to craft a Blood Altar, you need to obtain some Demonic Will. To get your first bit of Will, you'll need to craft some Soul Trumpets Snares and toss them at enemies. If you're lucky, this will snare the enemy. When killed, snared enemies will drop a small amount of their Will. I'll let you take it from there.\n\n## Documentation \nDocumentation is provided via an in-game book managed by [Guide API](https://modrinth.com/mod/guide-api-legacy) under the name \"Sanguine Scientiem\".\n\nIn 1.16.3+, the in-game book is instead managed by [Patchouli](https://modrinth.com/mod/patchouli)! Can confirm, it's naisu.\n\nIf you're playing in 1.12 and want a web-based guide, see [this document](https://docs.google.com/document/d/1XLX9VgXOBSRBPyEptMprAJh_SE3W-zvXFGfDu-0m60Q/edit?usp=sharing). Big thanks to Tiyth at MinecraftGuides for putting it together.\n\nThere are web-based mirrors of the Patchouli guide for [1.16](https://docs.google.com/document/d/1bOd63XVV79AE4w0Fb1zWWha737cGXbWUFoIHhtu9cw8/edit) and [1.18/1.20](https://docs.google.com/document/d/1QfCuNDqDhFuXaDBbuxe9JvgB9XSszkoUvYRPft5jMhU/edit#heading=h.bkcie2978mal) here, respectively. \n\n## Art\nYou may notice the mod has an entirely different look than you may remember. These textures were graciously provided by the [Unity](https://modrinth.com/resourcepack/unity) team.\n\n## #Sponsored\nIn the market for a Minecraft server to play with some friends? Don't know how to set one up? Then consider renting an already configured server! \n\n[![](https://www.bisecthosting.com/partners/custom-banners/2ad12511-1544-4298-959c-13a840b2653a.png)](https://bisecthosting.com/wayoftime)\n\nIf you click on the picture above and select a plan (recommended 6GB or higher for most modpacks), you can use my code **wayoftime** to get **25%** off of your first month! A small commission of the server goes towards my daily caffeine addiction, but I'd say only consider a purchase if you're already looking for a server!\n\n## Team\n\n#### **WayofTime**\n\nWay works on all the cool content you get to play around with. Can usually be found making a mess for Nut to clean up.\n\n#### **TehNut**\n\nNut is essentially a maid. He primarily works behind the scenes, making sure the codebase itself stays as clean and optimized as it can. He's also in charge of most of the work involved in porting to new Minecraft versions. Can usually be found committing code in the wrong bracing style.\n\n#### **Yulife**\n\nOne of the art people. Currently on an extended vacation.\n\n#### **CyanideX**\n\nAnother art person. Currently on sporadic vacations.\n\n#### **BBoldt**\n\nOur third art person. Currently on a permanent vacation.\n\n#### **VT-14**\n\nOne of the new members of the team. Works on the fancy rendering in the in-game guide, which makes the user's life a lot easier.\n\n#### **Wrincewind**\n\nThe other new member! Works on the content of the in-game guide and constantly updates it when I make arbitrary changes.\n\n#### **chonky**\n\nA (relatively) recent addition to the team, chonky spear-headed the 1.20 port of the mod. Also fixes dumb things that I did in the past...\n \n#### **Firel**\n\nEven another art person! Made the music called \"Bleeding Edge of the Hidden Realm\", which is featured in the mod as a playable music disc.\n\n## Additional information\n\nFor additional information, see the [MinecraftForum thread](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1290532-1-10-2-1-9-4-blood-magic-v2-1-0-65-updated-sept) or the [gallery](https://modrinth.com/mod/blood-magic/gallery).",
+          "published": "2023-09-08T19:46:56.364689Z",
+          "updated": "2024-04-25T16:53:04.815096Z",
+          "status": "approved",
+          "license": {
+            "id": "CC-BY-4.0",
+            "name": "Creative Commons Attribution 4.0 International"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "equipment",
+            "magic"
+          ],
+          "loaders": [
+            "forge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/PbNc6qBY/4662cc0de2f217742fe0b257ed9398244d9e298a_96.webp",
+          "issues_url": "https://github.com/WayofTime/BloodMagic/issues",
+          "source_url": "https://github.com/WayofTime/BloodMagic",
+          "discord_url": "https://discord.gg/VtNrGrs",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/PbNc6qBY/images/c5a100827f60c40c6c6f4bd9d95740dbcc53b3cd_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/PbNc6qBY/images/75d1af2b44da5807f083965d02b2c3bcca836d99.png",
+              "featured": false,
+              "title": "A nice start",
+              "created": "2023-09-08T19:46:27.569672Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/PbNc6qBY/images/8428730a1c1f96568064820ec49b331530968241_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/PbNc6qBY/images/8428730a1c1f96568064820ec49b331530968241.png",
+              "featured": false,
+              "title": "Reap of the Harvest Moon",
+              "created": "2023-09-08T19:46:27.569672Z",
+              "ordering": 1.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "KoL2JNWd",
+          "project_id": "PbNc6qBY",
+          "author_id": "NUisdfWR",
+          "name": "Blood Magic 1.20.1-3.3.3-45",
+          "version_number": "1.20.1-3.3.3-45",
+          "changelog": "------------------------------------------------------\nVersion 3.3.3\n------------------------------------------------------\n- Updated the description of the music disc to properly credit Firel.\n- Added the \"Gilded\" Living Armour Upgrade, which pacifies Piglins when equiped. Trained by giving Gold Ingots directly to piglins.\n- Updated the death messages for dying to the Well of Suffering or the Sacrificial Knife.\n- Deregistered the SPectral Block's item.\n -> Stop placing random things out of your test worlds! ;-;\n- Modified some miscilaneous Curios stuff.\n- Removed the fact that sacrificial damage would stop momentum.",
+          "date_published": "2024-04-25T16:53:04.815096Z",
+          "version_type": "alpha",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "ec15dfd15a8b9f3ebb05038038f92c79ff5ceb02",
+                "sha512": "7ac041c400263d828f1c078ca6b7b9032ca4b9f187995824ff6b7f9f57b31129204cbf33edf1a679259672c22566e68849d3ab0d4d1600790d09d36dc013b931"
+              },
+              "url": "https://cdn.modrinth.com/data/PbNc6qBY/versions/KoL2JNWd/bloodmagic-1.20.1-3.3.3-45.jar",
+              "filename": "bloodmagic-1.20.1-3.3.3-45.jar",
+              "primary": true,
+              "size": 14419429
+            },
+            {
+              "hashes": {
+                "sha512": "c5a1ab4c414c4695e07e2d4a12e73d55cf213619b99aebfd6b5a382580dc48f1fab3fb02e0eb468bbd947a856ab6e324a72a2633157abf3f43e12031c0328b3b",
+                "sha1": "e7a9383ccfd1d13b28c91caad8f82c2e00f89834"
+              },
+              "url": "https://cdn.modrinth.com/data/PbNc6qBY/versions/KoL2JNWd/bloodmagic-1.20.1-3.3.3-45-api.jar",
+              "filename": "bloodmagic-1.20.1-3.3.3-45-api.jar",
+              "primary": false,
+              "size": 22351
+            },
+            {
+              "hashes": {
+                "sha512": "c6b5f5145cc5807a80e39c74a4fc89f23b08fe5c587ca564f7e6a07c5fd9c1e73e2b0ed84887cabf8dd4ada19d5938d77f477ced8c7abc6f75a660384ddf124c",
+                "sha1": "d77975fb43d38548e722c1184f1676c087f41cd5"
+              },
+              "url": "https://cdn.modrinth.com/data/PbNc6qBY/versions/KoL2JNWd/bloodmagic-1.20.1-3.3.3-45-sources.jar",
+              "filename": "bloodmagic-1.20.1-3.3.3-45-sources.jar",
+              "primary": false,
+              "size": 876895
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "nU0bVIaL",
+              "dependency_type": "required"
+            }
+          ],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "SmartBrainLib (Forge/Fabric/Quilt)",
+        "version": "SmartBrainLib Forge 1.20.1-1.15",
+        "optional": true,
+        "file": "SmartBrainLib-forge-1.20.1-1.15.jar",
+        "type": "mods",
+        "description": "A smarter brain system for Minecraft",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 661293,
+        "curseForgeFileId": 5654964,
+        "curseForgeProject": {
+          "id": 661293,
+          "name": "SmartBrainLib (Forge/Fabric/Quilt)",
+          "authors": [
+            {
+              "id": 8410933,
+              "name": "Scimiguy",
+              "url": "https://www.curseforge.com/members/scimiguy"
+            }
+          ],
+          "gameId": 432,
+          "summary": "A smarter brain system for Minecraft",
+          "categories": [
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 421,
+          "classId": 6,
+          "slug": "smartbrainlib",
+          "isFeatured": false,
+          "dateModified": "2025-10-19T18:45:21.7Z",
+          "dateCreated": "2022-08-16T09:42:00.933Z",
+          "dateReleased": "2025-10-19T18:39:53.457Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/smartbrainlib",
+            "wikiUrl": "https://github.com/Tslat/SmartBrainLib/wiki",
+            "issuesUrl": "https://github.com/Tslat/SmartBrainLib/issues",
+            "sourceUrl": "https://github.com/Tslat/SmartBrainLib"
+          },
+          "logo": {
+            "id": 596446,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/596/446/256/256/637972388178699939.png",
+            "title": "637972388178699939.png",
+            "url": "https://media.forgecdn.net/avatars/596/446/637972388178699939.png",
+            "modId": 661293
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 7126579
+        },
+        "curseForgeFile": {
+          "id": 5654964,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "SmartBrainLib Forge 1.20.1-1.15",
+          "fileName": "SmartBrainLib-forge-1.20.1-1.15.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-08-23T04:23:38.737Z",
+          "fileLength": 362338,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 256248014,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 4120303670,
+              "name": "logo.png"
+            },
+            {
+              "fingerprint": 112235259,
+              "name": "net"
+            },
+            {
+              "fingerprint": 2395192460,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "d278b6ca36075c4d097677345a25751f9aeed3c1",
+              "algo": 1
+            },
+            {
+              "value": "d5a060ce11b8c13268b821dfe5a936e4",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 2122967881,
+          "modId": 661293
+        }
+      },
+      {
+        "name": "Curios API (Forge/NeoForge)",
+        "version": "curios-forge-5.14.1+1.20.1.jar",
+        "optional": true,
+        "file": "curios-forge-5.14.1+1.20.1.jar",
+        "type": "mods",
+        "description": "A flexible and expandable accessory/equipment API for users and developers.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 309927,
+        "curseForgeFileId": 6418456,
+        "curseForgeProject": {
+          "id": 309927,
+          "name": "Curios API (Forge/NeoForge)",
+          "authors": [
+            {
+              "id": 34683772,
+              "name": "TheIllusiveC4",
+              "url": "https://www.curseforge.com/members/theillusivec4"
+            }
+          ],
+          "gameId": 432,
+          "summary": "A flexible and expandable accessory/equipment API for users and developers.",
+          "categories": [
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Armor, Tools, and Weapons",
+              "slug": "armor-weapons-tools",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/armor-weapons-tools",
+              "dateModified": "2014-05-08T17:44:39.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 434,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/47/635351498790409758.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Adventure and RPG",
+              "slug": "adventure-rpg",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/adventure-rpg",
+              "dateModified": "2014-05-08T17:42:09.54Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 422,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/37/635351497295252123.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 421,
+          "classId": 6,
+          "slug": "curios",
+          "isFeatured": false,
+          "dateModified": "2025-05-17T08:06:34.187Z",
+          "dateCreated": "2019-02-25T22:00:52.517Z",
+          "dateReleased": "2025-05-17T07:56:12.073Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/curios",
+            "wikiUrl": "https://docs.illusivesoulworks.com/category/curios",
+            "issuesUrl": "https://github.com/TheIllusiveC4/Curios/issues",
+            "sourceUrl": "https://github.com/TheIllusiveC4/Curios"
+          },
+          "logo": {
+            "id": 195772,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/195/772/256/256/636881112930494939.png",
+            "title": "636881112930494939.png",
+            "url": "https://media.forgecdn.net/avatars/195/772/636881112930494939.png",
+            "modId": 309927
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 6538281
+        },
+        "curseForgeFile": {
+          "id": 6418456,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "curios-forge-5.14.1+1.20.1.jar",
+          "fileName": "curios-forge-5.14.1+1.20.1.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-04-13T13:09:30.85Z",
+          "fileLength": 398066,
+          "dependencies": [],
+          "alternateFileId": 6418457,
+          "modules": [
+            {
+              "fingerprint": 3003073952,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1731632393,
+              "name": "CHANGELOG.md"
+            },
+            {
+              "fingerprint": 1065045,
+              "name": "README.md"
+            },
+            {
+              "fingerprint": 2179753246,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 382235595,
+              "name": "curios.mixins.json"
+            },
+            {
+              "fingerprint": 4229345596,
+              "name": "curios.refmap.json"
+            },
+            {
+              "fingerprint": 1224242090,
+              "name": "curios_icon.png"
+            },
+            {
+              "fingerprint": 2640981864,
+              "name": "data"
+            },
+            {
+              "fingerprint": 3550732819,
+              "name": "licenses"
+            },
+            {
+              "fingerprint": 3015994141,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 4018568403,
+              "name": "top"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
+              "algo": 1
+            },
+            {
+              "value": "2fdcc97cbc66c4b2492b407c792e7159",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020",
+              "gameVersion": "1.20",
+              "gameVersionReleaseDate": "2023-06-07T00:00:00Z",
+              "gameVersionName": "1.20"
+            }
+          ],
+          "gameVersions": [
+            "NeoForge",
+            "1.20.1",
+            "Forge",
+            "1.20"
+          ],
+          "fileFingerprint": 1288931317,
+          "modId": 309927
+        },
+        "modrinthProject": {
+          "id": "vvuO3ImH",
+          "slug": "curios",
+          "project_type": "mod",
+          "team": "JCm9vxVF",
+          "title": "Curios API",
+          "description": "A flexible and expandable accessory/equipment API for users and developers.",
+          "body": "# Overview\n\nCurios is a flexible and expandable accessory/equipment API for users and developers. The purpose is to provide functionality for developers to add extra accessory/equipment slots in a convenient and compatible manner, as well as to give users the ability to configure these slots to their preferences. By default, Curios does not add any content except for an inventory GUI. There are no slots and only two items, the latter only being available through the Creative menu and primarily serving as examples for developers to use when coding their own integration.\n\n## Features\n* **Expandable equipment slots through a central library.** New equipment slots can be made and managed easily through an identifier registry. Identical identifiers will be merged together to avoid functional redundancies and provide maximum compatibility to potential items, while unique identifiers can still be used to mark special types when appropriate.\n* **Slots are only made on-demand.** There are no slots included by default, all slots are created only as needed. This reduces instances where one or more superfluous slots are present without any suitable items to go into the slot.\n* **Slots are completely customizable and manipulable.** Slots can have custom backgrounds, different sizes, and can even be disabled or hidden by default. But how would a player even access disabled slots? Through the API, developers can access functions to enable/disable a player's slots or add/remove a certain number of slots of a given type.\n* **Flexible item->curio relations using the vanilla tag system.** Potential curios are selected through the vanilla tag system, which means that categorizing items into curio types is as easy as creating a .json file in the data/curios/tags folder. Items can be categorized into as many curio types as you want as long as they're tagged in the appropriate files, and these settings can even be overridden entirely. For more information, see the vanilla tag system.\n* **Complete integration with other inventory mechanics.** Mending and Curses will work with all applicable items equipped in the curio slots. There are also various minor features for developers that make it simpler to integrate their current items or mechanics into the curio system.\n* **Accessible from a single GUI.** Curios comes with its own GUI accessible from the inventory that shows all of the available slots to a player. This allows players to see all of the extended equipment slots in a central location without needing to access different inventory GUIs. However, developers can still provide their own GUIs for their mod-specific slots if they want. The default keybinding for the GUI is 'g'.\n\n![](https://i.ibb.co/NNByxcQ/curiogui.png)\n\n## Documentation\n* [Setting Up the Development Environment](https://docs.illusivesoulworks.com/curios/getting-started)\n* [Slots](https://docs.illusivesoulworks.com/category/slots)\n* [Example Datapack](https://docs.illusivesoulworks.com/curios/slots/datapack-example)\n* [Slots Configuration](https://docs.illusivesoulworks.com/curios/configuration)\n* [Commands](https://docs.illusivesoulworks.com/curios/commands)\n* [Legacy Documentation for 1.19.x and Below](https://github.com/TheIllusiveC4/Curios/wiki)",
+          "published": "2023-02-03T01:35:59.131618Z",
+          "updated": "2025-05-17T07:56:07.852681Z",
+          "status": "approved",
+          "license": {
+            "id": "LGPL-3.0-or-later",
+            "name": "GNU Lesser General Public License v3.0 or later"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "equipment",
+            "library",
+            "utility"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/vvuO3ImH/2a7323ca80849de0bcb50299e18acdf8bf394682.png",
+          "issues_url": "https://github.com/TheIllusiveC4/Curios/issues",
+          "source_url": "https://github.com/TheIllusiveC4/Curios",
+          "wiki_url": "https://docs.illusivesoulworks.com/category/curios",
+          "discord_url": "https://discord.gg/JWgrdwt",
+          "donation_urls": [
+            {
+              "id": "ko-fi",
+              "platform": "Ko-fi",
+              "url": "https://ko-fi.com/theillusivec4"
+            }
+          ],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "IPQlZkz1",
+          "project_id": "vvuO3ImH",
+          "author_id": "zbpHS3ry",
+          "name": "curios-forge-5.14.1+1.20.1",
+          "version_number": "5.14.1+1.20.1",
+          "changelog": "The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).\nPrior to version 5.2.0, this project used [Forge Recommended Versioning](https://mcforge.readthedocs.io/en/latest/conventions/versioning/).\n\nThis is a copy of the changelog for the most recent version. For the full version history, go [here](https://github.com/TheIllusiveC4/Curios/blob/1.20.x/docs/CHANGELOG.md).\n\n## [5.14.1+1.20.1] - 2025.04.13\n### Fixed\n- Fixed slot modifiers and invalid stacks when using `ICuriosItemHandler#saveInventory`\n",
+          "date_published": "2025-04-13T13:09:28.168539Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "1373f95fd111c977db2f6adcef8e4eb486a2d926a3e17374692dee4ac3d65857de6446c16922b531aa5ace2c23c666a7fcc28c720b2917c1e04808d15648ba87",
+                "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480"
+              },
+              "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
+              "filename": "curios-forge-5.14.1+1.20.1.jar",
+              "primary": true,
+              "size": 398066
+            },
+            {
+              "hashes": {
+                "sha512": "8e5d29d08b686ba619a912427c5bf43f331d51983e633074fe5e5dd1eaa317ca420bb0e2057eecd9ab12ee07925ffb62b04d9ea6c0d067d02b4399460205c013",
+                "sha1": "2fc2e9613f1ed896f2928b01e8f88d60d1862c2b"
+              },
+              "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1-api.jar",
+              "filename": "curios-forge-5.14.1+1.20.1-api.jar",
+              "primary": false,
+              "size": 107842
+            },
+            {
+              "hashes": {
+                "sha512": "02b365411f4d429ae351660af2515fe4a05d2f59f0b3fc31b7930ceed5f34ceb3cef8aa6173a62b9f65b314e1080f694bb76f0c522f880bbc9a0af05ea52dc45",
+                "sha1": "b30dbe254445060e7f510e31f32b2b3ef92961f9"
+              },
+              "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1-sources.jar",
+              "filename": "curios-forge-5.14.1+1.20.1-sources.jar",
+              "primary": false,
+              "size": 181829
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20",
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ]
+        }
+      },
+      {
+        "name": "Modonomicon",
+        "version": "modonomicon-1.20.1-forge-1.79.2.jar",
+        "optional": true,
+        "file": "modonomicon-1.20.1-forge-1.79.2.jar",
+        "type": "mods",
+        "description": "Data-driven minecraft in-game documentation with progress visualization.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 538392,
+        "curseForgeFileId": 7086951,
+        "curseForgeProject": {
+          "id": 538392,
+          "name": "Modonomicon",
+          "authors": [
+            {
+              "id": 11694938,
+              "name": "kli_kli",
+              "url": "https://www.curseforge.com/members/kli_kli"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Data-driven minecraft in-game documentation with progress visualization.",
+          "categories": [
+            {
+              "name": "Adventure and RPG",
+              "slug": "adventure-rpg",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/adventure-rpg",
+              "dateModified": "2014-05-08T17:42:09.54Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 422,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/37/635351497295252123.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Map and Information",
+              "slug": "map-information",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/map-information",
+              "dateModified": "2014-05-08T17:42:23.74Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 423,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/38/635351497437388438.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 421,
+          "classId": 6,
+          "slug": "modonomicon",
+          "isFeatured": false,
+          "dateModified": "2025-10-18T23:51:52.85Z",
+          "dateCreated": "2022-07-26T09:19:12.927Z",
+          "dateReleased": "2025-10-18T23:47:08.583Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/modonomicon",
+            "wikiUrl": "https://klikli-dev.github.io/modonomicon/",
+            "issuesUrl": "https://github.com/klikli-dev/modonomicon/issues",
+            "sourceUrl": "https://github.com/klikli-dev/modonomicon"
+          },
+          "logo": {
+            "id": 567136,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/567/136/256/256/637927203949622768.png",
+            "title": "637927203949622768.png",
+            "url": "https://media.forgecdn.net/avatars/567/136/637927203949622768.png",
+            "modId": 538392
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 890266,
+              "description": "java_pAiPpLULeN.png",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/890/266/310/172/java_paipplulen.png",
+              "title": "java_pAiPpLULeN.png",
+              "url": "https://media.forgecdn.net/attachments/890/266/java_paipplulen.png",
+              "modId": 538392
+            },
+            {
+              "id": 890262,
+              "description": " Thaumonomicon Style Progress and Connected Entries",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/890/262/310/172/java_fibedbqgum.png",
+              "title": "Node View",
+              "url": "https://media.forgecdn.net/attachments/890/262/java_fibedbqgum.png",
+              "modId": 538392
+            },
+            {
+              "id": 890267,
+              "description": "Patchouli-Style list views of content",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/890/267/310/172/java_ztwnpfgtmy.png",
+              "title": "Index View",
+              "url": "https://media.forgecdn.net/attachments/890/267/java_ztwnpfgtmy.png",
+              "modId": 538392
+            },
+            {
+              "id": 890264,
+              "description": "Texts can be formatted with markdown, including various \"smart\" link types like to items, other pages, or even other modonomicon books.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/890/264/310/172/java_zuyckuyofp.png",
+              "title": "Markdown Formatting",
+              "url": "https://media.forgecdn.net/attachments/890/264/java_zuyckuyofp.png",
+              "modId": 538392
+            },
+            {
+              "id": 890265,
+              "description": "Modonomicon comes with a multiblock system. Multiblocks can be defined in JSON with an extensible matcher system. In-Game blocks can be checked if they match the multiblock definition.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/890/265/310/172/java_gqcp3bta3r.png",
+              "title": "Multiblock Pages",
+              "url": "https://media.forgecdn.net/attachments/890/265/java_gqcp3bta3r.png",
+              "modId": 538392
+            },
+            {
+              "id": 890263,
+              "description": "java_IqX2fqD3ci.png",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/890/263/310/172/java_iqx2fqd3ci.png",
+              "title": "java_IqX2fqD3ci.png",
+              "url": "https://media.forgecdn.net/attachments/890/263/java_iqx2fqd3ci.png",
+              "modId": 538392
+            }
+          ],
+          "mainFileId": 7123048
+        },
+        "curseForgeFile": {
+          "id": 7086951,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "modonomicon-1.20.1-forge-1.79.2.jar",
+          "fileName": "modonomicon-1.20.1-forge-1.79.2.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-10-09T15:38:41.673Z",
+          "fileLength": 2239600,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 238222,
+              "relationType": 2
+            }
+          ],
+          "alternateFileId": 7086952,
+          "modules": [
+            {
+              "fingerprint": 1508306926,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 3120565103,
+              "name": ".cache"
+            },
+            {
+              "fingerprint": 4190699361,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 1486634163,
+              "name": "com"
+            },
+            {
+              "fingerprint": 2853762822,
+              "name": "data"
+            },
+            {
+              "fingerprint": 4165459315,
+              "name": "modonomicon.accesswidener"
+            },
+            {
+              "fingerprint": 4100978280,
+              "name": "modonomicon.forge.mixins.json"
+            },
+            {
+              "fingerprint": 4100978280,
+              "name": "modonomicon.mixins.json"
+            },
+            {
+              "fingerprint": 3854197464,
+              "name": "modonomicon.png"
+            },
+            {
+              "fingerprint": 1906013593,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "9d55f629c8a9b0ea1912051fe04b16400c640944",
+              "algo": 1
+            },
+            {
+              "value": "926f3c0b5d2d5d59f7b8b3ff42771216",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020",
+              "gameVersion": "1.20",
+              "gameVersionReleaseDate": "2023-06-07T00:00:00Z",
+              "gameVersionName": "1.20"
+            }
+          ],
+          "gameVersions": [
+            "NeoForge",
+            "1.20.1",
+            "Forge",
+            "1.20"
+          ],
+          "fileFingerprint": 2761737060,
+          "modId": 538392
+        },
+        "modrinthProject": {
+          "id": "692GClaE",
+          "slug": "modonomicon",
+          "project_type": "mod",
+          "team": "wJqdUgnL",
+          "title": "Modonomicon",
+          "description": "Modonomicon is an in-game documentation mod inspired by Thaumcraft's Thaumonomicon and Patchouli, and aims to provide the best of both, with some unique flavors.",
+          "body": "<img src=\"https://cdn.modrinth.com/data/692GClaE/2ff28ac59b51945e62f2680166dc8322f112be2c.png\" width=\"128\" height=\"128\" />\n\nModonomicon\n-----------\n\nThaumonomicon-Style In-Game Documentation\n-----------------------------------------\n\nModonomicon is an in-game documentation mod inspired by Thaumcraft's Thaumonomicon and Patchouli, and aims to provide the best of both, with some unique flavors.\n\nSome of the most interesting features are:\n\n* Fully data-driven, all books are created via datapack (that means both Modpacks and Mods can add books).\n* Patchouli-like Multiblocks (but fully data driven)\n* Made to be extensible, mods can add new features, such as recipe pages for mod-specific crafting methods.\n* \"Quest/Advancement\"-style 2D view to navigate the content, as seen in the Thaumonomicon.\n* Extensible condition system to unlock entries.\n* Easy styling of content with (extended) Markdown syntax.\n* Various page types to display text, recipes, images, items and more.\n\n### Visit the [Documentation](https://klikli-dev.github.io/modonomicon/) to get started!\n\n### License & Use in Modpacks\n\nModonomicon is licensed under the MIT License (Source Code) and CC-BY-4.0 (Assets). See [https://github.com/klikli-dev/modonomicon#licensing](https://github.com/klikli-dev/modonomicon#licensing) for detailed information.\n\nUse in modpacks is allowed without restrictions, as long as the conditions of the MIT and CC-BY-4.0 license are fulfilled. You can consider these requirements fulfilled by linking to this page in your modpack.\n\n**If you create the modpack on curseforge a link will be automatically created in the files sections, you do not need to add a manual link.** \n\n### Feedback, Bug reports or Questions?\n\nJoin our Discord!\n\n[<img src=\"https://i.imgur.com/grvZ47o.png\" width=\"300\" height=\"102\" />](https://discord.gg/trE4SHRXvb)\n\nAlternative link: https://discord.gg/trE4SHRXvb",
+          "published": "2023-06-15T12:49:57.857596Z",
+          "updated": "2025-10-18T23:47:12.062386Z",
+          "status": "approved",
+          "license": {
+            "id": "MIT AND CC-BY-4.0",
+            "name": "MIT License, Creative Commons Attribution 4.0 International",
+            "url": "https://github.com/klikli-dev/modonomicon#licensing"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "game-mechanics",
+            "library",
+            "utility"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/692GClaE/2ff28ac59b51945e62f2680166dc8322f112be2c.png",
+          "issues_url": "https://github.com/klikli-dev/modonomicon/issues",
+          "source_url": "https://github.com/klikli-dev/modonomicon",
+          "wiki_url": "https://klikli-dev.github.io/modonomicon/",
+          "discord_url": "https://discord.gg/trE4SHRXvb",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/692GClaE/images/2ba456ae3ff9c7599099e97a04bd1e4c399f8b10_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/692GClaE/images/1863ffa0e2414e71a8f360c56521d0629a90f982.png",
+              "featured": false,
+              "title": "Node View",
+              "description": " Thaumonomicon Style Progress and Connected Entries",
+              "created": "2024-06-15T14:37:55.007692Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/692GClaE/images/71d1864443c1b5dc8456b5a1b0489595099854fc_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/692GClaE/images/50d38b99cf90c4df538ed6e36370fe1325e5950c.png",
+              "featured": true,
+              "title": "Index View",
+              "description": "Patchouli-Style list views of content",
+              "created": "2024-06-15T14:38:29.011785Z",
+              "ordering": 1.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/692GClaE/images/b621ccae0299806dda017bacf92a71f977a6baf6_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/692GClaE/images/b621ccae0299806dda017bacf92a71f977a6baf6.png",
+              "featured": false,
+              "title": "Markdown Formatting",
+              "description": "Texts can be formatted with markdown, including various \"smart\" link types like to items, other pages, or even other modonomicon books.",
+              "created": "2024-06-15T14:38:45.219459Z",
+              "ordering": 2.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/692GClaE/images/4a87c2c9fcefa0aab75d43605b26c90745a6183b_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/692GClaE/images/4a87c2c9fcefa0aab75d43605b26c90745a6183b.png",
+              "featured": false,
+              "title": "Recipe Pages",
+              "description": "There are many special page types, one of them is the ability to display recipes. Modded recipe pages can be added.",
+              "created": "2024-06-15T14:39:03.704033Z",
+              "ordering": 3.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/692GClaE/images/aeb692826f20a55a16a0bf0b49af298e4f235e04_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/692GClaE/images/aeb692826f20a55a16a0bf0b49af298e4f235e04.png",
+              "featured": false,
+              "title": "Multiblock Pages",
+              "description": "Modonomicon comes with a multiblock system. Multiblocks can be defined in JSON with an extensible matcher system. In-Game blocks can be checked if they match the multiblock definition.",
+              "created": "2024-06-15T14:40:10.942156Z",
+              "ordering": 4.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/692GClaE/images/66a0d540bcf7d35f4ed568bafc288eefd2b55696_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/692GClaE/images/66a0d540bcf7d35f4ed568bafc288eefd2b55696.png",
+              "featured": false,
+              "title": "Index View for Categories",
+              "description": "In a \"Node View\" book individual categories can be displayed list-based.",
+              "created": "2024-06-15T14:40:30.438414Z",
+              "ordering": 5.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "tcbeH7fY",
+          "project_id": "692GClaE",
+          "author_id": "mY7rWpjL",
+          "name": "modonomicon-1.20.1-forge-1.79.2.jar",
+          "version_number": "1.20.1-1.79.2",
+          "changelog": "### :bug: Bug Fixes\n- [`c945d1c`](https://github.com/klikli-dev/modonomicon/commit/c945d1cbb23276a70736956f55d4588f4e250b58) - crash on close book *(commit by @klikli-dev)*\n\n\nFind changes for all versions at https://github.com/klikli-dev/modonomicon/releases",
+          "date_published": "2025-10-09T15:38:46.018740Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "9d55f629c8a9b0ea1912051fe04b16400c640944",
+                "sha512": "dadd93a9aebafc999c2578da56b947fc55c68b6e02885fb4425b8094fbcaf69b7a59c04cb61f79a7a189816034cddbcf1b1f4e963809e799658171f2528e7daa"
+              },
+              "url": "https://cdn.modrinth.com/data/692GClaE/versions/tcbeH7fY/modonomicon-1.20.1-forge-1.79.2.jar",
+              "filename": "modonomicon-1.20.1-forge-1.79.2.jar",
+              "primary": true,
+              "size": 2239600
+            },
+            {
+              "hashes": {
+                "sha512": "5233ea824b2e8ce2726e803d93c5b5bd0015de45ac6151c242eafeccfcc269af9dc7f48689478de68202b5d8020ab40bb3d8db82d0a77ea5ce72f2634d0fe486",
+                "sha1": "9939b98d09bb5bc0a3a2cf8207a2883296100f78"
+              },
+              "url": "https://cdn.modrinth.com/data/692GClaE/versions/tcbeH7fY/modonomicon-1.20.1-forge-1.79.2-sources.jar",
+              "filename": "modonomicon-1.20.1-forge-1.79.2-sources.jar",
+              "primary": false,
+              "size": 1737488
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "u6dRKJwZ",
+              "dependency_type": "optional"
+            }
+          ],
+          "game_versions": [
+            "1.20",
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ]
+        }
+      },
+      {
+        "name": "Occultism",
+        "version": "occultism-1.20.1-1.153.0.jar",
+        "optional": true,
+        "file": "occultism-1.20.1-1.153.0.jar",
+        "type": "mods",
+        "description": "A magic mod inspired by the world of Jonathan Stroud's Bartimaeus. With the help of occult rituals players can summon entities from the \"Other Side\" to perform magic.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 361026,
+        "curseForgeFileId": 7125871,
+        "curseForgeProject": {
+          "id": 361026,
+          "name": "Occultism",
+          "authors": [
+            {
+              "id": 11694938,
+              "name": "kli_kli",
+              "url": "https://www.curseforge.com/members/kli_kli"
+            }
+          ],
+          "gameId": 432,
+          "summary": "A magic mod inspired by the world of Jonathan Stroud's Bartimaeus. With the help of occult rituals players can summon entities from the \"Other Side\" to perform magic.",
+          "categories": [
+            {
+              "name": "Storage",
+              "slug": "storage",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/storage",
+              "dateModified": "2014-05-08T17:41:17.203Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 420,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/35/635351496772023801.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Armor, Tools, and Weapons",
+              "slug": "armor-weapons-tools",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/armor-weapons-tools",
+              "dateModified": "2014-05-08T17:44:39.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 434,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/47/635351498790409758.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Adventure and RPG",
+              "slug": "adventure-rpg",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/adventure-rpg",
+              "dateModified": "2014-05-08T17:42:09.54Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 422,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/37/635351497295252123.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Magic",
+              "slug": "magic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/magic",
+              "dateModified": "2014-05-08T17:40:24.787Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 419,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/34/635351496247862494.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Storage",
+              "slug": "storage",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/storage",
+              "dateModified": "2014-05-08T17:41:17.203Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 420,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/35/635351496772023801.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 419,
+          "classId": 6,
+          "slug": "occultism",
+          "isFeatured": false,
+          "dateModified": "2025-11-01T09:52:07.57Z",
+          "dateCreated": "2020-03-23T19:18:32.737Z",
+          "dateReleased": "2025-11-01T09:48:50.01Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/occultism",
+            "wikiUrl": "https://minecraftoccultism.fandom.com/wiki/",
+            "issuesUrl": "https://github.com/klikli-dev/occultism/issues",
+            "sourceUrl": "https://github.com/klikli-dev/occultism"
+          },
+          "socialLinks": [
+            {
+              "type": "2",
+              "url": "https://discord.gg/trE4SHRXvb"
+            }
+          ],
+          "logo": {
+            "id": 247293,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/247/293/256/256/637162328727833986.png",
+            "title": "637162328727833986.png",
+            "url": "https://media.forgecdn.net/avatars/247/293/637162328727833986.png",
+            "modId": 361026
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 289821,
+              "description": "While higher spirits require more complex (and costly) summoning preparations.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/289/821/310/172/circle2.png",
+              "title": "Advanced Summoning",
+              "url": "https://media.forgecdn.net/attachments/289/821/circle2.png",
+              "modId": 361026
+            },
+            {
+              "id": 289820,
+              "description": "The lowest order of spirits can be summoned with simple chalk circles.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/289/820/310/172/circle1.png",
+              "title": "Summoning Basics",
+              "url": "https://media.forgecdn.net/attachments/289/820/circle1.png",
+              "modId": 361026
+            },
+            {
+              "id": 289818,
+              "description": "Spirits assist with manual labor such as felling trees, working furnaces and moving items.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/289/818/310/172/foliot.png",
+              "title": "Spirit Helpers",
+              "url": "https://media.forgecdn.net/attachments/289/818/foliot.png",
+              "modId": 361026
+            },
+            {
+              "id": 289817,
+              "description": "Simple (yet expandable) multiblock structures give access to near unlimited storage in magical dimensions. ",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/289/817/310/172/inventory_world.png",
+              "title": "Storage Dimensions",
+              "url": "https://media.forgecdn.net/attachments/289/817/inventory_world.png",
+              "modId": 361026
+            },
+            {
+              "id": 289816,
+              "description": "A magical ME-Like system to store ALL your items.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/289/816/310/172/inventor_overview.png",
+              "title": "Magical Storage",
+              "url": "https://media.forgecdn.net/attachments/289/816/inventor_overview.png",
+              "modId": 361026
+            },
+            {
+              "id": 289815,
+              "description": "The dictionary of spirits covers a variety of topics ranging from getting started to summoning powerful creatures.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/289/815/310/172/guide2.png",
+              "title": "In-Game Guide",
+              "url": "https://media.forgecdn.net/attachments/289/815/guide2.png",
+              "modId": 361026
+            },
+            {
+              "id": 289814,
+              "description": "The trusty in-game guide accompanying the player through their summoning adventure.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/289/814/310/172/guide1.png",
+              "title": "Dictionary of Spirits",
+              "url": "https://media.forgecdn.net/attachments/289/814/guide1.png",
+              "modId": 361026
+            },
+            {
+              "id": 289813,
+              "description": "The secrets to interacting with the otherworld may be found in these groves.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/289/813/310/172/grove2.png",
+              "title": "Otherworld Grove",
+              "url": "https://media.forgecdn.net/attachments/289/813/grove2.png",
+              "modId": 361026
+            },
+            {
+              "id": 289812,
+              "description": "An underground grove with blocks that are not quite what they seem ...",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/289/812/310/172/grove1.png",
+              "title": "Otherworld Grove",
+              "url": "https://media.forgecdn.net/attachments/289/812/grove1.png",
+              "modId": 361026
+            }
+          ],
+          "mainFileId": 7173343
+        },
+        "curseForgeFile": {
+          "id": 7125871,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "occultism-1.20.1-1.153.0.jar",
+          "fileName": "occultism-1.20.1-1.153.0.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-10-19T15:27:01.68Z",
+          "fileLength": 3957835,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 633823,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 449945,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 661293,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 309927,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 538392,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 388172,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 238222,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 430636,
+              "relationType": 2
+            }
+          ],
+          "alternateFileId": 7125872,
+          "modules": [
+            {
+              "fingerprint": 506110832,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1247838394,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 1017649181,
+              "name": "com"
+            },
+            {
+              "fingerprint": 3249152631,
+              "name": "data"
+            },
+            {
+              "fingerprint": 3138228409,
+              "name": "occultism.png"
+            },
+            {
+              "fingerprint": 3918495726,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "cce260d24dcb66835e693df3c55c81306ec5b330",
+              "algo": 1
+            },
+            {
+              "value": "0bcec08f1158eb64c2fa0661a2f38c4b",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "NeoForge",
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 2964820892,
+          "modId": 361026
+        },
+        "modrinthProject": {
+          "id": "sbJh4AZw",
+          "slug": "occultism",
+          "project_type": "mod",
+          "team": "AYp3bJwe",
+          "title": "Occultism",
+          "description": "A ritual magic system centered around summonable spirits allows you to automate various tasks, store vast amounts of items, let demons mine in void dimensions, create powerful enchanted tools and jewelry, get support from familiars, and much much more.",
+          "body": "<p style=\"text-align: center;\"><img src=\"https://i.imgur.com/9rFN9p7.png\" alt=\"\" width=\"840\" height=\"300\" /></p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\"><em>Magicians are widely known as powerful wielders of magic. <br /></em><em>In truth, however, they rely on summoned spirit slaves, known as demons, who perform magic on their behalf.</em></p>\n<p style=\"text-align: center;\">This mod is inspired by the world of Jonathan Stroud's Bartimaeus. If you haven't read the books, do that now!<br />With the help of occult rituals you will summon spirits, also known as demons, from \"The Other Place\" to aid you in your adventures. &nbsp; &nbsp;</p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<h2 style=\"text-align: center;\">Contents&nbsp;</h2>\n<p style=\"text-align: center;\">A ritual magic system centered around summonable spirits allows you to <em><strong>automate various tasks</strong></em>, <em><strong>store vast amounts of items</strong></em>, <em><strong>let demons mine in void dimensions</strong></em>, create powerful <em><strong>enchanted tools and jewelry, </strong></em>get support from<em><strong> familiars,&nbsp;</strong></em>and much much more.</p>\n<p style=\"text-align: center;\">Begin your journey by crafting the <strong>Dictionary of Spirits</strong>, and following that <strong>in-game guide</strong>, discover the secrets of the spirit world, <br />find <strong>otherworld groves</strong> hidden in plain sight by gaining the \"<strong>Third Eye</strong>\", and finally summon your first spirit. &nbsp;</p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\">See&nbsp;<a href=\"https://www.curseforge.com/minecraft/mc-mods/occultism/screenshots\">Screenshots</a>&nbsp;for some impressions.</p>\n<p style=\"text-align: center;\">Looking for an overview of how things work? Take a look at the&nbsp;<a href=\"https://klikli.app.link/e/occultism-features\">Feature Diagram</a>.</p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<h3 style=\"text-align: center;\">First Steps</h3>\n<p style=\"text-align: center;\">&nbsp;1. Break grass until you drop&nbsp;<strong>Demon's Dream</strong>&nbsp;<strong>Seeds</strong>, much like you would obtain vanilla wheat seeds.<br />2. Craft the seeds with a book to obtain the&nbsp;<strong>Dictionary of Spirits<br /></strong>3. Follow the instructions in the dictionary.&nbsp;</p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<h4 style=\"text-align: center;\">Or simply jump right in with Vallen's Bit-By-Bit on Occultism:</h4>\n<p style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\" align=\"center\"><iframe allowfullscreen=\"allowfullscreen\" src=\"https://www.youtube.com/embed/kAKzzJ_yiC8?wmode=transparent\" height=\"600\" width=\"900\"></iframe></p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\">&nbsp;&nbsp;</p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<h4 style=\"text-align: center;\">Feedback, Bug reports or Questions?</h4>\n<p style=\"text-align: center;\">Join our Discord!&nbsp;&nbsp;</p>\n<p style=\"text-align: center;\"><a href=\"https://discord.gg/trE4SHRXvb\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://i.imgur.com/grvZ47o.png\" width=\"300\" height=\"102\" /></a></p>\n<p style=\"text-align: center;\">Alternative link:&nbsp;<a href=\"https://discord.gg/trE4SHRXvb\">https://discord.gg/trE4SHRXvb</a></p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<h2 style=\"text-align: center;\">Use in Modpacks</h2>\n<p style=\"text-align: center;\">Use in modpacks is allowed without restrictions, as long as you link back to this page.<br />If you create the modpack on curseforge a link will be automatically created in the files sections, you do not need to add a manual link. &nbsp;</p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<h3 style=\"text-align: center;\">Configuration, Recipes, Balancing</h3>\n<p style=\"text-align: center;\">If you need help configuring the mod for your modpack, or need a specific feature for compatibility please join&nbsp;<a href=\"https://invite.gg/klikli\" target=\"_blank\" rel=\"noopener noreferrer\">Discord</a> and get in touch! &nbsp; &nbsp;</p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<h2 style=\"text-align: center;\">License</h2>\n<p style=\"text-align: center;\">The source code for this mod is released under the MIT license, but some assets are available under different licenses.<br />View <a href=\"https://github.com/klikli-dev/occultism/blob/master/LICENSE\">https://github.com/klikli-dev/occultism/blob/master/LICENSE</a> for the full text.<br />Contributions and derivative works are welcome!</p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\">All the good-looking textures have been graciously provided by <a href=\"https://www.curseforge.com/members/ridanisaurus\">Ridanisaurus </a>(all programmer's art is on me!),<br />check out their <a href=\"https://www.curseforge.com/minecraft/texture-packs/the-official-enigmatica-resource-pack-16x16\">texture pack for the Enigmatica mod pack</a>.</p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<h2 style=\"text-align: center;\">Special Thanks</h2>\n<p style=\"text-align: center;\">To <strong>the (neo)forge team</strong>, without whom mods would be in the Stone Age.<br />To<strong> Ridanisaurus&nbsp;</strong>for creating the best textures this mod will ever see.</p>\n<p style=\"text-align: center;\">To&nbsp;<strong><a href=\"https://github.com/vemerion\">vemerion</a>&nbsp;</strong>for&nbsp;their new familiar content.</p>\n<p style=\"text-align: center;\">To&nbsp;<strong>feelian</strong> who made awesome new spirit models.</p>\n<p style=\"text-align: center;\">To&nbsp;<strong>Aldahel (<a href=\"https://x.com/_Aldael_\">@Aldael</a> on X)</strong> who made the fantastic new demonic husband model.</p>\n<p style=\"text-align: center;\">To <strong>naj77&nbsp;</strong>for providing proper skeleton skull models that can be rendered by Patchouli.</p>\n<p style=\"text-align: center;\">To&nbsp;<strong>Oblivionaire897</strong>, <strong>AlgorithmLX</strong>,&nbsp;<strong>Krypt0p</strong>,&nbsp;<strong>kappa-maintainer</strong>,&nbsp;<strong>IgroGames2227</strong>, <strong>Dimagreg</strong> and <strong>NiceClown</strong> for their translations.<br /><span style=\"font-size: 1.2rem;\">To </span><strong style=\"font-size: 1.2rem;\">Lorc</strong><span style=\"font-size: 1.2rem;\">, </span><strong style=\"font-size: 1.2rem;\">Delapouite</strong><span style=\"font-size: 1.2rem;\"> and </span><strong style=\"font-size: 1.2rem;\">Skoll</strong><span style=\"font-size: 1.2rem;\"> at </span><a style=\"font-size: 1.2rem; background-color: #ffffff;\" href=\"https://game-icons.net\" target=\"_blank\" rel=\"noopener noreferrer\">game-icons.net</a><span style=\"font-size: 1.2rem;\"> for various icons and parts of icons.<br /></span>To <strong>Bonemouse</strong> for the <a href=\"https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/1226573-16x-1-5-isabella-ii-1-5v2-i-got-yer-redstone-here\" target=\"_blank\" rel=\"noopener noreferrer\">Isabella Texture Pack</a> that provides the basis of some block textures</p>",
+          "published": "2023-06-18T08:33:06.049875Z",
+          "updated": "2025-11-01T09:48:53.408587Z",
+          "status": "approved",
+          "license": {
+            "id": "MIT",
+            "name": "MIT License",
+            "url": "https://github.com/klikli-dev/occultism#licensing"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "magic",
+            "mobs",
+            "storage"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/sbJh4AZw/682613d6915cc19cee17a95b73f954ae6353a515_96.webp",
+          "issues_url": "https://github.com/klikli-dev/occultism/issues",
+          "source_url": "https://github.com/klikli-dev/occultism",
+          "wiki_url": "https://minecraftoccultism.fandom.com/wiki/Minecraft-occultism",
+          "discord_url": "https://discord.gg/trE4SHRXvb",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/sbJh4AZw/images/a0e237a422ae8c34ecf353ed35dfa0628ad19e46_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/sbJh4AZw/images/a0e237a422ae8c34ecf353ed35dfa0628ad19e46.png",
+              "featured": false,
+              "title": " Summoning",
+              "description": "Use pentacles (chalk circles) to summon various spirits to aid you, or to loot their drops!",
+              "created": "2023-06-18T08:37:52.303049Z",
+              "ordering": 1.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/sbJh4AZw/images/44a3d5ac7e0d3a5bb82310fef7ca9deaf0cbfcd1_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/sbJh4AZw/images/79b0beac1dce9a1716a547ddfe793527b9bbb157.png",
+              "featured": true,
+              "title": "Magical Storage",
+              "description": "A magical ME-Like system to store ALL your items.",
+              "created": "2023-06-18T08:39:01.185780Z",
+              "ordering": 2.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/sbJh4AZw/images/761a2ebf42ef6fdbf792d877c91043d90f5b8cff_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/sbJh4AZw/images/761a2ebf42ef6fdbf792d877c91043d90f5b8cff.png",
+              "featured": false,
+              "title": "Spirit Helpers",
+              "description": "Spirits assist with manual labor such as felling trees, working furnaces and moving items.",
+              "created": "2023-06-18T08:38:33.309027Z",
+              "ordering": 3.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/sbJh4AZw/images/dfdbe71f07a85ca630f05b1b45cbdfefde9be54c_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/sbJh4AZw/images/dfdbe71f07a85ca630f05b1b45cbdfefde9be54c.png",
+              "featured": false,
+              "title": "Otherworld Grove",
+              "description": "An underground grove with blocks that are not quite what they seem ...",
+              "created": "2023-06-18T08:39:26.461072Z",
+              "ordering": 4.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/sbJh4AZw/images/9fbc2e78fee69ef42571fc4ac0982cd2a8d04e1f_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/sbJh4AZw/images/9fbc2e78fee69ef42571fc4ac0982cd2a8d04e1f.png",
+              "featured": false,
+              "title": "Storage Dimensions",
+              "description": "Simple (yet expandable) multiblock structures give access to near unlimited storage in magical dimensions.",
+              "created": "2023-06-18T08:39:47.368039Z",
+              "ordering": 5.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "si5i4rB5",
+          "project_id": "sbJh4AZw",
+          "author_id": "mY7rWpjL",
+          "name": "occultism-1.20.1-1.153.0.jar",
+          "version_number": "1.20.1-1.153.0",
+          "changelog": "### :sparkles: New Features\n- [`f9a3efd`](https://github.com/klikli-dev/occultism/commit/f9a3efd2c654bb7b5715a858f1034adba7af8918) - New translations en_us.json (Chinese Simplified) *(PR #1440 by @klikli-dev)*\n\n### :bug: Bug Fixes\n- [`a2dd0d7`](https://github.com/klikli-dev/occultism/commit/a2dd0d7e2f7aea2c301cac483f07f01ab7d5a154) - restore custom guide book item methods that are not available in modonomicon base *(commit by @klikli-dev)*\n\n### :wrench: Chores\n- [`5c7206d`](https://github.com/klikli-dev/occultism/commit/5c7206d7d53f86676b2163db70e3269229d0fe21) - use modonomicon custom item base *(commit by @klikli-dev)*\n\n\nFind changes for all versions at https://github.com/klikli-dev/occultism/releases",
+          "date_published": "2025-10-19T15:27:07.150045Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "fb9079526252ab648556346ec33a54be9319d54475af1088933f38dcda0bb25ca61c682316725bde03e7cd3eca3627638e60414d6fd6c0a26640a4cb7e695862",
+                "sha1": "cce260d24dcb66835e693df3c55c81306ec5b330"
+              },
+              "url": "https://cdn.modrinth.com/data/sbJh4AZw/versions/si5i4rB5/occultism-1.20.1-1.153.0.jar",
+              "filename": "occultism-1.20.1-1.153.0.jar",
+              "primary": true,
+              "size": 3957835
+            },
+            {
+              "hashes": {
+                "sha1": "4e2046ad9ad5c927088b9c211443284092c95c0b",
+                "sha512": "10f73e4095aeb3cc366032ce5ed1e9e675f4544ee0269769251b97687c521c147ee08c1d81fb2964bf0ae754a8999d7a7d12a9adbed586e073f56f3ec5d16fa3"
+              },
+              "url": "https://cdn.modrinth.com/data/sbJh4AZw/versions/si5i4rB5/occultism-1.20.1-1.153.0-sources.jar",
+              "filename": "occultism-1.20.1-1.153.0-sources.jar",
+              "primary": false,
+              "size": 3374516
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "PuyPazRT",
+              "dependency_type": "required"
+            },
+            {
+              "project_id": "u6dRKJwZ",
+              "dependency_type": "optional"
+            },
+            {
+              "project_id": "uOVMgoil",
+              "dependency_type": "optional"
+            },
+            {
+              "project_id": "sdaSaQEz",
+              "dependency_type": "optional"
+            },
+            {
+              "project_id": "692GClaE",
+              "dependency_type": "required"
+            },
+            {
+              "project_id": "8BmcQJ2H",
+              "dependency_type": "required"
+            },
+            {
+              "project_id": "vvuO3ImH",
+              "dependency_type": "required"
+            }
+          ],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ]
+        }
+      },
+      {
+        "name": "Occultism KubeJS",
+        "version": "occultism_kubejs-1.20.1-1.0.0.jar",
+        "optional": true,
+        "file": "occultism_kubejs-1.20.1-1.0.0.jar",
+        "type": "mods",
+        "description": "KubeJS plugin for Occultism.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 525693,
+        "curseForgeFileId": 5154371,
+        "curseForgeProject": {
+          "id": 525693,
+          "name": "Occultism KubeJS",
+          "authors": [
+            {
+              "id": 11694938,
+              "name": "kli_kli",
+              "url": "https://www.curseforge.com/members/kli_kli"
+            },
+            {
+              "id": 19463137,
+              "name": "MaxNeedsSnacks",
+              "url": "https://www.curseforge.com/members/maxneedssnacks"
+            }
+          ],
+          "gameId": 432,
+          "summary": "KubeJS plugin for Occultism.",
+          "categories": [
+            {
+              "name": "Addons",
+              "slug": "mc-addons",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons",
+              "dateModified": "2014-05-08T17:09:48.63Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 426,
+              "iconUrl": "https://media.forgecdn.net/avatars/5/998/635351477886290676.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 426,
+          "classId": 6,
+          "slug": "occultism-kubejs",
+          "isFeatured": false,
+          "dateModified": "2025-11-01T15:42:55.957Z",
+          "dateCreated": "2021-09-09T09:53:05.433Z",
+          "dateReleased": "2025-11-01T14:07:54.443Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/occultism-kubejs",
+            "sourceUrl": "https://github.com/klikli-dev/occultism-kubejs"
+          },
+          "logo": {
+            "id": 431448,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/431/448/256/256/637666885971774613.png",
+            "title": "637666885971774613.png",
+            "url": "https://media.forgecdn.net/avatars/431/448/637666885971774613.png",
+            "modId": 525693
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 7173986
+        },
+        "curseForgeFile": {
+          "id": 5154371,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "occultism_kubejs-1.20.1-1.0.0.jar",
+          "fileName": "occultism_kubejs-1.20.1-1.0.0.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-03-03T14:48:45.92Z",
+          "fileLength": 414299,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 361026,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 238086,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 5154372,
+          "modules": [
+            {
+              "fingerprint": 3713407198,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 987287732,
+              "name": "com"
+            },
+            {
+              "fingerprint": 2748983940,
+              "name": "kubejs.plugins.txt"
+            },
+            {
+              "fingerprint": 3138228409,
+              "name": "occultism-kubejs.png"
+            },
+            {
+              "fingerprint": 326533100,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "b5e33b96b832a0ed3acfe4b8bab1a9f870ad6f00",
+              "algo": 1
+            },
+            {
+              "value": "7fb5cf426540c5967273855c048925b1",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "NeoForge",
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 3263865037,
+          "modId": 525693
+        },
+        "modrinthProject": {
+          "id": "u5J68aYW",
+          "slug": "occultism-kubejs",
+          "project_type": "mod",
+          "team": "65vQEkSd",
+          "title": "Occultism KubeJS",
+          "description": "Occultism KubeJS provides KubeJS integrations for Occultism.",
+          "body": "Occultism KubeJS provides KubeJS integrations for Occultism.\n\n# Features\n\n## Ritual Dummy Items\n\nEnables the KubeJS ItemType \"occultism:ritual_dummy\", which allows creating ritual dummy items for custom rituals. Ritual dummies can be used to debug the ritual and act as a JEI integration to make rituals searchable.\n\n## Recipe support \nAdds native support for occultism recipe types to KubeJS! You can now create custom Occultism recipes like in this example: https://github.com/klikli-dev/occultism-kubejs/blob/version/1.19/run/kubejs/server_scripts/example.js\n\nI highly recommend using ProbeJS to see all the different things you can do to customise a ritual's input conditions!",
+          "published": "2024-03-03T14:26:39.137483Z",
+          "updated": "2025-11-01T14:07:56.626104Z",
+          "status": "approved",
+          "license": {
+            "id": "MIT",
+            "name": "MIT License",
+            "url": "https://github.com/klikli-dev/occultism-kubejs/blob/version/1.19/LICENSE"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "utility"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/u5J68aYW/c5ad530d224aefd1be0bd1734ee90e7d79cfcd91_96.webp",
+          "issues_url": "https://github.com/klikli-dev/occultism-kubejs/issues",
+          "source_url": "https://github.com/klikli-dev/occultism-kubejs",
+          "donation_urls": [],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "BhOa2fom",
+          "project_id": "u5J68aYW",
+          "author_id": "mY7rWpjL",
+          "name": "occultism_kubejs-1.20.1-1.0.0.jar",
+          "version_number": "1.20.1-1.0.0",
+          "changelog": "### :sparkles: New Features\n- [`e74adb9`](https://github.com/klikli-dev/occultism-kubejs/commit/e74adb97f53f3aba0701da318adfb7da01d53d1c) - Upgrade to 1.20.1 *(PR #3 by @klikli-dev)*\n\n### :bug: Bug Fixes\n- [`5f9e576`](https://github.com/klikli-dev/occultism-kubejs/commit/5f9e576b04c032b3b0eceda58d9cefb6d899f87c) - github workflow token missing *(commit by @klikli-dev)*\n- [`32b41ed`](https://github.com/klikli-dev/occultism-kubejs/commit/32b41ed8ec511d63afcc680cb1980a69ad95fa33) - gradlew not executable *(commit by @klikli-dev)*\n\n\nFind changes for all versions at https://github.com/klikli-dev/occultism-kubejs/releases",
+          "date_published": "2024-03-03T14:48:48.870450Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "b5e33b96b832a0ed3acfe4b8bab1a9f870ad6f00",
+                "sha512": "65f566c8c48282284ec766e7580a02c2d01fe8b83b8fac4bafb5d9d9a00f0a6dd988460a0ffec9df3cec95585ba7a0751fb1f2cdc9601d13cbf5601e4a3a723d"
+              },
+              "url": "https://cdn.modrinth.com/data/u5J68aYW/versions/BhOa2fom/occultism_kubejs-1.20.1-1.0.0.jar",
+              "filename": "occultism_kubejs-1.20.1-1.0.0.jar",
+              "primary": true,
+              "size": 414299
+            },
+            {
+              "hashes": {
+                "sha1": "57c84645c79f7b8ed624a9958d4cb0a3f3fef45e",
+                "sha512": "68feb1362a503d944fa4db68539544cc9325c62cafbdd2b8cb4d8d295cd2f2354718e0dedc0cb5235996ae54500b1ff3997b3b22e4b0182fe2f76ce57a4b4bcf"
+              },
+              "url": "https://cdn.modrinth.com/data/u5J68aYW/versions/BhOa2fom/occultism_kubejs-1.20.1-1.0.0-sources.jar",
+              "filename": "occultism_kubejs-1.20.1-1.0.0-sources.jar",
+              "primary": false,
+              "size": 410248
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "sbJh4AZw",
+              "dependency_type": "required"
+            },
+            {
+              "project_id": "umyGl7zF",
+              "dependency_type": "required"
+            }
+          ],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ]
+        }
       }
     ],
     "ignoredUpdates": [],
