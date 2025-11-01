@@ -1,0 +1,69 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "beginning"
+	group: ""
+	id: "206306F56EEE49CF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3713E4BCEE76B77F"
+			tasks: [{
+				id: "11B1CEE79F3A30AA"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "0DAB35728C9132B7"
+			tasks: [{
+				id: "3F31D4184AA080FB"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7651309515493697"
+			tasks: [{
+				id: "080A335A97CA468B"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/knives)"
+					}
+				}
+				title: "Any #forge:tools/knives"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "4EA82C3E8AFCBF2E"
+			tasks: [{
+				id: "453CD1F843F71DFA"
+				item: "biomancy:digester"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "00818CCEDABDC295"
+			tasks: [{
+				id: "2EDF37CCFB7DD918"
+				item: "biomancy:decomposer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "Beginning"
+}

@@ -12,3 +12,6 @@ config/fml.toml
 emi.json
 instance.json
 /.vscode
+config/embeddium-fingerprint.json
+config/emi.css
+config/fml.toml
