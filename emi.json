@@ -1,0 +1,20 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:bloodmagic:reagentteleposition",
+    "item:dungeonsdelight:monster_pot",
+    "item:biomancy:bio_forge",
+    "item:biomancy:elastic_fibers",
+    "item:bloodmagic:daggerofsacrifice",
+    "item:chestcavity:raw_alien_meat",
+    "item:chestcavity:cooked_alien_meat"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}
