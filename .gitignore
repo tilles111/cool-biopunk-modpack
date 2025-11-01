@@ -1,1 +1,10 @@
 /mods
+/logs
+/local
+/saves
+options.txt
+patchouli_data.json
+rhino.local.properties
+usercache.json
+usernamecache.json
+/crash-reports
