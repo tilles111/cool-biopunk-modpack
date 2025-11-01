@@ -8,3 +8,6 @@ rhino.local.properties
 usercache.json
 usernamecache.json
 /crash-reports
+config/fml.toml
+emi.json
+instance.json
