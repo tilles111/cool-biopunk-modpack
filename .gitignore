@@ -11,7 +11,4 @@ usernamecache.json
 config/fml.toml
 emi.json
 instance.json
-/kubejs/config
-
-emi.json
-instance.json
+/.vscode
