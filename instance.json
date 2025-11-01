@@ -7201,6 +7201,754 @@
             "neoforge"
           ]
         }
+      },
+      {
+        "name": "ProbeJS",
+        "version": "probejs-6.0.1-forge.jar",
+        "optional": true,
+        "file": "probejs-6.0.1-forge.jar",
+        "type": "mods",
+        "description": "Greatly enhances your KubeJS scripting experience by adding VSCode support.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 585406,
+        "curseForgeFileId": 5227399,
+        "curseForgeProject": {
+          "id": 585406,
+          "name": "ProbeJS",
+          "authors": [
+            {
+              "id": 60032861,
+              "name": "Amygdaloideae",
+              "url": "https://www.curseforge.com/members/amygdaloideae"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Greatly enhances your KubeJS scripting experience by adding VSCode support.",
+          "categories": [
+            {
+              "name": "KubeJS",
+              "slug": "kubejs",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons/kubejs",
+              "dateModified": "2022-04-24T06:59:45.66Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5314,
+              "iconUrl": "https://media.forgecdn.net/avatars/538/559/637863803856518049.png",
+              "parentCategoryId": 426,
+              "classId": 6
+            },
+            {
+              "name": "Map and Information",
+              "slug": "map-information",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/map-information",
+              "dateModified": "2014-05-08T17:42:23.74Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 423,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/38/635351497437388438.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 5314,
+          "classId": 6,
+          "slug": "probejs",
+          "isFeatured": false,
+          "dateModified": "2025-10-14T02:55:39.983Z",
+          "dateCreated": "2022-03-02T09:06:59.253Z",
+          "dateReleased": "2025-10-14T02:49:36.61Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/probejs",
+            "wikiUrl": "https://github.com/Prunoideae/ProbeJS/wiki",
+            "issuesUrl": "https://github.com/Prunoideae/ProbeJS/issues",
+            "sourceUrl": "https://github.com/Prunoideae/ProbeJS"
+          },
+          "logo": {
+            "id": 627854,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/627/854/256/256/638023501582537889_animated.gif",
+            "title": "638023501582537889.gif",
+            "url": "https://media.forgecdn.net/avatars/627/854/638023501582537889.gif",
+            "modId": 585406
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 7105159
+        },
+        "curseForgeFile": {
+          "id": 5227399,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "probejs-6.0.1-forge.jar",
+          "fileName": "probejs-6.0.1-forge.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-04-01T14:08:56.003Z",
+          "fileLength": 2365466,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 238086,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3315332885,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1657689132,
+              "name": "probejs.common.mixins.json"
+            },
+            {
+              "fingerprint": 503467362,
+              "name": "probe.doc-schema.json"
+            },
+            {
+              "fingerprint": 1366078290,
+              "name": "kubejs.plugins.txt"
+            },
+            {
+              "fingerprint": 723277237,
+              "name": "icon.png"
+            },
+            {
+              "fingerprint": 1434930287,
+              "name": "docs"
+            },
+            {
+              "fingerprint": 1272758554,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 4035773886,
+              "name": "probejs-common-refmap.json"
+            },
+            {
+              "fingerprint": 1932659716,
+              "name": "probejs.mixins.json"
+            },
+            {
+              "fingerprint": 1206793511,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 4104149943,
+              "name": "com"
+            },
+            {
+              "fingerprint": 143375251,
+              "name": "architectury_inject_ProbeJS_common_fe9ca035bc664a11b6d734d2ae4efb34_bfb0d284bb5e827c5f9049e6e9a9ae1f151af73e18b5c866970e7d0f9e3c1fcaprobejs601devjar"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "5380211b1c2891f454a136545721526b184d8513",
+              "algo": 1
+            },
+            {
+              "value": "69dfe15b710b9b213feb7eb788ed83a9",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "Client",
+            "NeoForge",
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 1763477494,
+          "modId": 585406
+        }
+      },
+      {
+        "name": "Patchouli",
+        "version": "Patchouli-1.20.1-84.1-FORGE.jar",
+        "optional": true,
+        "file": "Patchouli-1.20.1-84.1-FORGE.jar",
+        "type": "mods",
+        "description": "Accessible, Data-Driven, Dependency-Free Documentation for Minecraft Modders and Pack Makers",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 306770,
+        "curseForgeFileId": 6164575,
+        "curseForgeProject": {
+          "id": 306770,
+          "name": "Patchouli",
+          "authors": [
+            {
+              "id": 3852549,
+              "name": "Vazkii",
+              "url": "https://www.curseforge.com/members/vazkii"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Accessible, Data-Driven, Dependency-Free Documentation for Minecraft Modders and Pack Makers",
+          "categories": [
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 421,
+          "classId": 6,
+          "slug": "patchouli",
+          "isFeatured": false,
+          "dateModified": "2025-08-03T09:36:30.987Z",
+          "dateCreated": "2018-11-10T23:23:59.27Z",
+          "dateReleased": "2025-08-03T09:32:33.563Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/patchouli",
+            "wikiUrl": "https://github.com/Vazkii/Patchouli/wiki",
+            "issuesUrl": "https://github.com/Vazkii/Patchouli/issues",
+            "sourceUrl": "https://github.com/Vazkii/Patchouli"
+          },
+          "logo": {
+            "id": 588685,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/588/685/256/256/637958998949519797.png",
+            "title": "637958998949519797.png",
+            "url": "https://media.forgecdn.net/avatars/588/685/637958998949519797.png",
+            "modId": 306770
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 6842247
+        },
+        "curseForgeFile": {
+          "id": 6164575,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "Patchouli-1.20.1-84.1-FORGE.jar",
+          "fileName": "Patchouli-1.20.1-84.1-FORGE.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-02-06T16:09:52.16Z",
+          "fileLength": 642711,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3454014133,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 3092472006,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 1190009356,
+              "name": "data"
+            },
+            {
+              "fingerprint": 4171053254,
+              "name": "logo.png"
+            },
+            {
+              "fingerprint": 294303339,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 900147075,
+              "name": "patchouli.refmap.json"
+            },
+            {
+              "fingerprint": 4199161666,
+              "name": "patchouli_xplat.mixins.json"
+            },
+            {
+              "fingerprint": 1185591365,
+              "name": "vazkii"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "e91d2e2f251375d647d592b670ea6f310c2554eb",
+              "algo": 1
+            },
+            {
+              "value": "d5154cacf6859582eebd853bd59f5537",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Server"
+            }
+          ],
+          "gameVersions": [
+            "Client",
+            "1.20.1",
+            "Forge",
+            "Server"
+          ],
+          "fileFingerprint": 3571975239,
+          "modId": 306770
+        },
+        "modrinthProject": {
+          "id": "nU0bVIaL",
+          "slug": "patchouli",
+          "project_type": "mod",
+          "team": "72JcM90m",
+          "title": "Patchouli",
+          "description": "Accessible, Data-Driven, Dependency-Free Documentation for Minecraft Modders and Pack Makers",
+          "body": "[![](https://violetmoon.org/branding/vm0.png)](https://violetmoon.org)[![](https://violetmoon.org/branding/vm1.png)](https://patreon.com/vazkii)[![](https://violetmoon.org/branding/vm2.png)](https://twitter.com/vazkiimods)[![](https://violetmoon.org/branding/vm3.png)](https://discord.gg/vm)\n![](https://violetmoon.org/branding/hero/patchouli.png)\n\n---\n\n# About\n\n**Patchouli** is a mod that aims to provide easy to implement, data-driven documentation for minecraft modders and modpack makers alike.\n\nPatchouli's systems allow any modder or modpack maker to quickly create beautiful books full of user experience enhancing features. The user-facing feature set of the mod is designed in function of research done on what features people liked from Botania's Lexica Botania.\n\n---\n\n# Features\n\n* Data-driven content creation, no code required, you don't even need patchouli's code to build\n* In-game text preview\n* Rich text formatting system that supports macros\n* Advancement-driven content unlocking\n* Nested categories and bookmarkable entries for quick and easy navigation\n* Several ready-to-use page types like text, crafting and image pages\n* Multiblock visualization for easy building\n* Template system to create custom page types\n* Seamless integration with mods, with creative tab and pretending the book is from your mod\n* Custom visuals and sounds\n* Easily localizable for other languages\n* Tons of other user friendly features!\n\n---\n\n# Learn more about Patchouli today\n### Visit the **[Wiki](https://vazkiimods.github.io/Patchouli/)** to learn about how to use this in your mod or modpack\n\n---\n\n# Credits\n\nMassive shout out to the following people who helped this become a reality:\n\n* Drullkus for testing, providing some code, and the logo\n* Ellpeck for extensive testing and tons of help with fixing bugs\n* StanHebben, for extensive testing, lots of good feature requests, and also providing fair amount of code\n* wiiv, for creating the art I used \n\n---\n\n\n\n![](https://violetmoon.org/branding/support.png)\n[![](https://violetmoon.org/branding/patreon.png)](https://patreon.com/vazkii)[![](https://violetmoon.org/branding/store.png)](https://store.vazkii.net)\n[![](https://violetmoon.org/branding/ch.png)](https://violetmoon.org/creeperhost)",
+          "published": "2021-12-23T21:23:57.938115Z",
+          "updated": "2025-08-03T09:32:32.462449Z",
+          "status": "approved",
+          "license": {
+            "id": "CC-BY-NC-SA-3.0",
+            "name": "Creative Commons Attribution Non Commercial Share Alike 3.0 Unported"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "library",
+            "utility"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge",
+            "quilt"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/nU0bVIaL/c271809dda89c9e7a39f19d91f7cf6fba3ede585_96.webp",
+          "issues_url": "https://github.com/VazkiiMods/Patchouli/issues",
+          "source_url": "https://github.com/VazkiiMods/Patchouli/",
+          "wiki_url": "https://vazkiimods.github.io/Patchouli/",
+          "discord_url": "https://discord.gg/vm",
+          "donation_urls": [
+            {
+              "id": "patreon",
+              "platform": "Patreon",
+              "url": "https://www.patreon.com/Vazkii"
+            }
+          ],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "8Qyw08ld",
+          "project_id": "nU0bVIaL",
+          "author_id": "kRXgk5E1",
+          "name": "1.20.1-84.1-forge",
+          "version_number": "1.20.1-84.1-forge",
+          "changelog": "https://github.com/VazkiiMods/Patchouli/releases/tag/release-1.20.1-84.1",
+          "date_published": "2025-02-06T16:09:49.287555Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "d87143ae5dc979e8d65dd35ff0916077a355c503c4a906bed0d9dbe600ff0602e5296800cbdf2260d47033f664691b54e1b18a1b9835339c4e13d69fc4251f1b",
+                "sha1": "e91d2e2f251375d647d592b670ea6f310c2554eb"
+              },
+              "url": "https://cdn.modrinth.com/data/nU0bVIaL/versions/8Qyw08ld/Patchouli-1.20.1-84.1-FORGE.jar",
+              "filename": "Patchouli-1.20.1-84.1-FORGE.jar",
+              "primary": true,
+              "size": 642711
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "Architect's Palette",
+        "version": "Architects-Palette-1.20.1-1.3.6.1.jar",
+        "optional": true,
+        "file": "Architects-Palette-1.20.1-1.3.6.1.jar",
+        "type": "mods",
+        "description": "A host of new blocks to build and tinker with!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 433862,
+        "curseForgeFileId": 5060610,
+        "curseForgeProject": {
+          "id": 433862,
+          "name": "Architect's Palette",
+          "authors": [
+            {
+              "id": 101792352,
+              "name": "Jsburg",
+              "url": "https://www.curseforge.com/members/jsburg"
+            },
+            {
+              "id": 101831502,
+              "name": "thxsprites",
+              "url": "https://www.curseforge.com/members/thxsprites"
+            }
+          ],
+          "gameId": 432,
+          "summary": "A host of new blocks to build and tinker with!",
+          "categories": [
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 424,
+          "classId": 6,
+          "slug": "architects-palette",
+          "isFeatured": false,
+          "dateModified": "2025-08-07T20:51:39.063Z",
+          "dateCreated": "2021-01-06T12:49:22.27Z",
+          "dateReleased": "2025-08-07T20:43:52.717Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/architects-palette",
+            "wikiUrl": "",
+            "sourceUrl": "https://github.com/jsburger/Architects-Palette"
+          },
+          "logo": {
+            "id": 332416,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/332/416/256/256/637463465409763931_animated.gif",
+            "title": "637463465409763931.gif",
+            "url": "https://media.forgecdn.net/avatars/332/416/637463465409763931.gif",
+            "modId": 433862
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 332361,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/332/361/310/172/algal_brick.png",
+              "title": "Algal Brick Sewer",
+              "url": "https://media.forgecdn.net/attachments/332/361/algal_brick.png",
+              "modId": 433862
+            },
+            {
+              "id": 332360,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/332/360/310/172/sunmetal_deco.png",
+              "title": "Sunmetal Deco",
+              "url": "https://media.forgecdn.net/attachments/332/360/sunmetal_deco.png",
+              "modId": 433862
+            },
+            {
+              "id": 332056,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/332/56/310/172/twisted.png",
+              "title": "Twisted Tower",
+              "url": "https://media.forgecdn.net/attachments/332/56/twisted.png",
+              "modId": 433862
+            },
+            {
+              "id": 331701,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/331/701/310/172/awesome.png",
+              "title": "This guy is awesome",
+              "url": "https://media.forgecdn.net/attachments/331/701/awesome.png",
+              "modId": 433862
+            },
+            {
+              "id": 331699,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/331/699/310/172/bricks.png",
+              "title": "Heavy Stone Bricks",
+              "url": "https://media.forgecdn.net/attachments/331/699/bricks.png",
+              "modId": 433862
+            },
+            {
+              "id": 331698,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/331/698/310/172/fish.png",
+              "title": "Cuts of fish",
+              "url": "https://media.forgecdn.net/attachments/331/698/fish.png",
+              "modId": 433862
+            }
+          ],
+          "mainFileId": 6861008
+        },
+        "curseForgeFile": {
+          "id": 5060610,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "Architects-Palette-1.20.1-1.3.6.1.jar",
+          "fileName": "Architects-Palette-1.20.1-1.3.6.1.jar",
+          "releaseType": 2,
+          "fileStatus": 4,
+          "fileDate": "2024-01-26T10:56:40.667Z",
+          "fileLength": 2538637,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 2272242070,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1555880109,
+              "name": ".cache"
+            },
+            {
+              "fingerprint": 3969409046,
+              "name": "architects_palette.mixins.json"
+            },
+            {
+              "fingerprint": 4173327866,
+              "name": "architects_palette.refmap.json"
+            },
+            {
+              "fingerprint": 952890712,
+              "name": "architectspalette"
+            },
+            {
+              "fingerprint": 1814736936,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 286175241,
+              "name": "data"
+            },
+            {
+              "fingerprint": 1157152851,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "a8f4ca56f23007ad3a34d9fcbda2f241d86c314b",
+              "algo": 1
+            },
+            {
+              "value": "0622fec812ffb8d1fd777788198b9322",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 3848188487,
+          "modId": 433862
+        },
+        "modrinthProject": {
+          "id": "vt0VyseM",
+          "slug": "architects-palette",
+          "project_type": "mod",
+          "team": "h7d1oQsE",
+          "title": "Architect's Palette",
+          "description": "Block mod with good textures. Incredible.",
+          "body": "Architect's Palette adds many new blocks. They are awesome and look super cool. The recipes are generally balanced to be survival friendly, with high yields and common ingredients. There's a config and Quark support. The mod is good I swear.\n\nOff the top of my head, there are blocks like...\n* Fish blocks with scales\n* Industrial metal plating\n* Bricks made of bones, and a dark set made of withered bones\n* Glowing crystals growing in the Nether\n* Stone bricks made with ores, which the artists want to get rid of, but the community is oddly attached to so they're in a strange purgatory where we can't really get rid of them but really don't want to support them which is why there isn't a copper variant (please don't ask for a copper variant)\n* Brick variants of some blocks that don't have brick variants (like basalt)\n* Charcoal blocks made by smoking logs (in a smoker), much to the distaste of everyone who has ever seen the recipe.\n* Original materials like Sunmetal, Olivestone, Cerebral Plating, and Abyssaline\n* \"Mossy\" (Nether vine-y) Blackstone variants that were also implemented in Quark (we did ours first)\n* A new crafting mechanic to facilitate some weirder materials such as Esoterrack and Twisted trees (it shows up in JEI and is datapack friendly)\n* Incredible Board blocks that are just big planks\n* Nubs, a new block shape used for shape detail in builds\n* Incredible Heavy Bricks that are just big bricks\n* Cute Acacia totems",
+          "published": "2023-11-04T20:17:24.090265Z",
+          "updated": "2025-08-07T20:46:48.158001Z",
+          "status": "approved",
+          "license": {
+            "id": "LicenseRef-All-Rights-Reserved",
+            "name": ""
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "decoration"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/vt0VyseM/4df31c9d6f41e35e4659711b3f9a5b0910d33c49_96.webp",
+          "issues_url": "https://github.com/jsburger/Architects-Palette/issues",
+          "source_url": "https://github.com/jsburger/Architects-Palette",
+          "discord_url": "https://discord.gg/hMkfjPDkSD",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/vt0VyseM/images/0e8036e6ad84b4a32e7915dcc908b8d76ec3b1c8_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/vt0VyseM/images/0e8036e6ad84b4a32e7915dcc908b8d76ec3b1c8.png",
+              "featured": false,
+              "title": "Wardstone and Entwine thing",
+              "description": "Look I'm just the coder I don't have that many screenshots",
+              "created": "2023-11-04T20:41:24.652181Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/vt0VyseM/images/28573b00583fba9ee6d8983551dae0a8a9aadda8_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/vt0VyseM/images/28573b00583fba9ee6d8983551dae0a8a9aadda8.png",
+              "featured": false,
+              "title": "Algal Brick fishy",
+              "created": "2023-11-04T20:43:27.751321Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/vt0VyseM/images/5c4eb0ac943a9ddca68d19d3490634498309f3fb_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/vt0VyseM/images/5c4eb0ac943a9ddca68d19d3490634498309f3fb.png",
+              "featured": false,
+              "title": "Purple house (made of twisted wood!)",
+              "description": "There are some blocks from other mods in this screenshot but just ignore those.",
+              "created": "2023-11-04T20:44:41.233191Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/vt0VyseM/images/74f50fcfcb4a96e182cad74b3f117739612f6653_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/vt0VyseM/images/74f50fcfcb4a96e182cad74b3f117739612f6653.png",
+              "featured": false,
+              "title": "Snailotron 10000",
+              "description": "Featuring Nubs, my favorite block type",
+              "created": "2023-11-04T20:41:58.597166Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/vt0VyseM/images/bf52f464d890d553b91157db0107826ae06f7f22_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/vt0VyseM/images/bf52f464d890d553b91157db0107826ae06f7f22.png",
+              "featured": false,
+              "title": "Nether brass chamber",
+              "created": "2023-11-04T20:40:48.036696Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/vt0VyseM/images/ecc95f1718e829951136e3c78a9dcb062a4b5ffb_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/vt0VyseM/images/ecc95f1718e829951136e3c78a9dcb062a4b5ffb.png",
+              "featured": false,
+              "title": "Sunmetal Deco",
+              "description": "Also featuring Cage Lanterns, which are SUPER swaggy",
+              "created": "2023-11-08T02:06:50.437026Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/vt0VyseM/images/860009479ec5205fe4ad37daca75c91a75cece99_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/vt0VyseM/images/860009479ec5205fe4ad37daca75c91a75cece99.png",
+              "featured": false,
+              "title": "Look at this dude",
+              "created": "2023-11-04T20:41:36.224609Z",
+              "ordering": 4.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/vt0VyseM/images/0a7b666b45240ea31d52d37cc1f614a238be0dba_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/vt0VyseM/images/25b2eb2ae4278d0a59b1dde9ab3ab4eac02e4b7d.png",
+              "featured": true,
+              "title": "Logo",
+              "description": " ",
+              "created": "2023-11-08T01:38:18.663276Z",
+              "ordering": 100.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "bZg21BDb",
+          "project_id": "vt0VyseM",
+          "author_id": "Ne0prVlO",
+          "name": "Architect's Palette 1.20.1 v1.3.6.1",
+          "version_number": "1.3.6.1",
+          "changelog": "Updates internal MixinExtras version to prevent crashes with other random mods",
+          "date_published": "2024-01-26T10:58:55.538756Z",
+          "version_type": "beta",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "a8f4ca56f23007ad3a34d9fcbda2f241d86c314b",
+                "sha512": "13bbbe62cd4707123ffbfb925ddc852211cecfc3cc1343a2f8b49e77ea6068d114ce641bb4f15bf0c70b52625a2dc8237b5cff717ea720a9dd277c592d9ae94d"
+              },
+              "url": "https://cdn.modrinth.com/data/vt0VyseM/versions/bZg21BDb/Architects-Palette-1.20.1-1.3.6.1.jar",
+              "filename": "Architects-Palette-1.20.1-1.3.6.1.jar",
+              "primary": true,
+              "size": 2538637
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
       }
     ],
     "ignoredUpdates": [],
