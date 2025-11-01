@@ -9351,211 +9351,150 @@
             "neoforge"
           ]
         }
-<<<<<<< Updated upstream
       },
       {
-        "name": "Almost Unified",
-        "version": "AlmostUnified-Forge-1.20.1-0.10.1",
+        "name": "Embeddium",
+        "version": "[1.20.1] Embeddium 0.3.31",
         "optional": true,
-        "file": "almostunified-forge-1.20.1-0.10.1.jar",
+        "file": "embeddium-0.3.31+mc1.20.1.jar",
         "type": "mods",
-        "description": "Unify all resources.",
+        "description": "A powerful, mod-friendly, FOSS client performance mod for NeoForge",
         "disabled": false,
         "userAdded": true,
         "wasSelected": true,
         "skipped": false,
-        "curseForgeProjectId": 633823,
-        "curseForgeFileId": 6912269,
+        "curseForgeProjectId": 908741,
+        "curseForgeFileId": 5681725,
         "curseForgeProject": {
-          "id": 633823,
-          "name": "Almost Unified",
+          "id": 908741,
+          "name": "Embeddium",
           "authors": [
             {
-              "id": 102822159,
-              "name": "AlmostReliable",
-              "url": "https://www.curseforge.com/members/almostreliable"
-            },
-            {
-              "id": 101829614,
-              "name": "Lytho",
-              "url": "https://www.curseforge.com/members/lytho"
-            },
-            {
-              "id": 11567308,
-              "name": "Relentless",
-              "url": "https://www.curseforge.com/members/relentless"
+              "id": 114509189,
+              "name": "FiniteReality",
+              "url": "https://www.curseforge.com/members/finitereality"
             }
           ],
           "gameId": 432,
-          "summary": "Unify all resources.",
+          "summary": "A powerful, mod-friendly, FOSS client performance mod for NeoForge",
           "categories": [
             {
-              "name": "Processing",
-              "slug": "technology-processing",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/technology/technology-processing",
-              "dateModified": "2014-05-08T17:38:41.96Z",
+              "name": "Performance",
+              "slug": "performance",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/performance",
+              "dateModified": "2024-01-16T06:56:01.057Z",
               "gameId": 432,
               "isClass": false,
-              "id": 413,
-              "iconUrl": "https://media.forgecdn.net/avatars/6/28/635351495219610266.png",
-              "parentCategoryId": 412,
-              "classId": 6
-            },
-            {
-              "name": "API and Library",
-              "slug": "library-api",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
-              "dateModified": "2014-05-23T03:21:44.06Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 421,
-              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "id": 6814,
+              "iconUrl": "https://media.forgecdn.net/avatars/933/987/638409849610531091.png",
               "parentCategoryId": 6,
-              "classId": 6
-            },
-            {
-              "name": "Server Utility",
-              "slug": "server-utility",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/server-utility",
-              "dateModified": "2014-05-08T17:44:55.057Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 435,
-              "iconUrl": "https://media.forgecdn.net/avatars/6/48/635351498950580836.png",
-              "parentCategoryId": 6,
-              "classId": 6
-            },
-            {
-              "name": "Ores and Resources",
-              "slug": "world-ores-resources",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/world-gen/world-ores-resources",
-              "dateModified": "2014-05-08T17:36:41.233Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 408,
-              "iconUrl": "https://media.forgecdn.net/avatars/6/23/635351494012336510.png",
-              "parentCategoryId": 406,
-              "classId": 6
-            },
-            {
-              "name": "KubeJS",
-              "slug": "kubejs",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons/kubejs",
-              "dateModified": "2022-04-24T06:59:45.66Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 5314,
-              "iconUrl": "https://media.forgecdn.net/avatars/538/559/637863803856518049.png",
-              "parentCategoryId": 426,
               "classId": 6
             }
           ],
           "status": 4,
-          "primaryCategoryId": 435,
+          "primaryCategoryId": 6814,
           "classId": 6,
-          "slug": "almost-unified",
+          "slug": "embeddium",
           "isFeatured": false,
-          "dateModified": "2025-08-27T20:46:25.707Z",
-          "dateCreated": "2022-08-21T12:11:46.233Z",
-          "dateReleased": "2025-08-21T19:05:55.993Z",
+          "dateModified": "2025-01-24T01:08:26.3Z",
+          "dateCreated": "2023-09-03T05:58:24.46Z",
+          "dateReleased": "2025-01-24T01:04:56.523Z",
           "links": {
-            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/almost-unified",
-            "wikiUrl": "https://github.com/AlmostReliable/almostunified/wiki",
-            "issuesUrl": "https://github.com/AlmostReliable/almostunified/issues",
-            "sourceUrl": "https://github.com/AlmostReliable/almostunified"
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/embeddium",
+            "wikiUrl": "https://github.com/FiniteReality/embeddium/wiki",
+            "issuesUrl": "https://github.com/FiniteReality/embeddium/issues",
+            "sourceUrl": "https://github.com/FiniteReality/embeddium"
           },
-          "socialLinks": [
-            {
-              "type": "3",
-              "url": "https://almostreliable.com"
-            },
-            {
-              "type": "2",
-              "url": "https://discord.gg/invite/ThFnwZCyYY"
-            }
-          ],
           "logo": {
-            "id": 560421,
+            "id": 893778,
             "description": "",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/560/421/256/256/637911433758832569.png",
-            "title": "637911433758832569.png",
-            "url": "https://media.forgecdn.net/avatars/560/421/637911433758832569.png",
-            "modId": 633823
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/893/778/256/256/638336829931216743.png",
+            "title": "638336829931216743.png",
+            "url": "https://media.forgecdn.net/avatars/893/778/638336829931216743.png",
+            "modId": 908741
           },
           "allowModDistribution": true,
           "screenshots": [],
-          "mainFileId": 6912269
+          "mainFileId": 6118392
         },
         "curseForgeFile": {
-          "id": 6912269,
+          "id": 5681725,
           "gameId": 432,
           "isAvailable": true,
-          "displayName": "AlmostUnified-Forge-1.20.1-0.10.1",
-          "fileName": "almostunified-forge-1.20.1-0.10.1.jar",
-          "releaseType": 2,
+          "displayName": "[1.20.1] Embeddium 0.3.31",
+          "fileName": "embeddium-0.3.31+mc1.20.1.jar",
+          "releaseType": 1,
           "fileStatus": 4,
-          "fileDate": "2025-08-21T19:05:55.993Z",
-          "fileLength": 217445,
-          "dependencies": [
-            {
-              "fileId": 0,
-              "modId": 310111,
-              "relationType": 2
-            },
-            {
-              "fileId": 0,
-              "modId": 238086,
-              "relationType": 2
-            },
-            {
-              "fileId": 0,
-              "modId": 238222,
-              "relationType": 2
-            }
-          ],
+          "fileDate": "2024-08-31T23:11:49.24Z",
+          "fileLength": 1320675,
+          "dependencies": [],
           "alternateFileId": 0,
           "modules": [
             {
-              "fingerprint": 1110752976,
+              "fingerprint": 4139459728,
               "name": "META-INF"
             },
             {
-              "fingerprint": 4044702116,
-              "name": "almostunified-common-Common-refmap.json"
+              "fingerprint": 2226923820,
+              "name": "COPYING"
             },
             {
-              "fingerprint": 1169949983,
-              "name": "almostunified-common.mixins.json"
+              "fingerprint": 1136524626,
+              "name": "COPYING.LESSER"
             },
             {
-              "fingerprint": 767167125,
+              "fingerprint": 859634317,
+              "name": "README.md"
+            },
+            {
+              "fingerprint": 589792934,
               "name": "assets"
             },
             {
-              "fingerprint": 3980620029,
-              "name": "com"
+              "fingerprint": 1200891204,
+              "name": "embeddium-refmap.json"
             },
             {
-              "fingerprint": 4213512750,
-              "name": "kubejs.bindings.txt"
+              "fingerprint": 3903890000,
+              "name": "embeddium.mixins.json"
             },
             {
-              "fingerprint": 327418884,
-              "name": "logo.png"
+              "fingerprint": 318634973,
+              "name": "icon.png"
             },
             {
-              "fingerprint": 2230933658,
+              "fingerprint": 2533547597,
+              "name": "icon.svg"
+            },
+            {
+              "fingerprint": 4014633969,
+              "name": "licenses"
+            },
+            {
+              "fingerprint": 952022123,
+              "name": "me"
+            },
+            {
+              "fingerprint": 3474788070,
+              "name": "net"
+            },
+            {
+              "fingerprint": 942367315,
+              "name": "org"
+            },
+            {
+              "fingerprint": 3323427021,
               "name": "pack.mcmeta"
             }
           ],
           "isServerPack": false,
           "hashes": [
             {
-              "value": "908bb8c851a38e2ad4f3e5965b1b9a6668070d66",
+              "value": "bb2fa8f3e493af16af9160d049f96c614a1faf2f",
               "algo": 1
             },
             {
-              "value": "a94d568d553019b1ea4ab4c6b282206b",
+              "value": "1dfb2ee49ce9ad5d484ff3eea0d628b7",
               "algo": 2
             }
           ],
@@ -9584,76 +9523,101 @@
             "1.20.1",
             "Forge"
           ],
-          "fileFingerprint": 3878434749,
-          "modId": 633823
+          "fileFingerprint": 4281946638,
+          "modId": 908741
         },
         "modrinthProject": {
-          "id": "sdaSaQEz",
-          "slug": "almost-unified",
+          "id": "sk9rgfiA",
+          "slug": "embeddium",
           "project_type": "mod",
-          "team": "aNgjGBk3",
-          "title": "Almost Unified",
-          "description": "Unify all resources.",
-          "body": "![](https://i.imgur.com/yowlKWS.png)\n[![](https://i.imgur.com/u0EUHt8.png)](https://discord.com/invite/ThFnwZCyYY)\n[![](https://i.imgur.com/Z5PYH4R.png)](https://github.com/AlmostReliable/almostunified/wiki)\n<details>\n  <summary>Text version if the thread design does not render</summary>\n\n  ## What is Almost Unified?\n  \n  The mod is inspired by the idea of UniDict. An old, no longer maintained mod from the days of 1.12.2.\n  \n  Old versions of Minecraft used a system called the Ore Dictionary. Its purpose was to make the life of modders easier when adding new resources that might exist in other mods already. When used correctly, you could use resources from various mods in their recipes interchangeably. However, if you ever played a big modpack back in the days, you probably know that there were like 10 different ingots for each material because of many mods adding them.\n  \n  This often resulted in a lack of storage space because all these resources from the different mods didn't stack. Additionally, some mods didn't use the dictionary correctly for their recipes so a lot of the resources were useless.\n  \n  UniDict solved this issue by unifying the same resources from different mods so only one item for each resource was left and could be used for all recipes. So instead of having 10 different copper ingots, you will only have one which acts as the dominant universal copper ingot.\n  \n  A lot of time has passed since 1.12.2 and the Ore Dictionary is long gone. In today's modded Minecraft, there is the tag system which acts quite similar to the Ore Dictionary. Still, they also don't solve the problem of many similar resources from different mods.\n  \n  **Almost Unified** tries to solve this by working in a similar fashion as UniDict did.<br>\n  Its goal is to have one dominant resource for each configured tag and make all recipes use this dominant entry.\n  \n  ## How does that work?\n  \n  By defining a priority mod list and target tags in the config, Almost Unified tries to find a dominant item for each entry and changes the recipes depending on that.\n  \n  In modern Minecraft, recipes are usually made of JSONs and are loaded when joining a world. Each loaded recipe is read by the mod and altered depending on different properties inside the JSON.\n  \n  For all inputs, the unification process tries to use the designated tag so all items will remain useful which means Almost Unified should also work in existing worlds.<br>\n  For outputs, Almost Unified will use the dominant item.\n  \n  Since the modification happens before the recipe is loaded by the game, there are no demanding processes going on while the game is running.\n  \n  ## What features does Almost Unified have?\n  \n  The mod transforms existing recipes to have a unified resource list that players and packmakers can work with. It doesn't add its own recipes, resources, ore generation or similar content.\n  \n  Because there is a chance to have duplicate recipes when unifying, Almost Unified will take care of duplications and remove them.<br>\n  Additionally, it hides all non-dominant entries from JEI/REI automatically.\n  \n  The mod is fully reloadable. Configs are loaded every time the unification process starts which means they can be edited on the fly. To restart the process, just rejoin the world or use the `/reload` command.\n  \n  ## Can you give an example?\n  \n  Think about having two mods (modA and modB) that both add Silver Ore. Additionally, they both add Silver Ingots and respective recipes to obtain the ingot such as blasting or smelting the ore.\n  \n  If one of those recipes doesn't accept a tag as input, Almost Unify will change that. Furthermore, it will pick one of the Silver Ingots as the dominant item depending on the mod priority list inside the `unify.json` config. The dominant Silver Ingot will then be used as output for all recipes no matter the mod.\n  \n  After the unification process, you will end up with some equal recipes. Almost Unified will merge them and change their namespace so it's visible that the recipe was changed. In the end, you will have recipes that accept tags as inputs and only the dominant item as output. Duplicate recipes are gone.\n  \n  ## More Information\n  \n  For more information like limitations, native integrations or the FAQ, check out the wiki.\n\n</details>",
-          "published": "2022-08-21T11:19:19.594924Z",
-          "updated": "2025-08-21T19:05:53.093750Z",
+          "team": "4VBpO7y2",
+          "title": "Embeddium",
+          "description": "A powerful, mod-friendly, FOSS client performance mod for NeoForge",
+          "body": "# Embeddium\n\nEmbeddium is a free and open-source performance mod for Minecraft clients. It is based on the last FOSS-licensed version of the Sodium codebase, and includes additional bugfixes & features for better mod compatibility.\n\nDespite being forked from Sodium, Embeddium is **not supported by CaffeineMC**. Do not report issues encountered with it to their bug tracker or in their Discord.\n\n## Highlights\n\n* All performance improvements from Sodium 0.5.8 and earlier, i.e. a rewritten terrain renderer, various optimizations to the immediate-mode rendering pipeline (used by entities, GUIs, block entities, etc.), and other miscellaneous improvements\n* Available for Minecraft Forge on 1.20.1 and older, Fabric on 1.20.1-1.20.6, and NeoForge on 1.20.1 and newer\n* Integrated Fabric Rendering API support (Indium is no longer required, and will not work with Embeddium)\n* Frequent patch updates to fix mod compatibility issues soon after being reported & reproduced\n* Additional APIs for mod integration\n* Optional support for translucency sorting (can be enabled in Video Settings)\n\n## For developers\n\nIf you're looking to add Embeddium to your development environment, please take a look at the [dedicated wiki page](https://github.com/FiniteReality/embeddium/wiki/For-Developers) for instructions & recommended guidelines for integration.\n\n## Credits\n\n* JellySquid & the CaffeineMC team, for making Sodium in the first place, without which this project would not be possible\n* Asek3, for the initial port to Forge\n* XFactHD, for providing a list of gamebreaking Rubidium issues to start this work off, and for testing early builds\n* Pepper, for their invaluable assistance with getting Forge lighting to work on Sodium 0.5\n* @CelestialAbyss and @input-Here for making the new logo design\n\n## License\n\nEmbeddium is distributed under the Lesser GNU General Public License version 3. For more details, refer to our [GitHub](https://github.com/FiniteReality/embeddium) repository.\n\n## Need a Minecraft server? Consider CreeperHost!\n![Use code taumc-qk0 for 10% off](https://cdn.modrinth.com/data/cached_images/c537b7f7d52aee93c4c2f3990a0a305da38ce041.jpeg)\n",
+          "published": "2023-09-01T13:13:55.152605Z",
+          "updated": "2025-01-24T01:04:56.784783Z",
           "status": "approved",
           "license": {
-            "id": "LicenseRef-All-Rights-Reserved",
-            "name": ""
+            "id": "LGPL-3.0-only",
+            "name": "GNU Lesser General Public License v3.0 only"
           },
-          "client_side": "optional",
-          "server_side": "required",
+          "client_side": "required",
+          "server_side": "unsupported",
           "categories": [
-            "library",
-            "utility"
+            "optimization"
           ],
           "loaders": [
             "fabric",
             "forge",
             "neoforge"
           ],
-          "icon_url": "https://cdn.modrinth.com/data/sdaSaQEz/icon.png",
-          "issues_url": "https://github.com/AlmostReliable/almostunified/issues",
-          "source_url": "https://github.com/AlmostReliable/almostunified",
-          "wiki_url": "https://github.com/AlmostReliable/almostunified/wiki",
-          "discord_url": "https://discord.com/invite/ThFnwZCyYY",
-          "donation_urls": [],
-          "gallery": []
+          "icon_url": "https://cdn.modrinth.com/data/sk9rgfiA/55f9c50284f8abbbe2a485abfd6a16209201e451_96.webp",
+          "issues_url": "https://github.com/FiniteReality/embeddium/issues",
+          "source_url": "https://github.com/FiniteReality/embeddium",
+          "donation_urls": [
+            {
+              "id": "ko-fi",
+              "platform": "Ko-fi",
+              "url": "https://ko-fi.com/embeddedt"
+            }
+          ],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/sk9rgfiA/images/4bb8676c4e4540dbb52334e378dbb24057db1c81_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/sk9rgfiA/images/d4f4c086bb168dc87cff77b5f13b1a86fb404c10.png",
+              "featured": false,
+              "title": "Integrated Fabric Rendering API support",
+              "description": "Indium is not required; content mods using FRAPI features will work out of the box. Shown here are AE2 and Continuity.",
+              "created": "2024-05-18T02:02:10.173143Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/sk9rgfiA/images/9a2bafafa7bb9254d1607221416cdcc01ae1db38_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/sk9rgfiA/images/9d00ad6364d8d002ef1244795559a54ab2c79cb9.png",
+              "featured": false,
+              "title": "Translucency sorting",
+              "description": "Translucent blocks are rendered correctly even when behind other translucent blocks (when enabled in Video Settings->Quality).",
+              "created": "2024-05-18T01:51:37.704659Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/sk9rgfiA/images/af24d494233ff17fa5a7e8f0732942cdefe8ad1a_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/sk9rgfiA/images/84451725b6fca79230b02c53966ff820b7e1b9f7.png",
+              "featured": false,
+              "title": "Rebuilt config screen",
+              "description": "Derived from Reese's Sodium Options, with additional improvements such as grouping pages by mod, and an API for mods to add their own options to the screen",
+              "created": "2024-05-18T02:08:47.291302Z",
+              "ordering": 0.0
+            }
+          ]
         },
         "modrinthVersion": {
-          "id": "803fRd97",
-          "project_id": "sdaSaQEz",
-          "author_id": "qtbuSRQ6",
-          "name": "AlmostUnified-Forge-1.20.1-0.10.1",
-          "version_number": "1.20.1-0.10.1+forge",
-          "changelog": "- added Hungarian translation ([#121](https://github.com/AlmostReliable/almostunified/pull/121))\n- improved Portuguese translation ([#122](https://github.com/AlmostReliable/almostunified/pull/122))\n- fixed duplicate checking for recipes with different recipe key counts\n",
-          "date_published": "2025-08-21T19:05:49.362333Z",
-          "version_type": "beta",
+          "id": "UTbfe5d1",
+          "project_id": "sk9rgfiA",
+          "author_id": "6bGskxLV",
+          "name": "[1.20.1] Embeddium 0.3.31",
+          "version_number": "0.3.31+mc1.20.1",
+          "changelog": "https://github.com/embeddedt/embeddium/wiki/Changelog",
+          "date_published": "2024-08-31T23:11:49.184634Z",
+          "version_type": "release",
           "files": [
             {
               "hashes": {
-                "sha512": "2274052de29fd1f93ee34362d2308c1688736987ca5dacebe37c2a96b7825cfc3fda08c56cb3d97e6ad3c930dc1b84e1069947eb9ecf96ed7aa8ab4bb4bd8d86",
-                "sha1": "908bb8c851a38e2ad4f3e5965b1b9a6668070d66"
+                "sha1": "bb2fa8f3e493af16af9160d049f96c614a1faf2f",
+                "sha512": "ffbf2da4685260a4d5c14c621708bd20722563f084f042d3dfb0a7b87f048e39299648c854a93939129da0d23a15a91ec628560d601e76074b08e275f6e132e9"
               },
-              "url": "https://cdn.modrinth.com/data/sdaSaQEz/versions/803fRd97/almostunified-forge-1.20.1-0.10.1.jar",
-              "filename": "almostunified-forge-1.20.1-0.10.1.jar",
+              "url": "https://cdn.modrinth.com/data/sk9rgfiA/versions/UTbfe5d1/embeddium-0.3.31%2Bmc1.20.1.jar",
+              "filename": "embeddium-0.3.31+mc1.20.1.jar",
               "primary": true,
-              "size": 217445
+              "size": 1320675
             }
           ],
           "dependencies": [
             {
-              "project_id": "u6dRKJwZ",
-              "dependency_type": "optional"
+              "project_id": "S1tndFDa"
             },
             {
-              "project_id": "umyGl7zF",
-              "dependency_type": "optional"
-            },
-            {
-              "project_id": "nfn13YXA",
-              "dependency_type": "optional"
+              "project_id": "4ZqxOvjD"
             }
           ],
           "game_versions": [
@@ -9666,30 +9630,30 @@
         }
       },
       {
-        "name": "Searchables",
-        "version": "Searchables-forge-1.20.1-1.0.3.jar",
+        "name": "Sodium/Embeddium Options API",
+        "version": "SodiumOptionsAPI Forge 1.0.10 for 1.20.1",
         "optional": true,
-        "file": "Searchables-forge-1.20.1-1.0.3.jar",
+        "file": "sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
         "type": "mods",
-        "description": "Searchables is a library mod that adds helper methods that allow for searching and filtering elements based on components, as well as offering built in auto-complete functionality.",
+        "description": "Config API for adding Sodium/Embeddium options with a better categories menu",
         "disabled": false,
         "userAdded": true,
         "wasSelected": true,
         "skipped": false,
-        "curseForgeProjectId": 858542,
-        "curseForgeFileId": 5284015,
+        "curseForgeProjectId": 1103431,
+        "curseForgeFileId": 6100812,
         "curseForgeProject": {
-          "id": 858542,
-          "name": "Searchables",
+          "id": 1103431,
+          "name": "Sodium/Embeddium Options API",
           "authors": [
             {
-              "id": 10618648,
-              "name": "Jaredlll08",
-              "url": "https://www.curseforge.com/members/jaredlll08"
+              "id": 102782844,
+              "name": "Txni",
+              "url": "https://www.curseforge.com/members/txni"
             }
           ],
           "gameId": 432,
-          "summary": "Searchables is a library mod that adds helper methods that allow for searching and filtering elements based on components, as well as offering built in auto-complete functionality.",
+          "summary": "Config API for adding Sodium/Embeddium options with a better categories menu",
           "categories": [
             {
               "name": "API and Library",
@@ -9714,112 +9678,99 @@
               "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
               "parentCategoryId": 6,
               "classId": 6
-            },
-            {
-              "name": "Map and Information",
-              "slug": "map-information",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/map-information",
-              "dateModified": "2014-05-08T17:42:23.74Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 423,
-              "iconUrl": "https://media.forgecdn.net/avatars/6/38/635351497437388438.png",
-              "parentCategoryId": 6,
-              "classId": 6
-            },
-            {
-              "name": "Utility & QoL",
-              "slug": "utility-qol",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
-              "dateModified": "2021-11-17T11:45:09.143Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 5191,
-              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
-              "parentCategoryId": 6,
-              "classId": 6
             }
           ],
           "status": 4,
-          "primaryCategoryId": 421,
+          "primaryCategoryId": 424,
           "classId": 6,
-          "slug": "searchables",
+          "slug": "sodium-options-api",
           "isFeatured": false,
-          "dateModified": "2025-10-13T23:41:39.893Z",
-          "dateCreated": "2023-05-09T08:32:36.86Z",
-          "dateReleased": "2025-10-13T23:37:02.587Z",
+          "dateModified": "2025-04-10T17:07:57.38Z",
+          "dateCreated": "2024-09-16T08:25:25.94Z",
+          "dateReleased": "2025-04-10T17:03:35.57Z",
           "links": {
-            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/searchables",
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/sodium-options-api",
             "wikiUrl": "",
-            "issuesUrl": "https://github.com/jaredlll08/searchables/issues",
-            "sourceUrl": "https://github.com/jaredlll08/searchables"
+            "issuesUrl": "https://github.com/txnimc/SodiumOptionsAPI/issues",
+            "sourceUrl": "https://github.com/txnimc/SodiumOptionsAPI"
           },
           "logo": {
-            "id": 814175,
+            "id": 1080739,
             "description": "",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/814/175/256/256/638189233295197018.png",
-            "title": "638189233295197018.png",
-            "url": "https://media.forgecdn.net/avatars/814/175/638189233295197018.png",
-            "modId": 858542
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1080/739/256/256/638620165439711976.png",
+            "title": "638620165439711976.png",
+            "url": "https://media.forgecdn.net/avatars/1080/739/638620165439711976.png",
+            "modId": 1103431
           },
           "allowModDistribution": true,
-          "screenshots": [],
-          "mainFileId": 7104730
+          "screenshots": [
+            {
+              "id": 967890,
+              "description": "image.png",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/967/890/310/172/image.png",
+              "title": "image.png",
+              "url": "https://media.forgecdn.net/attachments/967/890/image.png",
+              "modId": 1103431
+            }
+          ],
+          "mainFileId": 6407768
         },
         "curseForgeFile": {
-          "id": 5284015,
+          "id": 6100812,
           "gameId": 432,
           "isAvailable": true,
-          "displayName": "Searchables-forge-1.20.1-1.0.3.jar",
-          "fileName": "Searchables-forge-1.20.1-1.0.3.jar",
+          "displayName": "SodiumOptionsAPI Forge 1.0.10 for 1.20.1",
+          "fileName": "sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
           "releaseType": 1,
           "fileStatus": 4,
-          "fileDate": "2024-04-23T06:56:49.313Z",
-          "fileLength": 77732,
-          "dependencies": [],
-          "alternateFileId": 0,
+          "fileDate": "2025-01-18T20:48:18.013Z",
+          "fileLength": 443978,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 908741,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 6100817,
           "modules": [
             {
-              "fingerprint": 228048357,
+              "fingerprint": 1490375339,
               "name": "META-INF"
             },
             {
-              "fingerprint": 2537046719,
+              "fingerprint": 1038961657,
               "name": "assets"
             },
             {
-              "fingerprint": 4144611447,
-              "name": "com"
+              "fingerprint": 4180073098,
+              "name": "licenses"
             },
             {
-              "fingerprint": 1386288080,
-              "name": "icon.png"
+              "fingerprint": 739035747,
+              "name": "mixins.sodiumoptionsapi.json"
             },
             {
-              "fingerprint": 2098703887,
+              "fingerprint": 1740227982,
               "name": "pack.mcmeta"
             },
             {
-              "fingerprint": 2694562270,
-              "name": "searchables.forge.mixins.json"
+              "fingerprint": 443544756,
+              "name": "sodiumoptionsapi-forge-1.20.1-forge-refmap.json"
             },
             {
-              "fingerprint": 518451381,
-              "name": "searchables.mixins.json"
-            },
-            {
-              "fingerprint": 1927397224,
-              "name": "searchables.refmap.json"
+              "fingerprint": 3135671440,
+              "name": "toni"
             }
           ],
           "isServerPack": false,
           "hashes": [
             {
-              "value": "ed5a23ec30c90fd06b3f1d8140614028e1fafaee",
+              "value": "7529fbf938787ed13a251cbf40936f8c29ec4b6c",
               "algo": 1
             },
             {
-              "value": "9f5418e9c08c18a375ef42fada4bcef2",
+              "value": "75807590ae2648ecdeb855705868ce59",
               "algo": 2
             }
           ],
@@ -9835,42 +9786,419 @@
               "gameVersion": "",
               "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
               "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020",
+              "gameVersion": "1.20",
+              "gameVersionReleaseDate": "2023-06-07T00:00:00Z",
+              "gameVersionName": "1.20"
             }
           ],
           "gameVersions": [
             "1.20.1",
-            "Forge"
+            "Forge",
+            "1.20"
           ],
-          "fileFingerprint": 3171281796,
-          "modId": 858542
+          "fileFingerprint": 2197810606,
+          "modId": 1103431
+        },
+        "modrinthProject": {
+          "id": "Es5v4eyq",
+          "slug": "sodium-options-api",
+          "project_type": "mod",
+          "team": "e91KMn8w",
+          "title": "Sodium Options API",
+          "description": "Config API for adding Sodium options with a better categories menu",
+          "body": "![banner](https://cdn.modrinth.com/data/cached_images/877ea5f59871975101d1d3d907a4e7c78681b389_0.webp)\n\nThis mod adds cross-platform events for adding Sodium/Embeddium options menu integration. For example, you can add an option page to Embeddium on Forge, Fabric Sodium 0.5 on 1.20.1, and Fabric/NeoForge Sodium 0.6 on 1.21.1 with one event:\n\n\n```\nOptionGUIConstruction.EVENT.register((pages) -> pages.add(new TestOptionPage()));\n```\n\nIf you're an end user, and you don't have this mod installed already as a library for another Sodium addon, you can install it alongside Reese's Options to get improved category menu, with drop-down support so that it's easier to navigate. This will take effect even for mods that don't use this API and inject into Sodium options directly.\n\n![demo](https://cdn.modrinth.com/data/cached_images/3768c862c279cb47278855c2d99aeb568e68573b_0.webp)\n\nThis mod is partially a fork of the Embeddium categories API and options events, with heavy changes to support upstream Sodium. While it makes changes to the Reese's Sodium Options menu, it does so via mixin for compatibility reasons, so you will need to install both.\n\n## Using the API\n\nFirst, you will need to add this mod to your dev environment, using the Maven release for Curseforge or Modrinth.\n\n```\nmodImplementation(\"maven.modrinth:sodium-options-api:version\")\n```\n\nThen, this mod provides three events in `toni.sodiumoptionsapi.api`:\n\n- `OptionGUIConstruction.EVENT`, called once in the GUI constructor, allows adding entire pages. This is probably the one you want.\n- `OptionPageConstruction.EVENT`, called for each OptionPage. Use this if you want to add a group of toggles to the performance tab or something.\n- `OptionGroupConstruction.EVENT`, called for each group of options. Use this if you want to insert a single option into an existing group, or modify the vanilla ones.",
+          "published": "2024-09-15T16:51:05.628905Z",
+          "updated": "2025-04-10T17:03:36.805094Z",
+          "status": "approved",
+          "license": {
+            "id": "LGPL-3.0-only",
+            "name": "GNU Lesser General Public License v3.0 only"
+          },
+          "client_side": "required",
+          "server_side": "unsupported",
+          "categories": [
+            "optimization",
+            "utility"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/Es5v4eyq/7bff17babb498584c0edd74211d97435b651c11f_96.webp",
+          "issues_url": "https://github.com/txnimc/SodiumOptionsAPI/issues",
+          "source_url": "https://github.com/txnimc/SodiumOptionsAPI",
+          "discord_url": "https://discord.com/invite/kS7auUeYmc",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/Es5v4eyq/images/3768c862c279cb47278855c2d99aeb568e68573b_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/Es5v4eyq/images/3768c862c279cb47278855c2d99aeb568e68573b.png",
+              "featured": true,
+              "title": "Better Options Menu",
+              "created": "2024-09-15T17:25:23.513431Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "d0EFLitO",
+          "project_id": "Es5v4eyq",
+          "author_id": "dSn53j6E",
+          "name": "SodiumOptionsAPI Forge 1.0.10 for 1.20.1",
+          "version_number": "forge-1.20.1-1.0.10",
+          "changelog": "Fixed compat with latest Reese's Options\r\nAdded blacklist for Flashback, Axiom, and Dynamic FPS showing up incorrectly in the Options menu",
+          "date_published": "2025-01-18T20:48:20.566320Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "7529fbf938787ed13a251cbf40936f8c29ec4b6c",
+                "sha512": "20b11f1582df3df3d351e0cffcfc8b97453e2d73164fbad46d3f4eb960cab57d8f708d84b818782ef019d5cd9494ce001161f753623680516a191d6f510ebb79"
+              },
+              "url": "https://cdn.modrinth.com/data/Es5v4eyq/versions/d0EFLitO/sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+              "filename": "sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+              "primary": true,
+              "size": 443978
+            },
+            {
+              "hashes": {
+                "sha512": "e193bcc62179230da9c406592f710bcac77dcf2cdd90b5d688f5fd1194b46004a51e3b1212f7a3c05519690fdb390cf59315d1f136d0a9679dec7a154bf0327d",
+                "sha1": "5ce4a1d658031e723f6460116b62e9e09a83858f"
+              },
+              "url": "https://cdn.modrinth.com/data/Es5v4eyq/versions/d0EFLitO/sodiumoptionsapi-forge-1.0.10-1.20.1-sources.jar",
+              "filename": "sodiumoptionsapi-forge-1.0.10-1.20.1-sources.jar",
+              "primary": false,
+              "size": 214253
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "sk9rgfiA",
+              "dependency_type": "required"
+            }
+          ],
+          "game_versions": [
+            "1.20",
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
         }
       },
       {
-        "name": "Controlling",
-        "version": "Controlling-forge-1.20.1-12.0.2.jar",
+        "name": "Sodium/Embeddium Dynamic Lights",
+        "version": "SodiumDynamicLights Forge 1.0.10 for 1.20.1",
         "optional": true,
-        "file": "Controlling-forge-1.20.1-12.0.2.jar",
+        "file": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
         "type": "mods",
-        "description": "Adds a search bar to the Key-Bindings menu",
+        "description": "Multiloader port of LambDynLights that adds Sodium/Embeddium settings support",
         "disabled": false,
         "userAdded": true,
         "wasSelected": true,
         "skipped": false,
-        "curseForgeProjectId": 250398,
-        "curseForgeFileId": 4646682,
+        "curseForgeProjectId": 551736,
+        "curseForgeFileId": 6044481,
         "curseForgeProject": {
-          "id": 250398,
-          "name": "Controlling",
+          "id": 551736,
+          "name": "Sodium/Embeddium Dynamic Lights",
           "authors": [
             {
-              "id": 10618648,
-              "name": "Jaredlll08",
-              "url": "https://www.curseforge.com/members/jaredlll08"
+              "id": 102782844,
+              "name": "Txni",
+              "url": "https://www.curseforge.com/members/txni"
             }
           ],
           "gameId": 432,
-          "summary": "Adds a search bar to the Key-Bindings menu",
+          "summary": "Multiloader port of LambDynLights that adds Sodium/Embeddium settings support",
           "categories": [
+            {
+              "name": "Performance",
+              "slug": "performance",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/performance",
+              "dateModified": "2024-01-16T06:56:01.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 6814,
+              "iconUrl": "https://media.forgecdn.net/avatars/933/987/638409849610531091.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 424,
+          "classId": 6,
+          "slug": "dynamiclights-reforged",
+          "isFeatured": false,
+          "dateModified": "2025-04-10T21:24:23.3Z",
+          "dateCreated": "2021-12-19T08:51:23.243Z",
+          "dateReleased": "2025-04-10T21:19:54.253Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/dynamiclights-reforged",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/txnimc/SodiumDynamicLights/issues",
+            "sourceUrl": "https://github.com/txnimc/SodiumDynamicLights"
+          },
+          "logo": {
+            "id": 1068309,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1068/309/256/256/638602793082566240.png",
+            "title": "638602793082566240.png",
+            "url": "https://media.forgecdn.net/avatars/1068/309/638602793082566240.png",
+            "modId": 551736
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 6408534
+        },
+        "curseForgeFile": {
+          "id": 6044481,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "SodiumDynamicLights Forge 1.0.10 for 1.20.1",
+          "fileName": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-01-02T01:22:43.027Z",
+          "fileLength": 511601,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 1103431,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 6044487,
+          "modules": [
+            {
+              "fingerprint": 108037934,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1997262962,
+              "name": "LambDynamicLights.LICENSE"
+            },
+            {
+              "fingerprint": 1958171739,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 3000296422,
+              "name": "dev"
+            },
+            {
+              "fingerprint": 887425713,
+              "name": "mixins.sodiumdynamiclights.json"
+            },
+            {
+              "fingerprint": 4105100827,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 2108244444,
+              "name": "sodiumdynamiclights-forge-1.20.1-forge-refmap.json"
+            },
+            {
+              "fingerprint": 1095485847,
+              "name": "sodiumdynamiclights.accesswidener"
+            },
+            {
+              "fingerprint": 2210316125,
+              "name": "sodiumdynamiclights.toml"
+            },
+            {
+              "fingerprint": 1095485847,
+              "name": "sodiumdynamiclights_1.21.1.accesswidener"
+            },
+            {
+              "fingerprint": 1095485847,
+              "name": "sodiumdynamiclights_1.21.4.accesswidener"
+            },
+            {
+              "fingerprint": 2210281144,
+              "name": "toni"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "d27524e85bed0f0af83c03be46f9ca3eb02a1be9",
+              "algo": 1
+            },
+            {
+              "value": "687c18cefa558ca8101ef97914d9ba6b",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020",
+              "gameVersion": "1.20",
+              "gameVersionReleaseDate": "2023-06-07T00:00:00Z",
+              "gameVersionName": "1.20"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge",
+            "1.20"
+          ],
+          "fileFingerprint": 4061843185,
+          "modId": 551736
+        },
+        "modrinthProject": {
+          "id": "PxQSWIcD",
+          "slug": "sodium-dynamic-lights",
+          "project_type": "mod",
+          "team": "hBGCPeKZ",
+          "title": "Sodium Dynamic Lights",
+          "description": "Multiloader port of LambDynLights that adds Sodium options integration",
+          "body": "![banner](https://cdn.modrinth.com/data/cached_images/56ae9d34e07794c183a3c9c89b57b6b6043e3b2e.png)\n\nAn unofficial Forge/multiloader port of LambDynamicLights that integrates with Sodium and Embeddium.\n\nYou may also enjoy [Sodium/Embeddium Extras](https://modrinth.com/mod/sodium-extras)\n\n![sodium options](https://cdn.modrinth.com/data/cached_images/4f224929dc5c2a0cfca922dcbb918ae9d87000db.png)\n\n![demo](https://cdn.modrinth.com/data/cached_images/14bdbab8f5aae99193fb0be2d36d872da17d96aa.png)",
+          "published": "2024-08-26T14:26:07.157981Z",
+          "updated": "2025-04-10T21:19:54.842919Z",
+          "status": "approved",
+          "license": {
+            "id": "MIT",
+            "name": "MIT License"
+          },
+          "client_side": "required",
+          "server_side": "unsupported",
+          "categories": [
+            "decoration",
+            "optimization"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/PxQSWIcD/a5ab5515213391934e18baaf487c87e4b24ebfa3_96.webp",
+          "issues_url": "https://github.com/txnimc/SodiumDynamicLights/issues",
+          "source_url": "https://github.com/txnimc/SodiumDynamicLights",
+          "discord_url": "https://discord.gg/kS7auUeYmc",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/PxQSWIcD/images/bf198f89bf08b1e43a67d8da3038c5b32c8f7ce3_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/PxQSWIcD/images/56ae9d34e07794c183a3c9c89b57b6b6043e3b2e.png",
+              "featured": false,
+              "created": "2024-08-26T14:50:40.557804Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "I156ee3A",
+          "project_id": "PxQSWIcD",
+          "author_id": "dSn53j6E",
+          "name": "SodiumDynamicLights Forge 1.0.10 for 1.20.1",
+          "version_number": "forge-1.20.1-1.0.10",
+          "changelog": "fix crash with mods using the new LambDynLights API",
+          "date_published": "2025-01-02T01:22:44.551718Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "b8527199be5a8b4bc758a4f320586b5886e6ff657718f52d464386b1e3c695d7bfe644e2ef9487a869c93c0866818995ecd47b9e1a19054929242682e37f58b7",
+                "sha1": "d27524e85bed0f0af83c03be46f9ca3eb02a1be9"
+              },
+              "url": "https://cdn.modrinth.com/data/PxQSWIcD/versions/I156ee3A/sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+              "filename": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+              "primary": true,
+              "size": 511601
+            },
+            {
+              "hashes": {
+                "sha512": "420f86aece82e9351269627027db80c582912e4d97a56c0c293ca8d60b5283f48b0ebf048fd53d4780d6a44b4071f9d39d5a5555951e6d92f894d6195abbf453",
+                "sha1": "868e0044585f3f2a5d530b3a0377f5e69c49dda6"
+              },
+              "url": "https://cdn.modrinth.com/data/PxQSWIcD/versions/I156ee3A/sodiumdynamiclights-forge-1.0.10-1.20.1-sources.jar",
+              "filename": "sodiumdynamiclights-forge-1.0.10-1.20.1-sources.jar",
+              "primary": false,
+              "size": 280930
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "Es5v4eyq",
+              "dependency_type": "required"
+            }
+          ],
+          "game_versions": [
+            "1.20",
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "Sodium/Embeddium Extras",
+        "version": "SodiumExtras Forge 1.0.7 for 1.20.1",
+        "optional": true,
+        "file": "sodiumextras-forge-1.0.7-1.20.1.jar",
+        "type": "mods",
+        "description": "An add-on mod for Sodium (and Embeddium) that adds new features and customization.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 558905,
+        "curseForgeFileId": 6041697,
+        "curseForgeProject": {
+          "id": 558905,
+          "name": "Sodium/Embeddium Extras",
+          "authors": [
+            {
+              "id": 102782844,
+              "name": "Txni",
+              "url": "https://www.curseforge.com/members/txni"
+            }
+          ],
+          "gameId": 432,
+          "summary": "An add-on mod for Sodium (and Embeddium) that adds new features and customization.",
+          "categories": [
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
             {
               "name": "Cosmetic",
               "slug": "cosmetic",
@@ -9884,6 +10212,1449 @@
               "classId": 6
             },
             {
+              "name": "Performance",
+              "slug": "performance",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/performance",
+              "dateModified": "2024-01-16T06:56:01.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 6814,
+              "iconUrl": "https://media.forgecdn.net/avatars/933/987/638409849610531091.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 6814,
+          "classId": 6,
+          "slug": "magnesium-extras",
+          "isFeatured": false,
+          "dateModified": "2025-04-10T17:05:01.667Z",
+          "dateCreated": "2021-12-22T09:03:28.957Z",
+          "dateReleased": "2025-04-10T17:00:15.073Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/magnesium-extras",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/txnimc/SodiumExtras/issues",
+            "sourceUrl": "https://github.com/txnimc/SodiumExtras"
+          },
+          "logo": {
+            "id": 1066735,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1066/735/256/256/638600914286319886.png",
+            "title": "638600914286319886.png",
+            "url": "https://media.forgecdn.net/avatars/1066/735/638600914286319886.png",
+            "modId": 558905
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 6407758
+        },
+        "curseForgeFile": {
+          "id": 6041697,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "SodiumExtras Forge 1.0.7 for 1.20.1",
+          "fileName": "sodiumextras-forge-1.0.7-1.20.1.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-01-01T04:39:13.763Z",
+          "fileLength": 438540,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 1103431,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 908741,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 6041702,
+          "modules": [
+            {
+              "fingerprint": 3326413758,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 2169881499,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 2451233886,
+              "name": "mixins.sodiumextras.json"
+            },
+            {
+              "fingerprint": 4105100827,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 382360410,
+              "name": "sodiumextras-forge-1.20.1-forge-refmap.json"
+            },
+            {
+              "fingerprint": 912000477,
+              "name": "toni"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "7603f44bc4750774fbbdc07a3153c391650fcf3d",
+              "algo": 1
+            },
+            {
+              "value": "823adea3bcfd64dbdbaec46950cf4108",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020",
+              "gameVersion": "1.20",
+              "gameVersionReleaseDate": "2023-06-07T00:00:00Z",
+              "gameVersionName": "1.20"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge",
+            "1.20"
+          ],
+          "fileFingerprint": 3493046010,
+          "modId": 558905
+        },
+        "modrinthProject": {
+          "id": "vqqx0QiE",
+          "slug": "sodium-extras",
+          "project_type": "mod",
+          "team": "CuMc2VjV",
+          "title": "Sodium Extras",
+          "description": "An add-on mod for Sodium that adds new features and customization.",
+          "body": "![banner](https://cdn.modrinth.com/data/cached_images/c6d130c1631a7c548e003b10440273be44a7c462.png)\n\nSodium Extras adds a lot of features to Sodium (and Embeddium on older versions) to improve the experience and performance.\n\n## Features\n\n- Entity Culling. Improve performance in modpacks drastically by not rendering far away entities. Includes a configurable Y value so you can disable rendering mobs in caves while you're on the surface. Can be configured or disabled. Incompatible with Out Of Sight, because that mod does the same thing, and doesn't support Sodium anyway.\n- Better FPS Counter. Looks nicer, and can be customized to display minimum frametimes (useful for debugging lag on tick) and average frametimes over the last 15 seconds (for accurate benchmarking)\n- Borderless Fullscreen. Minecraft's default mode makes it hard to tab out. This is off by default, but replaces the vanilla Sodium fullscreen option.\n- True Darkness. Has options to make night time & caves realistically dark. Can be configured or turned off.\n- Fog Toggle. An option to turn off all fog, which is missing from vanilla Sodium.\n- Font Shadow Toggle. An option to turn off all font shadows, which speeds up text rendering.\n- Configurable Cloud Height. Vanilla clouds are quite low, and there's no other mod to raise them on Forge. This mod defaults them to being a bit higher.\n- Integration With Sodium/Embeddium Dynamic Lights. This mod works perfectly with MDL, and improves its performance drastically with its optimizations. If you have MDL, you'll want to install this mod.\n\nNote: this mod used to package a Zoom function on older versions, but it has been removed as there are now many different zoom mods to choose from.\n\nOn 1.16.5: Chunk Fade In. A port of \"Fade In Chunks\" from Fabric, this applies the Bedrock effect to reduce the pop-in effect from newly loaded chunks, either when you load in the game, switch worlds, or are just flying around. Can be configured or disabled.",
+          "published": "2024-08-24T10:14:01.971793Z",
+          "updated": "2025-04-10T17:05:56.009850Z",
+          "status": "approved",
+          "license": {
+            "id": "LGPL-3.0-only",
+            "name": "GNU Lesser General Public License v3.0 only"
+          },
+          "client_side": "required",
+          "server_side": "unsupported",
+          "categories": [
+            "optimization"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/vqqx0QiE/3fcad840acf5e9e27fc71fa195f89a769f6ad27a_96.webp",
+          "issues_url": "https://github.com/txnimc/SodiumExtras/issues",
+          "source_url": "https://github.com/txnimc/SodiumExtras",
+          "discord_url": "https://discord.gg/kS7auUeYmc",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/vqqx0QiE/images/d677392b4e8d938e0dfc84e6dd0224b9864d216e_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/vqqx0QiE/images/c6d130c1631a7c548e003b10440273be44a7c462.png",
+              "featured": false,
+              "created": "2024-08-24T10:24:55.992182Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "VNFB2Vgv",
+          "project_id": "vqqx0QiE",
+          "author_id": "dSn53j6E",
+          "name": "SodiumExtras Forge 1.0.7 for 1.20.1",
+          "version_number": "forge-1.20.1-1.0.7",
+          "changelog": "fix loading on dedicated servers",
+          "date_published": "2025-01-01T04:39:15.567585Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "7603f44bc4750774fbbdc07a3153c391650fcf3d",
+                "sha512": "47f298943079eb6b8f5222cbb093fec0c29c86a6f68e8000545059d64ff5c4cbf76fa774565a0d4d89d1fb0a278b62292f7619fb818e4fdfd9f01a637e7fcbfb"
+              },
+              "url": "https://cdn.modrinth.com/data/vqqx0QiE/versions/VNFB2Vgv/sodiumextras-forge-1.0.7-1.20.1.jar",
+              "filename": "sodiumextras-forge-1.0.7-1.20.1.jar",
+              "primary": true,
+              "size": 438540
+            },
+            {
+              "hashes": {
+                "sha1": "9c71ad08572c1ab305e17f2931b9b9f1393e838a",
+                "sha512": "31406cbd99358d8c3a24645497692c508bfa8975128322169d89a0ad56598764bc155d21e8e9189ac3dbbaab8ab03d20f639d18fccf1fcf5410ed06b6a44d45c"
+              },
+              "url": "https://cdn.modrinth.com/data/vqqx0QiE/versions/VNFB2Vgv/sodiumextras-forge-1.0.7-1.20.1-sources.jar",
+              "filename": "sodiumextras-forge-1.0.7-1.20.1-sources.jar",
+              "primary": false,
+              "size": 241580
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "Es5v4eyq",
+              "dependency_type": "required"
+            },
+            {
+              "project_id": "sk9rgfiA",
+              "dependency_type": "required"
+            }
+          ],
+          "game_versions": [
+            "1.20",
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "Advanced Loot Info",
+        "version": "AdvancedLootInfo-forge-1.20.1-1.3.8.jar",
+        "optional": true,
+        "file": "AdvancedLootInfo-forge-1.20.1-1.3.8.jar",
+        "type": "mods",
+        "description": "EMI/JEI/REI plugin for displaying advanced information about loot tables",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 1205426,
+        "curseForgeFileId": 7058809,
+        "curseForgeProject": {
+          "id": 1205426,
+          "name": "Advanced Loot Info",
+          "authors": [
+            {
+              "id": 100610225,
+              "name": "yanny7777",
+              "url": "https://www.curseforge.com/members/yanny7777"
+            }
+          ],
+          "gameId": 432,
+          "summary": "EMI/JEI/REI plugin for displaying advanced information about loot tables",
+          "categories": [
+            {
+              "name": "Addons",
+              "slug": "mc-addons",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons",
+              "dateModified": "2014-05-08T17:09:48.63Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 426,
+              "iconUrl": "https://media.forgecdn.net/avatars/5/998/635351477886290676.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Map and Information",
+              "slug": "map-information",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/map-information",
+              "dateModified": "2014-05-08T17:42:23.74Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 423,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/38/635351497437388438.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 426,
+          "classId": 6,
+          "slug": "advanced-loot-info",
+          "isFeatured": false,
+          "dateModified": "2025-10-11T12:55:30.533Z",
+          "dateCreated": "2025-02-22T07:55:09.947Z",
+          "dateReleased": "2025-10-11T12:53:15.72Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/advanced-loot-info",
+            "issuesUrl": "https://github.com/yanny7/AdvancedLootInfo/issues",
+            "sourceUrl": "https://github.com/yanny7/AdvancedLootInfo"
+          },
+          "logo": {
+            "id": 1183928,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1183/928/256/256/638757664474110500.png",
+            "title": "638757664474110500.png",
+            "url": "https://media.forgecdn.net/avatars/1183/928/638757664474110500.png",
+            "modId": 1205426
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 1104135,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/1104/135/310/172/screenshot-from-2025-02-20-21-51-30.png",
+              "title": "Drop Chance",
+              "url": "https://media.forgecdn.net/attachments/1104/135/screenshot-from-2025-02-20-21-51-30.png",
+              "modId": 1205426
+            },
+            {
+              "id": 1104134,
+              "description": "Information about group",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/1104/134/310/172/screenshot-from-2025-02-20-21-48-13.png",
+              "title": "Advanced Info",
+              "url": "https://media.forgecdn.net/attachments/1104/134/screenshot-from-2025-02-20-21-48-13.png",
+              "modId": 1205426
+            },
+            {
+              "id": 1104133,
+              "description": "Tooltip shows advanced informations about loot",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/1104/133/310/172/screenshot-from-2025-02-20-21-45-57.png",
+              "title": "Advanced Info",
+              "url": "https://media.forgecdn.net/attachments/1104/133/screenshot-from-2025-02-20-21-45-57.png",
+              "modId": 1205426
+            },
+            {
+              "id": 1104132,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/1104/132/310/172/screenshot-from-2025-02-20-21-44-19.png",
+              "title": "Gameplay Loot Category",
+              "url": "https://media.forgecdn.net/attachments/1104/132/screenshot-from-2025-02-20-21-44-19.png",
+              "modId": 1205426
+            },
+            {
+              "id": 1104131,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/1104/131/310/172/screenshot-from-2025-02-20-21-43-48.png",
+              "title": "Entity Drops Category",
+              "url": "https://media.forgecdn.net/attachments/1104/131/screenshot-from-2025-02-20-21-43-48.png",
+              "modId": 1205426
+            },
+            {
+              "id": 1104129,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/1104/129/310/172/screenshot-from-2025-02-20-21-43-02.png",
+              "title": "Plant Drops Category",
+              "url": "https://media.forgecdn.net/attachments/1104/129/screenshot-from-2025-02-20-21-43-02.png",
+              "modId": 1205426
+            },
+            {
+              "id": 1104128,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/1104/128/310/172/screenshot-from-2025-02-20-21-42-19.png",
+              "title": "Block Drops Loot Category",
+              "url": "https://media.forgecdn.net/attachments/1104/128/screenshot-from-2025-02-20-21-42-19.png",
+              "modId": 1205426
+            },
+            {
+              "id": 1104127,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/1104/127/310/172/screenshot-from-2025-02-20-21-41-01.png",
+              "title": "Archaeology Loot Category",
+              "url": "https://media.forgecdn.net/attachments/1104/127/screenshot-from-2025-02-20-21-41-01.png",
+              "modId": 1205426
+            },
+            {
+              "id": 1104126,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/1104/126/310/172/screenshot-from-2025-02-20-21-40-03.png",
+              "title": "Hero of the Village Loot Category",
+              "url": "https://media.forgecdn.net/attachments/1104/126/screenshot-from-2025-02-20-21-40-03.png",
+              "modId": 1205426
+            },
+            {
+              "id": 1104125,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/1104/125/310/172/screenshot-from-2025-02-20-21-38-40.png",
+              "title": "Chest Loot Category",
+              "url": "https://media.forgecdn.net/attachments/1104/125/screenshot-from-2025-02-20-21-38-40.png",
+              "modId": 1205426
+            }
+          ],
+          "mainFileId": 7094604
+        },
+        "curseForgeFile": {
+          "id": 7058809,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "AdvancedLootInfo-forge-1.20.1-1.3.8.jar",
+          "fileName": "AdvancedLootInfo-forge-1.20.1-1.3.8.jar",
+          "releaseType": 2,
+          "fileStatus": 4,
+          "fileDate": "2025-10-02T18:23:34.887Z",
+          "fileLength": 601086,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 310111,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 238222,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 580555,
+              "relationType": 2
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3578918476,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 169585010,
+              "name": ".cache"
+            },
+            {
+              "fingerprint": 3849878861,
+              "name": "LICENSE_AdvancedLootInfo"
+            },
+            {
+              "fingerprint": 2120430155,
+              "name": "ali.accesswidener"
+            },
+            {
+              "fingerprint": 758579562,
+              "name": "ali.forge.mixins.json"
+            },
+            {
+              "fingerprint": 1872575256,
+              "name": "ali.lootjs.mixins.json"
+            },
+            {
+              "fingerprint": 3324267650,
+              "name": "ali.mixins.json"
+            },
+            {
+              "fingerprint": 1301689319,
+              "name": "ali.refmap.json"
+            },
+            {
+              "fingerprint": 379397330,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 2303778410,
+              "name": "com"
+            },
+            {
+              "fingerprint": 3715494020,
+              "name": "logo.png"
+            },
+            {
+              "fingerprint": 3624171725,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "8f01135292b0dd7716b58c5980b47752830738b1",
+              "algo": 1
+            },
+            {
+              "value": "761aaa6c91ccfbfe3735b7fe613797f3",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "NeoForge",
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 1515473901,
+          "modId": 1205426
+        },
+        "modrinthProject": {
+          "id": "PEPVViac",
+          "slug": "advanced-loot-info",
+          "project_type": "mod",
+          "team": "C3uMjHJR",
+          "title": "Advanced Loot Info",
+          "description": "EMI/JEI/REI plugin for displaying advanced information about loot tables",
+          "body": "Advanced Loot Info provides new way for displaying information about loot tables. All infromations are shown in clear way.\n\n![Advanced Loot Info tooltip](https://cdn.modrinth.com/data/PEPVViac/images/7bde0c7d5728dec2576f80aa6bd29d280a902db0.png)\n![Advanced Loot Info preview](https://cdn.modrinth.com/data/PEPVViac/images/14fca00909ecd699b1566461c3bd94972fb38320.png)\n\nThis is not standalone mod, but requires one of three supported recipe viewers:\n- Just Enough Items (JEI)\n- EMI\n- Roughly Enough Items (REI)\n\nSupported mods out of box:\n- LootJS\n\nMod also supports plugins for:\n- Displaying custom Loot Entries\n- Displaying custom Loot Conditions\n- Displaying custom Loot Functions\n- Working with custom Number Providers\n- Creating custom categories (Right now only from Gameplay loot category)\n\nAll bugs report on [GitHub](https://github.com/yanny7/AdvancedLootInfo/issues).\n\n[Discord](https://discord.gg/HauMDpbkNN).",
+          "published": "2025-02-20T20:32:47.037875Z",
+          "updated": "2025-10-11T12:53:10.792829Z",
+          "status": "approved",
+          "license": {
+            "id": "MIT",
+            "name": "MIT License",
+            "url": "https://github.com/yanny7/AdvancedLootInfo/blob/master/LICENSE"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "utility"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/PEPVViac/648957952e7f97429620b82a122d9958d2ec3fb4.png",
+          "issues_url": "https://github.com/yanny7/AdvancedLootInfo/issues",
+          "source_url": "https://github.com/yanny7/AdvancedLootInfo",
+          "discord_url": "https://discord.gg/HauMDpbkNN",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/PEPVViac/images/0be6e4fe1ae46d5a4d1b48e7929857bb75844d9c.png",
+              "raw_url": "https://cdn.modrinth.com/data/PEPVViac/images/0be6e4fe1ae46d5a4d1b48e7929857bb75844d9c.png",
+              "featured": false,
+              "title": "Block Drops Category",
+              "created": "2025-02-20T20:42:34.973268Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/PEPVViac/images/14fca00909ecd699b1566461c3bd94972fb38320.png",
+              "raw_url": "https://cdn.modrinth.com/data/PEPVViac/images/14fca00909ecd699b1566461c3bd94972fb38320.png",
+              "featured": false,
+              "title": "Chest Loot Category",
+              "created": "2025-02-20T20:39:39.365746Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/PEPVViac/images/2a0b433f50654e9e09b43530982e2361f33e59da.png",
+              "raw_url": "https://cdn.modrinth.com/data/PEPVViac/images/2a0b433f50654e9e09b43530982e2361f33e59da.png",
+              "featured": false,
+              "title": "Entity Drops Category",
+              "created": "2025-02-20T20:43:59.257246Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/PEPVViac/images/636dd28344b8014738fe824486f68157727131d4.png",
+              "raw_url": "https://cdn.modrinth.com/data/PEPVViac/images/636dd28344b8014738fe824486f68157727131d4.png",
+              "featured": false,
+              "title": "Gameplay Loot Category",
+              "created": "2025-02-20T20:44:34.061989Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/PEPVViac/images/9c5ab5f298c6276739bf9d006575ee737fc86420.png",
+              "raw_url": "https://cdn.modrinth.com/data/PEPVViac/images/9c5ab5f298c6276739bf9d006575ee737fc86420.png",
+              "featured": false,
+              "title": "Archeology Loot Category",
+              "created": "2025-02-20T20:41:16.665953Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/PEPVViac/images/b7a6217cd2ed25b9b540051390f9c01fe998b292.png",
+              "raw_url": "https://cdn.modrinth.com/data/PEPVViac/images/b7a6217cd2ed25b9b540051390f9c01fe998b292.png",
+              "featured": false,
+              "title": "Hero of the Village Loot Category",
+              "created": "2025-02-20T20:40:33.401620Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/PEPVViac/images/d9465ef352a344c20586edf6179c1bde8294b810.png",
+              "raw_url": "https://cdn.modrinth.com/data/PEPVViac/images/d9465ef352a344c20586edf6179c1bde8294b810.png",
+              "featured": false,
+              "title": "Plant Drops Category",
+              "created": "2025-02-20T20:43:15.577853Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/PEPVViac/images/7d07b860ab07aeb35eba389b8b34e77aa78bea98.png",
+              "raw_url": "https://cdn.modrinth.com/data/PEPVViac/images/7d07b860ab07aeb35eba389b8b34e77aa78bea98.png",
+              "featured": false,
+              "title": "Advanced Info",
+              "description": "Tooltip shows advanced informations about loot",
+              "created": "2025-02-20T20:46:48.348390Z",
+              "ordering": 1.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/PEPVViac/images/e619ba9cb2b7e7621db40e2574df325d5405fde9.png",
+              "raw_url": "https://cdn.modrinth.com/data/PEPVViac/images/e619ba9cb2b7e7621db40e2574df325d5405fde9.png",
+              "featured": false,
+              "title": "Advanced Info",
+              "description": "Information about group",
+              "created": "2025-02-20T20:48:50.323329Z",
+              "ordering": 1.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/PEPVViac/images/7bde0c7d5728dec2576f80aa6bd29d280a902db0.png",
+              "raw_url": "https://cdn.modrinth.com/data/PEPVViac/images/7bde0c7d5728dec2576f80aa6bd29d280a902db0.png",
+              "featured": true,
+              "title": "Drop Chance",
+              "created": "2025-02-20T20:52:03.688247Z",
+              "ordering": 2.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "wZEQLDQf",
+          "project_id": "PEPVViac",
+          "author_id": "ldAMm52J",
+          "name": "Advanced Loot Info 1.20.1-1.3.8",
+          "version_number": "1.20.1-1.3.8",
+          "changelog": "- Fixed subsequent /reload doesn't block registration thread (Hope that this is final fix for /reload bug)",
+          "date_published": "2025-10-02T18:23:31.240401Z",
+          "version_type": "beta",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "0530f885152680b1550bbfbfdfa54862f77c0bccb63234b356bef065e7f1d8cfb6b67e5239b6a04d6e278dd13c9cf7e5371097035393343cc723002730e7c89c",
+                "sha1": "8f01135292b0dd7716b58c5980b47752830738b1"
+              },
+              "url": "https://cdn.modrinth.com/data/PEPVViac/versions/wZEQLDQf/AdvancedLootInfo-forge-1.20.1-1.3.8.jar",
+              "filename": "AdvancedLootInfo-forge-1.20.1-1.3.8.jar",
+              "primary": true,
+              "size": 601086
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "nfn13YXA",
+              "dependency_type": "optional"
+            },
+            {
+              "project_id": "fJFETWDN",
+              "dependency_type": "optional"
+            },
+            {
+              "project_id": "fRiHVvU7",
+              "dependency_type": "optional"
+            },
+            {
+              "project_id": "u6dRKJwZ",
+              "dependency_type": "optional"
+            }
+          ],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ]
+        }
+      },
+      {
+        "name": "RunicLib",
+        "version": "forge-runiclib-1.20.1-4.3.7.jar",
+        "optional": true,
+        "file": "forge-runiclib-1.20.1-4.3.7.jar",
+        "type": "mods",
+        "description": "RunicLib is a library for Azurune mods that adds MultiLoader utils and attributes/effects for utilization.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 880879,
+        "curseForgeFileId": 6981571,
+        "curseForgeProject": {
+          "id": 880879,
+          "name": "RunicLib",
+          "authors": [
+            {
+              "id": 102740777,
+              "name": "Yirmiri",
+              "url": "https://www.curseforge.com/members/yirmiri"
+            }
+          ],
+          "gameId": 432,
+          "summary": "RunicLib is a library for Azurune mods that adds MultiLoader utils and attributes/effects for utilization.",
+          "categories": [
+            {
+              "name": "Magic",
+              "slug": "magic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/magic",
+              "dateModified": "2014-05-08T17:40:24.787Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 419,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/34/635351496247862494.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 421,
+          "classId": 6,
+          "slug": "runiclib",
+          "isFeatured": false,
+          "dateModified": "2025-10-20T23:05:13.183Z",
+          "dateCreated": "2023-06-26T08:37:49.29Z",
+          "dateReleased": "2025-10-01T16:05:38.633Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/runiclib",
+            "wikiUrl": "",
+            "sourceUrl": "https://github.com/Yirmiri/RunicLib"
+          },
+          "logo": {
+            "id": 1367359,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1367/359/256/256/638887946456742557.png",
+            "title": "638887946456742557.png",
+            "url": "https://media.forgecdn.net/avatars/1367/359/638887946456742557.png",
+            "modId": 880879
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 7054118
+        },
+        "curseForgeFile": {
+          "id": 6981571,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "forge-runiclib-1.20.1-4.3.7.jar",
+          "fileName": "forge-runiclib-1.20.1-4.3.7.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-09-10T01:20:23.58Z",
+          "fileLength": 134746,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 1779275730,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 3233474556,
+              "name": ".cache"
+            },
+            {
+              "fingerprint": 2622832386,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 3629607691,
+              "name": "changelogs"
+            },
+            {
+              "fingerprint": 4068440559,
+              "name": "data"
+            },
+            {
+              "fingerprint": 935338721,
+              "name": "net"
+            },
+            {
+              "fingerprint": 3434149501,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 3080251505,
+              "name": "requires_runiclib.png"
+            },
+            {
+              "fingerprint": 3400033451,
+              "name": "requires_runiclib_enlarged.png"
+            },
+            {
+              "fingerprint": 1718852506,
+              "name": "runiclib.forge.mixins.json"
+            },
+            {
+              "fingerprint": 568568527,
+              "name": "runiclib.mixins.json"
+            },
+            {
+              "fingerprint": 3365232472,
+              "name": "runiclib.refmap.json"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "6001d68ec8058350c50e851b04440511c2ea5051",
+              "algo": 1
+            },
+            {
+              "value": "f0de6adba795934a6defd101e0d5f3d9",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Server"
+            }
+          ],
+          "gameVersions": [
+            "Client",
+            "1.20.1",
+            "Forge",
+            "Server"
+          ],
+          "fileFingerprint": 2065393792,
+          "modId": 880879
+        },
+        "modrinthProject": {
+          "id": "mk0Htq87",
+          "slug": "runiclib",
+          "project_type": "mod",
+          "team": "hPPzQpag",
+          "title": "RunicLib",
+          "description": "RunicLib is a library mod that adds MultiLoader utils, new attributes, and new effects for modders to utilize.",
+          "body": "![A blue banner with a pink trimming reading \"About\"](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/banner_about.png)\n\nRunicLib is a library used in many Azurune projects but is open to other developers aswell. RunicLib primarily features various MultiLoader utilities aswell as premade effects.\n\n_Feel free to include this project in modpacks or to use as a library for projects!_\n\n![A blue banner with a pink trimming used to divide the description](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/banner_header.png)\n\n[![Discord logo in pixel style](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/links/discord_icon.png)](https://discord.gg/jmHpajd)\n[![Bluesky logo in pixel style consisting of a blue butterfly](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/links/bluesky_icon.png)](https://bsky.app/profile/yirmiri.zeus.kitchen)\n[![Twitter/X logo in pixel style consisting of a blue bird](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/links/twitter_icon.png)](https://twitter.com/Yirmiris)\n[![Youtube logo in pixel style consisting of a red rectangle with a play button](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/links/youtube_icon.png)](https://www.youtube.com/@Yirmiri)\n[![CurseForge logo in pixel style consisting of an orange anvil](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/links/curseforge_icon.png)](https://www.curseforge.com/members/yirmiri/projects)\n[![Modrinth logo in pixel style consisting of a green circle with a wrench in the center](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/links/modrinth_icon.png)](https://modrinth.com/user/Yirmiri)\n[![Ko-Fi logo in pixel style consisting of a mug with a red heart on it](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/links/kofi_icon.png)](https://ko-fi.com/yirmiri)\n[![Azurune logo in pixel style consisting of a white heart overlayed on a black heart](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/links/carrd_icon.png)](https://yirmiri.carrd.co)\n\n![A blue banner with a pink trimming reading \"Features\"](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/banner_features.png)\n\n- Common registry method for MultiLoader projects\n- Various utilities such as a common flammability method or conditional recipes\n- Premade effects and effect classes\n- Public common classes for MultiLoader projects\n\n![A blue banner with a pink trimming reading \"Azurune Projects\"](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/banner_projects.png)\n\n[![Logo and link out for the Excessive Building mod](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/EB_icon.png)](https://modrinth.com/mod/excessive-building)\n[![Logo and link out for the Delicate Dyes mod](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/DDyes_icon.png)](https://modrinth.com/mod/delicate-dyes)\n[![Logo and link out for the Yapping Tooltips mod](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/YT_icon.png)](https://modrinth.com/mod/yapping-tooltips)\n[![Logo and link out for the RunicLib mod](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/TL_icon.png)](https://modrinth.com/mod/runiclib)\n[![Logo and link out for the Urban Decor mod](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/UD_icon.png)](https://modrinth.com/mod/urban-decor)\n[![Logo and link out for the Dungeon's Delight mod](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/DD_icon.png)](https://modrinth.com/mod/dungeons-delight)\n\n![A blue banner with a pink trimming used to divide the description](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/banner_header.png)\n\n[![Banner advertising 25% off of the first month of a server with BisectHosting telling the user to use code \"Yirmiri\" at checkout](https://github.com/Yirmiri/Dried-Spice/raw/master/src/main/resources/assets/dried_spice/textures/description/misc/misc_bisect_code.png)](https://www.bisecthosting.com/Yirmiri?r=MR+RL)\n\nFor exceptional server hosting services, look no further than BisectHosting. **New customers can use code \"Yirmiri\" to get 25% off their first month**, \nand their support team is always available to assist you in any way they can.\n\n![A blue banner with a pink trimming reading \"Frequently Asked Questions\"](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/banner_faq.png)\n\n**Q:** I have an issue/bug I want to report, where can I do that?\n- **A:** You can leave bug reports on the [GitHub page](https://github.com/Yirmiri/RunicLib/issues). Please be sure to see to both see if someone else has reported the same issue to avoid duplicates and to use proper tags when possible.\n  \n\n**Q:** I have a suggestion for the project, where can I leave it?\n- **A:** You can leave suggestions for the project in [our Discord server](https://discord.gg/jmHpajd) or the [GitHub page](https://github.com/Yirmiri/RunicLib/issues), please make sure to follow the guidelines for posts/issues and use proper tags when possible.\n\n\n**Q:** Will there be a port to **X** version?\n- **A:** I do not have any plans to port to any older versions of Minecraft, as for newer versions of the game I will probably be sticking to the biggest modding version at a given time since that will be the version I will be playing the game on.\n\n![A blue banner with a pink trimming reading \"Credits\"](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/banner_credits.png)\n\nThis section is dedicated to those that contributed to the content of the mod as this project wouldn't have been as easy or possible if it weren't for the help of these talented people!\n\n## [BackupCup](https://bsky.app/profile/backupcup.dev):\n- Artist behind various effect icons.\n\n## [Betwixer](https://twitter.com/Betwixer):\n- Artist behind various effect icons.",
+          "published": "2024-04-07T22:29:40.416853Z",
+          "updated": "2025-10-20T07:20:18.778399Z",
+          "status": "approved",
+          "license": {
+            "id": "LicenseRef-AZURUNE-License",
+            "name": "",
+            "url": "https://github.com/Yirmiri/Yirmiri/blob/main/AZURUNE-LICENSE.md"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "game-mechanics",
+            "library",
+            "magic"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge",
+            "quilt"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/mk0Htq87/7de2327885011d61881b9a1c5c14430029c728f2.png",
+          "issues_url": "https://github.com/Yirmiri/RunicLib/issues",
+          "wiki_url": "https://kekecreations.boomla.net/mods/minecraft-java-edition/tipsylib",
+          "discord_url": "https://discord.gg/jmHpajd",
+          "donation_urls": [
+            {
+              "id": "ko-fi",
+              "platform": "Ko-fi",
+              "url": "https://ko-fi.com/yirmiri"
+            }
+          ],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/mk0Htq87/images/627c328e4fe622ed3046810b558e9b1cded00e61_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/mk0Htq87/images/627c328e4fe622ed3046810b558e9b1cded00e61.png",
+              "featured": true,
+              "title": "TipsyLib",
+              "created": "2024-07-26T08:06:02.640680Z",
+              "ordering": -521521.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "8ljWbQsS",
+          "project_id": "mk0Htq87",
+          "author_id": "ttNJAJhI",
+          "name": "forge-runiclib-1.20.1-4.3.7",
+          "version_number": "4.3.7",
+          "changelog": "fixed crash",
+          "date_published": "2025-09-10T01:19:59.214192Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "6001d68ec8058350c50e851b04440511c2ea5051",
+                "sha512": "08c474bdd7ee714fefc0d718691bf0dc05e29b6f7d5bc1d07ce61ea06c699e2b0490b48cbfc5d090256cdb7182e155b4c9aa2d1793b77d2d56ebbf66fc6da0f3"
+              },
+              "url": "https://cdn.modrinth.com/data/mk0Htq87/versions/8ljWbQsS/forge-runiclib-1.20.1-4.3.7.jar",
+              "filename": "forge-runiclib-1.20.1-4.3.7.jar",
+              "primary": true,
+              "size": 134746
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "Dungeons Delight",
+        "version": "forge-dungeonsdelight-1.20.1-1.2.10.jar",
+        "optional": true,
+        "file": "forge-dungeonsdelight-1.20.1-1.2.10.jar",
+        "type": "mods",
+        "description": "Dungeon's Delight is a Farmer's Delight addon in which you turn monsters into monstrous treats!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 1258923,
+        "curseForgeFileId": 6997613,
+        "curseForgeProject": {
+          "id": 1258923,
+          "name": "Dungeons Delight",
+          "authors": [
+            {
+              "id": 102740777,
+              "name": "Yirmiri",
+              "url": "https://www.curseforge.com/members/yirmiri"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Dungeon's Delight is a Farmer's Delight addon in which you turn monsters into monstrous treats!",
+          "categories": [
+            {
+              "name": "Adventure and RPG",
+              "slug": "adventure-rpg",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/adventure-rpg",
+              "dateModified": "2014-05-08T17:42:09.54Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 422,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/37/635351497295252123.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Food",
+              "slug": "mc-food",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-food",
+              "dateModified": "2014-05-08T17:45:26.55Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 436,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/49/635351499265510402.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Addons",
+              "slug": "mc-addons",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons",
+              "dateModified": "2014-05-08T17:09:48.63Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 426,
+              "iconUrl": "https://media.forgecdn.net/avatars/5/998/635351477886290676.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Magic",
+              "slug": "magic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/magic",
+              "dateModified": "2014-05-08T17:40:24.787Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 419,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/34/635351496247862494.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Armor, Tools, and Weapons",
+              "slug": "armor-weapons-tools",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/armor-weapons-tools",
+              "dateModified": "2014-05-08T17:44:39.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 434,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/47/635351498790409758.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 426,
+          "classId": 6,
+          "slug": "dungeons-delight",
+          "isFeatured": false,
+          "dateModified": "2025-10-31T14:18:01.313Z",
+          "dateCreated": "2025-05-05T12:08:51.227Z",
+          "dateReleased": "2025-10-31T14:14:54.763Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/dungeons-delight",
+            "wikiUrl": "https://dungeonsdelight.wiki.gg/",
+            "sourceUrl": "https://github.com/Yirmiri/Dungeons-Delight"
+          },
+          "logo": {
+            "id": 1259268,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1259/268/256/256/638819932283820646.png",
+            "title": "638819932283820646.png",
+            "url": "https://media.forgecdn.net/avatars/1259/268/638819932283820646.png",
+            "modId": 1258923
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 1339886,
+              "description": "A new purple woodset to aid in spooky builds!",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/1339/886/310/172/2025-08-05_12.png",
+              "title": "Wormroots",
+              "url": "https://media.forgecdn.net/attachments/1339/886/2025-08-05_12.png",
+              "modId": 1258923
+            },
+            {
+              "id": 1178947,
+              "description": "Deep underground in damp locations you can find Rotbulbs, a new monstrous crop that can be grown... [do not disturb their sleep]",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/1178/947/310/172/ddunknown.png",
+              "title": "Rotbulbs",
+              "url": "https://media.forgecdn.net/attachments/1178/947/ddunknown.png",
+              "modId": 1258923
+            },
+            {
+              "id": 1178946,
+              "description": "A new throwing alternative to the Knife!",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/1178/946/310/172/ddslice.png",
+              "title": "Cleavers",
+              "url": "https://media.forgecdn.net/attachments/1178/946/ddslice.png",
+              "modId": 1258923
+            },
+            {
+              "id": 1178945,
+              "description": "Embedded Eggs with time and will eventually convert into Ancient Eggs!",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/1178/945/310/172/ddegg.png",
+              "title": "Century Eggs",
+              "url": "https://media.forgecdn.net/attachments/1178/945/ddegg.png",
+              "modId": 1258923
+            },
+            {
+              "id": 1178944,
+              "description": "New crate blocks for Rotten Tomatoes, Poisonous Potatoes, and Rotbulbs!",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/1178/944/310/172/ddcrate.png",
+              "title": "New Storage Blocks",
+              "url": "https://media.forgecdn.net/attachments/1178/944/ddcrate.png",
+              "modId": 1258923
+            },
+            {
+              "id": 1178942,
+              "description": "Some of the feast blocks you can find in Dungeon's Delight!",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/1178/942/310/172/ddfeast.png",
+              "title": "Feast Blocks",
+              "url": "https://media.forgecdn.net/attachments/1178/942/ddfeast.png",
+              "modId": 1258923
+            },
+            {
+              "id": 1178941,
+              "description": "The UI of a Monster Pot that of which is cooking up Ghoulash!",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/1178/941/310/172/ddcook.png",
+              "title": "Monster Pot",
+              "url": "https://media.forgecdn.net/attachments/1178/941/ddcook.png",
+              "modId": 1258923
+            },
+            {
+              "id": 1178026,
+              "description": "A monster cake sitting in a monster kitchen!",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/1178/26/310/172/2025-03-15_15.png",
+              "title": "Monster Cake",
+              "url": "https://media.forgecdn.net/attachments/1178/26/2025-03-15_15.png",
+              "modId": 1258923
+            }
+          ],
+          "mainFileId": 7170434
+        },
+        "curseForgeFile": {
+          "id": 6997613,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "forge-dungeonsdelight-1.20.1-1.2.10.jar",
+          "fileName": "forge-dungeonsdelight-1.20.1-1.2.10.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-09-14T21:08:16.247Z",
+          "fileLength": 1844636,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 880879,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3930440534,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 2948458077,
+              "name": ".cache"
+            },
+            {
+              "fingerprint": 3108557955,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 3408915478,
+              "name": "changelogs"
+            },
+            {
+              "fingerprint": 3445574056,
+              "name": "data"
+            },
+            {
+              "fingerprint": 1872454995,
+              "name": "dungeonsdelight.mixin.json"
+            },
+            {
+              "fingerprint": 3395869622,
+              "name": "dungeonsdelight.refmap.json"
+            },
+            {
+              "fingerprint": 1402930288,
+              "name": "icon.png"
+            },
+            {
+              "fingerprint": 3785955760,
+              "name": "icon_big.png"
+            },
+            {
+              "fingerprint": 3670545948,
+              "name": "icon_small.png"
+            },
+            {
+              "fingerprint": 2010482848,
+              "name": "net"
+            },
+            {
+              "fingerprint": 3743966290,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "8e33417981dfe50155410c818622b03444705350",
+              "algo": 1
+            },
+            {
+              "value": "0ee1afffb66e375a604bc12b47d0d8d9",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Server"
+            }
+          ],
+          "gameVersions": [
+            "Client",
+            "1.20.1",
+            "Forge",
+            "Server"
+          ],
+          "fileFingerprint": 3436905850,
+          "modId": 1258923
+        },
+        "modrinthProject": {
+          "id": "qPfNr476",
+          "slug": "dungeons_delight",
+          "project_type": "mod",
+          "team": "UCjBWbfw",
+          "title": "Dungeon's Delight",
+          "description": "Dungeons Delight is an addon to Farmer’s Delight that adds the cooking and consumption of monsters. Semi-Inspired by the popular anime \"Delicious in Dungeon\".",
+          "body": "# ![Banner for Dungeon's Delight. Contains a cloud of green smoke coming from a cooking pot with the text \"Dungeon's Delight\" overhead.](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/descriptions/dd_banner.png)\n\n![A blue banner with a pink trimming reading \"About\"](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/banner_about.png)\n\nDungeon's Delight is an addon to the popular Minecraft mod Farmer’s Delight which aims to introduce new content in the farming and cooking aspects of the game.\nDungeon's Delight expands on Farmer’s Delight with the ability to cook and monsters and earn various new status effects from them.\n\n[![Farmer's Delight logo with the text \"Requires Farmer's Delight\"](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/descriptions/dd_requires_fd.png)](https://www.curseforge.com/minecraft/mc-mods/farmers-delight)\n[![Goopy purple text reading \"Requires RunicLib\"](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/descriptions/dd_requires_rl.png)](https://www.curseforge.com/minecraft/mc-mods/runiclib)\n\n_Feel free to include this project in modpacks!_\n\n![A blue banner with a pink trimming used to divide the description](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/banner_header.png)\n\n[![Discord logo in pixel style](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/links/discord_icon.png)](https://discord.gg/jmHpajd)\n[![Bluesky logo in pixel style consisting of a blue butterfly](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/links/bluesky_icon.png)](https://bsky.app/profile/yirmiri.zeus.kitchen)\n[![Twitter/X logo in pixel style consisting of a blue bird](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/links/twitter_icon.png)](https://twitter.com/Yirmiris)\n[![Youtube logo in pixel style consisting of a red rectangle with a play button](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/links/youtube_icon.png)](https://www.youtube.com/@Yirmiri)\n[![CurseForge logo in pixel style consisting of an orange anvil](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/links/curseforge_icon.png)](https://www.curseforge.com/members/yirmiri/projects)\n[![Modrinth logo in pixel style consisting of a green circle with a wrench in the center](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/links/modrinth_icon.png)](https://modrinth.com/user/Yirmiri)\n[![Ko-Fi logo in pixel style consisting of a mug with a red heart on it](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/links/kofi_icon.png)](https://ko-fi.com/yirmiri)\n[![Azurune logo in pixel style consisting of a white heart overlayed on a black heart](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/links/carrd_icon.png)](https://yirmiri.carrd.co)\n\n# ![Banner reading the word \"Features\".](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/descriptions/dd_features.png)\n\n## 🍲Monster Cooking🍲\nDungeon's Delight features a new crafting station known as the **Monster Pot**. The **Monster Pot** acts very similar to the Cooking Pot found in Farmer's Delight but must be heated by spawner-like blocks and can create new foods known as **Monster Foods** that of which all grant special new effects!\n\n## 🔮Monster Effects🔮\nDungeon's Delight features a new alternative effect type to existing effects known as **Monster Effects**. **Monster Effects** are mutually exclusive with their normal counterparts meaning if the user tries to attain both versions of an effect the normal one will become \"**monsterized**\" and turned into the monster variant. **Monster Effects** keep the themeing of the original effect but flip it on it's head!\n\n## 🔪Misc Features🔪\nDungeon's Delight features some extra side features such as the **Cleaver**, a new alternative to the knife which can be thrown or **Rotbulbs**, a new crop that must be grown in dark locations.\n\nFor exceptional server hosting services, look no further than BisectHosting. **New customers can use code \"Yirmiri\" to get 25% off their first month**, \nand their support team is always available to assist you in any way they can.\n\n### Mod Integration & Compatibility\n\nDungeon's Delight plans to feature expansive compatibility with other mods to allow the user to continue eating on the go for whatever adventures they take! Currently Dungeon's Delight features compatibility for:\n\n- [JEI](https://www.curseforge.com/minecraft/mc-mods/jei) - Displays Monster Cooking recipes and Embedded Eggs process.\n- [Aether](https://www.curseforge.com/minecraft/mc-mods/aether) - New foods, knife drops from mobs, and new cleavers!\n- [Twilight Forest](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest) - New foods, knife drops from mobs, and new cleavers!\n- [Miner's Delight](https://www.curseforge.com/minecraft/mc-mods/miners-delight-plus) - Copper cup variants\n- [Yapping Tooltips](https://www.curseforge.com/minecraft/mc-mods/yapping-tooltips) - Yapping tooltips for all items!\n- [Appledog](https://modrinth.com/mod/appledog) - New foods.\n\nThis list does not count mods adding integration on their end! Integration for more mods may be considered in the future.\n\n![A blue banner with a pink trimming reading \"Azurune Projects\"](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/banner_projects.png)\n\n[![Logo and link out for the Excessive Building mod](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/EB_icon.png)](https://modrinth.com/mod/excessive-building)\n[![Logo and link out for the Delicate Dyes mod](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/DDyes_icon.png)](https://modrinth.com/mod/delicate-dyes)\n[![Logo and link out for the Yapping Tooltips mod](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/YT_icon.png)](https://modrinth.com/mod/yapping-tooltips)\n[![Logo and link out for the RunicLib mod](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/TL_icon.png)](https://modrinth.com/mod/runiclib)\n[![Logo and link out for the Urban Decor mod](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/UD_icon.png)](https://modrinth.com/mod/urban-decor)\n[![Logo and link out for the Dungeon's Delight mod](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/DD_icon.png)](https://modrinth.com/mod/dungeons-delight)\n\n![A blue banner with a pink trimming used to divide the description](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/banner_header.png)\n\n[![Banner advertising 25% off of the first month of a server with BisectHosting telling the user to use code \"Yirmiri\" at checkout](https://github.com/Yirmiri/Dried-Spice/raw/master/src/main/resources/assets/dried_spice/textures/description/misc/misc_bisect_code.png)](https://www.bisecthosting.com/Yirmiri?r=MR+DD)\n\nFor exceptional server hosting services, look no further than BisectHosting. **New customers can use code \"Yirmiri\" to get 25% off their first month**, \nand their support team is always available to assist you in any way they can.\n\n![A blue banner with a pink trimming reading \"Frequently Asked Questions\"](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/banner_faq.png)\n\n**Q:** I have an issue/bug I want to report, where can I do that?\n- **A:** You can leave bug reports on the [GitHub page](https://github.com/Yirmiri/Dungeons-Delight/issues). Please be sure to see to both see if someone else has reported the same issue to avoid duplicates and to use proper tags when possible.\n  \n\n**Q:** I have a suggestion for the project, where can I leave it?\n- **A:** You can leave suggestions for the project in [our Discord server](https://discord.gg/jmHpajd) or the [GitHub page](https://github.com/Yirmiri/Dungeons-Delight/issues), please make sure to follow the guidelines for posts/issues and use proper tags when possible.\n\n\n**Q:** Will there be a port to **X** version?\n- **A:** I do not have any plans to port to any older versions of Minecraft, as for newer versions of the game I will probably be sticking to the biggest modding version at a given time since that will be the version I will be playing the game on.\n\n![A blue banner with a pink trimming reading \"Credits\"](https://github.com/Yirmiri/Yirmiri/raw/main/mod_page_assets/icon/banner_credits.png)\n\nThis section is dedicated to those that contributed to the content of the mod as this project wouldn't have been as easy or possible if it weren't for the help of these talented people!\n\n## [Artyrian](https://bsky.app/profile/artyrian.bsky.social):\n- Helped with custom splash texts and custom rarities on 1.21.1+.\n\n## [Hecco](https://twitter.com/Hecco):\n- Artist behind Wormwood Planks, Living Torch, and Living Candle.\n- Programmer behind Wormroot worldgen and additionally Wormroot Stalk block functionality and effect borders are originally from [Bountiful Fares](https://modrinth.com/mod/bountiful-fares) (with permission from the original author).\n\n## [SlimeSlabs](https://bsky.app/profile/slimeslabs.bsky.social):\n- Artist behind new Living Fire texture for mod versions 1.2.3+",
+          "published": "2025-05-04T22:21:41.377961Z",
+          "updated": "2025-10-31T14:12:10.303794Z",
+          "status": "approved",
+          "license": {
+            "id": "LicenseRef-AZURUNE-License",
+            "name": "",
+            "url": "https://github.com/Yirmiri/Yirmiri/blob/main/AZURUNE-LICENSE.md"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "adventure",
+            "equipment",
+            "food"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/qPfNr476/f258ea6324243381dba6ad966e497be5db92b0a0.png",
+          "issues_url": "https://github.com/Yirmiri/Dungeons-Delight",
+          "source_url": "https://github.com/Yirmiri/Dungeons-Delight",
+          "wiki_url": "https://dungeonsdelight.wiki.gg/",
+          "discord_url": "https://discord.gg/jmHpajd",
+          "donation_urls": [
+            {
+              "id": "ko-fi",
+              "platform": "Ko-fi",
+              "url": "https://ko-fi.com/yirmiri"
+            }
+          ],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/qPfNr476/images/c4d40df1901ac2091a3f2f06864ee3ec3d8b608f.png",
+              "raw_url": "https://cdn.modrinth.com/data/qPfNr476/images/c4d40df1901ac2091a3f2f06864ee3ec3d8b608f.png",
+              "featured": true,
+              "title": "Dungeon's Delight",
+              "description": "The banner for Dungeon's Delight!",
+              "created": "2025-05-04T22:27:52.798529Z",
+              "ordering": -53125.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/qPfNr476/images/01dab211cd633834fbf5921944ee5c343cc334b9_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/qPfNr476/images/01dab211cd633834fbf5921944ee5c343cc334b9.png",
+              "featured": false,
+              "title": "Monster Cake",
+              "description": "A monster cake sitting in a monster kitchen!",
+              "created": "2025-05-04T22:27:16.862356Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/qPfNr476/images/027e76798a104afe2d81bd0a2bc201187c2bed86.png",
+              "raw_url": "https://cdn.modrinth.com/data/qPfNr476/images/027e76798a104afe2d81bd0a2bc201187c2bed86.png",
+              "featured": false,
+              "title": "Monster Pot",
+              "description": "The UI of a Monster Pot that of which is cooking up Ghoulash!",
+              "created": "2025-05-05T22:06:33.104767Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/qPfNr476/images/365dd1ce428a83b79282ad895be7954c169d6c49_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/qPfNr476/images/365dd1ce428a83b79282ad895be7954c169d6c49.png",
+              "featured": false,
+              "title": "Wormroots",
+              "description": "A new purple woodset to aid in spooky builds!",
+              "created": "2025-09-28T22:27:06.153136Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/qPfNr476/images/395ae3d80701ceae4ea488569968cce037a89b9d_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/qPfNr476/images/395ae3d80701ceae4ea488569968cce037a89b9d.png",
+              "featured": false,
+              "title": "Feast Blocks",
+              "description": "Some of the feast blocks you can find in Dungeon's Delight!",
+              "created": "2025-05-05T22:09:09.578120Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/qPfNr476/images/4788dc04d22559f8e1049a1a19fda4c2cacffae9_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/qPfNr476/images/4788dc04d22559f8e1049a1a19fda4c2cacffae9.png",
+              "featured": false,
+              "title": "New Storage Blocks",
+              "description": "New crate blocks for Rotten Tomatoes, Poisonous Potatoes, and Rotbulbs!",
+              "created": "2025-05-05T22:09:40.054491Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/qPfNr476/images/c0cabe7f3acf13f11c0d6adf3e569678941c062f_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/qPfNr476/images/c0cabe7f3acf13f11c0d6adf3e569678941c062f.png",
+              "featured": false,
+              "title": "Century Eggs",
+              "description": "Embedded Eggs with time and will eventually convert into Ancient Eggs!",
+              "created": "2025-05-05T22:07:30.512668Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/qPfNr476/images/ca6ed42ae51f9b19d3bf806d95c237bffd5c3a73_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/qPfNr476/images/ca6ed42ae51f9b19d3bf806d95c237bffd5c3a73.png",
+              "featured": false,
+              "title": "Cleavers",
+              "description": "A new throwing alternative to the Knife!",
+              "created": "2025-05-05T22:08:45.636614Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/qPfNr476/images/fc9fd32b932daaeb61f9d977fc0e7a60cb7223bd_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/qPfNr476/images/fc9fd32b932daaeb61f9d977fc0e7a60cb7223bd.png",
+              "featured": false,
+              "title": "Rotbulbs",
+              "description": "Deep underground in damp locations you can find Rotbulbs, a new monstrous crop that can be grown... [do not disturb their sleep]",
+              "created": "2025-05-05T22:10:36.735470Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "rDboPrwk",
+          "project_id": "qPfNr476",
+          "author_id": "ttNJAJhI",
+          "name": "forge-dungeonsdelight-1.20.1-1.2.10",
+          "version_number": "1.2.10",
+          "changelog": "## Forgotten Frights Patch || v1.2.10 Forge-1.20.1\n\n### Wiki Reminder\n- We have a wiki you can use to search any questions you may have regarding the mod! \nYou can check it out at: https://dungeonsdelight.wiki.gg/\n\n### Additions\n- Translations have been updated for zh_tw, (Credits: @DEEMsss)\n- Translations have been updated for zh_cn, (Credits: @IwasConfused)\n\n### Fixes\n- Cleavers no longer do anything with Fire Aspect (as it caused issues and Cleavers don't even support Fire Aspect to begin with)\nThe above fix does not affect Cleavers that have built-in fire like the Twilight Forest integration Fiery Cleaver.",
+          "date_published": "2025-09-14T21:08:45.980890Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "8e33417981dfe50155410c818622b03444705350",
+                "sha512": "fd676f83bc21bf6b8c4e60731e50154a9c027db1581e79dc149878db12737ca1a51c472d11a600816fd332bcb436feb62ca9f30c08d05043414b3547584bfc34"
+              },
+              "url": "https://cdn.modrinth.com/data/qPfNr476/versions/rDboPrwk/forge-dungeonsdelight-1.20.1-1.2.10.jar",
+              "filename": "forge-dungeonsdelight-1.20.1-1.2.10.jar",
+              "primary": true,
+              "size": 1844636
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "mk0Htq87",
+              "dependency_type": "required"
+            }
+          ],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "ModernFix",
+        "version": "modernfix-forge-5.24.4+mc1.20.1.jar",
+        "optional": true,
+        "file": "modernfix-forge-5.24.4+mc1.20.1.jar",
+        "type": "mods",
+        "description": "All-in-one mod that improves performance, reduces memory usage, and fixes many bugs. Compatible with all your favorite performance mods!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 790626,
+        "curseForgeFileId": 6837713,
+        "curseForgeProject": {
+          "id": 790626,
+          "name": "ModernFix",
+          "authors": [
+            {
+              "id": 101435003,
+              "name": "embeddedt",
+              "url": "https://www.curseforge.com/members/embeddedt"
+            }
+          ],
+          "gameId": 432,
+          "summary": "All-in-one mod that improves performance, reduces memory usage, and fixes many bugs. Compatible with all your favorite performance mods!",
+          "categories": [
+            {
+              "name": "Server Utility",
+              "slug": "server-utility",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/server-utility",
+              "dateModified": "2014-05-08T17:44:55.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 435,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/48/635351498950580836.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Performance",
+              "slug": "performance",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/performance",
+              "dateModified": "2024-01-16T06:56:01.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 6814,
+              "iconUrl": "https://media.forgecdn.net/avatars/933/987/638409849610531091.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
               "name": "Utility & QoL",
               "slug": "utility-qol",
               "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
@@ -9897,95 +11668,93 @@
             }
           ],
           "status": 4,
-          "primaryCategoryId": 5191,
+          "primaryCategoryId": 6814,
           "classId": 6,
-          "slug": "controlling",
+          "slug": "modernfix",
           "isFeatured": false,
-          "dateModified": "2025-10-10T23:25:30.287Z",
-          "dateCreated": "2016-08-28T22:31:23.857Z",
-          "dateReleased": "2025-10-10T23:22:25.457Z",
+          "dateModified": "2025-08-01T23:08:26.453Z",
+          "dateCreated": "2023-01-05T09:14:17.873Z",
+          "dateReleased": "2025-08-01T23:00:04.74Z",
           "links": {
-            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/controlling",
-            "wikiUrl": "",
-            "issuesUrl": "https://github.com/jaredlll08/Controlling/issues",
-            "sourceUrl": "https://github.com/jaredlll08/Controlling"
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/modernfix",
+            "wikiUrl": "https://github.com/embeddedt/ModernFix/wiki/Summary-of-Patches",
+            "issuesUrl": "https://github.com/embeddedt/ModernFix/issues",
+            "sourceUrl": "https://github.com/embeddedt/ModernFix"
           },
           "logo": {
-            "id": 49603,
+            "id": 881436,
             "description": "",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/49/603/256/256/636079972364045115.png",
-            "title": "636079972364045115.png",
-            "url": "https://media.forgecdn.net/avatars/49/603/636079972364045115.png",
-            "modId": 250398
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/881/436/256/256/638311693460984164.png",
+            "title": "638311693460984164.png",
+            "url": "https://media.forgecdn.net/avatars/881/436/638311693460984164.png",
+            "modId": 790626
           },
           "allowModDistribution": true,
           "screenshots": [],
-          "mainFileId": 7092615
+          "mainFileId": 6837713
         },
         "curseForgeFile": {
-          "id": 4646682,
+          "id": 6837713,
           "gameId": 432,
           "isAvailable": true,
-          "displayName": "Controlling-forge-1.20.1-12.0.2.jar",
-          "fileName": "Controlling-forge-1.20.1-12.0.2.jar",
+          "displayName": "modernfix-forge-5.24.4+mc1.20.1.jar",
+          "fileName": "modernfix-forge-5.24.4+mc1.20.1.jar",
           "releaseType": 1,
           "fileStatus": 4,
-          "fileDate": "2023-07-16T04:39:22.697Z",
-          "fileLength": 115280,
-          "dependencies": [
-            {
-              "fileId": 0,
-              "modId": 858542,
-              "relationType": 3
-            }
-          ],
+          "fileDate": "2025-08-01T23:00:04.74Z",
+          "fileLength": 880557,
+          "dependencies": [],
           "alternateFileId": 0,
           "modules": [
             {
-              "fingerprint": 3343965719,
+              "fingerprint": 736796855,
               "name": "META-INF"
             },
             {
-              "fingerprint": 893680386,
+              "fingerprint": 3208603845,
               "name": "assets"
             },
             {
-              "fingerprint": 3524971458,
-              "name": "com"
-            },
-            {
-              "fingerprint": 2329899139,
-              "name": "controlling.accesswidener"
-            },
-            {
-              "fingerprint": 2821843825,
-              "name": "controlling.forge.mixins.json"
-            },
-            {
-              "fingerprint": 1164462307,
-              "name": "controlling.mixins.json"
-            },
-            {
-              "fingerprint": 276332226,
-              "name": "controlling.refmap.json"
-            },
-            {
-              "fingerprint": 3144647418,
+              "fingerprint": 1177231304,
               "name": "icon.png"
             },
             {
-              "fingerprint": 2098703887,
+              "fingerprint": 3295828881,
+              "name": "modernfix-common-common-refmap.json"
+            },
+            {
+              "fingerprint": 578691777,
+              "name": "modernfix-common.mixins.json"
+            },
+            {
+              "fingerprint": 4207778025,
+              "name": "modernfix-forge-forge-refmap.json"
+            },
+            {
+              "fingerprint": 263726826,
+              "name": "modernfix-forge.mixins.json"
+            },
+            {
+              "fingerprint": 1325599026,
+              "name": "modernfix"
+            },
+            {
+              "fingerprint": 1650303893,
+              "name": "org"
+            },
+            {
+              "fingerprint": 88923539,
               "name": "pack.mcmeta"
             }
           ],
           "isServerPack": false,
           "hashes": [
             {
-              "value": "f6d3cdd3ec68c5590cf5b2e89c38dbf031824bfd",
+              "value": "daeccb1fbe1d67d426fcc8135cfff463ff0f7e1d",
               "algo": 1
             },
             {
-              "value": "952274bc9994bba9733e8747558f73fa",
+              "value": "1d729a283f14fdbf1021ff4f0c88b0ec",
               "algo": 2
             }
           ],
@@ -10007,35 +11776,385 @@
             "1.20.1",
             "Forge"
           ],
-          "fileFingerprint": 2144346557,
-          "modId": 250398
+          "fileFingerprint": 1692886251,
+          "modId": 790626
+        },
+        "modrinthProject": {
+          "id": "nmDcB62a",
+          "slug": "modernfix",
+          "project_type": "mod",
+          "team": "xw684WUq",
+          "title": "ModernFix",
+          "description": "All-in-one mod that improves performance, reduces memory usage, and fixes many bugs. Compatible with all your favorite performance mods!",
+          "body": "![Banner image](https://cdn-raw.modrinth.com/data/nmDcB62a/images/3c7be090404ebfed497b04aec8b4cd7cc1aac7ca.png)\n\n[![Donate](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/kofi-singular_vector.svg)](https://ko-fi.com/embeddedt)\n[![Available for Fabric](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/fabric_vector.svg)](https://modrinth.com/mod/modernfix/versions?l=fabric)\n[![Available for Forge](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/forge_vector.svg)](https://modrinth.com/mod/modernfix/versions?l=forge)\n[![Join the Discord](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-plural_vector.svg)](https://discord.gg/rN9Y7caguP)\n\nModernFix is an all-in-one mod that **improves performance, reduces memory usage, and fixes many bugs** in modern Minecraft versions (most versions including and above 1.16 are supported)\nwithout majorly compromising the game experience. Most Forge 1.16-1.19.2 modpacks will launch **roughly twice as fast** with ModernFix installed.\nIf some non-default options are enabled, it can even allow large modpacks like All The Mods 8 to run with **3GB or less of allocated memory**.\n\nModernFix is free, open-source software. All of the code is available on [the GitHub repository](https://github.com/embeddedt/ModernFix).\n\n## ⚙️ Technical summary\n\nWhat exactly does ModernFix do for your game? There are a lot of tweaks being made - too many to summarize here. However, here is a\nbrief summary of the general types of improvements being made:\n\n* Backports of bugfixes from newer versions of Minecraft and/or Forge, e.g. fixing\n[worlds breaking when you remove a dimension mod in 1.18](https://github.com/MinecraftForge/MinecraftForge/issues/8800).\n* Patches to mods that are no longer supported on a given Minecraft version, to improve the gameplay experience instead of requiring\nplayers to update.\n* Many optimizations & improvements to the game's launch process to significantly improve speed and reduce random concurrency crashes.\n* Additional debug tools to help modders and players determine the cause of some rare game crashes/freezes, instead of relying on a painful\nmod bisection process.\n* It's not enabled by default due to compatibility issues, but ModernFix includes functionality to [completely redesign the game's model loading system](https://github.com/embeddedt/ModernFix/wiki/Dynamic-Resources-FAQ), replacing it with a new,\ndynamic version that loads models on the fly. Model loading is one of the major performance regressions to modded Minecraft that\nhas been present since 1.8, and this new system alleviates nearly all of the downsides, bringing memory usage and loading times\nmore in line with how they were in 1.7.10.\n* Need to play the game with very little RAM allocated (e.g. 512MB or less)? [Now you can do that.](https://github.com/embeddedt/ModernFix/wiki/Ultra%E2%80%90Low-Memory-Footprint)\n\nIf you are technically savvy and looking for more details on each patch, I recommend reading the [Summary of Patches](https://github.com/embeddedt/ModernFix/wiki/Summary-of-Patches) wiki page.\n\n## 🐛 Where to go when something doesn't work\n\nPlease either report an issue on [GitHub](https://github.com/embeddedt/ModernFix), or join the [Discord](https://discord.gg/rN9Y7caguP) and ask in the `#modernfix-discussion` channel.\nBe sure to mention the Minecraft version, modloader, and ModernFix version you are using, as well as what other mods you have installed.\n\n## 🎁 How can I support this project?\n\nThere are two main ways you can help support the development of ModernFix:\n\n* Spread the word! Test ModernFix in modpacks and encourage them to include it.\n* If you feel generous, I do accept donations via [Ko-fi](https://ko-fi.com/embeddedt). Donating is not required (as ModernFix is free),\nbut every little bit helps. I work on ModernFix in my spare time, so any compensation I receive helps to sustain development.\n\n## ❓ What other mods should I use?\n\nThere are many performance mods available for Minecraft and I can't list them all here, but here are some essential mods, in my opinion:\n\n- On any version before 1.19.4 you should always have LazyDFU installed, as it eliminates the incredible lag caused by the DFU system.\n- On any version before 1.20 you should generally use Starlight unless it has a compatibility issue with your mods (which is quite rare).\nIt offers vastly improved lighting performance and can also fix FPS stutters when moving between chunks.\n- Always have FerriteCore installed, as Mojang's implementation of blockstates/models is laughably inefficient, and quickly\nconsumes RAM as soon as more content is added beyond what vanilla offers.\n- Install a mod like Shutup Experimental settings (before 1.19) or Yeetus Experimentus (1.19+). These mods will suppress the\npop-up screen about experimental game features, which otherwise causes the game to reload its resources twice.\n\nOn a related note: I do **not** recommend use of OptiFine in any modded scenario. It is closed-source, patches the game in a way that easily breaks\nForge and other mods, and significantly slows down game launching, often on the order of minutes. Please try Sodium (on Fabric) or Embeddium (on Forge) instead!\nUsing OptiFine with ModernFix is not officially supported, and may cause issues.\n\n## 🖥️ Need a Minecraft server? Consider CreeperHost!\n![Use code taumc-qk0 for 10% off](https://cdn.modrinth.com/data/cached_images/c537b7f7d52aee93c4c2f3990a0a305da38ce041.jpeg)",
+          "published": "2023-04-16T20:56:18.092938Z",
+          "updated": "2025-08-01T23:00:08.205986Z",
+          "status": "approved",
+          "license": {
+            "id": "LGPL-3.0-only",
+            "name": "GNU Lesser General Public License v3.0 only"
+          },
+          "client_side": "optional",
+          "server_side": "optional",
+          "categories": [
+            "optimization",
+            "utility"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/nmDcB62a/2af94de5e08ae54567ee86b968fc7ce076d9fee5_96.webp",
+          "issues_url": "https://github.com/embeddedt/ModernFix/issues",
+          "source_url": "https://github.com/embeddedt/ModernFix",
+          "wiki_url": "https://github.com/embeddedt/ModernFix/wiki",
+          "discord_url": "https://discord.gg/rN9Y7caguP",
+          "donation_urls": [
+            {
+              "id": "ko-fi",
+              "platform": "Ko-fi",
+              "url": "https://ko-fi.com/embeddedt"
+            }
+          ],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/nmDcB62a/images/2decaf4ab22bd38aa4ca39424bc1ec007fb70366_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/nmDcB62a/images/3c7be090404ebfed497b04aec8b4cd7cc1aac7ca.png",
+              "featured": true,
+              "created": "2023-07-14T02:11:55.058630Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/nmDcB62a/images/9d42b40a72ac5354649791dd9515e8fac6b1834e_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/nmDcB62a/images/e9e46236d19c109f147bee72cededf4176c8a657.png",
+              "featured": false,
+              "title": "Lower memory usage",
+              "description": "Forge 1.16.5 running (just!) with only 200MB of RAM allocated",
+              "created": "2023-04-16T21:01:34.623057Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "CixO1IdG",
+          "project_id": "nmDcB62a",
+          "author_id": "6bGskxLV",
+          "name": "5.24.4+mc1.20.1",
+          "version_number": "5.24.4+mc1.20.1",
+          "changelog": "Depending on the size of this release, there may be a human-readable changelog available on [the wiki page](https://github.com/embeddedt/ModernFix/wiki/Changelog).\n\n## Changes since 5.24.3+1.20.1\n\n  * [Patch concurrency issue in ForgeRegistryTagManager](https://github.com/embeddedt/ModernFix/commit/87c977a3e6e3bfbda45a805642d94ebffb29ce14) - embeddedt\n",
+          "date_published": "2025-08-01T23:00:08.205986Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "daeccb1fbe1d67d426fcc8135cfff463ff0f7e1d",
+                "sha512": "8feb0282084196571489b6c1005c32ce4a3f03a6bff05c2cfe448677e4e36d6580f5f0eb428ef839de1dd9c307bfbd15567fd508fb405d2ae7eaec90796e9b14"
+              },
+              "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/CixO1IdG/modernfix-forge-5.24.4%2Bmc1.20.1.jar",
+              "filename": "modernfix-forge-5.24.4+mc1.20.1.jar",
+              "primary": true,
+              "size": 880557
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
         }
       },
       {
-        "name": "FindMe",
-        "version": "findme-3.2.3-forge.jar",
+        "name": "FerriteCore ((Neo)Forge)",
+        "version": "ferritecore-6.0.1-forge.jar",
         "optional": true,
-        "file": "findme-3.2.3-forge.jar",
+        "file": "ferritecore-6.0.1-forge.jar",
         "type": "mods",
-        "description": "Search for an item in nearby inventories",
+        "description": "Memory usage optimizations",
         "disabled": false,
         "userAdded": true,
         "wasSelected": true,
         "skipped": false,
-        "curseForgeProjectId": 291936,
-        "curseForgeFileId": 7069249,
+        "curseForgeProjectId": 429235,
+        "curseForgeFileId": 4810975,
         "curseForgeProject": {
-          "id": 291936,
-          "name": "FindMe",
+          "id": 429235,
+          "name": "FerriteCore ((Neo)Forge)",
           "authors": [
             {
-              "id": 9564587,
-              "name": "Buuz135",
-              "url": "https://www.curseforge.com/members/buuz135"
+              "id": 23615989,
+              "name": "malte0811",
+              "url": "https://www.curseforge.com/members/malte0811"
             }
           ],
           "gameId": 432,
-          "summary": "Search for an item in nearby inventories",
+          "summary": "Memory usage optimizations",
+          "categories": [
+            {
+              "name": "Performance",
+              "slug": "performance",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/performance",
+              "dateModified": "2024-01-16T06:56:01.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 6814,
+              "iconUrl": "https://media.forgecdn.net/avatars/933/987/638409849610531091.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 6814,
+          "classId": 6,
+          "slug": "ferritecore",
+          "isFeatured": false,
+          "dateModified": "2025-10-03T13:28:44.12Z",
+          "dateCreated": "2020-12-30T12:29:46.167Z",
+          "dateReleased": "2025-10-03T13:22:59.87Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ferritecore",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/malte0811/FerriteCore/issues",
+            "sourceUrl": "https://github.com/malte0811/FerriteCore"
+          },
+          "logo": {
+            "id": 323941,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/323/941/256/256/637438748346113688.jpeg",
+            "title": "637438748346113688.jpeg",
+            "url": "https://media.forgecdn.net/avatars/323/941/637438748346113688.jpeg",
+            "modId": 429235
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 7061593
+        },
+        "curseForgeFile": {
+          "id": 4810975,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "ferritecore-6.0.1-forge.jar",
+          "fileName": "ferritecore-6.0.1-forge.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2023-10-22T13:35:16.597Z",
+          "fileLength": 123034,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 1894755165,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 898425990,
+              "name": "malte0811"
+            },
+            {
+              "fingerprint": 2656421278,
+              "name": "ferritecore.blockstatecache.mixin.json"
+            },
+            {
+              "fingerprint": 3081362880,
+              "name": "ferritecore.dedupbakedquad.mixin.json"
+            },
+            {
+              "fingerprint": 1442370142,
+              "name": "ferritecore.dedupmultipart.mixin.json"
+            },
+            {
+              "fingerprint": 3545426013,
+              "name": "ferritecore.fastmap.mixin.json"
+            },
+            {
+              "fingerprint": 3718778430,
+              "name": "ferritecore.modelsides.mixin.json"
+            },
+            {
+              "fingerprint": 3344989000,
+              "name": "ferritecore.mrl.mixin.json"
+            },
+            {
+              "fingerprint": 2801144224,
+              "name": "ferritecore.predicates.mixin.json"
+            },
+            {
+              "fingerprint": 4027117364,
+              "name": "ferritecore.threaddetec.mixin.json"
+            },
+            {
+              "fingerprint": 2484448736,
+              "name": "googleaccess"
+            },
+            {
+              "fingerprint": 3369927219,
+              "name": "logo.png"
+            },
+            {
+              "fingerprint": 2809587253,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 36475463,
+              "name": "roadrunner.overrides.properties"
+            },
+            {
+              "fingerprint": 2285274734,
+              "name": "ferritecore.refmap.json"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "417fb6ce8f52abf40bd9d0390371790f9576f8ba",
+              "algo": 1
+            },
+            {
+              "value": "f52f538207a4829d7060550092ce2383",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020",
+              "gameVersion": "1.20",
+              "gameVersionReleaseDate": "2023-06-07T00:00:00Z",
+              "gameVersionName": "1.20"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Server"
+            }
+          ],
+          "gameVersions": [
+            "Client",
+            "NeoForge",
+            "1.20.1",
+            "Forge",
+            "1.20",
+            "Server"
+          ],
+          "fileFingerprint": 2683111440,
+          "modId": 429235
+        },
+        "modrinthProject": {
+          "id": "uXXizFIs",
+          "slug": "ferrite-core",
+          "project_type": "mod",
+          "team": "2JhABx1f",
+          "title": "FerriteCore",
+          "description": "Memory usage optimizations",
+          "body": "This mod reduces the memory usage of Minecraft in a few different ways. A high-level technical description of the changes is available [here](https://github.com/malte0811/FerriteCore/blob/main/summary.md).\n\nThe amount of memory saved will depend on the pack. In version 2.5.9 of [All Of Fabric 3](https://www.curseforge.com/minecraft/modpacks/all-of-fabric-3) it reduces the RAM usage (heap size) from 1,792 MB to 984 MB. For comparison the same setup with Hydrogen instead of FerriteCore uses 1,335 MB.  \nThese values were measured after generating a world with a fixed seed and waiting for two minutes.\nThe project picture is a cropped version of [this](https://commons.wikimedia.org/wiki/File:Magnetic-core_memory,_at_angle.jpg) picture.\n\n### FAQ\n\n#### Should I install this on the server or just on the client?\n\nSome optimizations are client-side only, but there are some rather high-impact optimizations that are relevant on the server too. So you should install it on both sides.\n\n#### Is this compatible with [other mod]?\n\nMost likely yes. The only exception is Hydrogen, which is compatible with all recent FerriteCore versions *on Minecraft versions where Hydrogen is officially released*. This means that 1.18+ builds are not compatible with Hydrogen, since it has been officially archived and won't receive any releases on these versions.",
+          "published": "2021-04-03T07:04:43.971189Z",
+          "updated": "2025-10-03T13:23:00.372151Z",
+          "status": "approved",
+          "license": {
+            "id": "MIT",
+            "name": "MIT License"
+          },
+          "client_side": "optional",
+          "server_side": "optional",
+          "categories": [
+            "optimization",
+            "utility"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge",
+            "quilt"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/uXXizFIs/222a126f26f8f9ae1eb339f3b767677f18bff31f_96.webp",
+          "issues_url": "https://github.com/malte0811/FerriteCore/issues",
+          "source_url": "https://github.com/malte0811/FerriteCore",
+          "donation_urls": [],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "DG5Fn9Sz",
+          "project_id": "uXXizFIs",
+          "author_id": "cXzLZ8YY",
+          "name": "6.0.1 (Forge)",
+          "version_number": "6.0.1",
+          "changelog": "- Fix performance issue in quad deduplication in some corner cases\n- Slightly improve memory usage for blocks with only one state",
+          "date_published": "2023-10-22T13:40:26.306516Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "a1960a7c03dc32d4ccaccaf28afdd9b078758bbd62d15a91d4039a83fa9397a098e89b69591f6bd5190254d9ee97e502504154b9aec764adb8c65f000b75ba2c",
+                "sha1": "417fb6ce8f52abf40bd9d0390371790f9576f8ba"
+              },
+              "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/DG5Fn9Sz/ferritecore-6.0.1-forge.jar",
+              "filename": "ferritecore-6.0.1-forge.jar",
+              "primary": true,
+              "size": 123034
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20",
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ]
+        }
+      },
+      {
+        "name": "Jade 🔍",
+        "version": "[Forge 1.20.1] 11.13.2",
+        "optional": true,
+        "file": "Jade-1.20.1-Forge-11.13.2.jar",
+        "type": "mods",
+        "description": "Shows information about what you are looking at. (Hwyla/WAILA fork for Minecraft 1.16+)",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 324717,
+        "curseForgeFileId": 6855440,
+        "curseForgeProject": {
+          "id": 324717,
+          "name": "Jade 🔍",
+          "authors": [
+            {
+              "id": 21286654,
+              "name": "Snownee",
+              "url": "https://www.curseforge.com/members/snownee"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Shows information about what you are looking at. (Hwyla/WAILA fork for Minecraft 1.16+)",
           "categories": [
             {
               "name": "Map and Information",
@@ -10048,94 +12167,217 @@
               "iconUrl": "https://media.forgecdn.net/avatars/6/38/635351497437388438.png",
               "parentCategoryId": 6,
               "classId": 6
+            },
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
             }
           ],
           "status": 4,
           "primaryCategoryId": 423,
           "classId": 6,
-          "slug": "findme",
+          "slug": "jade",
           "isFeatured": false,
-          "dateModified": "2025-10-05T13:07:38.76Z",
-          "dateCreated": "2018-04-10T16:20:09.96Z",
-          "dateReleased": "2025-10-05T11:30:16.49Z",
+          "dateModified": "2025-10-21T09:40:26.503Z",
+          "dateCreated": "2019-06-19T06:14:57.25Z",
+          "dateReleased": "2025-10-21T09:37:25.433Z",
           "links": {
-            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/findme",
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/jade",
             "wikiUrl": "",
-            "issuesUrl": "https://github.com/Buuz135/FindMe/issues",
-            "sourceUrl": "https://github.com/Buuz135/FindMe"
+            "issuesUrl": "https://github.com/Snownee/Jade/issues?q=is%3Aissue",
+            "sourceUrl": "https://github.com/Snownee/Jade"
           },
           "logo": {
-            "id": 149484,
+            "id": 207323,
             "description": "",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/149/484/256/256/636589738152406559.png",
-            "title": "636589738152406559.png",
-            "url": "https://media.forgecdn.net/avatars/149/484/636589738152406559.png",
-            "modId": 291936
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/207/323/256/256/636965628804677340.png",
+            "title": "636965628804677340.png",
+            "url": "https://media.forgecdn.net/avatars/207/323/636965628804677340.png",
+            "modId": 324717
           },
           "allowModDistribution": true,
-          "screenshots": [],
-          "mainFileId": 7067296
+          "screenshots": [
+            {
+              "id": 546809,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/546/809/310/172/6.gif",
+              "title": "Breaking Progress",
+              "url": "https://media.forgecdn.net/attachments/546/809/6.gif",
+              "modId": 324717
+            },
+            {
+              "id": 291527,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/291/527/310/172/tim20200511195706.png",
+              "title": "Command Block",
+              "url": "https://media.forgecdn.net/attachments/291/527/tim20200511195706.png",
+              "modId": 324717
+            },
+            {
+              "id": 291526,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/291/526/310/172/tim20200511195756.png",
+              "title": "Armor Stand",
+              "url": "https://media.forgecdn.net/attachments/291/526/tim20200511195756.png",
+              "modId": 324717
+            },
+            {
+              "id": 291525,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/291/525/310/172/tim20200511195806.png",
+              "title": "Hide Mod Name",
+              "url": "https://media.forgecdn.net/attachments/291/525/tim20200511195806.png",
+              "modId": 324717
+            },
+            {
+              "id": 291524,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/291/524/310/172/tim20200511195729.png",
+              "title": "Painting",
+              "url": "https://media.forgecdn.net/attachments/291/524/tim20200511195729.png",
+              "modId": 324717
+            },
+            {
+              "id": 291523,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/291/523/310/172/tim20200511195815.png",
+              "title": "Note Block",
+              "url": "https://media.forgecdn.net/attachments/291/523/tim20200511195815.png",
+              "modId": 324717
+            },
+            {
+              "id": 291522,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/291/522/310/172/tim20200511195823.png",
+              "title": "Beehive",
+              "url": "https://media.forgecdn.net/attachments/291/522/tim20200511195823.png",
+              "modId": 324717
+            },
+            {
+              "id": 291521,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/291/521/310/172/tim20200511195828.png",
+              "title": "TNT",
+              "url": "https://media.forgecdn.net/attachments/291/521/tim20200511195828.png",
+              "modId": 324717
+            },
+            {
+              "id": 254867,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/254/867/310/172/2019-06-19_18.png",
+              "title": "mob effects",
+              "url": "https://media.forgecdn.net/attachments/254/867/2019-06-19_18.png",
+              "modId": 324717
+            },
+            {
+              "id": 254866,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/254/866/310/172/2019-06-19_18.png",
+              "title": "horse stats",
+              "url": "https://media.forgecdn.net/attachments/254/866/2019-06-19_18.png",
+              "modId": 324717
+            },
+            {
+              "id": 254865,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/254/865/310/172/2019-06-19_18.png",
+              "title": "chest",
+              "url": "https://media.forgecdn.net/attachments/254/865/2019-06-19_18.png",
+              "modId": 324717
+            },
+            {
+              "id": 254864,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/254/864/310/172/2019-06-19_18.png",
+              "title": "item frame",
+              "url": "https://media.forgecdn.net/attachments/254/864/2019-06-19_18.png",
+              "modId": 324717
+            },
+            {
+              "id": 254863,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/254/863/310/172/2019-06-19_18.png",
+              "title": "brewing stand",
+              "url": "https://media.forgecdn.net/attachments/254/863/2019-06-19_18.png",
+              "modId": 324717
+            }
+          ],
+          "mainFileId": 7056475
         },
         "curseForgeFile": {
-          "id": 7069249,
+          "id": 6855440,
           "gameId": 432,
           "isAvailable": true,
-          "displayName": "findme-3.2.3-forge.jar",
-          "fileName": "findme-3.2.3-forge.jar",
-          "releaseType": 2,
+          "displayName": "[Forge 1.20.1] 11.13.2",
+          "fileName": "Jade-1.20.1-Forge-11.13.2.jar",
+          "releaseType": 1,
           "fileStatus": 4,
-          "fileDate": "2025-10-05T11:20:34.223Z",
-          "fileLength": 38674,
+          "fileDate": "2025-08-06T14:19:52.7Z",
+          "fileLength": 552486,
           "dependencies": [
             {
               "fileId": 0,
-              "modId": 419699,
-              "relationType": 3
+              "modId": 238222,
+              "relationType": 2
             }
           ],
-          "alternateFileId": 7069250,
+          "alternateFileId": 0,
           "modules": [
             {
-              "fingerprint": 4116041733,
+              "fingerprint": 2005966653,
               "name": "META-INF"
             },
             {
-              "fingerprint": 4173326662,
-              "name": "architectury_inject_FindMe_common_1ff98634938a4fd5b5c3919e05d60d66_f9a7f111e9bf489e013e9f75d5b679ad8a8c5dfa0b18d4c96b1e2059d640cc86findme323devjar"
-            },
-            {
-              "fingerprint": 2118437723,
+              "fingerprint": 302840028,
               "name": "assets"
             },
             {
-              "fingerprint": 2286025963,
-              "name": "com"
+              "fingerprint": 1859719455,
+              "name": "icon.png"
             },
             {
-              "fingerprint": 3500356806,
-              "name": "findme-common-refmap.json"
+              "fingerprint": 2828855055,
+              "name": "jade.mixins.json"
             },
             {
-              "fingerprint": 1221427865,
-              "name": "findme-common.mixins.json"
+              "fingerprint": 522654571,
+              "name": "jade.refmap.json"
             },
             {
-              "fingerprint": 413093225,
+              "fingerprint": 316591136,
               "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 406420827,
+              "name": "snownee"
             }
           ],
           "isServerPack": false,
           "hashes": [
             {
-              "value": "7b46df9e34d81bb678e9547a662cca15a04855e5",
+              "value": "1997e5fe2db3a0575ca79bfe4720019f01fd2b8c",
               "algo": 1
             },
             {
-              "value": "a563ab1b502b94fe033fb130a4ef4543",
+              "value": "7c349670f77fd64b9e9854c4a8d82fcc",
               "algo": 2
             }
           ],
           "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
             {
               "gameVersionPadded": "0000000001.0000000020.0000000001",
               "gameVersion": "1.20.1",
@@ -10147,137 +12389,157 @@
               "gameVersion": "",
               "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
               "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020",
+              "gameVersion": "1.20",
+              "gameVersionReleaseDate": "2023-06-07T00:00:00Z",
+              "gameVersionName": "1.20"
             }
           ],
           "gameVersions": [
+            "NeoForge",
             "1.20.1",
-            "Forge"
+            "Forge",
+            "1.20"
           ],
-          "fileFingerprint": 2689955963,
-          "modId": 291936
+          "fileFingerprint": 305733389,
+          "modId": 324717
         },
         "modrinthProject": {
-          "id": "rEuzehyH",
-          "slug": "findme",
+          "id": "nvQzSEkH",
+          "slug": "jade",
           "project_type": "mod",
-          "team": "RSDQJmyI",
-          "title": "FindMe",
-          "description": "Search for an item in nearby inventories",
-          "body": "# FindMe\nFindMe allows you to search for items in nearby inventories by pressing a key. For that you simply need to hover over an item (JEI Compatible) and press \"Y\" (By default) and cloud particles will spawn in the inventories that have that item.\n\nThe range can be configured in the config.\n\nThis mod needs to be in the client and the server\n\nThis feature is based in the search feature from [Extra Utilites 2](https://www.curseforge.com/minecraft/mc-mods/extra-utilities).\n\n![Video demonstration showing how FindMe works](https://cdn.modrinth.com/data/rEuzehyH/images/977b165fddf6b574f8be72a75e7f35969fe0bd09.gif)\n\n<p style=\"text-align:center\"><img src=\"https://cdn.worldvectorlogo.com/logos/discord.svg\" alt=\"\" width=\"32\" height=\"37\">&nbsp;<a href=\"https://discord.gg/4tPfwjn\" rel=\"nofollow\">Discord</a>&nbsp; &nbsp; &nbsp;<img src=\"http://www.djmaclennan.com/wp-content/uploads/2017/06/patreon_logo.png\" alt=\"\" width=\"32\" height=\"32\">&nbsp;<a href=\"https://www.patreon.com/buuz135\" rel=\"nofollow\">Patreon</a> &nbsp; &nbsp; <img src=\"https://cdn3.iconfinder.com/data/icons/social-icons-5/606/Twitter.png\" alt=\"\" width=\"32\" height=\"32\"> <a href=\"https://twitter.com/Buuz135mods\" rel=\"nofollow\">Twitter </a></p>\n\n<center>\n\n[![CreeperHost promotion - Use code buuz135tlx for 10% off your first month](https://cdn.modrinth.com/data/rEuzehyH/images/6e3da99052c292fa3f7906aa6bd4077e83ca927f.png)](https://www.creeperhost.net/partner/buuz135tlx\n)\n\n</center>",
-          "published": "2023-08-17T14:56:25.123191Z",
-          "updated": "2025-10-05T11:30:19.989940Z",
+          "team": "UadxHcYS",
+          "title": "Jade 🔍",
+          "description": "Shows information about what you are looking at. (Hwyla/Waila fork for Minecraft 1.16+)",
+          "body": "# Jade 🔍\n\n<center><img src=\"https://cdn.modrinth.com/data/nvQzSEkH/images/7d10e9c837c33d81b39950fb2f7bacc85df92ee3.gif\"/></center>\n\nJade is the information HUD mod - Hwyla/Waila for modern Minecraft versions. Designed for better user experience and API.\n\nJade can be installed only on the client side. But many features require Jade on the server side. (item storage, brewing stand fuel amount, bees in beehive...)\n\n**For mod integration, try Jade Addons: [NeoForge](https://modrinth.com/mod/jade-addons-forge)  [Fabric](https://modrinth.com/mod/jade-addons-fabric)**\n\n### Keys (default):\n\n - Keypad 0: Open configuration screen\n - Keypad 1: Toggle overlay\n - Keypad 2: Toggle liquid display\n - Keypad 3: Show recipes (Requires JEI)\n - Keypad 4: Show uses (Requires JEI)\n - Keypad 5: Narrate target\n\n### Notable changes compared to Hwyla:\n\n - API re-design\n - More vanilla addons\n - Higher configurability\n - Better accessibility\n\n[![Interested in supporting me and the development of mods? BisectHosting is the perfect solution. New customers can use the promotion code \"snownee\" to get a 25% discount on their first month of a gaming server. With 24/7 support and fast response times, you can expect top-notch service for all your gaming needs.](https://www.bisecthosting.com/partners/custom-banners/e826c64b-9e14-433d-a083-26f659f8a41c.webp)](https://rb.gy/oktbru)\n\nAs required by the original project Hwyla, Jade utilizes the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) license.\n",
+          "published": "2021-09-18T08:14:16.544897Z",
+          "updated": "2025-10-21T09:37:39.401297Z",
           "status": "approved",
           "license": {
-            "id": "MIT",
-            "name": "MIT License"
+            "id": "CC-BY-NC-SA-4.0",
+            "name": "Creative Commons Attribution Non Commercial Share Alike 4.0 International"
           },
-          "client_side": "required",
-          "server_side": "required",
+          "client_side": "optional",
+          "server_side": "optional",
           "categories": [
             "utility"
           ],
           "loaders": [
             "fabric",
             "forge",
-            "neoforge"
+            "neoforge",
+            "quilt"
           ],
-          "icon_url": "https://cdn.modrinth.com/data/rEuzehyH/ab35d694ae791b791f606484c6e1c235074e8598_96.webp",
-          "issues_url": "https://github.com/Buuz135/FindMe/issues",
-          "source_url": "https://github.com/Buuz135/FindMe",
-          "discord_url": "https://discord.gg/4tPfwjn",
+          "icon_url": "https://cdn.modrinth.com/data/nvQzSEkH/b04217bc2b7dc524c4d12f81ff42cc1cefb9b0fc_96.webp",
+          "issues_url": "https://github.com/Snownee/Jade/issues?q=is%3Aissue",
+          "source_url": "https://github.com/Snownee/Jade",
           "donation_urls": [
+            {
+              "id": "ko-fi",
+              "platform": "Ko-fi",
+              "url": "https://ko-fi.com/snownee"
+            },
             {
               "id": "patreon",
               "platform": "Patreon",
-              "url": "https://www.patreon.com/buuz135"
+              "url": "https://www.patreon.com/snownee"
             }
           ],
           "gallery": [
             {
-              "url": "https://cdn.modrinth.com/data/rEuzehyH/images/977b165fddf6b574f8be72a75e7f35969fe0bd09.gif",
-              "raw_url": "https://cdn.modrinth.com/data/rEuzehyH/images/977b165fddf6b574f8be72a75e7f35969fe0bd09.gif",
+              "url": "https://cdn.modrinth.com/data/nvQzSEkH/images/0bf8da81675d890d2bccba0ed0f51a0fabef5267.png",
+              "raw_url": "https://cdn.modrinth.com/data/nvQzSEkH/images/0bf8da81675d890d2bccba0ed0f51a0fabef5267.png",
               "featured": false,
-              "title": "Demonstration",
-              "description": "Video showing how FindMe works",
-              "created": "2023-08-17T14:58:25.140026Z",
+              "title": "Redstone support",
+              "created": "2022-12-11T09:22:23.125333Z",
               "ordering": 0.0
             },
             {
-              "url": "https://cdn.modrinth.com/data/rEuzehyH/images/6e3da99052c292fa3f7906aa6bd4077e83ca927f.png",
-              "raw_url": "https://cdn.modrinth.com/data/rEuzehyH/images/6e3da99052c292fa3f7906aa6bd4077e83ca927f.png",
+              "url": "https://cdn.modrinth.com/data/nvQzSEkH/images/25295e11ad9a003df27cea972bffb1c1323d5e52.png",
+              "raw_url": "https://cdn.modrinth.com/data/nvQzSEkH/images/25295e11ad9a003df27cea972bffb1c1323d5e52.png",
               "featured": false,
-              "title": "CreeperHost promotion",
-              "created": "2023-08-17T15:03:31.756091Z",
-              "ordering": 1.0
+              "title": "Horse stats",
+              "created": "2022-12-11T09:22:24.186008Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/nvQzSEkH/images/4b47304960861088536652dfcc9dbf42ef59ce5e.png",
+              "raw_url": "https://cdn.modrinth.com/data/nvQzSEkH/images/4b47304960861088536652dfcc9dbf42ef59ce5e.png",
+              "featured": false,
+              "title": "Item storage",
+              "created": "2022-12-11T09:15:43.263966Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/nvQzSEkH/images/6582f2217c9ce0d9fdc694e0f945dbe2ba10b5e2.png",
+              "raw_url": "https://cdn.modrinth.com/data/nvQzSEkH/images/6582f2217c9ce0d9fdc694e0f945dbe2ba10b5e2.png",
+              "featured": false,
+              "title": "Shows targeted face, position and distance",
+              "created": "2022-12-11T09:34:30.088195Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/nvQzSEkH/images/7d10e9c837c33d81b39950fb2f7bacc85df92ee3.gif",
+              "raw_url": "https://cdn.modrinth.com/data/nvQzSEkH/images/7d10e9c837c33d81b39950fb2f7bacc85df92ee3.gif",
+              "featured": false,
+              "title": "Harvestability and mining progress",
+              "created": "2022-12-11T09:46:54.705238Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/nvQzSEkH/images/80e67bb1f4c38d64a1561a7080a663711507c4f8.png",
+              "raw_url": "https://cdn.modrinth.com/data/nvQzSEkH/images/80e67bb1f4c38d64a1561a7080a663711507c4f8.png",
+              "featured": false,
+              "title": "Shows item names in inventory",
+              "created": "2022-12-11T09:22:25.339079Z",
+              "ordering": 0.0
             }
           ]
         },
         "modrinthVersion": {
-          "id": "kmUvAUwY",
-          "project_id": "rEuzehyH",
-          "author_id": "pQYddRBy",
-          "name": "1.20.1-3.2.3",
-          "version_number": "1.20.1-3.2.3",
-          "changelog": "https://github.com/Buuz135/FindMe/commits/1.20",
-          "date_published": "2025-10-05T11:20:38.668451Z",
-          "version_type": "beta",
+          "id": "LecuGude",
+          "project_id": "nvQzSEkH",
+          "author_id": "UxbEV316",
+          "name": "[Forge 1.20.1] 11.13.2",
+          "version_number": "11.13.2+forge",
+          "changelog": "## 11.13.2\n\n- fix: modded bossbar offset ([#645](https://github.com/Snownee/Jade/issues/645))\n- fix: MobSpawnerProvider CCE (close [#605](https://github.com/Snownee/Jade/issues/605))\n- improve: suppress getDestroyProgress errors (close [#637](https://github.com/Snownee/Jade/issues/637))\n- Update uk_ua.json ([#609](https://github.com/Snownee/Jade/issues/609))\n- fix: Jade cannot be built locally (close [#540](https://github.com/Snownee/Jade/issues/540))\n\n## 11.13.1\n\n- fix: workaround to blame jade addons\n\n## 11.13.0\n\n- feat: filter large bitmap glyphs (close: [#502](https://github.com/Snownee/Jade/issues/502))\n- improve: blame the correct mod 2.0\n\n## 11.12.3\n\n- fix: extension provider lookup (close [#523](https://github.com/Snownee/Jade/issues/523))\n\n## 11.12.2\n\n- fix: CME when registering keybinds (close [#497](https://github.com/Snownee/Jade/issues/497))\n\n## 11.12.1\n\n- fix: remove appending mod name code that seems pointless (close: [#480](https://github.com/Snownee/Jade/issues/480))\n- fix: incompatibility with Leawind's Third Person (close: [#387](https://github.com/Snownee/Jade/issues/387))\n",
+          "date_published": "2025-08-06T14:20:00.809085Z",
+          "version_type": "release",
           "files": [
             {
               "hashes": {
-                "sha1": "7b46df9e34d81bb678e9547a662cca15a04855e5",
-                "sha512": "99ec2055022dc58ed17547ca6ffea0694cfa9692f5703d3113f3821892c130661dfa6466e6a6f69e5f9bf22aa6b8165a0e87bdbfdf11635a960af6815c5cf201"
+                "sha512": "612c7535d28ae0cb336f31b790770b3dcb5173d496fb74eabcb28d06e3b88e72733128060cefc4ae4147cce528a8e8c09688a36d8f9e11dbf77e93d89b743560",
+                "sha1": "1997e5fe2db3a0575ca79bfe4720019f01fd2b8c"
               },
-              "url": "https://cdn.modrinth.com/data/rEuzehyH/versions/kmUvAUwY/findme-3.2.3-forge.jar",
-              "filename": "findme-3.2.3-forge.jar",
+              "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/LecuGude/Jade-1.20.1-Forge-11.13.2.jar",
+              "filename": "Jade-1.20.1-Forge-11.13.2.jar",
               "primary": true,
-              "size": 38674
-            },
-            {
-              "hashes": {
-                "sha1": "a261f7a0b23c34a5b82e2e24caa98899e8837e2a",
-                "sha512": "913e39276a27a1baf70edd6c1916fc910e12cd568b412b66545cd8de885cfba3cd8a496dd7f71d7aea40c44de1d84863555e003f19292abe6ad0816fdf5e70aa"
-              },
-              "url": "https://cdn.modrinth.com/data/rEuzehyH/versions/kmUvAUwY/findme-3.2.3-dev-shadow.jar",
-              "filename": "findme-3.2.3-dev-shadow.jar",
-              "primary": false,
-              "size": 37197
-            },
-            {
-              "hashes": {
-                "sha512": "d015ea5e20f79f10ecec5486a949b97b7c7fe785e2c3b0e8e9e8e1c7236610ce0484c5a96722a9ff45a6f583aa7ea8dff1b79d3890b46fac4afb14b18759bd36",
-                "sha1": "81d531cb3f0c9201648c392efc42d810916d2247"
-              },
-              "url": "https://cdn.modrinth.com/data/rEuzehyH/versions/kmUvAUwY/findme-3.2.3-sources.jar",
-              "filename": "findme-3.2.3-sources.jar",
-              "primary": false,
-              "size": 18734
+              "size": 552486
             }
           ],
           "dependencies": [
             {
-              "project_id": "lhGA9TYQ",
-              "dependency_type": "required"
+              "project_id": "u6dRKJwZ",
+              "dependency_type": "optional"
             }
           ],
           "game_versions": [
+            "1.20",
             "1.20.1"
           ],
           "loaders": [
-            "forge"
+            "forge",
+            "neoforge"
           ]
         }
-=======
->>>>>>> Stashed changes
       }
     ],
     "ignoredUpdates": [],
     "ignoreAllUpdates": false,
     "vanillaInstance": true,
-<<<<<<< Updated upstream
-    "lastPlayed": 1762028425855,
-=======
     "lastPlayed": 1762028424797,
->>>>>>> Stashed changes
     "numPlays": 3
   },
   "id": "1.20.1",
