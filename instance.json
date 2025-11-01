@@ -9095,13 +9095,615 @@
             "neoforge"
           ]
         }
+      },
+      {
+        "name": "Searchables",
+        "version": "Searchables-forge-1.20.1-1.0.3.jar",
+        "optional": true,
+        "file": "Searchables-forge-1.20.1-1.0.3.jar",
+        "type": "mods",
+        "description": "Searchables is a library mod that adds helper methods that allow for searching and filtering elements based on components, as well as offering built in auto-complete functionality.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 858542,
+        "curseForgeFileId": 5284015,
+        "curseForgeProject": {
+          "id": 858542,
+          "name": "Searchables",
+          "authors": [
+            {
+              "id": 10618648,
+              "name": "Jaredlll08",
+              "url": "https://www.curseforge.com/members/jaredlll08"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Searchables is a library mod that adds helper methods that allow for searching and filtering elements based on components, as well as offering built in auto-complete functionality.",
+          "categories": [
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Map and Information",
+              "slug": "map-information",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/map-information",
+              "dateModified": "2014-05-08T17:42:23.74Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 423,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/38/635351497437388438.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 421,
+          "classId": 6,
+          "slug": "searchables",
+          "isFeatured": false,
+          "dateModified": "2025-10-13T23:41:39.893Z",
+          "dateCreated": "2023-05-09T08:32:36.86Z",
+          "dateReleased": "2025-10-13T23:37:02.587Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/searchables",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/jaredlll08/searchables/issues",
+            "sourceUrl": "https://github.com/jaredlll08/searchables"
+          },
+          "logo": {
+            "id": 814175,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/814/175/256/256/638189233295197018.png",
+            "title": "638189233295197018.png",
+            "url": "https://media.forgecdn.net/avatars/814/175/638189233295197018.png",
+            "modId": 858542
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 7104730
+        },
+        "curseForgeFile": {
+          "id": 5284015,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "Searchables-forge-1.20.1-1.0.3.jar",
+          "fileName": "Searchables-forge-1.20.1-1.0.3.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-04-23T06:56:49.313Z",
+          "fileLength": 77732,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 228048357,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 2537046719,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 4144611447,
+              "name": "com"
+            },
+            {
+              "fingerprint": 1386288080,
+              "name": "icon.png"
+            },
+            {
+              "fingerprint": 2098703887,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 2694562270,
+              "name": "searchables.forge.mixins.json"
+            },
+            {
+              "fingerprint": 518451381,
+              "name": "searchables.mixins.json"
+            },
+            {
+              "fingerprint": 1927397224,
+              "name": "searchables.refmap.json"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "ed5a23ec30c90fd06b3f1d8140614028e1fafaee",
+              "algo": 1
+            },
+            {
+              "value": "9f5418e9c08c18a375ef42fada4bcef2",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 3171281796,
+          "modId": 858542
+        }
+      },
+      {
+        "name": "Controlling",
+        "version": "Controlling-forge-1.20.1-12.0.2.jar",
+        "optional": true,
+        "file": "Controlling-forge-1.20.1-12.0.2.jar",
+        "type": "mods",
+        "description": "Adds a search bar to the Key-Bindings menu",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 250398,
+        "curseForgeFileId": 4646682,
+        "curseForgeProject": {
+          "id": 250398,
+          "name": "Controlling",
+          "authors": [
+            {
+              "id": 10618648,
+              "name": "Jaredlll08",
+              "url": "https://www.curseforge.com/members/jaredlll08"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Adds a search bar to the Key-Bindings menu",
+          "categories": [
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 5191,
+          "classId": 6,
+          "slug": "controlling",
+          "isFeatured": false,
+          "dateModified": "2025-10-10T23:25:30.287Z",
+          "dateCreated": "2016-08-28T22:31:23.857Z",
+          "dateReleased": "2025-10-10T23:22:25.457Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/controlling",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/jaredlll08/Controlling/issues",
+            "sourceUrl": "https://github.com/jaredlll08/Controlling"
+          },
+          "logo": {
+            "id": 49603,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/49/603/256/256/636079972364045115.png",
+            "title": "636079972364045115.png",
+            "url": "https://media.forgecdn.net/avatars/49/603/636079972364045115.png",
+            "modId": 250398
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 7092615
+        },
+        "curseForgeFile": {
+          "id": 4646682,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "Controlling-forge-1.20.1-12.0.2.jar",
+          "fileName": "Controlling-forge-1.20.1-12.0.2.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2023-07-16T04:39:22.697Z",
+          "fileLength": 115280,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 858542,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3343965719,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 893680386,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 3524971458,
+              "name": "com"
+            },
+            {
+              "fingerprint": 2329899139,
+              "name": "controlling.accesswidener"
+            },
+            {
+              "fingerprint": 2821843825,
+              "name": "controlling.forge.mixins.json"
+            },
+            {
+              "fingerprint": 1164462307,
+              "name": "controlling.mixins.json"
+            },
+            {
+              "fingerprint": 276332226,
+              "name": "controlling.refmap.json"
+            },
+            {
+              "fingerprint": 3144647418,
+              "name": "icon.png"
+            },
+            {
+              "fingerprint": 2098703887,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "f6d3cdd3ec68c5590cf5b2e89c38dbf031824bfd",
+              "algo": 1
+            },
+            {
+              "value": "952274bc9994bba9733e8747558f73fa",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 2144346557,
+          "modId": 250398
+        }
+      },
+      {
+        "name": "FindMe",
+        "version": "findme-3.2.3-forge.jar",
+        "optional": true,
+        "file": "findme-3.2.3-forge.jar",
+        "type": "mods",
+        "description": "Search for an item in nearby inventories",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 291936,
+        "curseForgeFileId": 7069249,
+        "curseForgeProject": {
+          "id": 291936,
+          "name": "FindMe",
+          "authors": [
+            {
+              "id": 9564587,
+              "name": "Buuz135",
+              "url": "https://www.curseforge.com/members/buuz135"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Search for an item in nearby inventories",
+          "categories": [
+            {
+              "name": "Map and Information",
+              "slug": "map-information",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/map-information",
+              "dateModified": "2014-05-08T17:42:23.74Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 423,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/38/635351497437388438.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 423,
+          "classId": 6,
+          "slug": "findme",
+          "isFeatured": false,
+          "dateModified": "2025-10-05T13:07:38.76Z",
+          "dateCreated": "2018-04-10T16:20:09.96Z",
+          "dateReleased": "2025-10-05T11:30:16.49Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/findme",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/Buuz135/FindMe/issues",
+            "sourceUrl": "https://github.com/Buuz135/FindMe"
+          },
+          "logo": {
+            "id": 149484,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/149/484/256/256/636589738152406559.png",
+            "title": "636589738152406559.png",
+            "url": "https://media.forgecdn.net/avatars/149/484/636589738152406559.png",
+            "modId": 291936
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 7067296
+        },
+        "curseForgeFile": {
+          "id": 7069249,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "findme-3.2.3-forge.jar",
+          "fileName": "findme-3.2.3-forge.jar",
+          "releaseType": 2,
+          "fileStatus": 4,
+          "fileDate": "2025-10-05T11:20:34.223Z",
+          "fileLength": 38674,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 419699,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 7069250,
+          "modules": [
+            {
+              "fingerprint": 4116041733,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 4173326662,
+              "name": "architectury_inject_FindMe_common_1ff98634938a4fd5b5c3919e05d60d66_f9a7f111e9bf489e013e9f75d5b679ad8a8c5dfa0b18d4c96b1e2059d640cc86findme323devjar"
+            },
+            {
+              "fingerprint": 2118437723,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 2286025963,
+              "name": "com"
+            },
+            {
+              "fingerprint": 3500356806,
+              "name": "findme-common-refmap.json"
+            },
+            {
+              "fingerprint": 1221427865,
+              "name": "findme-common.mixins.json"
+            },
+            {
+              "fingerprint": 413093225,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "7b46df9e34d81bb678e9547a662cca15a04855e5",
+              "algo": 1
+            },
+            {
+              "value": "a563ab1b502b94fe033fb130a4ef4543",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 2689955963,
+          "modId": 291936
+        },
+        "modrinthProject": {
+          "id": "rEuzehyH",
+          "slug": "findme",
+          "project_type": "mod",
+          "team": "RSDQJmyI",
+          "title": "FindMe",
+          "description": "Search for an item in nearby inventories",
+          "body": "# FindMe\nFindMe allows you to search for items in nearby inventories by pressing a key. For that you simply need to hover over an item (JEI Compatible) and press \"Y\" (By default) and cloud particles will spawn in the inventories that have that item.\n\nThe range can be configured in the config.\n\nThis mod needs to be in the client and the server\n\nThis feature is based in the search feature from [Extra Utilites 2](https://www.curseforge.com/minecraft/mc-mods/extra-utilities).\n\n![Video demonstration showing how FindMe works](https://cdn.modrinth.com/data/rEuzehyH/images/977b165fddf6b574f8be72a75e7f35969fe0bd09.gif)\n\n<p style=\"text-align:center\"><img src=\"https://cdn.worldvectorlogo.com/logos/discord.svg\" alt=\"\" width=\"32\" height=\"37\">&nbsp;<a href=\"https://discord.gg/4tPfwjn\" rel=\"nofollow\">Discord</a>&nbsp; &nbsp; &nbsp;<img src=\"http://www.djmaclennan.com/wp-content/uploads/2017/06/patreon_logo.png\" alt=\"\" width=\"32\" height=\"32\">&nbsp;<a href=\"https://www.patreon.com/buuz135\" rel=\"nofollow\">Patreon</a> &nbsp; &nbsp; <img src=\"https://cdn3.iconfinder.com/data/icons/social-icons-5/606/Twitter.png\" alt=\"\" width=\"32\" height=\"32\"> <a href=\"https://twitter.com/Buuz135mods\" rel=\"nofollow\">Twitter </a></p>\n\n<center>\n\n[![CreeperHost promotion - Use code buuz135tlx for 10% off your first month](https://cdn.modrinth.com/data/rEuzehyH/images/6e3da99052c292fa3f7906aa6bd4077e83ca927f.png)](https://www.creeperhost.net/partner/buuz135tlx\n)\n\n</center>",
+          "published": "2023-08-17T14:56:25.123191Z",
+          "updated": "2025-10-05T11:30:19.989940Z",
+          "status": "approved",
+          "license": {
+            "id": "MIT",
+            "name": "MIT License"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "utility"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/rEuzehyH/ab35d694ae791b791f606484c6e1c235074e8598_96.webp",
+          "issues_url": "https://github.com/Buuz135/FindMe/issues",
+          "source_url": "https://github.com/Buuz135/FindMe",
+          "discord_url": "https://discord.gg/4tPfwjn",
+          "donation_urls": [
+            {
+              "id": "patreon",
+              "platform": "Patreon",
+              "url": "https://www.patreon.com/buuz135"
+            }
+          ],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/rEuzehyH/images/977b165fddf6b574f8be72a75e7f35969fe0bd09.gif",
+              "raw_url": "https://cdn.modrinth.com/data/rEuzehyH/images/977b165fddf6b574f8be72a75e7f35969fe0bd09.gif",
+              "featured": false,
+              "title": "Demonstration",
+              "description": "Video showing how FindMe works",
+              "created": "2023-08-17T14:58:25.140026Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/rEuzehyH/images/6e3da99052c292fa3f7906aa6bd4077e83ca927f.png",
+              "raw_url": "https://cdn.modrinth.com/data/rEuzehyH/images/6e3da99052c292fa3f7906aa6bd4077e83ca927f.png",
+              "featured": false,
+              "title": "CreeperHost promotion",
+              "created": "2023-08-17T15:03:31.756091Z",
+              "ordering": 1.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "kmUvAUwY",
+          "project_id": "rEuzehyH",
+          "author_id": "pQYddRBy",
+          "name": "1.20.1-3.2.3",
+          "version_number": "1.20.1-3.2.3",
+          "changelog": "https://github.com/Buuz135/FindMe/commits/1.20",
+          "date_published": "2025-10-05T11:20:38.668451Z",
+          "version_type": "beta",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "7b46df9e34d81bb678e9547a662cca15a04855e5",
+                "sha512": "99ec2055022dc58ed17547ca6ffea0694cfa9692f5703d3113f3821892c130661dfa6466e6a6f69e5f9bf22aa6b8165a0e87bdbfdf11635a960af6815c5cf201"
+              },
+              "url": "https://cdn.modrinth.com/data/rEuzehyH/versions/kmUvAUwY/findme-3.2.3-forge.jar",
+              "filename": "findme-3.2.3-forge.jar",
+              "primary": true,
+              "size": 38674
+            },
+            {
+              "hashes": {
+                "sha1": "a261f7a0b23c34a5b82e2e24caa98899e8837e2a",
+                "sha512": "913e39276a27a1baf70edd6c1916fc910e12cd568b412b66545cd8de885cfba3cd8a496dd7f71d7aea40c44de1d84863555e003f19292abe6ad0816fdf5e70aa"
+              },
+              "url": "https://cdn.modrinth.com/data/rEuzehyH/versions/kmUvAUwY/findme-3.2.3-dev-shadow.jar",
+              "filename": "findme-3.2.3-dev-shadow.jar",
+              "primary": false,
+              "size": 37197
+            },
+            {
+              "hashes": {
+                "sha512": "d015ea5e20f79f10ecec5486a949b97b7c7fe785e2c3b0e8e9e8e1c7236610ce0484c5a96722a9ff45a6f583aa7ea8dff1b79d3890b46fac4afb14b18759bd36",
+                "sha1": "81d531cb3f0c9201648c392efc42d810916d2247"
+              },
+              "url": "https://cdn.modrinth.com/data/rEuzehyH/versions/kmUvAUwY/findme-3.2.3-sources.jar",
+              "filename": "findme-3.2.3-sources.jar",
+              "primary": false,
+              "size": 18734
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "lhGA9TYQ",
+              "dependency_type": "required"
+            }
+          ],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
       }
     ],
     "ignoredUpdates": [],
     "ignoreAllUpdates": false,
     "vanillaInstance": true,
-    "lastPlayed": 1762027804688,
-    "numPlays": 1
+    "lastPlayed": 1762028425855,
+    "numPlays": 3
   },
   "id": "1.20.1",
   "complianceLevel": 1,

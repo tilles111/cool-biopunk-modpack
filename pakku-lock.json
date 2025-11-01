@@ -500,6 +500,47 @@
             ]
         },
         {
+            "pakku_id": "TLtJO1Iv6Y6bsrq8",
+            "pakku_links": [
+                "3PpqVUoVyWJlsiHr"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "controlling"
+            },
+            "name": {
+                "curseforge": "Controlling"
+            },
+            "id": {
+                "curseforge": "250398"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Controlling-forge-1.20.1-12.0.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4646/682/Controlling-forge-1.20.1-12.0.2.jar",
+                    "id": "4646682",
+                    "parent_id": "250398",
+                    "hashes": {
+                        "sha1": "f6d3cdd3ec68c5590cf5b2e89c38dbf031824bfd",
+                        "md5": "952274bc9994bba9733e8747558f73fa"
+                    },
+                    "required_dependencies": [
+                        "858542"
+                    ],
+                    "size": 115280,
+                    "date_published": "2023-07-16T04:39:22.697Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "oGc3aXFiU83OszB6",
             "type": "MOD",
             "slug": {
@@ -813,6 +854,44 @@
                     "required_dependencies": [],
                     "size": 2978080,
                     "date_published": "2025-08-23T01:46:19.950Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "UO7ewWjLV3HSUKoX",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "findme"
+            },
+            "name": {
+                "curseforge": "FindMe"
+            },
+            "id": {
+                "curseforge": "291936"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "findme-3.2.3-forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7069/249/findme-3.2.3-forge.jar",
+                    "id": "7069249",
+                    "parent_id": "291936",
+                    "hashes": {
+                        "sha1": "7b46df9e34d81bb678e9547a662cca15a04855e5",
+                        "md5": "a563ab1b502b94fe033fb130a4ef4543"
+                    },
+                    "required_dependencies": [
+                        "419699"
+                    ],
+                    "size": 38674,
+                    "date_published": "2025-10-05T11:20:34.223Z"
                 }
             ]
         },
@@ -1234,6 +1313,42 @@
                     "required_dependencies": [],
                     "size": 1798244,
                     "date_published": "2025-02-12T21:26:47.347Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "3PpqVUoVyWJlsiHr",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "searchables"
+            },
+            "name": {
+                "curseforge": "Searchables"
+            },
+            "id": {
+                "curseforge": "858542"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Searchables-forge-1.20.1-1.0.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5284/15/Searchables-forge-1.20.1-1.0.3.jar",
+                    "id": "5284015",
+                    "parent_id": "858542",
+                    "hashes": {
+                        "sha1": "ed5a23ec30c90fd06b3f1d8140614028e1fafaee",
+                        "md5": "9f5418e9c08c18a375ef42fada4bcef2"
+                    },
+                    "required_dependencies": [],
+                    "size": 77732,
+                    "date_published": "2024-04-23T06:56:49.313Z"
                 }
             ]
         },
