@@ -7949,13 +7949,1159 @@
             "forge"
           ]
         }
+      },
+      {
+        "name": "Thermal Expansion",
+        "version": "thermal_expansion-1.20.1-11.0.1.29.jar",
+        "optional": true,
+        "file": "thermal_expansion-1.20.1-11.0.1.29.jar",
+        "type": "mods",
+        "description": "Expanding Minecraft Thermally! A server-friendly and content-rich blend of magic and technology!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 69163,
+        "curseForgeFileId": 5372749,
+        "curseForgeProject": {
+          "id": 69163,
+          "name": "Thermal Expansion",
+          "authors": [
+            {
+              "id": 12590770,
+              "name": "TeamCoFH",
+              "url": "https://www.curseforge.com/members/teamcofh"
+            },
+            {
+              "id": 4632299,
+              "name": "KingLemmingCoFH",
+              "url": "https://www.curseforge.com/members/kinglemmingcofh"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Expanding Minecraft Thermally! A server-friendly and content-rich blend of magic and technology!",
+          "categories": [
+            {
+              "name": "Storage",
+              "slug": "storage",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/storage",
+              "dateModified": "2014-05-08T17:41:17.203Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 420,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/35/635351496772023801.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Processing",
+              "slug": "technology-processing",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/technology/technology-processing",
+              "dateModified": "2014-05-08T17:38:41.96Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 413,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/28/635351495219610266.png",
+              "parentCategoryId": 412,
+              "classId": 6
+            },
+            {
+              "name": "Energy",
+              "slug": "technology-energy",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/technology/technology-energy",
+              "dateModified": "2014-05-08T17:39:33.79Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 417,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/32/635351495737894438.png",
+              "parentCategoryId": 412,
+              "classId": 6
+            },
+            {
+              "name": "Technology",
+              "slug": "technology",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/technology",
+              "dateModified": "2014-05-08T17:37:54.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 412,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/27/635351494745973439.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Thermal Expansion",
+              "slug": "addons-thermalexpansion",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons/addons-thermalexpansion",
+              "dateModified": "2015-02-16T15:32:52.013Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 427,
+              "iconUrl": "https://media.forgecdn.net/avatars/14/468/635596759720145473.png",
+              "parentCategoryId": 426,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 412,
+          "classId": 6,
+          "slug": "thermal-expansion",
+          "isFeatured": false,
+          "dateModified": "2024-05-26T06:11:34.987Z",
+          "dateCreated": "2013-11-17T04:25:59.19Z",
+          "dateReleased": "2024-05-26T06:05:39.08Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/thermal-expansion",
+            "wikiUrl": "http://teamcofh.com/",
+            "issuesUrl": "https://discord.gg/uRKrnbH"
+          },
+          "logo": {
+            "id": 416889,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/416/889/256/256/637640074258974225.png",
+            "title": "637640074258974225.png",
+            "url": "https://media.forgecdn.net/avatars/416/889/637640074258974225.png",
+            "modId": 69163
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 8532,
+              "description": "Thermal Expansion\n",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/8/532/310/172/logo.png",
+              "title": "Thermal Expansion",
+              "url": "https://media.forgecdn.net/attachments/8/532/logo.png",
+              "modId": 69163
+            }
+          ],
+          "mainFileId": 5372749
+        },
+        "curseForgeFile": {
+          "id": 5372749,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "thermal_expansion-1.20.1-11.0.1.29.jar",
+          "fileName": "thermal_expansion-1.20.1-11.0.1.29.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-05-26T06:05:39.08Z",
+          "fileLength": 574141,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 222880,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 1549171396,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 3893494,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 800206404,
+              "name": "cofh"
+            },
+            {
+              "fingerprint": 3416100605,
+              "name": "data"
+            },
+            {
+              "fingerprint": 2686940821,
+              "name": "logo.png"
+            },
+            {
+              "fingerprint": 1822946533,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 2953699482,
+              "name": "thermal_expansion.png"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "c79fe5b922653d109cdcee45f4bca24c86daf6c0",
+              "algo": 1
+            },
+            {
+              "value": "468d64ba6d6753587687b54573d57d73",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Server"
+            }
+          ],
+          "gameVersions": [
+            "Client",
+            "NeoForge",
+            "1.20.1",
+            "Forge",
+            "Server"
+          ],
+          "fileFingerprint": 3774115469,
+          "modId": 69163
+        },
+        "modrinthProject": {
+          "id": "hmD6rrUJ",
+          "slug": "thermal-expansion",
+          "project_type": "mod",
+          "team": "MsgUAFtY",
+          "title": "Thermal Expansion",
+          "description": "Expanding Minecraft Thermally! A server-friendly and content-rich blend of magic and technology!",
+          "body": "![Thermal Expansion](https://raw.githubusercontent.com/CoFH/Version/master/thermal/media/thermal_expansion.png \"Thermal Expansion\")\n\n__Active Development__: Minecraft 1.18.2\n\n__Website: [Team CoFH](https://teamcofh.com)__\n\n__Discord: [Team CoFH Discord](https://discordapp.com/invite/uRKrnbH)__\n\n__Changelog: [Changelog](https://raw.githubusercontent.com/CoFH/Version/main/thermal/changelog.md)__\n\n---\n\nExpanding Minecraft Thermally! A server-friendly and content-rich blend of magic and technology!\n\nFor nearly a decade, the Thermal Series mods have been a cornerstone of modded gameplay. They've pioneered gameplay innovations and optimizations used in practically every modern mod in existence. The Forge Energy system was built from Redstone Flux, and many common modded features - side reconfiguration, advanced redstone control, blue/orange input coloring - all started with the Thermal Series.\n\nThe Thermal Series is a modular series of mods, allowing players, server owners, and modpack creators to easily choose the aspects which they want and those which they do not, allowing it to fit into a variety of gameplay styles and worlds.\n\nAs a set, the mods form a cohesive experience which greatly expands the Minecraft universe in a lore-friendly (but admittedly technological) way.\n\nThis module contains \"Expansion\" - the original mod in the series, going all the way back to Minecraft 1.2.5. It contains the \"industrial base\" of the Series, providing options for energy generation, storage, and resource processing!\n\nThe mods are still being updated regularly and the Series is not complete yet! We're working on it and appreciate your patience. Even so, there's a LOT of stuff for both newcomers and veterans. We hope you enjoy the new Thermal Series.\n\n### __Configuration__\n\n- _Client_: `thermal-client.toml` file located in `/config`\n- _Server_: `thermal-server.toml` located in the `/saves/WORLD_NAME/serverconfigs` folder.\n\nCopying this file to your `/defaultsconfig` folder will apply those configs to all newly created worlds.\n\nDedicated servers will have this file in `/world/serverconfigs`\n\n## __Features__\n\nThis section describes features available for the version under active development. Older versions may have different features.\n\nWIP - Thanks for your patience.\n\n![Thermal Series](https://raw.githubusercontent.com/CoFH/Version/master/thermal/media/thermal_series.png \"Thermal Series\") \n\n### __The other modules are here:__\n\n- __[Thermal Foundation](https://modrinth.com/mod/thermal-foundation) - Basics and Resources__\n- __[Thermal Cultivation](https://modrinth.com/mod/thermal-cultivation) - Farming and Foods__\n- __[Thermal Dynamics - Not Yet Updated to 1.16](https://modrinth.com/mod/thermal-dynamics) - Logistics and Transport__\n- __[Thermal Innovation](https://modrinth.com/mod/thermal-innovation) - Advanced Power Tools and Gadgets__\n- __[Thermal Integration](https://modrinth.com/mod/thermal-integration) - Modded Compatibility Enhancements__\n- __[Thermal Locomotion](https://modrinth.com/mod/thermal-locomotion) - Rails and Minecarts__\n\n__This mod series requires CoFH Core. It can be found here: [CoFH Core](https://modrinth.com/mod/cofh-core)__\n\n## __Historical__\n\nThe historical changelog can be found here for versions prior to 1.14: __[Old Changelog](https://github.com/CoFH/Version/blob/master/thermalexpansion_changelog.txt)__",
+          "published": "2022-05-17T05:02:10.878147Z",
+          "updated": "2024-05-26T05:59:15.511902Z",
+          "status": "approved",
+          "license": {
+            "id": "LicenseRef-All-Rights-Reserved",
+            "name": ""
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "storage",
+            "technology",
+            "worldgen"
+          ],
+          "loaders": [
+            "forge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/hmD6rrUJ/a8901dc3c3506826229d66477a9f41e049bea8d5_96.webp",
+          "discord_url": "https://discord.gg/uRKrnbH",
+          "donation_urls": [
+            {
+              "id": "ko-fi",
+              "platform": "Ko-fi",
+              "url": "https://ko-fi.com/kinglemming"
+            }
+          ],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "Ux2Z0ow1",
+          "project_id": "hmD6rrUJ",
+          "author_id": "JOpltEPX",
+          "name": "Thermal Expansion 11.0.1",
+          "version_number": "11.0.1",
+          "changelog": "",
+          "date_published": "2024-05-26T05:59:15.511902Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "cce9e05126064aa60d8c10955c8bcfef92b4080d042dfb663054565fefc9de8268c28b4cb025ed8e3bc9c3da1a9f1266e640c9ea9b799868b6ab4b758de6f3d0",
+                "sha1": "c79fe5b922653d109cdcee45f4bca24c86daf6c0"
+              },
+              "url": "https://cdn.modrinth.com/data/hmD6rrUJ/versions/Ux2Z0ow1/thermal_expansion-1.20.1-11.0.1.29.jar",
+              "filename": "thermal_expansion-1.20.1-11.0.1.29.jar",
+              "primary": true,
+              "size": 574141
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "Xvg6q5Wp",
+              "dependency_type": "required"
+            }
+          ],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "CoFH Core",
+        "version": "cofh_core-1.20.1-11.0.2.56.jar",
+        "optional": true,
+        "file": "cofh_core-1.20.1-11.0.2.56.jar",
+        "type": "mods",
+        "description": "Contains Core Functionality for all Team CoFH mods. Also does some really cool stuff on its own!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 69162,
+        "curseForgeFileId": 5374122,
+        "curseForgeProject": {
+          "id": 69162,
+          "name": "CoFH Core",
+          "authors": [
+            {
+              "id": 12590770,
+              "name": "TeamCoFH",
+              "url": "https://www.curseforge.com/members/teamcofh"
+            },
+            {
+              "id": 4632299,
+              "name": "KingLemmingCoFH",
+              "url": "https://www.curseforge.com/members/kinglemmingcofh"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Contains Core Functionality for all Team CoFH mods. Also does some really cool stuff on its own!",
+          "categories": [
+            {
+              "name": "Server Utility",
+              "slug": "server-utility",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/server-utility",
+              "dateModified": "2014-05-08T17:44:55.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 435,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/48/635351498950580836.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Thermal Expansion",
+              "slug": "addons-thermalexpansion",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons/addons-thermalexpansion",
+              "dateModified": "2015-02-16T15:32:52.013Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 427,
+              "iconUrl": "https://media.forgecdn.net/avatars/14/468/635596759720145473.png",
+              "parentCategoryId": 426,
+              "classId": 6
+            },
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 421,
+          "classId": 6,
+          "slug": "cofh-core",
+          "isFeatured": false,
+          "dateModified": "2024-05-26T17:49:35.917Z",
+          "dateCreated": "2013-11-17T04:23:35.26Z",
+          "dateReleased": "2024-05-26T17:44:14.577Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/cofh-core",
+            "wikiUrl": "http://teamcofh.com/",
+            "issuesUrl": "https://discord.gg/uRKrnbH"
+          },
+          "logo": {
+            "id": 14190,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/14/190/256/256/635588122347757413.png",
+            "title": "635588122347757413.png",
+            "url": "https://media.forgecdn.net/avatars/14/190/635588122347757413.png",
+            "modId": 69162
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 5374122
+        },
+        "curseForgeFile": {
+          "id": 5374122,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "cofh_core-1.20.1-11.0.2.56.jar",
+          "fileName": "cofh_core-1.20.1-11.0.2.56.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-05-26T17:44:14.577Z",
+          "fileLength": 1509649,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 220333,
+              "relationType": 1
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 217276551,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 2406347142,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 665591837,
+              "name": "cofh"
+            },
+            {
+              "fingerprint": 1626900489,
+              "name": "data"
+            },
+            {
+              "fingerprint": 1223221991,
+              "name": "logo.png"
+            },
+            {
+              "fingerprint": 3713881681,
+              "name": "mixins.cofhcore.json"
+            },
+            {
+              "fingerprint": 2130125486,
+              "name": "mixins.cofhcore.refmap.json"
+            },
+            {
+              "fingerprint": 3349074109,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "6f7c0056fece31bf393df450d79482810ed444af",
+              "algo": 1
+            },
+            {
+              "value": "8d5ecdae594951c49899b6bf38b41b7d",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Server"
+            }
+          ],
+          "gameVersions": [
+            "Client",
+            "NeoForge",
+            "1.20.1",
+            "Forge",
+            "Server"
+          ],
+          "fileFingerprint": 3041669468,
+          "modId": 69162
+        },
+        "modrinthProject": {
+          "id": "OWSRM4vD",
+          "slug": "cofh-core",
+          "project_type": "mod",
+          "team": "XcuMhoFw",
+          "title": "CoFH Core",
+          "description": "Core Library for all CoFH mods.",
+          "body": "__Active Development__: Minecraft 1.18.2\n\n__Website: [Team CoFH](https://teamcofh.com)__\n\n__Discord: [Team CoFH Discord](https://discordapp.com/invite/uRKrnbH)__\n\n---\n\nCoFH Core has been around a long time (Since 2013!) and has changed throughout its various iterations.\n\n__Information that you read on various wikis may be outdated or no longer apply.__\n\nPlease read the overviews under \"Historical\" to get an idea what the mod offers for a given version of Minecraft. Note that required and optional dependencies have changed with time. We apologize for the changes, but the nature of Minecraft modding is such that flexibility is required to maintain features in an ever-changing codebase.\n\n### __Configuration__\n\n- _Client_: `cofh_core-client.toml` file located in `/config`\n- _Server_: `cofh_core-server.toml` located in the `/saves/WORLD_NAME/serverconfigs` folder.\n\nCopying this file to your `/defaultconfigs` folder will apply those configs to all newly created worlds.\n\nDedicated servers will have this file in `/world/serverconfigs`\n\n## __Features__\n\nThis section describes features available for the version under active development. Older versions may have different features.\n\n- Contains core functionality used in Team CoFH mods. \n- Adds a small number of objects to the game's registry which may optionally be used in various capacities.\n\n_Commands_\n\nSyntax: `/cofh COMMAND {PARAMS}`\n\n- friend: Allows for management of the CoFH Friend List, used for securing various objects in game.\n- heal: Restores all health, hunger, and cures all negative status effects.\n- ignite: Sets the target(s) on fire.\n- invis {true|false}: Makes the target(s) invisible, or removes it.\n- invuln {true|false}: Makes the target(s) invulnerable, or removes it.\n- zap: Strikes the target(s) with lightning, if they can see the sky.\n\n_Enchantments_\n\n- Holding: Increases the capacity of various storage items.\n\n_Fluids_\n\nThese currently do not have associated in-world blocks.\n\n- Experience (Essence of Knowledge)\n- Honey\n- Potion\n- Steam\n\n## __Historical__\n\n_1.14+_\n\n- Contains core functionality used in Team CoFH mods. \n- Adds a small number of objects to the game's registry which may optionally be used in various capacities.\n- Includes a number of commands which are useful for server admins and packmakers.\n\n__The Redstone Flux API has been deprecated and is no longer required as Forge has effectively incorporated it as the Forge Energy System.__\n\nEnchantments which were previously in this mod are now in Ensorcellation, a more fully-featured mod. It can be found here:\n\n__[Ensorcellation](https://www.curseforge.com/minecraft/mc-mods/ensorcellation)__\n\n_1.12_\n\n- Contains core functionality used in Team CoFH mods.\n- Adds a small number of objects (Potions, Enchantments) to the game's registry.\n- Includes a number of commands which are useful for server admins and packmakers.\n\nFor this version of CoFH Core, the Redstone Flux API is required! It can be found here:\n\n__[Redstone Flux API](https://www.curseforge.com/minecraft/mc-mods/redstone-flux)__\n\nWorld generation which was previously found in this mod is now in CoFH World, a more fully-featured standalone mod. It can be found here:\n\n__[CoFH World](https://www.curseforge.com/minecraft/mc-mods/cofh-world)__\n\n_1.11_\n\nThis version is considered a \"stepping\" stone version. It has the same features as the 1.10 versions but was modernized to fit Mojang's backend changes.\n\n__It is not recommended that you play a 1.11 modpack.__\n\n_1.10_\n\n- Contains core functionality used in Team CoFH mods.\n- Adds a small number of objects (Potions, Enchantments) to the game's registry.\n- Includes a number of commands which are useful for server admins and packmakers.\n\nThis version of CoFH Core also includes an early-version Redstone Flux API, and no standalone jar is required.\n\nThis version of CoFH Core has some world generation controls which allow for ore generation customization.\n",
+          "published": "2022-05-16T17:37:24.015636Z",
+          "updated": "2024-05-26T17:49:13.711693Z",
+          "status": "approved",
+          "license": {
+            "id": "LicenseRef-All-Rights-Reserved",
+            "name": ""
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "library",
+            "utility"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/OWSRM4vD/icon.png",
+          "discord_url": "https://discord.gg/uRKrnbH",
+          "donation_urls": [
+            {
+              "id": "ko-fi",
+              "platform": "Ko-fi",
+              "url": "https://ko-fi.com/kinglemming"
+            }
+          ],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "kglS53Hd",
+          "project_id": "OWSRM4vD",
+          "author_id": "JOpltEPX",
+          "name": "CoFH Core 11.0.2",
+          "version_number": "11.0.2",
+          "changelog": "",
+          "date_published": "2024-05-26T17:49:13.711693Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "5a62bc6dcaaf3cf77234f3e0559eb6d2ec7db05b39feeba56dbdd46f3378aec6d97bd2078e220fe33891384abc40e1a705affe9d77ae4e35cf60185e07c11a73",
+                "sha1": "6f7c0056fece31bf393df450d79482810ed444af"
+              },
+              "url": "https://cdn.modrinth.com/data/OWSRM4vD/versions/kglS53Hd/cofh_core-1.20.1-11.0.2.56.jar",
+              "filename": "cofh_core-1.20.1-11.0.2.56.jar",
+              "primary": true,
+              "size": 1509649
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ]
+        }
+      },
+      {
+        "name": "Thermal Foundation",
+        "version": "thermal_foundation-1.20.1-11.0.6.70.jar",
+        "optional": true,
+        "file": "thermal_foundation-1.20.1-11.0.6.70.jar",
+        "type": "mods",
+        "description": "The Foundation of a Thermally Expanding World!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 222880,
+        "curseForgeFileId": 5443583,
+        "curseForgeProject": {
+          "id": 222880,
+          "name": "Thermal Foundation",
+          "authors": [
+            {
+              "id": 12590770,
+              "name": "TeamCoFH",
+              "url": "https://www.curseforge.com/members/teamcofh"
+            },
+            {
+              "id": 4632299,
+              "name": "KingLemmingCoFH",
+              "url": "https://www.curseforge.com/members/kinglemmingcofh"
+            }
+          ],
+          "gameId": 432,
+          "summary": "The Foundation of a Thermally Expanding World!",
+          "categories": [
+            {
+              "name": "Technology",
+              "slug": "technology",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/technology",
+              "dateModified": "2014-05-08T17:37:54.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 412,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/27/635351494745973439.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Thermal Expansion",
+              "slug": "addons-thermalexpansion",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons/addons-thermalexpansion",
+              "dateModified": "2015-02-16T15:32:52.013Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 427,
+              "iconUrl": "https://media.forgecdn.net/avatars/14/468/635596759720145473.png",
+              "parentCategoryId": 426,
+              "classId": 6
+            },
+            {
+              "name": "Ores and Resources",
+              "slug": "world-ores-resources",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/world-gen/world-ores-resources",
+              "dateModified": "2014-05-08T17:36:41.233Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 408,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/23/635351494012336510.png",
+              "parentCategoryId": 406,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 408,
+          "classId": 6,
+          "slug": "thermal-foundation",
+          "isFeatured": false,
+          "dateModified": "2024-07-14T21:03:36.82Z",
+          "dateCreated": "2014-07-30T02:34:11.767Z",
+          "dateReleased": "2024-06-19T06:42:29.73Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/thermal-foundation",
+            "wikiUrl": "https://teamcofh.com/docs/thermal-foundation/",
+            "issuesUrl": "https://discord.gg/uRKrnbH"
+          },
+          "logo": {
+            "id": 416888,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/416/888/256/256/637640074076654754.png",
+            "title": "637640074076654754.png",
+            "url": "https://media.forgecdn.net/avatars/416/888/637640074076654754.png",
+            "modId": 222880
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 5443583
+        },
+        "curseForgeFile": {
+          "id": 5443583,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "thermal_foundation-1.20.1-11.0.6.70.jar",
+          "fileName": "thermal_foundation-1.20.1-11.0.6.70.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-06-19T06:42:29.73Z",
+          "fileLength": 4549423,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 69162,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 892457456,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 4200566782,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 568975032,
+              "name": "cofh"
+            },
+            {
+              "fingerprint": 2849956409,
+              "name": "data"
+            },
+            {
+              "fingerprint": 2229765295,
+              "name": "logo.png"
+            },
+            {
+              "fingerprint": 457126568,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 2954702152,
+              "name": "thermal_foundation.png"
+            },
+            {
+              "fingerprint": 3723551670,
+              "name": "thermal_series.png"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "7c1fbd79c9bda7478560faa886eaadf0dd8d181f",
+              "algo": 1
+            },
+            {
+              "value": "00cf83270e22559998cc82cfe48579d7",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Server"
+            }
+          ],
+          "gameVersions": [
+            "Client",
+            "NeoForge",
+            "1.20.1",
+            "Forge",
+            "Server"
+          ],
+          "fileFingerprint": 2161569538,
+          "modId": 222880
+        },
+        "modrinthProject": {
+          "id": "Xvg6q5Wp",
+          "slug": "thermal-foundation",
+          "project_type": "mod",
+          "team": "Khnwpy2s",
+          "title": "Thermal Foundation",
+          "description": "The Foundation of a Thermally-enhanced world!",
+          "body": "![Thermal Foundation](https://raw.githubusercontent.com/CoFH/Version/master/thermal/media/thermal_foundation.png \"Thermal Foundation\")\n\n__Active Development__: Minecraft 1.18.2\n\n__Website: [Team CoFH](https://teamcofh.com)__\n\n__Discord: [Team CoFH Discord](https://discordapp.com/invite/uRKrnbH)__\n\n__Changelog: [Changelog](https://raw.githubusercontent.com/CoFH/Version/main/thermal/changelog.md)__\n\n---\n\nThe Foundation of a Thermally-enhanced world!\n\nFor nearly a decade, the Thermal Series mods have been a cornerstone of modded gameplay. They've pioneered gameplay innovations and optimizations used in practically every modern mod in existence. The Forge Energy system was built from Redstone Flux, and many common modded features - side reconfiguration, advanced redstone control, blue/orange input coloring - all started with the Thermal Series.\n\nThe Thermal Series is a modular series of mods, allowing players, server owners, and modpack creators to easily choose the aspects which they want and those which they do not, allowing it to fit into a variety of gameplay styles and worlds.\n\nAs a set, the mods form a cohesive experience which greatly expands the Minecraft universe in a lore-friendly (but admittedly technological) way.\n\nThis module contains both \"Core\" and \"Foundation\" - a collection of common components, resources, and tools.\n\nThe mods are still being updated regularly and the Series is not complete yet! We're working on it and appreciate your patience. Even so, there's a LOT of stuff for both newcomers and veterans. We hope you enjoy the new Thermal Series.\n\n### __Configuration__\n\n- _Client_: `thermal-client.toml` file located in `/config` - contains client-specific options.\n- _Common_: `thermal-common.toml` file located in `/config` - contains worldgen options.\n- _Server_: `thermal-server.toml` located in the `/saves/WORLD_NAME/serverconfigs` folder.\n\nCopying this file to your `/defaultsconfig` folder will apply those configs to all newly created worlds.\n\nDedicated servers will have this file in `/world/serverconfigs`\n\n## __Features__\n\nThis section describes features available for the version under active development. Older versions may have different features.\n\nWIP - Thanks for your patience.\n\n![Thermal Series](https://raw.githubusercontent.com/CoFH/Version/master/thermal/media/thermal_series.png \"Thermal Series\") \n\n### __The other modules are here:__\n\n- __[Thermal Cultivation](https://modrinth.com/mod/thermal-cultivation) - Farming and Foods__\n- __[Thermal Dynamics - Not Yet Updated to 1.16](https://modrinth.com/mod/thermal-dynamics) - Logistics and Transport__\n- __[Thermal Expansion](https://modrinth.com/mod/thermal-expansion) - Machinery and Industry (The original mod)__\n- __[Thermal Innovation](https://modrinth.com/mod/thermal-innovation) - Advanced Power Tools and Gadgets__\n- __[Thermal Integration](https://modrinth.com/mod/thermal-integration) - Modded Compatibility Enhancements__\n- __[Thermal Locomotion](https://modrinth.com/mod/thermal-locomotion) - Rails and Minecarts__\n\n__This mod series requires CoFH Core. It can be found here: [CoFH Core](https://modrinth.com/mod/cofh-core)__\n\n## __Historical__\n\nThe historical changelog can be found here for versions prior to 1.14: __[Old Changelog](https://github.com/CoFH/Version/blob/master/thermalfoundation_changelog.txt)__",
+          "published": "2022-05-17T04:56:43.834593Z",
+          "updated": "2024-06-19T06:43:05.372088Z",
+          "status": "approved",
+          "license": {
+            "id": "LicenseRef-All-Rights-Reserved",
+            "name": ""
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "storage",
+            "technology",
+            "worldgen"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/Xvg6q5Wp/0680149f9ab1461d7b4ee836906ea641549014ac_96.webp",
+          "discord_url": "https://discord.gg/uRKrnbH",
+          "donation_urls": [
+            {
+              "id": "ko-fi",
+              "platform": "Ko-fi",
+              "url": "https://ko-fi.com/kinglemming"
+            }
+          ],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "44ilyZbi",
+          "project_id": "Xvg6q5Wp",
+          "author_id": "JOpltEPX",
+          "name": "Thermal Foundation 11.0.6",
+          "version_number": "11.0.6",
+          "changelog": "- Minor bugfix for Arboreal Extractor.\n- Backend improvements for the Cyclic Assembler.",
+          "date_published": "2024-06-19T06:43:05.372088Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "721908e776fa037c6b4e7a229f453b7e50efb62a935bfa67d4ee3ac68fbdf860e615b5cf54b0d2221504dd7c736e3d70659c3ea4a0abaa7e688ce5acdb98f87f",
+                "sha1": "7c1fbd79c9bda7478560faa886eaadf0dd8d181f"
+              },
+              "url": "https://cdn.modrinth.com/data/Xvg6q5Wp/versions/44ilyZbi/thermal_foundation-1.20.1-11.0.6.70.jar",
+              "filename": "thermal_foundation-1.20.1-11.0.6.70.jar",
+              "primary": true,
+              "size": 4549423
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "OWSRM4vD",
+              "dependency_type": "required"
+            }
+          ],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ]
+        }
+      },
+      {
+        "name": "Almost Unified",
+        "version": "AlmostUnified-Forge-1.20.1-0.10.1",
+        "optional": true,
+        "file": "almostunified-forge-1.20.1-0.10.1.jar",
+        "type": "mods",
+        "description": "Unify all resources.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 633823,
+        "curseForgeFileId": 6912269,
+        "curseForgeProject": {
+          "id": 633823,
+          "name": "Almost Unified",
+          "authors": [
+            {
+              "id": 102822159,
+              "name": "AlmostReliable",
+              "url": "https://www.curseforge.com/members/almostreliable"
+            },
+            {
+              "id": 101829614,
+              "name": "Lytho",
+              "url": "https://www.curseforge.com/members/lytho"
+            },
+            {
+              "id": 11567308,
+              "name": "Relentless",
+              "url": "https://www.curseforge.com/members/relentless"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Unify all resources.",
+          "categories": [
+            {
+              "name": "Processing",
+              "slug": "technology-processing",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/technology/technology-processing",
+              "dateModified": "2014-05-08T17:38:41.96Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 413,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/28/635351495219610266.png",
+              "parentCategoryId": 412,
+              "classId": 6
+            },
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Server Utility",
+              "slug": "server-utility",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/server-utility",
+              "dateModified": "2014-05-08T17:44:55.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 435,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/48/635351498950580836.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Ores and Resources",
+              "slug": "world-ores-resources",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/world-gen/world-ores-resources",
+              "dateModified": "2014-05-08T17:36:41.233Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 408,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/23/635351494012336510.png",
+              "parentCategoryId": 406,
+              "classId": 6
+            },
+            {
+              "name": "KubeJS",
+              "slug": "kubejs",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons/kubejs",
+              "dateModified": "2022-04-24T06:59:45.66Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5314,
+              "iconUrl": "https://media.forgecdn.net/avatars/538/559/637863803856518049.png",
+              "parentCategoryId": 426,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 435,
+          "classId": 6,
+          "slug": "almost-unified",
+          "isFeatured": false,
+          "dateModified": "2025-08-27T20:46:25.707Z",
+          "dateCreated": "2022-08-21T12:11:46.233Z",
+          "dateReleased": "2025-08-21T19:05:55.993Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/almost-unified",
+            "wikiUrl": "https://github.com/AlmostReliable/almostunified/wiki",
+            "issuesUrl": "https://github.com/AlmostReliable/almostunified/issues",
+            "sourceUrl": "https://github.com/AlmostReliable/almostunified"
+          },
+          "socialLinks": [
+            {
+              "type": "3",
+              "url": "https://almostreliable.com"
+            },
+            {
+              "type": "2",
+              "url": "https://discord.gg/invite/ThFnwZCyYY"
+            }
+          ],
+          "logo": {
+            "id": 560421,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/560/421/256/256/637911433758832569.png",
+            "title": "637911433758832569.png",
+            "url": "https://media.forgecdn.net/avatars/560/421/637911433758832569.png",
+            "modId": 633823
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 6912269
+        },
+        "curseForgeFile": {
+          "id": 6912269,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "AlmostUnified-Forge-1.20.1-0.10.1",
+          "fileName": "almostunified-forge-1.20.1-0.10.1.jar",
+          "releaseType": 2,
+          "fileStatus": 4,
+          "fileDate": "2025-08-21T19:05:55.993Z",
+          "fileLength": 217445,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 310111,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 238086,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 238222,
+              "relationType": 2
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 1110752976,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 4044702116,
+              "name": "almostunified-common-Common-refmap.json"
+            },
+            {
+              "fingerprint": 1169949983,
+              "name": "almostunified-common.mixins.json"
+            },
+            {
+              "fingerprint": 767167125,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 3980620029,
+              "name": "com"
+            },
+            {
+              "fingerprint": 4213512750,
+              "name": "kubejs.bindings.txt"
+            },
+            {
+              "fingerprint": 327418884,
+              "name": "logo.png"
+            },
+            {
+              "fingerprint": 2230933658,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "908bb8c851a38e2ad4f3e5965b1b9a6668070d66",
+              "algo": 1
+            },
+            {
+              "value": "a94d568d553019b1ea4ab4c6b282206b",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "NeoForge",
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 3878434749,
+          "modId": 633823
+        },
+        "modrinthProject": {
+          "id": "sdaSaQEz",
+          "slug": "almost-unified",
+          "project_type": "mod",
+          "team": "aNgjGBk3",
+          "title": "Almost Unified",
+          "description": "Unify all resources.",
+          "body": "![](https://i.imgur.com/yowlKWS.png)\n[![](https://i.imgur.com/u0EUHt8.png)](https://discord.com/invite/ThFnwZCyYY)\n[![](https://i.imgur.com/Z5PYH4R.png)](https://github.com/AlmostReliable/almostunified/wiki)\n<details>\n  <summary>Text version if the thread design does not render</summary>\n\n  ## What is Almost Unified?\n  \n  The mod is inspired by the idea of UniDict. An old, no longer maintained mod from the days of 1.12.2.\n  \n  Old versions of Minecraft used a system called the Ore Dictionary. Its purpose was to make the life of modders easier when adding new resources that might exist in other mods already. When used correctly, you could use resources from various mods in their recipes interchangeably. However, if you ever played a big modpack back in the days, you probably know that there were like 10 different ingots for each material because of many mods adding them.\n  \n  This often resulted in a lack of storage space because all these resources from the different mods didn't stack. Additionally, some mods didn't use the dictionary correctly for their recipes so a lot of the resources were useless.\n  \n  UniDict solved this issue by unifying the same resources from different mods so only one item for each resource was left and could be used for all recipes. So instead of having 10 different copper ingots, you will only have one which acts as the dominant universal copper ingot.\n  \n  A lot of time has passed since 1.12.2 and the Ore Dictionary is long gone. In today's modded Minecraft, there is the tag system which acts quite similar to the Ore Dictionary. Still, they also don't solve the problem of many similar resources from different mods.\n  \n  **Almost Unified** tries to solve this by working in a similar fashion as UniDict did.<br>\n  Its goal is to have one dominant resource for each configured tag and make all recipes use this dominant entry.\n  \n  ## How does that work?\n  \n  By defining a priority mod list and target tags in the config, Almost Unified tries to find a dominant item for each entry and changes the recipes depending on that.\n  \n  In modern Minecraft, recipes are usually made of JSONs and are loaded when joining a world. Each loaded recipe is read by the mod and altered depending on different properties inside the JSON.\n  \n  For all inputs, the unification process tries to use the designated tag so all items will remain useful which means Almost Unified should also work in existing worlds.<br>\n  For outputs, Almost Unified will use the dominant item.\n  \n  Since the modification happens before the recipe is loaded by the game, there are no demanding processes going on while the game is running.\n  \n  ## What features does Almost Unified have?\n  \n  The mod transforms existing recipes to have a unified resource list that players and packmakers can work with. It doesn't add its own recipes, resources, ore generation or similar content.\n  \n  Because there is a chance to have duplicate recipes when unifying, Almost Unified will take care of duplications and remove them.<br>\n  Additionally, it hides all non-dominant entries from JEI/REI automatically.\n  \n  The mod is fully reloadable. Configs are loaded every time the unification process starts which means they can be edited on the fly. To restart the process, just rejoin the world or use the `/reload` command.\n  \n  ## Can you give an example?\n  \n  Think about having two mods (modA and modB) that both add Silver Ore. Additionally, they both add Silver Ingots and respective recipes to obtain the ingot such as blasting or smelting the ore.\n  \n  If one of those recipes doesn't accept a tag as input, Almost Unify will change that. Furthermore, it will pick one of the Silver Ingots as the dominant item depending on the mod priority list inside the `unify.json` config. The dominant Silver Ingot will then be used as output for all recipes no matter the mod.\n  \n  After the unification process, you will end up with some equal recipes. Almost Unified will merge them and change their namespace so it's visible that the recipe was changed. In the end, you will have recipes that accept tags as inputs and only the dominant item as output. Duplicate recipes are gone.\n  \n  ## More Information\n  \n  For more information like limitations, native integrations or the FAQ, check out the wiki.\n\n</details>",
+          "published": "2022-08-21T11:19:19.594924Z",
+          "updated": "2025-08-21T19:05:53.093750Z",
+          "status": "approved",
+          "license": {
+            "id": "LicenseRef-All-Rights-Reserved",
+            "name": ""
+          },
+          "client_side": "optional",
+          "server_side": "required",
+          "categories": [
+            "library",
+            "utility"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/sdaSaQEz/icon.png",
+          "issues_url": "https://github.com/AlmostReliable/almostunified/issues",
+          "source_url": "https://github.com/AlmostReliable/almostunified",
+          "wiki_url": "https://github.com/AlmostReliable/almostunified/wiki",
+          "discord_url": "https://discord.com/invite/ThFnwZCyYY",
+          "donation_urls": [],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "803fRd97",
+          "project_id": "sdaSaQEz",
+          "author_id": "qtbuSRQ6",
+          "name": "AlmostUnified-Forge-1.20.1-0.10.1",
+          "version_number": "1.20.1-0.10.1+forge",
+          "changelog": "- added Hungarian translation ([#121](https://github.com/AlmostReliable/almostunified/pull/121))\n- improved Portuguese translation ([#122](https://github.com/AlmostReliable/almostunified/pull/122))\n- fixed duplicate checking for recipes with different recipe key counts\n",
+          "date_published": "2025-08-21T19:05:49.362333Z",
+          "version_type": "beta",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "2274052de29fd1f93ee34362d2308c1688736987ca5dacebe37c2a96b7825cfc3fda08c56cb3d97e6ad3c930dc1b84e1069947eb9ecf96ed7aa8ab4bb4bd8d86",
+                "sha1": "908bb8c851a38e2ad4f3e5965b1b9a6668070d66"
+              },
+              "url": "https://cdn.modrinth.com/data/sdaSaQEz/versions/803fRd97/almostunified-forge-1.20.1-0.10.1.jar",
+              "filename": "almostunified-forge-1.20.1-0.10.1.jar",
+              "primary": true,
+              "size": 217445
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "u6dRKJwZ",
+              "dependency_type": "optional"
+            },
+            {
+              "project_id": "umyGl7zF",
+              "dependency_type": "optional"
+            },
+            {
+              "project_id": "nfn13YXA",
+              "dependency_type": "optional"
+            }
+          ],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ]
+        }
       }
     ],
     "ignoredUpdates": [],
     "ignoreAllUpdates": false,
     "vanillaInstance": true,
-    "lastPlayed": 0,
-    "numPlays": 0
+    "lastPlayed": 1762027804688,
+    "numPlays": 1
   },
   "id": "1.20.1",
   "complianceLevel": 1,

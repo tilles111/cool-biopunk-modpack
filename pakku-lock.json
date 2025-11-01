@@ -9,6 +9,43 @@
     },
     "projects": [
         {
+            "pakku_id": "DsB1oYs4OcJY43hu",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "almost-unified"
+            },
+            "name": {
+                "curseforge": "Almost Unified"
+            },
+            "id": {
+                "curseforge": "633823"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "almostunified-forge-1.20.1-0.10.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/6912/269/almostunified-forge-1.20.1-0.10.1.jar",
+                    "id": "6912269",
+                    "parent_id": "633823",
+                    "hashes": {
+                        "sha1": "908bb8c851a38e2ad4f3e5965b1b9a6668070d66",
+                        "md5": "a94d568d553019b1ea4ab4c6b282206b"
+                    },
+                    "required_dependencies": [],
+                    "size": 217445,
+                    "date_published": "2025-08-21T19:05:55.993Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "lEDxE2RugRmbWdXO",
             "type": "MOD",
             "slug": {
@@ -422,6 +459,43 @@
                     "required_dependencies": [],
                     "size": 1181413,
                     "date_published": "2024-09-16T17:13:48.940Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ZlVPQNwQ28HIVM9o",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cofh-core"
+            },
+            "name": {
+                "curseforge": "CoFH Core"
+            },
+            "id": {
+                "curseforge": "69162"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cofh_core-1.20.1-11.0.2.56.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5374/122/cofh_core-1.20.1-11.0.2.56.jar",
+                    "id": "5374122",
+                    "parent_id": "69162",
+                    "hashes": {
+                        "sha1": "6f7c0056fece31bf393df450d79482810ed444af",
+                        "md5": "8d5ecdae594951c49899b6bf38b41b7d"
+                    },
+                    "required_dependencies": [],
+                    "size": 1509649,
+                    "date_published": "2024-05-26T17:44:14.577Z"
                 }
             ]
         },
@@ -1196,6 +1270,87 @@
                     "required_dependencies": [],
                     "size": 362338,
                     "date_published": "2024-08-23T04:23:38.737Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "CgHLYaT1L7ZOvT1x",
+            "pakku_links": [
+                "ROm7qiCdWUI5Lrwz"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "thermal-expansion"
+            },
+            "name": {
+                "curseforge": "Thermal Expansion"
+            },
+            "id": {
+                "curseforge": "69163"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "thermal_expansion-1.20.1-11.0.1.29.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5372/749/thermal_expansion-1.20.1-11.0.1.29.jar",
+                    "id": "5372749",
+                    "parent_id": "69163",
+                    "hashes": {
+                        "sha1": "c79fe5b922653d109cdcee45f4bca24c86daf6c0",
+                        "md5": "468d64ba6d6753587687b54573d57d73"
+                    },
+                    "required_dependencies": [
+                        "222880"
+                    ],
+                    "size": 574141,
+                    "date_published": "2024-05-26T06:05:39.080Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ROm7qiCdWUI5Lrwz",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "thermal-foundation"
+            },
+            "name": {
+                "curseforge": "Thermal Foundation"
+            },
+            "id": {
+                "curseforge": "222880"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "thermal_foundation-1.20.1-11.0.6.70.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5443/583/thermal_foundation-1.20.1-11.0.6.70.jar",
+                    "id": "5443583",
+                    "parent_id": "222880",
+                    "hashes": {
+                        "sha1": "7c1fbd79c9bda7478560faa886eaadf0dd8d181f",
+                        "md5": "00cf83270e22559998cc82cfe48579d7"
+                    },
+                    "required_dependencies": [
+                        "69162"
+                    ],
+                    "size": 4549423,
+                    "date_published": "2024-06-19T06:42:29.730Z"
                 }
             ]
         }
