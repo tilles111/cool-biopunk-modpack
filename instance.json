@@ -816,6 +816,3477 @@
             "forge"
           ]
         }
+      },
+      {
+        "name": "Farmer's Delight",
+        "version": "Farmer's Delight 1.2.9 - 1.20.1",
+        "optional": true,
+        "file": "FarmersDelight-1.20.1-1.2.9.jar",
+        "type": "mods",
+        "description": "A cozy expansion to farming and cooking!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 398521,
+        "curseForgeFileId": 6917255,
+        "curseForgeProject": {
+          "id": 398521,
+          "name": "Farmer's Delight",
+          "authors": [
+            {
+              "id": 101274836,
+              "name": "vectorwing",
+              "url": "https://www.curseforge.com/members/vectorwing"
+            }
+          ],
+          "gameId": 432,
+          "summary": "A cozy expansion to farming and cooking!",
+          "categories": [
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Food",
+              "slug": "mc-food",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-food",
+              "dateModified": "2014-05-08T17:45:26.55Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 436,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/49/635351499265510402.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Farming",
+              "slug": "technology-farming",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/technology/technology-farming",
+              "dateModified": "2014-05-08T17:39:21.57Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 416,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/31/635351495615556933.png",
+              "parentCategoryId": 412,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 436,
+          "classId": 6,
+          "slug": "farmers-delight",
+          "isFeatured": false,
+          "dateModified": "2025-08-23T01:52:35.883Z",
+          "dateCreated": "2020-07-28T18:36:50Z",
+          "dateReleased": "2025-08-23T01:47:37.783Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/farmers-delight",
+            "wikiUrl": "https://github.com/vectorwing/FarmersDelight/wiki",
+            "issuesUrl": "https://github.com/vectorwing/FarmersDelight/issues",
+            "sourceUrl": "https://github.com/vectorwing/FarmersDelight"
+          },
+          "logo": {
+            "id": 396011,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/396/11/256/256/637595005615179370.png",
+            "title": "637595005615179370.png",
+            "url": "https://media.forgecdn.net/avatars/396/11/637595005615179370.png",
+            "modId": 398521
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 693738,
+              "description": "Here are the current major foods in the mod. Stay tuned for more!",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/693/738/310/172/food-list.png",
+              "title": "List of Foods",
+              "url": "https://media.forgecdn.net/attachments/693/738/food-list.png",
+              "modId": 398521
+            },
+            {
+              "id": 456883,
+              "description": "Lay the table and celebrate with your party!",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/456/883/310/172/glorious-feast.png",
+              "title": "A Glorious Feast",
+              "url": "https://media.forgecdn.net/attachments/456/883/glorious-feast.png",
+              "modId": 398521
+            },
+            {
+              "id": 456882,
+              "description": "Add a rustic touch to your settlement with an assortment of new blocks!",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/456/882/310/172/cozy-decorations.png",
+              "title": "Cozy Decorations",
+              "url": "https://media.forgecdn.net/attachments/456/882/cozy-decorations.png",
+              "modId": 398521
+            },
+            {
+              "id": 456881,
+              "description": "Cooking Pots, Skillets, Stoves, Cutting Boards, Knives and so on.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/456/881/310/172/kitchenware.png",
+              "title": "Kitchenware",
+              "url": "https://media.forgecdn.net/attachments/456/881/kitchenware.png",
+              "modId": 398521
+            },
+            {
+              "id": 456880,
+              "description": "Farm a durable fiber, then give it back to your farm with Rich Soil!",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/456/880/310/172/compost-straw.png",
+              "title": "Compost & Straw",
+              "url": "https://media.forgecdn.net/attachments/456/880/compost-straw.png",
+              "modId": 398521
+            },
+            {
+              "id": 456879,
+              "description": "Rice, Cabbage, Tomato and Onion!",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/456/879/310/172/basic-crops.png",
+              "title": "New Crops",
+              "url": "https://media.forgecdn.net/attachments/456/879/basic-crops.png",
+              "modId": 398521
+            }
+          ],
+          "mainFileId": 6917256
+        },
+        "curseForgeFile": {
+          "id": 6917255,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "Farmer's Delight 1.2.9 - 1.20.1",
+          "fileName": "FarmersDelight-1.20.1-1.2.9.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-08-23T01:46:19.95Z",
+          "fileLength": 2978080,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3758325698,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 3294478430,
+              "name": "vectorwing"
+            },
+            {
+              "fingerprint": 2545284206,
+              "name": ".cache"
+            },
+            {
+              "fingerprint": 1185587735,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 2174887053,
+              "name": "data"
+            },
+            {
+              "fingerprint": 1757220198,
+              "name": "farmersdelight.mixins.json"
+            },
+            {
+              "fingerprint": 1179971505,
+              "name": "logo.png"
+            },
+            {
+              "fingerprint": 3663993187,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 3424629813,
+              "name": "farmersdelight.refmap.json"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "ca9417c369e75d38dacdac59937223e5f6adcc18",
+              "algo": 1
+            },
+            {
+              "value": "71e177a98e0e6f399761ad00e978d177",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "NeoForge",
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 4034486801,
+          "modId": 398521
+        },
+        "modrinthProject": {
+          "id": "R2OftAxM",
+          "slug": "farmers-delight",
+          "project_type": "mod",
+          "team": "gg7pp5NT",
+          "title": "Farmer's Delight",
+          "description": "A cozy expansion to farming and cooking!",
+          "body": "<p align=\"center\">\n    <img src=\"https://i.imgur.com/wqSocVR.png\">\n</p>\n\n**Farmer's Delight** is a mod that gently expands upon farming and cooking in Minecraft.\n\nUsing a simple cooking system and a few familiar ingredients, you'll be able to prepare a wide variety of **hearty meals**: from sandwiches to salads and stews, from beautiful desserts to mouth-watering feasts, no ingredient will be left behind in your kitchen!\n\nIt also introduces a rich set of utilities: a way to **improve the very soil** your crops grow in, brand new **tools and weapons** to hunt and gather with, cute **decorations** for your builds, and many blocks and items to help you on your adventure!\n\nIt's time to farm a little bit of everything!\n\n## Getting Started\n\n**Follow the Advancements!** They explain many of the basic concepts, and are a good place to start from.\n\nPick up any item, then press the **L** key (by default) to open the Advancements screen. Or if you prefer a more direct guide, [click here!](https://github.com/vectorwing/FarmersDelight/wiki/Getting-Started)\n\n## Frequently Asked Questions\n\n**Q. Can I use this mod into my modpack?**\n\nA. Yes! Feel free to feature Farmer's Delight in your modpack, and customize it as you see fit for the experience you're crafting. Just keep in mind:\n\n- Make sure to credit, and don't claim Farmer's Delight as your own creation;\n- Always read the changelogs! Minor and major versions can sometimes have breaking changes, which will be explained there.\n\n**Q. Which Minecraft versions will the mod be updated for?**\n\nA. Farmer's Delight is currently being updated for 1.18.2 and 1.19+. Any other versions are currently discontinued.\n\n**Q. Are you going to backport this mod to versions before 1.15?**\n\nA. No, this mod will never be backported to older versions. The game's older codebases are entirely different, and usually missing important features this mod depends on.\n**Please do NOT ask for backports!**\n\n**Q. Do you have a Patreon, or similar means of supporting your work?**\n\nA. Not currently, but thanks for your consideration! I'm currently well-sustaned by a stable job, and my personal projects are hobbies I work on my free time. My suggestion is to donate your money to more worthy causes, or just treat yourself to a nice lunch. ;)",
+          "published": "2022-08-07T23:18:53.898484Z",
+          "updated": "2025-08-23T01:51:13.085952Z",
+          "status": "approved",
+          "license": {
+            "id": "MIT",
+            "name": "MIT License"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "decoration",
+            "equipment",
+            "food"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/R2OftAxM/8e7aa38ab94d94bb0a2894a218b69beb49002b34.png",
+          "issues_url": "https://github.com/vectorwing/FarmersDelight/issues",
+          "source_url": "https://github.com/vectorwing/FarmersDelight",
+          "wiki_url": "https://github.com/vectorwing/FarmersDelight/wiki",
+          "discord_url": "https://discord.gg/eFsz5SK",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/R2OftAxM/images/a5a80d8833b40a7cc5c2baa06ecc7960c819ac74_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/R2OftAxM/images/abbdd61b7ad127fdf039742363f923507cd6ddef.png",
+              "featured": false,
+              "title": "Kitchenware",
+              "description": "Cooking Pots, Stoves, Skillets, Cutting Boards, and so on.",
+              "created": "2022-08-07T23:31:54.303046Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/R2OftAxM/images/ae533ae3e35b41e9063d3edba36b5b18ac6f0f25_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/R2OftAxM/images/6f52edff9b1932f6c65536a65f6bb74f25ae2740.png",
+              "featured": false,
+              "title": "Straw, Rope and Compost",
+              "description": "Farm a durable fiber, then give it back to your farm with Rich Soil!",
+              "created": "2022-08-07T23:31:51.871168Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/R2OftAxM/images/c6eeaef40ec38d8cbb78fe8ce4307ccced9e5aca_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/R2OftAxM/images/814cbbb6eefd8f70af0c6f5137db8ff871ab584f.png",
+              "featured": false,
+              "title": "A Glorious Feast",
+              "description": "Proudly display your cooking skills and celebrate with your party!",
+              "created": "2022-08-07T23:31:55.523608Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/R2OftAxM/images/cae99b4488deda3ba6c3ad25fabbddd0dff154fc_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/R2OftAxM/images/5116e753d281d7314e14d9c9fe9d043983861406.png",
+              "featured": false,
+              "title": "Basic Crops",
+              "description": "Rice, Cabbage, Tomato and Onion!",
+              "created": "2022-08-07T23:31:50.303700Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/R2OftAxM/images/f200944fad13f6afe5e16b6f75b8c4d947667cd8.png",
+              "raw_url": "https://cdn.modrinth.com/data/R2OftAxM/images/f200944fad13f6afe5e16b6f75b8c4d947667cd8.png",
+              "featured": false,
+              "title": "List of Foods",
+              "description": "A selection of meals, snacks and drinks from the mod. More to come in the future!",
+              "created": "2022-08-07T23:31:56.169617Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/R2OftAxM/images/f8c229496ddff8398757c2d7e81a9e73fed42efb_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/R2OftAxM/images/27f7cf333fb35a3f2b3d7e2a489ae5280fc16bb8.png",
+              "featured": false,
+              "title": "Cozy Decorations",
+              "description": "Add a rustic touch to your home!",
+              "created": "2022-08-07T23:31:53.151754Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "8rPF1pFi",
+          "project_id": "R2OftAxM",
+          "author_id": "btHGOarG",
+          "name": "Farmer's Delight 1.2.9 - 1.20.1",
+          "version_number": "1.20.1-1.2.9",
+          "changelog": "## 1.2.9\n\n### Updates\n- The `offhand_equipment` tag now includes `forge:tools/shields` by default, extending default compatibility;\n- Rich Soil Farmland can now be hydrated by any fluid type capable of hydration;\n- Wild Cabbage and Sea Beet can now generate on any biome tagged with `minecraft:is_beach` (thanks, lyaneii!);\n\n### Fixes\n- Fixed Wheat Dough's water-based recipe still displaying in JEI when disabled;\n- Fixed FD's special recipes existing in the `minecraft` namespace;\n- Temporary fix for the Cooking Pot crashing when opened in spectator mode (access is now disabled);\n- (1.21+) Fixed Cooking Pot allowing players to cook and store up to 99 servings;\n- (1.21+) Fixed Create integration's milling recipes using invalid field, which caused them to never finish processing;\n- (1.21+) Fixed Rabbit Stew not returning bowls after being eaten, due to the Rabbit Stew buff;\n- (1.21+) Fixed a potential datapack error with cooking recipes in KubeJS (thanks, ianm1647!);\n\n### Translations\n- Update main langs to include lines for wall canvas signs;\n- Fixed es_ar translation having a JSON error;\n- Added:\n  - hu_hu (thanks, bayi!);\n  - lzh (thanks, BeiDou114514!);\n- Updated:\n  - it_it (thanks, BlackShadow77!);\n  - zh_cn (thanks, Don-Trueno!);\n  - zh_tw (thanks, CyanChanges!);",
+          "date_published": "2025-08-23T01:50:00.006575Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "ca9417c369e75d38dacdac59937223e5f6adcc18",
+                "sha512": "b628f9818301788dfba535615dde964e1727b8b3b22884f26df1f8a2b5a11a063f3803de00bc6eb8d148440286d43a29b98352afb33bd447b847c21b870442cb"
+              },
+              "url": "https://cdn.modrinth.com/data/R2OftAxM/versions/8rPF1pFi/FarmersDelight-1.20.1-1.2.9.jar",
+              "filename": "FarmersDelight-1.20.1-1.2.9.jar",
+              "primary": true,
+              "size": 2978080
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ]
+        }
+      },
+      {
+        "name": "BooneForgeAPI",
+        "version": "booneforgeapi-1.20.1-1.2.jar",
+        "optional": true,
+        "file": "booneforgeapi-1.20.1-1.2.jar",
+        "type": "mods",
+        "description": "An API for my fabric -> forge ports.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 1232386,
+        "curseForgeFileId": 6434954,
+        "curseForgeProject": {
+          "id": 1232386,
+          "name": "BooneForgeAPI",
+          "authors": [
+            {
+              "id": 102756339,
+              "name": "booneldanforever",
+              "url": "https://www.curseforge.com/members/booneldanforever"
+            }
+          ],
+          "gameId": 432,
+          "summary": "An API for my fabric -> forge ports.",
+          "categories": [
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 421,
+          "classId": 6,
+          "slug": "booneforgeapi",
+          "isFeatured": false,
+          "dateModified": "2025-04-18T04:06:51.917Z",
+          "dateCreated": "2025-03-31T14:16:00.483Z",
+          "dateReleased": "2025-04-18T03:55:43.987Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/booneforgeapi"
+          },
+          "logo": {
+            "id": 1211874,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1211/874/256/256/638789772066201414.png",
+            "title": "638789772066201414.png",
+            "url": "https://media.forgecdn.net/avatars/1211/874/638789772066201414.png",
+            "modId": 1232386
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 6434954
+        },
+        "curseForgeFile": {
+          "id": 6434954,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "booneforgeapi-1.20.1-1.2.jar",
+          "fileName": "booneforgeapi-1.20.1-1.2.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-04-18T03:55:43.987Z",
+          "fileLength": 171654,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 1230162250,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 392274372,
+              "name": "com"
+            },
+            {
+              "fingerprint": 4137327304,
+              "name": "net"
+            },
+            {
+              "fingerprint": 3559987050,
+              "name": "booneforgeapi.mixins.json"
+            },
+            {
+              "fingerprint": 2170403610,
+              "name": "booneforgeapi.png"
+            },
+            {
+              "fingerprint": 998409119,
+              "name": "data"
+            },
+            {
+              "fingerprint": 2404158407,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 4084868075,
+              "name": "booneforgeapi.refmap.json"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "8d8988216b4e453925fd0dd3e7f008b186465d45",
+              "algo": 1
+            },
+            {
+              "value": "d8db1b5805738b62be74ffacc54465ce",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 4265976744,
+          "modId": 1232386
+        }
+      },
+      {
+        "name": "Cloth Config API (Fabric/Forge/NeoForge)",
+        "version": "[Forge 1.20(.1)] v11.1.136",
+        "optional": true,
+        "file": "cloth-config-11.1.136-forge.jar",
+        "type": "mods",
+        "description": "Config Screen API for Minecraft",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 348521,
+        "curseForgeFileId": 5729105,
+        "curseForgeProject": {
+          "id": 348521,
+          "name": "Cloth Config API (Fabric/Forge/NeoForge)",
+          "authors": [
+            {
+              "id": 32851078,
+              "name": "shedaniel",
+              "url": "https://www.curseforge.com/members/shedaniel"
+            },
+            {
+              "id": 101070148,
+              "name": "LinkieIsBetterThanK9",
+              "url": "https://www.curseforge.com/members/linkieisbetterthank9"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Config Screen API for Minecraft",
+          "categories": [
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 421,
+          "classId": 6,
+          "slug": "cloth-config",
+          "isFeatured": false,
+          "dateModified": "2025-10-28T07:18:00.133Z",
+          "dateCreated": "2019-10-21T04:41:50.67Z",
+          "dateReleased": "2025-10-26T08:07:48.357Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/cloth-config",
+            "wikiUrl": "https://shedaniel.gitbook.io/cloth-config/",
+            "issuesUrl": "https://github.com/shedaniel/ClothConfig/issues",
+            "sourceUrl": "https://github.com/shedaniel/ClothConfig"
+          },
+          "logo": {
+            "id": 282467,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/282/467/256/256/637289313020452406.png",
+            "title": "637289313020452406.png",
+            "url": "https://media.forgecdn.net/avatars/282/467/637289313020452406.png",
+            "modId": 348521
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 7151182
+        },
+        "curseForgeFile": {
+          "id": 5729105,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "[Forge 1.20(.1)] v11.1.136",
+          "fileName": "cloth-config-11.1.136-forge.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-09-16T17:13:48.94Z",
+          "fileLength": 1181413,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 1331850120,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 4008471873,
+              "name": "LICENSE.md"
+            },
+            {
+              "fingerprint": 3854573463,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 524945892,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 2356087988,
+              "name": "icon.png"
+            },
+            {
+              "fingerprint": 4258044106,
+              "name": "me"
+            },
+            {
+              "fingerprint": 3445087113,
+              "name": "architectury_inject_clothconfig_common_0b9ec81698d34ba0a2990a6d342e97cf_da5b50464723222034f823fb516e12f8be65f5546163a096669cd65445ae7540clothconfig111136devjar"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "c65d07748acc57ceb45d53b3964368b84f34d54f",
+              "algo": 1
+            },
+            {
+              "value": "ca5de5acbcb4a30c010aa6953bd7ef53",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020",
+              "gameVersion": "1.20",
+              "gameVersionReleaseDate": "2023-06-07T00:00:00Z",
+              "gameVersionName": "1.20"
+            }
+          ],
+          "gameVersions": [
+            "NeoForge",
+            "1.20.1",
+            "Forge",
+            "1.20"
+          ],
+          "fileFingerprint": 635589968,
+          "modId": 348521
+        },
+        "modrinthProject": {
+          "id": "9s6osm5g",
+          "slug": "cloth-config",
+          "project_type": "mod",
+          "team": "z9omIQMN",
+          "title": "Cloth Config API",
+          "description": "Configuration Library for Minecraft Mods",
+          "body": "[<img src=\"https://i.imgur.com/ZEORx0F.png\" alt=\"\" width=\"225\"/>](https://discord.gg/Vs9AVkxjYY) [<img src=\"https://i.imgur.com/LrVLC2a.png\" alt=\"\" width=\"201\"/>](https://www.patreon.com/shedaniel)\n\nCloth Config API is a config screen api.\n\n### Developers Wiki\n[https://shedaniel.gitbook.io/cloth-config/](https://shedaniel.gitbook.io/cloth-config/)\n\n![](https://i.imgur.com/AkpzyeC.png)",
+          "published": "2022-04-21T10:29:41.555173Z",
+          "updated": "2025-10-26T08:07:51.047117Z",
+          "status": "approved",
+          "license": {
+            "id": "LGPL-3.0-only",
+            "name": "GNU Lesser General Public License v3.0 only"
+          },
+          "client_side": "optional",
+          "server_side": "optional",
+          "categories": [
+            "library"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/9s6osm5g/ed8a2316cbb6f4fc5f510e8e13a59a85cbbbff4d_96.webp",
+          "issues_url": "https://github.com/shedaniel/ClothConfig/issues",
+          "source_url": "https://github.com/shedaniel/ClothConfig/",
+          "wiki_url": "https://shedaniel.gitbook.io/cloth-config/",
+          "discord_url": "https://discord.gg/Vs9AVkxjYY",
+          "donation_urls": [
+            {
+              "id": "patreon",
+              "platform": "Patreon",
+              "url": "https://www.patreon.com/shedaniel"
+            }
+          ],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/9s6osm5g/images/baa0dc605540953f5262f24109ec7837c090a04c.png",
+              "raw_url": "https://cdn.modrinth.com/data/9s6osm5g/images/baa0dc605540953f5262f24109ec7837c090a04c.png",
+              "featured": true,
+              "title": "Example Config Screen",
+              "created": "2022-04-21T10:31:01.159433Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "t8TXrZvZ",
+          "project_id": "9s6osm5g",
+          "author_id": "1Hsaf75m",
+          "name": "[Forge 1.20(.1)] v11.1.136",
+          "version_number": "11.1.136+forge",
+          "changelog": "",
+          "date_published": "2024-09-16T17:13:50.725690Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
+                "sha512": "137c4af99c53d77317cbfb1cc8c49fc2761708b49d1992f51fd846960df41dde3a83519c987e081508d4ed90c603566f3d5a6cb620ad9d85b8f4de59aa9115ef"
+              },
+              "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
+              "filename": "cloth-config-11.1.136-forge.jar",
+              "primary": true,
+              "size": 1181413
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20",
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "Chest Cavity - Forge Port",
+        "version": "chestcavity-1.20.1-2.17.1.1.jar",
+        "optional": true,
+        "file": "chestcavity-1.20.1-2.17.1.1.jar",
+        "type": "mods",
+        "description": "Perfectly safe* internal storage",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 654347,
+        "curseForgeFileId": 6434958,
+        "curseForgeProject": {
+          "id": 654347,
+          "name": "Chest Cavity - Forge Port",
+          "authors": [
+            {
+              "id": 102756339,
+              "name": "booneldanforever",
+              "url": "https://www.curseforge.com/members/booneldanforever"
+            },
+            {
+              "id": 22118911,
+              "name": "TigerOfTroy",
+              "url": "https://www.curseforge.com/members/tigeroftroy"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Perfectly safe* internal storage",
+          "categories": [
+            {
+              "name": "Genetics",
+              "slug": "technology-genetics",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/technology/technology-genetics",
+              "dateModified": "2014-05-08T17:39:52.153Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 418,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/33/635351495921521214.png",
+              "parentCategoryId": 412,
+              "classId": 6
+            },
+            {
+              "name": "Storage",
+              "slug": "storage",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/storage",
+              "dateModified": "2014-05-08T17:41:17.203Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 420,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/35/635351496772023801.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Food",
+              "slug": "mc-food",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-food",
+              "dateModified": "2014-05-08T17:45:26.55Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 436,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/49/635351499265510402.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 418,
+          "classId": 6,
+          "slug": "chest-cavity-forge-port",
+          "isFeatured": false,
+          "dateModified": "2025-04-18T04:06:51.583Z",
+          "dateCreated": "2022-08-03T10:16:25.073Z",
+          "dateReleased": "2025-04-18T03:57:33.007Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/chest-cavity-forge-port",
+            "wikiUrl": "",
+            "sourceUrl": "https://github.com/BoonelDanForever/ChestCavityForge"
+          },
+          "logo": {
+            "id": 583731,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/583/731/256/256/637950850566475713.png",
+            "title": "637950850566475713.png",
+            "url": "https://media.forgecdn.net/avatars/583/731/637950850566475713.png",
+            "modId": 654347
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 6434958
+        },
+        "curseForgeFile": {
+          "id": 6434958,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "chestcavity-1.20.1-2.17.1.1.jar",
+          "fileName": "chestcavity-1.20.1-2.17.1.1.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-04-18T03:57:33.007Z",
+          "fileLength": 998411,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 310111,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 348521,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 1232386,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 1240697,
+              "relationType": 2
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3065728354,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1241259254,
+              "name": "net"
+            },
+            {
+              "fingerprint": 1093323325,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 2351448585,
+              "name": "chestcavity.mixins.json"
+            },
+            {
+              "fingerprint": 2851524527,
+              "name": "data"
+            },
+            {
+              "fingerprint": 2404158407,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 4123866215,
+              "name": "chestcavity.refmap.json"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "6994018f4de2dbc7935092fdfc7e2cb2dd00e483",
+              "algo": 1
+            },
+            {
+              "value": "63e38de352cd91065e4075e298be05fb",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 2463775954,
+          "modId": 654347
+        }
+      },
+      {
+        "name": "Bookshelf",
+        "version": "Bookshelf-Forge-1.20.1-20.2.13.jar",
+        "optional": true,
+        "file": "Bookshelf-Forge-1.20.1-20.2.13.jar",
+        "type": "mods",
+        "description": "An open source library for other mods!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 228525,
+        "curseForgeFileId": 5423987,
+        "curseForgeProject": {
+          "id": 228525,
+          "name": "Bookshelf",
+          "authors": [
+            {
+              "id": 6968547,
+              "name": "DarkhaxDev",
+              "url": "https://www.curseforge.com/members/darkhaxdev"
+            }
+          ],
+          "gameId": 432,
+          "summary": "An open source library for other mods!",
+          "categories": [
+            {
+              "name": "Server Utility",
+              "slug": "server-utility",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/server-utility",
+              "dateModified": "2014-05-08T17:44:55.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 435,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/48/635351498950580836.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Miscellaneous",
+              "slug": "mc-miscellaneous",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-miscellaneous",
+              "dateModified": "2014-06-15T04:27:14.543Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 425,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/40/635351497693711265.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 425,
+          "classId": 6,
+          "slug": "bookshelf",
+          "isFeatured": false,
+          "dateModified": "2025-10-29T00:04:27.24Z",
+          "dateCreated": "2015-03-12T03:44:39.043Z",
+          "dateReleased": "2025-10-28T23:59:38.317Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/bookshelf",
+            "wikiUrl": "https://docs.darkhax.net/mods/bookshelf?curseforge",
+            "issuesUrl": "https://github.com/Darkhax-Minecraft/Bookshelf/issues",
+            "sourceUrl": "https://github.com/Darkhax-Minecraft/Bookshelf"
+          },
+          "logo": {
+            "id": 981432,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/981/432/256/256/638488256947873195.png",
+            "title": "638488256947873195.png",
+            "url": "https://media.forgecdn.net/avatars/981/432/638488256947873195.png",
+            "modId": 228525
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 356665,
+              "description": "This is a debug command added by Bookshelf. You can use it to export game data of the held item in many different formats. For example the ingredient option will give you a JSON string that can be used in datapacks for things like recipe inputs.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/356/665/310/172/hand_command.png",
+              "title": "Command: /bookshelf hand",
+              "url": "https://media.forgecdn.net/attachments/356/665/hand_command.png",
+              "modId": 228525
+            }
+          ],
+          "mainFileId": 7161607
+        },
+        "curseForgeFile": {
+          "id": 5423987,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "Bookshelf-Forge-1.20.1-20.2.13.jar",
+          "fileName": "Bookshelf-Forge-1.20.1-20.2.13.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-06-13T15:17:32.3Z",
+          "fileLength": 343962,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 1513913034,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1656983946,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 2258698057,
+              "name": "bookshelf.common.mixins.json"
+            },
+            {
+              "fingerprint": 2980735859,
+              "name": "bookshelf.forge.mixins.json"
+            },
+            {
+              "fingerprint": 807608998,
+              "name": "bookshelf.refmap.json"
+            },
+            {
+              "fingerprint": 475246396,
+              "name": "data"
+            },
+            {
+              "fingerprint": 777571610,
+              "name": "logo.png"
+            },
+            {
+              "fingerprint": 1314811348,
+              "name": "net"
+            },
+            {
+              "fingerprint": 2432341171,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "c53d9eb5ce9e8ef0f2ea9b11e478d84ce958c3e5",
+              "algo": 1
+            },
+            {
+              "value": "46c8e7f9bcfa984bd576e448df2beb25",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Server"
+            }
+          ],
+          "gameVersions": [
+            "Client",
+            "NeoForge",
+            "1.20.1",
+            "Forge",
+            "Server"
+          ],
+          "fileFingerprint": 2325681367,
+          "modId": 228525
+        },
+        "modrinthProject": {
+          "id": "uy4Cnpcm",
+          "slug": "bookshelf-lib",
+          "project_type": "mod",
+          "team": "qdYl5sw1",
+          "title": "Bookshelf",
+          "description": "An open source library for other mods!",
+          "body": "<p>Bookshelf is a collection of code, frameworks, utilities, and other resources. Many mods utilize Bookshelf's code base to power their own mods.</p>\n\n<h3>Why use a library mod?</h3>\n<p>Library mods such as Bookshelf allow seemingly unrelated mods to share parts of the same code base. This reduces the amount of time and effort required to develop certain mods and features. The Library's code base is also tested in a wider range of circumstances and communities which can lead to less bugs and better performance in mods.</p>\n\n<h3>Features for Players</h3>\n<p>While this mod is primarily for mod authors, there are a few useful features for Players.</p>\n<ul>\n<li><a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/wiki/Commands\" rel=\"nofollow\">Debug commands</a> like /bookshelf hand to get item IDs.</li>\n<li>Many new <a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/wiki/Data-Packs\" rel=\"nofollow\">datapack features</a> like crafting recipes that damage items with durability rather than consuming them.</li>\n</ul>\n\n<h3>Features for Modders</h3>\n<ul>\n<li><a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/blob/1.16.5/src/main/java/net/darkhax/bookshelf/serialization/Serializers.java\" rel=\"nofollow\">Serialization for JSON/Network/NBT formats.</a></li>\n<li><a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/tree/1.16.5/src/main/java/net/darkhax/bookshelf/util\" rel=\"nofollow\">Utility Functions.</a></li>\n<li><a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/tree/1.16.5/src/main/java/net/darkhax/bookshelf/registry\" rel=\"nofollow\">Registry manager, including non-forge registry types, debugging, and statistics.</a></li>\n<li><a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/wiki/Commands\" rel=\"nofollow\">Debug commands.</a></li>\n<li><a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/wiki/Data-Packs#recipe-types\" rel=\"nofollow\">New recipe types.</a></li>\n<li><a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/wiki/Data-Packs#ingredients\" rel=\"nofollow\">New ingredient types.</a></li>\n<li><a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/wiki/Data-Packs#loot-conditions\" rel=\"nofollow\">New loot condition types.</a></li>\n<li><a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/wiki/Data-Packs#global-loot-modifiers\" rel=\"nofollow\">New loot modifier types.</a></li>\n<li><a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/wiki/Data-Packs#item-predicates\" rel=\"nofollow\">New item predicates.</a></li>\n<li>Check <a href=\"https://github.com/Darkhax-Minecraft/Bookshelf\" rel=\"nofollow\">GitHub</a> and the <a href=\"https://github.com/Darkhax-Minecraft/Bookshelf/wiki\" rel=\"nofollow\">Wiki</a> for more!</li>\n</ul>\n\n<p><strong>Like the mod and want to support me?</strong></p>\n<ul>\n<li>Follow me on <a href=\"https://twitter.com/DarkhaxDev\" rel=\"nofollow\">Twitter</a></li>\n<li>Join my <a href=\"https://discord.darkhax.net/\" rel=\"nofollow\">Discord</a></li>\n<li>Check out my <a href=\"https://darkhax.net/\" rel=\"nofollow\">website</a></li>\n</ul>\n\n[![Nodecraft sponsor banner](https://assets.blamejared.com/nodecraft/darkhax.jpg)](https://nodecraft.com/r/darkhax)\n\n**This project is sponsored by Nodecraft. Use code [DARKHAX](https://nodecraft.com/r/darkhax) for 30% off your first month of service!**",
+          "published": "2023-06-07T05:15:26.501095Z",
+          "updated": "2025-10-28T23:59:42.215678Z",
+          "status": "approved",
+          "license": {
+            "id": "LGPL-2.1-only",
+            "name": "GNU Lesser General Public License v2.1 only"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "library",
+            "utility"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge",
+            "quilt"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/uy4Cnpcm/002e73d916fb63c9c85e212ac47fde4ef9c4a65f.png",
+          "issues_url": "https://github.com/Darkhax-Minecraft/Bookshelf/issues",
+          "source_url": "https://github.com/Darkhax-Minecraft/Bookshelf",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/uy4Cnpcm/images/46dee24e9da4addbfb5dd2d082a6b2b86832e2e2.png",
+              "raw_url": "https://cdn.modrinth.com/data/uy4Cnpcm/images/46dee24e9da4addbfb5dd2d082a6b2b86832e2e2.png",
+              "featured": false,
+              "title": "Command: /bookshelf hand",
+              "description": "This is a debug command added by Bookshelf. You can use it to export game data of the held item in many different formats. For example the ingredient option will give you a JSON string that can be used in datapacks for things like recipe inputs.",
+              "created": "2023-06-07T05:15:12.382551Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "tNwsir0K",
+          "project_id": "uy4Cnpcm",
+          "author_id": "TiqUUK2E",
+          "name": "Bookshelf-Forge-1.20.1-20.2.13",
+          "version_number": "20.2.13",
+          "changelog": "No changelog was specified.",
+          "date_published": "2024-06-13T15:17:37.621721Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "c53d9eb5ce9e8ef0f2ea9b11e478d84ce958c3e5",
+                "sha512": "1143753a001bccb3fc84c699cc93343f1941da9b7a63d3a3b8078808262b42962f8b10a2c16ed97a49c058865a6dbaa7e85a1e8842b95039d222f06ab4ee9509"
+              },
+              "url": "https://cdn.modrinth.com/data/uy4Cnpcm/versions/tNwsir0K/Bookshelf-Forge-1.20.1-20.2.13.jar",
+              "filename": "Bookshelf-Forge-1.20.1-20.2.13.jar",
+              "primary": true,
+              "size": 343962
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "Bone Zone",
+        "version": "BoneZone-Forge-1.20.1-3.0.6.jar",
+        "optional": true,
+        "file": "BoneZone-Forge-1.20.1-3.0.6.jar",
+        "type": "mods",
+        "description": "Spice up your world with macabre decorations based on bones.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 690176,
+        "curseForgeFileId": 5368365,
+        "curseForgeProject": {
+          "id": 690176,
+          "name": "Bone Zone",
+          "authors": [
+            {
+              "id": 6968547,
+              "name": "DarkhaxDev",
+              "url": "https://www.curseforge.com/members/darkhaxdev"
+            },
+            {
+              "id": 8564520,
+              "name": "AbsolemJackdaw",
+              "url": "https://www.curseforge.com/members/absolemjackdaw"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Spice up your world with macabre decorations based on bones.",
+          "categories": [
+            {
+              "name": "Adventure and RPG",
+              "slug": "adventure-rpg",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/adventure-rpg",
+              "dateModified": "2014-05-08T17:42:09.54Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 422,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/37/635351497295252123.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Armor, Tools, and Weapons",
+              "slug": "armor-weapons-tools",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/armor-weapons-tools",
+              "dateModified": "2014-05-08T17:44:39.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 434,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/47/635351498790409758.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 424,
+          "classId": 6,
+          "slug": "bone-zone",
+          "isFeatured": false,
+          "dateModified": "2024-05-24T09:31:28.06Z",
+          "dateCreated": "2022-10-23T11:52:56.26Z",
+          "dateReleased": "2024-05-24T09:27:00.397Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/bone-zone",
+            "issuesUrl": "https://github.com/Darkhax/Bone-Zone/issues",
+            "sourceUrl": "https://github.com/Darkhax/Bone-Zone"
+          },
+          "logo": {
+            "id": 623829,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/623/829/256/256/638018410959397463.png",
+            "title": "638018410959397463.png",
+            "url": "https://media.forgecdn.net/avatars/623/829/638018410959397463.png",
+            "modId": 690176
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 507873,
+              "description": "Bricks and mosaic blocks based on the skeleton species.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/507/873/310/172/building_blocks.png",
+              "title": "Building Blocks",
+              "url": "https://media.forgecdn.net/attachments/507/873/building_blocks.png",
+              "modId": 690176
+            },
+            {
+              "id": 507872,
+              "description": "Skull masks can be worn by players, mobs, and armor stands. Spooky!",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/507/872/310/172/wearable_skulls.png",
+              "title": "Skull Masks",
+              "url": "https://media.forgecdn.net/attachments/507/872/wearable_skulls.png",
+              "modId": 690176
+            },
+            {
+              "id": 507866,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/507/866/310/172/skull_pots.png",
+              "title": "Skull Pots",
+              "url": "https://media.forgecdn.net/attachments/507/866/skull_pots.png",
+              "modId": 690176
+            },
+            {
+              "id": 507841,
+              "description": "The crafting recipe for the bonecarver in a crafting table.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/507/841/310/172/craft_bonecarver.png",
+              "title": "Bonecarver Recipe",
+              "url": "https://media.forgecdn.net/attachments/507/841/craft_bonecarver.png",
+              "modId": 690176
+            },
+            {
+              "id": 507840,
+              "description": "A simplified view of the Bonecarver screen.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/507/840/310/172/bonecarver_ui.png",
+              "title": "Bonecarver Screen",
+              "url": "https://media.forgecdn.net/attachments/507/840/bonecarver_ui.png",
+              "modId": 690176
+            }
+          ],
+          "mainFileId": 5264022
+        },
+        "curseForgeFile": {
+          "id": 5368365,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "BoneZone-Forge-1.20.1-3.0.6.jar",
+          "fileName": "BoneZone-Forge-1.20.1-3.0.6.jar",
+          "releaseType": 3,
+          "fileStatus": 4,
+          "fileDate": "2024-05-24T09:26:55.937Z",
+          "fileLength": 560451,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 228525,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 2627209423,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 714076146,
+              "name": "net"
+            },
+            {
+              "fingerprint": 285536491,
+              "name": "data"
+            },
+            {
+              "fingerprint": 3752509684,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 4078332288,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 784923187,
+              "name": "logo.png"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "295d57ae38672b65d15314a847be41da04da3cfa",
+              "algo": 1
+            },
+            {
+              "value": "ff39e1521ebd58688a9766ffa488fab9",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 2566208163,
+          "modId": 690176
+        }
+      },
+      {
+        "name": "Butchercraft",
+        "version": "butchercraft-2.4.1.jar",
+        "optional": true,
+        "file": "butchercraft-2.4.1.jar",
+        "type": "mods",
+        "description": "Adds semi-realistic butchering to minecraft.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 265715,
+        "curseForgeFileId": 6058842,
+        "curseForgeProject": {
+          "id": 265715,
+          "name": "Butchercraft",
+          "authors": [
+            {
+              "id": 11059250,
+              "name": "Lance5057",
+              "url": "https://www.curseforge.com/members/lance5057"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Adds semi-realistic butchering to minecraft.",
+          "categories": [
+            {
+              "name": "Food",
+              "slug": "mc-food",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-food",
+              "dateModified": "2014-05-08T17:45:26.55Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 436,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/49/635351499265510402.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 436,
+          "classId": 6,
+          "slug": "butchercraft",
+          "isFeatured": false,
+          "dateModified": "2025-07-01T02:03:12.667Z",
+          "dateCreated": "2017-04-21T10:24:28.567Z",
+          "dateReleased": "2025-07-01T01:58:32.43Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/butchercraft",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/Lance5057/Butchercraft/issues",
+            "sourceUrl": "https://github.com/Lance5057/Butchercraft"
+          },
+          "logo": {
+            "id": 619754,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/619/754/256/256/638007861091914873.png",
+            "title": "638007861091914873.png",
+            "url": "https://media.forgecdn.net/avatars/619/754/638007861091914873.png",
+            "modId": 265715
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 510705,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/510/705/310/172/7-qjirbuw.png",
+              "title": "Drops",
+              "url": "https://media.forgecdn.net/attachments/510/705/7-qjirbuw.png",
+              "modId": 265715
+            },
+            {
+              "id": 510704,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/510/704/310/172/6-9ls2iug.png",
+              "title": "Gutted",
+              "url": "https://media.forgecdn.net/attachments/510/704/6-9ls2iug.png",
+              "modId": 265715
+            },
+            {
+              "id": 510703,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/510/703/310/172/5-9ziuft9.png",
+              "title": "Delimbed",
+              "url": "https://media.forgecdn.net/attachments/510/703/5-9ziuft9.png",
+              "modId": 265715
+            },
+            {
+              "id": 510702,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/510/702/310/172/4-3btwfi5.png",
+              "title": "Skinned",
+              "url": "https://media.forgecdn.net/attachments/510/702/4-3btwfi5.png",
+              "modId": 265715
+            },
+            {
+              "id": 510701,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/510/701/310/172/3-oscgib9.png",
+              "title": "Hang it up",
+              "url": "https://media.forgecdn.net/attachments/510/701/3-oscgib9.png",
+              "modId": 265715
+            },
+            {
+              "id": 510700,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/510/700/310/172/2-ciadznm.png",
+              "title": "Carcass aquired",
+              "url": "https://media.forgecdn.net/attachments/510/700/2-ciadznm.png",
+              "modId": 265715
+            },
+            {
+              "id": 510699,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/510/699/310/172/1-rmyyxkh.png",
+              "title": "A worthy sacrifice",
+              "url": "https://media.forgecdn.net/attachments/510/699/1-rmyyxkh.png",
+              "modId": 265715
+            }
+          ],
+          "mainFileId": 6714774
+        },
+        "curseForgeFile": {
+          "id": 6058842,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "butchercraft-2.4.1.jar",
+          "fileName": "butchercraft-2.4.1.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-01-06T08:19:26.96Z",
+          "fileLength": 1900376,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 842106,
+              "relationType": 2
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 740516927,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 4038057749,
+              "name": "com"
+            },
+            {
+              "fingerprint": 3627451043,
+              "name": ".cache"
+            },
+            {
+              "fingerprint": 2106892508,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 2619898107,
+              "name": "data"
+            },
+            {
+              "fingerprint": 1951644,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "3a15ca67da71138922f8503063eba6a143d36a65",
+              "algo": 1
+            },
+            {
+              "value": "b15881008082f0b5c63877a01cfd2855",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 2024160880,
+          "modId": 265715
+        },
+        "modrinthProject": {
+          "id": "MT2Xm0ih",
+          "slug": "butchercraft",
+          "project_type": "mod",
+          "team": "SigE5u4E",
+          "title": "Butchercraft",
+          "description": "Killing an animal nets barely a few bits, maybe some meat and a few leathers, and then the rest just disappears. Such a waste!",
+          "body": "[![RocketNode Sponsor](https://cdn.modrinth.com/data/cached_images/32d5a7ced89ebe1a875133f3866a56c46393728f_0.webp)]([https://rocketnode.com/lance5057](https://rocketnode.com/lance5057))\n**I've partnered with RocketNode Hosting!**\n\n\n\nRocketNode provides top-tier server hosting worldwide, allowing you to set up your server with just a few clicks! Their intuitive dashboard makes server management a breeze, and you can even schedule automatic restarts without needing any coding knowledge.\n\nUse the code LANCE5057 to get 25% off your first month on any of their gaming servers. Get started here: https://rocketnode.com/lance5057\n\n\n\n\n\n\n\n![Butchercraft Logo](https://imgur.com/zSLmBN2.png)\n\n[![Patreon](https://imgur.com/788nQ41.png)](https://www.patreon.com/SirLance)\n[![Discord](https://imgur.com/SGTaDj7.png)](https://discord.gg/SuUuXchG8x)\n\n\n Killing an animal nets barely a few bits, maybe some meat and a few leathers, and then the rest just disappears. Such a waste!\n\n\n\nButchercraft changes that by adding a butchering system. It goes through every step from slaughter to cooking, netting much more than before by breaking down the entire animal.\n\nRequirements:\n\nNeoForge/Forge - This is a NeoForge only mod. Forge was used for past updates.\n\nFeatures:\n\nButcherknife - A razor sharp blade made to swiftly slaughter an animal and cut through meat.\nMeathook - A set of metal hooks along a bar to hang carcasses from. Makes butchery easier especially with large creatures.\nButcher Block - A wooden table to butcher small animals and cut things up with a knife.\nMeat Grinder - Grinds meat into mince and can even double as a sausage stuffer.\nFood! - Tons of new types of meat and ,when combine with [Extra Delight](https://modrinth.com/mod/extradelight), recipes to go with them.\n\nModpack Makers:\n\nThe following things can be edited and added to via JSON datapacks:\n\nMeathook/Butcherblock - Uses a somewhat complex system to load a block or item model then animate them. Takes a single item, outputs loot tables.\nButcher Knife - Uses a loottable, activated when right clicking on specified entity.\n\nFAQ:\n\nQ: Can I use this in my modpack?\n\nA: Of course! Just follow the rules of the license, don't rehost the jar, and don't claim the mod as your own.\n\nQ: Can you backport?\n\nA: No, never ask a modder that.\n\n\n<details>\n<summary>Spoiler</summary>\n\n![Normalize Shampooing Cows](https://i.imgur.com/UTUxcxu.png)\n\n</details>\n\n",
+          "published": "2024-03-18T21:26:43.873876Z",
+          "updated": "2025-07-01T01:57:41.515818Z",
+          "status": "approved",
+          "license": {
+            "id": "CC-BY-NC-SA-4.0",
+            "name": "Creative Commons Attribution Non Commercial Share Alike 4.0 International"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "cursed",
+            "food",
+            "game-mechanics"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/MT2Xm0ih/96025fa4f3d96563eb037f6dd5481dc3c2c67636.png",
+          "issues_url": "https://github.com/Lance5057/Butchercraft/issues",
+          "source_url": "https://github.com/Lance5057/Butchercraft",
+          "donation_urls": [
+            {
+              "id": "patreon",
+              "platform": "Patreon",
+              "url": "https://www.patreon.com/SirLance"
+            }
+          ],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/MT2Xm0ih/images/5d1c8c39cb759c058518d6629047a852e7e1a742_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/MT2Xm0ih/images/d964b33533980e4e04bf4d40691f96782f19373b.png",
+              "featured": false,
+              "title": "Cow Hook",
+              "description": "A cow on a hook",
+              "created": "2024-03-18T22:51:20.087453Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "Ef6GKQqY",
+          "project_id": "MT2Xm0ih",
+          "author_id": "Vv7IE4do",
+          "name": "Butchercraft 2.4.1",
+          "version_number": "2.4.1",
+          "changelog": "Config Fix\nPPE render fix",
+          "date_published": "2025-01-06T08:21:11.917619Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "2675defe123087d6cefdd0ddc7297ee8fb1face6ff8da624e3ee4df715ff0dd555e3df894caebb33585858ecd1c33f96e6f1d4b8918e666e072c931a328cc056",
+                "sha1": "3a15ca67da71138922f8503063eba6a143d36a65"
+              },
+              "url": "https://cdn.modrinth.com/data/MT2Xm0ih/versions/Ef6GKQqY/butchercraft-2.4.1.jar",
+              "filename": "butchercraft-2.4.1.jar",
+              "primary": true,
+              "size": 1900376
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "Architectury API",
+        "version": "[Forge 1.20(.1)] v9.2.14",
+        "optional": true,
+        "file": "architectury-9.2.14-forge.jar",
+        "type": "mods",
+        "description": "An intermediary api aimed to ease developing multiplatform mods.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 419699,
+        "curseForgeFileId": 5137938,
+        "curseForgeProject": {
+          "id": 419699,
+          "name": "Architectury API",
+          "authors": [
+            {
+              "id": 32851078,
+              "name": "shedaniel",
+              "url": "https://www.curseforge.com/members/shedaniel"
+            },
+            {
+              "id": 19463137,
+              "name": "MaxNeedsSnacks",
+              "url": "https://www.curseforge.com/members/maxneedssnacks"
+            },
+            {
+              "id": 57500433,
+              "name": "Juicebus",
+              "url": "https://www.curseforge.com/members/juicebus"
+            }
+          ],
+          "gameId": 432,
+          "summary": "An intermediary api aimed to ease developing multiplatform mods.",
+          "categories": [
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 421,
+          "classId": 6,
+          "slug": "architectury-api",
+          "isFeatured": false,
+          "dateModified": "2025-10-25T20:04:47.89Z",
+          "dateCreated": "2020-11-16T19:39:56.16Z",
+          "dateReleased": "2025-10-25T20:00:50.663Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/architectury-api",
+            "wikiUrl": "https://docs.architectury.dev/plugin:get_started",
+            "issuesUrl": "https://github.com/architectury/architectury/issues",
+            "sourceUrl": "https://github.com/architectury/architectury"
+          },
+          "logo": {
+            "id": 313420,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/313/420/256/256/637408811378175814.png",
+            "title": "637408811378175814.png",
+            "url": "https://media.forgecdn.net/avatars/313/420/637408811378175814.png",
+            "modId": 419699
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 7149506
+        },
+        "curseForgeFile": {
+          "id": 5137938,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "[Forge 1.20(.1)] v9.2.14",
+          "fileName": "architectury-9.2.14-forge.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-02-26T13:18:59.227Z",
+          "fileLength": 580602,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 4197241541,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 3194081947,
+              "name": "architectury-common-refmap.json"
+            },
+            {
+              "fingerprint": 2727520268,
+              "name": "architectury-common.mixins.json"
+            },
+            {
+              "fingerprint": 2423354874,
+              "name": "architectury-forge-refmap.json"
+            },
+            {
+              "fingerprint": 72806895,
+              "name": "architectury.mixins.json"
+            },
+            {
+              "fingerprint": 1965221334,
+              "name": "architectury_inject_architectury_common_80cedf8dd72c40a6bd63cf8d4dfde4d7_f92da2fc2f924385deb0a8573f93a1fea673c1cc161303e1dab80424e034ea78architectury9214devjar"
+            },
+            {
+              "fingerprint": 386307470,
+              "name": "data"
+            },
+            {
+              "fingerprint": 3177202238,
+              "name": "dev"
+            },
+            {
+              "fingerprint": 337711864,
+              "name": "icon.png"
+            },
+            {
+              "fingerprint": 1096803035,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "a52918a500ff421180a1cbd1a0cabee712134ec4",
+              "algo": 1
+            },
+            {
+              "value": "76b40d407b6bf0257dd1dab6d3d395d5",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020",
+              "gameVersion": "1.20",
+              "gameVersionReleaseDate": "2023-06-07T00:00:00Z",
+              "gameVersionName": "1.20"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge",
+            "1.20"
+          ],
+          "fileFingerprint": 98480002,
+          "modId": 419699
+        },
+        "modrinthProject": {
+          "id": "lhGA9TYQ",
+          "slug": "architectury-api",
+          "project_type": "mod",
+          "team": "72qgsq9X",
+          "title": "Architectury API",
+          "description": "An intermediary api aimed to ease developing multiplatform mods.",
+          "body": "# Architectury API\n\nTalk to us on [Discord](https://discord.gg/C2RdJDpRBP)!\n\nAn intermediary api aimed to ease developing multiplatform mods.\n\n### What is Architectury API\n\nArchitectury API is an api to abstract calls to fabric api and forge api as both loader has different implementations of\nwhat can be perceived as the same thing.\n\nArchitectury API updates regularly, with new hooks and features. Currently contains over **90** events hooks, networking\nabstraction, loader calls abstraction, game registry abstraction and an easy to use @ExpectPlatform annotation (Only\nworks on static methods).\n\n### Do I really need this API?\n\nArchitectury API is only one part of the architectury ecosystem, **Architectury Plugin** is the gradle plugin enabling\nall this multiplatform actions.\n\nArchitectury API is optional for projects built on architectury, you may create your architectury project with just\nArchitectury Plugin.\n\n### Advantages of Architectury\n\n- Open sourced\n- Less boilerplate for your multiplatform mod\n\n### Getting started with making multiplatform mods\n\nArchitectury Loom: https://github.com/architectury/architectury-loom (a fork of Fabric Loom adding multiplatform development capabilities)\n\nGradle Plugin: https://github.com/architectury/architectury-plugin (includes Architectury Injectables, for the `@ExpectPlatform` annotation)\n\nExample Mod: https://github.com/architectury/architectury-example-mod (a discontinued example mod using Architectury, if possible, use the templates instead)\n\nMod Templates: https://github.com/architectury/architectury-templates (a set of templates to get started using the Architectury toolchain)\n\n### Example: Usage of @ExpectPlatform\n![Exmaple of the @ExpectPlatform annotation, part of Architectury Injectables](https://camo.githubusercontent.com/78c68766affb70fbd88f9806e0e95f78765ec339448d7102065f2942be2b3215/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3538363138363230323738313138383130382f3737363432383831343330393738353632302f756e6b6e6f776e2e706e673f77696474683d31313931266865696768743d343339)\n\n### Credits\n\nIn certain older versions, this library used to bundle typetools; you can find its license [here](https://github.com/jhalterman/typetools/blob/master/LICENSE.txt \"\")",
+          "published": "2020-11-16T10:40:17.116288Z",
+          "updated": "2025-10-25T20:00:52.857735Z",
+          "status": "approved",
+          "license": {
+            "id": "LGPL-3.0-only",
+            "name": "GNU Lesser General Public License v3.0 only"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "library"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge",
+            "quilt"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/lhGA9TYQ/05fe3a61c28faaccaec3533b92e1b321edde7bf6_96.webp",
+          "issues_url": "https://github.com/architectury/architectury/issues",
+          "source_url": "https://github.com/architectury/architectury",
+          "donation_urls": [
+            {
+              "id": "github",
+              "platform": "Github",
+              "url": "https://github.com/sponsors/MaxNeedsSnacks"
+            },
+            {
+              "id": "patreon",
+              "platform": "Patreon",
+              "url": "https://patreon.com/shedaniel"
+            }
+          ],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "1MKTLiiG",
+          "project_id": "lhGA9TYQ",
+          "author_id": "OQodw31Z",
+          "name": "[Forge 1.20(.1)] v9.2.14",
+          "version_number": "9.2.14+forge",
+          "changelog": "## Architectury v9.2.14 for 1.20(.1)\nUpdated at **2024-02-26 13:18**.\n[Click here for changelog](https://www.github.com/architectury/architectury/commits/1.20)",
+          "date_published": "2024-02-26T13:19:00.816154Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "cf67f2050cafa00f0bee42e6d7bef77fdb808ac4f71742f7b4d6d5c1e6ffb49561a5a252f332d2b78a9767bdb5faa284611790dba303fbdc736ae36d794f61c7",
+                "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4"
+              },
+              "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
+              "filename": "architectury-9.2.14-forge.jar",
+              "primary": true,
+              "size": 580602
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20",
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "Rhino",
+        "version": "Rhino Forge 2001.2.3-build.10",
+        "optional": true,
+        "file": "rhino-forge-2001.2.3-build.10.jar",
+        "type": "mods",
+        "description": "A fork of Mozilla's Rhino library, modified for use in mods",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 416294,
+        "curseForgeFileId": 6186971,
+        "curseForgeProject": {
+          "id": 416294,
+          "name": "Rhino",
+          "authors": [
+            {
+              "id": 11776558,
+              "name": "LatvianModder",
+              "url": "https://www.curseforge.com/members/latvianmodder"
+            }
+          ],
+          "gameId": 432,
+          "summary": "A fork of Mozilla's Rhino library, modified for use in mods",
+          "categories": [
+            {
+              "name": "KubeJS",
+              "slug": "kubejs",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons/kubejs",
+              "dateModified": "2022-04-24T06:59:45.66Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5314,
+              "iconUrl": "https://media.forgecdn.net/avatars/538/559/637863803856518049.png",
+              "parentCategoryId": 426,
+              "classId": 6
+            },
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 421,
+          "classId": 6,
+          "slug": "rhino",
+          "isFeatured": false,
+          "dateModified": "2025-10-13T22:30:24.763Z",
+          "dateCreated": "2020-11-02T18:52:55.25Z",
+          "dateReleased": "2025-10-13T22:22:58.843Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/rhino",
+            "wikiUrl": "https://kubejs.com/",
+            "issuesUrl": "https://kubejs.com/support?source=rhino",
+            "sourceUrl": "https://github.com/KubeJS-Mods/Rhino"
+          },
+          "logo": {
+            "id": 1053155,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1053/155/256/256/638583713150199979.png",
+            "title": "638583713150199979.png",
+            "url": "https://media.forgecdn.net/avatars/1053/155/638583713150199979.png",
+            "modId": 416294
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 6886923
+        },
+        "curseForgeFile": {
+          "id": 6186971,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "Rhino Forge 2001.2.3-build.10",
+          "fileName": "rhino-forge-2001.2.3-build.10.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-02-12T21:26:47.347Z",
+          "fileLength": 1798244,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 1189692916,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 34285639,
+              "name": "architectury_inject_Rhino_common_57905b2dd7cb4d0b8c6ca10a6752e7ac_c69fe636385de5dd7ba075a2043ffce0ac72e227824b3d413f79bc106ab34d43rhino200123build10devjar"
+            },
+            {
+              "fingerprint": 1139686920,
+              "name": "dev"
+            },
+            {
+              "fingerprint": 746056783,
+              "name": "mm.jsmappings"
+            },
+            {
+              "fingerprint": 939660779,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 1493072104,
+              "name": "rhino-common-refmap.json"
+            },
+            {
+              "fingerprint": 3096420155,
+              "name": "rhino-common.mixins.json"
+            },
+            {
+              "fingerprint": 4105980512,
+              "name": "rhino_logo.png"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "c83c9b719a6bab33fbd2b3f2f680eb3adbfc1aa1",
+              "algo": 1
+            },
+            {
+              "value": "59387620b0ef6becbff02c7c1636ad3e",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 1432081092,
+          "modId": 416294
+        },
+        "modrinthProject": {
+          "id": "sk9knFPE",
+          "slug": "rhino",
+          "project_type": "mod",
+          "team": "zzKhfQN9",
+          "title": "Rhino",
+          "description": "A fork of Mozilla's Rhino library, modified for use in mods",
+          "body": "A fork of Mozilla's Rhino library, modified for use in mods. This library adds JavaScript engine Rhino that supports ES6 and doesn't depend on built-in Nashorn engine that got removed in Java 15.\n\nThis mod doesn't do anything on it's own, it's a library used by [KubeJS](https://modrinth.com/mod/kubejs).\n\n[![](https://links.latvian.dev/links.png?mr=rhino)](https://links.latvian.dev/)\n\n[![](https://links.latvian.dev/partner.png)](https://links.latvian.dev/partner)",
+          "published": "2022-05-24T10:55:02.752080Z",
+          "updated": "2025-10-13T22:23:08.213734Z",
+          "status": "approved",
+          "license": {
+            "id": "MPL-2.0",
+            "name": "Mozilla Public License 2.0"
+          },
+          "client_side": "optional",
+          "server_side": "optional",
+          "categories": [
+            "library",
+            "utility"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge",
+            "quilt"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/sk9knFPE/fd4ab05472a7e28fbd62054e5640ef61308cc4a6_96.webp",
+          "issues_url": "https://kubejs.com/support?source=rhino",
+          "source_url": "https://github.com/KubeJS-Mods/Rhino",
+          "wiki_url": "https://kubejs.com/",
+          "discord_url": "https://discord.gg/lat",
+          "donation_urls": [],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "uNALdylI",
+          "project_id": "sk9knFPE",
+          "author_id": "7tgPcl7v",
+          "name": "Rhino Forge 2001.2.3-build.10",
+          "version_number": "2001.2.3-build.10+forge",
+          "changelog": "Changelog not available",
+          "date_published": "2025-02-12T21:26:49.669723Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "c83c9b719a6bab33fbd2b3f2f680eb3adbfc1aa1",
+                "sha512": "4eb6a635f3eff3baa158539bd55344421cf69b15e28f7da8bf55f370a11c071f3525063a6f81b67fbfca550ad8aaab7e6208df87f65ca6ed2851edd46f032b58"
+              },
+              "url": "https://cdn.modrinth.com/data/sk9knFPE/versions/uNALdylI/rhino-forge-2001.2.3-build.10.jar",
+              "filename": "rhino-forge-2001.2.3-build.10.jar",
+              "primary": true,
+              "size": 1798244
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "KubeJS",
+        "version": "KubeJS Forge 2001.6.5-build.16",
+        "optional": true,
+        "file": "kubejs-forge-2001.6.5-build.16.jar",
+        "type": "mods",
+        "description": "Edit recipes, add new custom items, script world events, all in JavaScript!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 238086,
+        "curseForgeFileId": 5853326,
+        "curseForgeProject": {
+          "id": 238086,
+          "name": "KubeJS",
+          "authors": [
+            {
+              "id": 11776558,
+              "name": "LatvianModder",
+              "url": "https://www.curseforge.com/members/latvianmodder"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Edit recipes, add new custom items, script world events, all in JavaScript!",
+          "categories": [
+            {
+              "name": "World Gen",
+              "slug": "world-gen",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/world-gen",
+              "dateModified": "2017-10-16T21:40:11.473Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 406,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/26/635351494599748860.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "KubeJS",
+              "slug": "kubejs",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons/kubejs",
+              "dateModified": "2022-04-24T06:59:45.66Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5314,
+              "iconUrl": "https://media.forgecdn.net/avatars/538/559/637863803856518049.png",
+              "parentCategoryId": 426,
+              "classId": 6
+            },
+            {
+              "name": "Map and Information",
+              "slug": "map-information",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/map-information",
+              "dateModified": "2014-05-08T17:42:23.74Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 423,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/38/635351497437388438.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Server Utility",
+              "slug": "server-utility",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/server-utility",
+              "dateModified": "2014-05-08T17:44:55.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 435,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/48/635351498950580836.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 5314,
+          "classId": 6,
+          "slug": "kubejs",
+          "isFeatured": false,
+          "dateModified": "2025-10-24T11:04:36.883Z",
+          "dateCreated": "2015-11-19T22:21:15.923Z",
+          "dateReleased": "2025-10-24T11:02:50.507Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/kubejs",
+            "wikiUrl": "https://kubejs.com/",
+            "issuesUrl": "https://kubejs.com/support?source=kubejs",
+            "sourceUrl": "https://github.com/KubeJS-Mods/KubeJS"
+          },
+          "socialLinks": [
+            {
+              "type": "2",
+              "url": "https://discord.gg/lat"
+            }
+          ],
+          "logo": {
+            "id": 1053159,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1053/159/256/256/638583716122159056.png",
+            "title": "638583716122159056.png",
+            "url": "https://media.forgecdn.net/avatars/1053/159/638583716122159056.png",
+            "modId": 238086
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 5853326
+        },
+        "curseForgeFile": {
+          "id": 5853326,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "KubeJS Forge 2001.6.5-build.16",
+          "fileName": "kubejs-forge-2001.6.5-build.16.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-10-28T09:20:33.537Z",
+          "fileLength": 1654660,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 419699,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 416294,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 4116885095,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1069997295,
+              "name": "architectury.common.json"
+            },
+            {
+              "fingerprint": 341339759,
+              "name": "architectury_inject_KubeJS120_common_4afa8526b3054e019cadb6c6d363318b_7e841a2ea8bb7f63027476023d42ec5dbc3abe4fca1c6a26dfc0654916e62b1fkubejs200165build16devjar"
+            },
+            {
+              "fingerprint": 3881697604,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 196213762,
+              "name": "data"
+            },
+            {
+              "fingerprint": 649859256,
+              "name": "dev"
+            },
+            {
+              "fingerprint": 2597543679,
+              "name": "kubejs-common-refmap.json"
+            },
+            {
+              "fingerprint": 357996985,
+              "name": "kubejs-common.mixins.json"
+            },
+            {
+              "fingerprint": 1493072104,
+              "name": "kubejs-forge-refmap.json"
+            },
+            {
+              "fingerprint": 2740693488,
+              "name": "kubejs-forge.mixins.json"
+            },
+            {
+              "fingerprint": 3132297912,
+              "name": "kubejs.plugins.txt"
+            },
+            {
+              "fingerprint": 658118443,
+              "name": "kubejs_logo.png"
+            },
+            {
+              "fingerprint": 925984517,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "93fcf0eacc5dc08a4f719eaaed1dc93f0dc80f66",
+              "algo": 1
+            },
+            {
+              "value": "f4c6924bef764748d26ee51e4d4c0b00",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 2938549854,
+          "modId": 238086
+        },
+        "modrinthProject": {
+          "id": "umyGl7zF",
+          "slug": "kubejs",
+          "project_type": "mod",
+          "team": "YlpCyjKr",
+          "title": "KubeJS",
+          "description": "Edit recipes, add new custom items, script world events, all in JavaScript!",
+          "body": "KubeJS\n======\n\n* * *\n\nWhat does this mod do?\n----------------------\n\nThis mod lets you create scripts in JavaScript language to manage your server, add new blocks and items, change recipes and tags, add custom handlers for quest mods, change worldgen and more!\n\nHow to use it?\n--------------\n\nRun the game with mod installed once. It should generate `kubejs` folder in your minecraft directory with example scripts. startup scripts only get run once when the game loads. Those are for registering items, setting up configs etc. Server/data scripts are loaded when you join a world, those are better for things like clearlag, displaying custom login messages and world/player related things in general.\n\n### Video tutorial for 1.19.2\n\n[![](https://i.imgur.com/dBW4qrS.png)](https://www.youtube.com/watch?v=xhJJbNJjics)\n\nCan I reload scripts?\n---------------------\n\nYes, use `/reload`. Note: Not everything is reloadable. Some things require you to restart game, some only world, some work on fly.\n\nI don't know JavaScript / I need help with this mod!\n----------------------------------------------------\n\nThere's examples and pre-made scripts on [KubeJS Wiki](https://kubejs.com/).\n\nI have a question / suggestion / bug report!\n--------------------------------------------\n\nIf wiki didn't have the answer for what you were looking for, you can ask questions, make feature suggestions and report bugs here: [KubeJS Support](https://kubejs.com/support)\n\n[![](https://links.latvian.dev/links.png?mr=kubejs)](https://links.latvian.dev/)\n\n[![](https://links.latvian.dev/partner.png)](https://links.latvian.dev/partner)",
+          "published": "2022-05-24T16:43:25.500518Z",
+          "updated": "2025-10-24T11:03:00.826313Z",
+          "status": "approved",
+          "license": {
+            "id": "LGPL-3.0-only",
+            "name": "GNU Lesser General Public License v3.0 only"
+          },
+          "client_side": "optional",
+          "server_side": "optional",
+          "categories": [
+            "library",
+            "utility"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge",
+            "quilt"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/umyGl7zF/ced768ee05e293837a24eacf00838061e02964a0_96.webp",
+          "issues_url": "https://kubejs.com/support?source=kubejs",
+          "source_url": "https://github.com/KubeJS-Mods/KubeJS",
+          "wiki_url": "https://kubejs.com/",
+          "discord_url": "https://discord.gg/lat",
+          "donation_urls": [],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "g5igndAv",
+          "project_id": "umyGl7zF",
+          "author_id": "7tgPcl7v",
+          "name": "KubeJS Forge 2001.6.5-build.16",
+          "version_number": "2001.6.5-build.16+forge",
+          "changelog": "",
+          "date_published": "2024-10-28T09:20:35.912552Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "93fcf0eacc5dc08a4f719eaaed1dc93f0dc80f66",
+                "sha512": "819f730d2a9d980bb246d30d67793f06f6a1608381c7ce3577cf25e70dd3d595271f8fcfbf3ae037168842f660e79e49846756bd18c79793b310ff18ab826cbd"
+              },
+              "url": "https://cdn.modrinth.com/data/umyGl7zF/versions/g5igndAv/kubejs-forge-2001.6.5-build.16.jar",
+              "filename": "kubejs-forge-2001.6.5-build.16.jar",
+              "primary": true,
+              "size": 1654660
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "sk9knFPE",
+              "dependency_type": "required"
+            },
+            {
+              "project_id": "lhGA9TYQ",
+              "dependency_type": "required"
+            }
+          ],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "LootJS: KubeJS Addon",
+        "version": "LootJS-Forge-1.20.1-2.13.0",
+        "optional": true,
+        "file": "lootjs-forge-1.20.1-2.13.0.jar",
+        "type": "mods",
+        "description": "Add functionality for packdevs to modify global loot modifications through KubeJS",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 570630,
+        "curseForgeFileId": 6508899,
+        "curseForgeProject": {
+          "id": 570630,
+          "name": "LootJS: KubeJS Addon",
+          "authors": [
+            {
+              "id": 101829614,
+              "name": "Lytho",
+              "url": "https://www.curseforge.com/members/lytho"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Add functionality for packdevs to modify global loot modifications through KubeJS",
+          "categories": [
+            {
+              "name": "Map and Information",
+              "slug": "map-information",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/map-information",
+              "dateModified": "2014-05-08T17:42:23.74Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 423,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/38/635351497437388438.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Server Utility",
+              "slug": "server-utility",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/server-utility",
+              "dateModified": "2014-05-08T17:44:55.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 435,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/48/635351498950580836.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "KubeJS",
+              "slug": "kubejs",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons/kubejs",
+              "dateModified": "2022-04-24T06:59:45.66Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5314,
+              "iconUrl": "https://media.forgecdn.net/avatars/538/559/637863803856518049.png",
+              "parentCategoryId": 426,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 5314,
+          "classId": 6,
+          "slug": "lootjs",
+          "isFeatured": false,
+          "dateModified": "2025-10-14T11:13:41.473Z",
+          "dateCreated": "2022-01-26T08:16:33.48Z",
+          "dateReleased": "2025-10-14T11:11:26.973Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/lootjs",
+            "wikiUrl": "https://docs.almostreliable.com/lootjs/",
+            "issuesUrl": "https://github.com/AlmostReliable/lootjs/issues",
+            "sourceUrl": "https://github.com/AlmostReliable/lootjs"
+          },
+          "logo": {
+            "id": 510924,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/510/924/256/256/637828637727949352.png",
+            "title": "637828637727949352.png",
+            "url": "https://media.forgecdn.net/avatars/510/924/637828637727949352.png",
+            "modId": 570630
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 7105999
+        },
+        "curseForgeFile": {
+          "id": 6508899,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "LootJS-Forge-1.20.1-2.13.0",
+          "fileName": "lootjs-forge-1.20.1-2.13.0.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-05-08T14:06:39.737Z",
+          "fileLength": 242227,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 310111,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 238222,
+              "relationType": 2
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 532108916,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1593166766,
+              "name": "kubejs.plugins.txt"
+            },
+            {
+              "fingerprint": 2542672354,
+              "name": "lootjs-common.mixins.json"
+            },
+            {
+              "fingerprint": 1784427643,
+              "name": "lootjs-common-Common-refmap.json"
+            },
+            {
+              "fingerprint": 3273339920,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 3424779575,
+              "name": "lootjs-forge.mixins.json"
+            },
+            {
+              "fingerprint": 2312894697,
+              "name": "data"
+            },
+            {
+              "fingerprint": 1493072104,
+              "name": "lootjs-forge-Forge-refmap.json"
+            },
+            {
+              "fingerprint": 2558500699,
+              "name": "com"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "fdf90acf177c19bcbfaa08527f6568bd3e6e622e",
+              "algo": 1
+            },
+            {
+              "value": "1ddae5f49ca3200d67bcd32313875e19",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "NeoForge",
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 4083554858,
+          "modId": 570630
+        },
+        "modrinthProject": {
+          "id": "fJFETWDN",
+          "slug": "lootjs",
+          "project_type": "mod",
+          "team": "PMRuK7v3",
+          "title": "LootJS: KubeJS Addon",
+          "description": "A Minecraft mod for packdevs to easily modify the loot system with KubeJS.",
+          "body": "## **📑 Overview**\nThis is a mod for Neoforge, Forge or Fabric and needs [KubeJS](https://modrinth.com/mod/kubejs).<br>\n\n ",
+          "published": "2022-06-27T18:05:23.475024Z",
+          "updated": "2025-10-14T11:11:29.280497Z",
+          "status": "approved",
+          "license": {
+            "id": "LGPL-3.0-only",
+            "name": "GNU Lesser General Public License v3.0 only"
+          },
+          "client_side": "unsupported",
+          "server_side": "required",
+          "categories": [
+            "utility"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/fJFETWDN/icon.png",
+          "issues_url": "https://github.com/AlmostReliable/lootjs/issues",
+          "source_url": "https://github.com/AlmostReliable/lootjs",
+          "wiki_url": "https://github.com/AlmostReliable/lootjs/wiki",
+          "discord_url": "https://discord.com/invite/ThFnwZCyYY",
+          "donation_urls": [],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "RjTRvo4g",
+          "project_id": "fJFETWDN",
+          "author_id": "W7UYQWZT",
+          "name": "LootJS-Forge-1.20.1-2.13.0",
+          "version_number": "1.20.1-2.13.0+forge",
+          "changelog": "### Fixed\n\n- Fixed [#23](https://github.com/AlmostReliable/lootjs/issues/23)\n",
+          "date_published": "2025-05-08T14:06:39.621822Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "c8652b1ccffccd66885dc9dc89490afe46f055c9d9ede2fef24e06978db5957815e6125974670263ab15c1d60d7106954f4d10aff48cd7f1e04277e351d1aa2c",
+                "sha1": "fdf90acf177c19bcbfaa08527f6568bd3e6e622e"
+              },
+              "url": "https://cdn.modrinth.com/data/fJFETWDN/versions/RjTRvo4g/lootjs-forge-1.20.1-2.13.0.jar",
+              "filename": "lootjs-forge-1.20.1-2.13.0.jar",
+              "primary": true,
+              "size": 242227
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "nfn13YXA",
+              "dependency_type": "optional"
+            },
+            {
+              "project_id": "u6dRKJwZ",
+              "dependency_type": "optional"
+            }
+          ],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge",
+            "neoforge"
+          ]
+        }
+      },
+      {
+        "name": "GeckoLib",
+        "version": "geckolib-forge-1.20.1-4.8.2.jar",
+        "optional": true,
+        "file": "geckolib-forge-1.20.1-4.8.2.jar",
+        "type": "mods",
+        "description": "A 3D animation library for entities, blocks, items, armor, and more!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 388172,
+        "curseForgeFileId": 7025129,
+        "curseForgeProject": {
+          "id": 388172,
+          "name": "GeckoLib",
+          "authors": [
+            {
+              "id": 100005756,
+              "name": "Gecko",
+              "url": "https://www.curseforge.com/members/gecko"
+            },
+            {
+              "id": 102710925,
+              "name": "EliotL",
+              "url": "https://www.curseforge.com/members/eliotl"
+            }
+          ],
+          "gameId": 432,
+          "summary": "A 3D animation library for entities, blocks, items, armor, and more!",
+          "categories": [
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 421,
+          "classId": 6,
+          "slug": "geckolib",
+          "isFeatured": false,
+          "dateModified": "2025-10-29T21:39:24.45Z",
+          "dateCreated": "2020-06-08T21:02:20.903Z",
+          "dateReleased": "2025-10-29T21:34:57.85Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/geckolib",
+            "wikiUrl": "https://github.com/bernie-g/geckolib/wiki",
+            "issuesUrl": "https://github.com/bernie-g/geckolib/issues",
+            "sourceUrl": "https://github.com/bernie-g/geckolib"
+          },
+          "socialLinks": [
+            {
+              "type": "2",
+              "url": "https://discord.gg/pPEqBgJtZW"
+            }
+          ],
+          "logo": {
+            "id": 1081393,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1081/393/256/256/638621132937140582.png",
+            "title": "638621132937140582.png",
+            "url": "https://media.forgecdn.net/avatars/1081/393/638621132937140582.png",
+            "modId": 388172
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 7164579
+        },
+        "curseForgeFile": {
+          "id": 7025129,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "geckolib-forge-1.20.1-4.8.2.jar",
+          "fileName": "geckolib-forge-1.20.1-4.8.2.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2025-09-23T10:08:54.57Z",
+          "fileLength": 1038979,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3850434332,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1281428458,
+              "name": "LICENSE"
+            },
+            {
+              "fingerprint": 1597380512,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 2255945478,
+              "name": "geckolib.mixins.json"
+            },
+            {
+              "fingerprint": 1492677644,
+              "name": "geckolib.png"
+            },
+            {
+              "fingerprint": 717967817,
+              "name": "geckolib.refmap.json"
+            },
+            {
+              "fingerprint": 2978847283,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 1284382929,
+              "name": "software"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "395a9f21a36dc8466d67c2af67a904e7013460d1",
+              "algo": 1
+            },
+            {
+              "value": "d1ff73da16b6fc163d6c5ed3d9734dde",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 1555934041,
+          "modId": 388172
+        },
+        "modrinthProject": {
+          "id": "8BmcQJ2H",
+          "slug": "geckolib",
+          "project_type": "mod",
+          "team": "XGT1SohE",
+          "title": "Geckolib",
+          "description": "A 3D animation library for entities, blocks, items, armor, and more!",
+          "body": "<center>\n<img src=\"https://i.imgur.com/fjDJ4jM.png\" alt=\"logo\"/> \n\n<a href=\"https://discord.gg/pPEqBgJtZW\"><img src=\"https://img.shields.io/discord/730912704776110121?color=green&label=Discord&logo=Discord&logoColor=green&style=for-the-badge\" alt=\"discord\"/></a> <a href=\"https://www.patreon.com/geckosmods\"><img src=\"https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.vercel.app/api?username=geckosmods&type=patrons&style=for-the-badge&color=green&logoColor=green\" alt=\"patreon\"/> </a>\n\n<h1 style=\"font-size:10vw\">GeckoLib is an animation and rendering engine for Minecraft Mods, with support for complex 3D keyframe-based animations, 30+ easings, concurrent animation support, sound and particle keyframes, event keyframes, and more. Available for Forge, Fabric, and NeoForge</h1>\n\n<img src=\"https://i.imgur.com/A8uUFuB.png\" alt=\"Installation\"/> \n<h3>You can view installation instructions for modders <a href=\"https://github.com/bernie-g/geckolib/wiki/Installation\">here</a>.\n\n</br>\n\nFor non-modders, just download the mod and put it in your mods folder like normal.</h3>\n\n<img src=\"https://i.imgur.com/epUcGHM.png\" alt=\"Documentation\"/> \n\nGeckoLib provides detailed documentation in the form of a <a href=\"https://github.com/bernie-g/geckolib/wiki\">wiki</a>. We spent many hours writing the wiki, so please read it!\n\n<img src=\"https://i.imgur.com/uwtfzfz.png\" alt=\"Support\"/> \n\nIf you have questions or need help getting up and running with questions, join our discord!\n\n\n<img src=\"https://i.imgur.com/MXReurz.png\" alt=\"Contributing\"/> \nPull requests are welcome. For significant changes, please open an issue first to discuss what you would like to change.\n\n<a href=\"https://github.com/bernie-g/geckolib\"><img src=\"https://github-readme-stats.vercel.app/api/pin/?username=bernie-g&repo=geckolib&theme=merko\"></a>\n\n<img src=\"https://i.imgur.com/h3CvewU.png\" alt=\"License\"/> \n<img src=\"https://img.shields.io/github/license/bernie-g/geckolib?style=for-the-badge\" alt=\"logo\"/> \n\n<h1 style=\"font-size:10vw\">Sponsored by BisectHosting</h1>\n\nNeed a server to play with friends? Don't know how to setup one? Just rent an already configured server from BisectHosting!\n\n<a href=\"https://bisecthosting.com/gecko\"><img src=\"https://i.imgur.com/zOm6Tyq.png\" alt=\"Bisect Hosting\"></a>\n\nClick on the picture above, select plan(at least 4GB), and use my code gecko to get 25% off your first month and enjoy playing with your friends!\n</center>",
+          "published": "2022-08-07T03:30:16.186586Z",
+          "updated": "2025-10-29T21:35:04.129632Z",
+          "status": "approved",
+          "license": {
+            "id": "MIT",
+            "name": "MIT License"
+          },
+          "client_side": "required",
+          "server_side": "optional",
+          "categories": [
+            "game-mechanics",
+            "library",
+            "utility"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge",
+            "quilt"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/8BmcQJ2H/012d1aadbc754995de66e8c149a56aa10b63fe05_96.webp",
+          "issues_url": "https://github.com/bernie-g/geckolib/issues",
+          "source_url": "https://github.com/bernie-g/geckolib",
+          "wiki_url": "https://github.com/bernie-g/geckolib/wiki",
+          "discord_url": "https://discord.gg/pPEqBgJtZW",
+          "donation_urls": [],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/8BmcQJ2H/images/3df534b384b2b8ffe9f1d8b840aeb14969116cd0_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/8BmcQJ2H/images/3df534b384b2b8ffe9f1d8b840aeb14969116cd0.png",
+              "featured": true,
+              "title": "GeckoLib",
+              "created": "2024-09-17T10:40:35.846436Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "aVW7Z5da",
+          "project_id": "8BmcQJ2H",
+          "author_id": "GIhCykJ9",
+          "name": "Forge 1.20.1",
+          "version_number": "4.8.2",
+          "changelog": "v4.8.2\n\n- Fix triggered animations not applying on Singleton animatables when first used in multiplayer for other players (on Fabric)",
+          "date_published": "2025-09-23T10:09:01.034935Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "8d8cb1f2d60c885b3b312aca63b94e3942e50ca40e96514f35fb74a39367afa07e4986640a66c66b035da9ea60cb6d8ff602e9c0b6b298e5ce584ad9f46a2f45",
+                "sha1": "395a9f21a36dc8466d67c2af67a904e7013460d1"
+              },
+              "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/aVW7Z5da/geckolib-forge-1.20.1-4.8.2.jar",
+              "filename": "geckolib-forge-1.20.1-4.8.2.jar",
+              "primary": true,
+              "size": 1038979
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "Biomancy",
+        "version": "Biomancy 2.9.0.1-alpha.0",
+        "optional": true,
+        "file": "biomancy-forge-1.20.1-2.9.0.1-alpha.0.jar",
+        "type": "mods",
+        "description": "The Bio-Punk mod with a cartoony flesh art style and hints of body horror. This is a tech-magic mod that focuses on organic machines, bio-alchemy and more.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 492939,
+        "curseForgeFileId": 7114505,
+        "curseForgeProject": {
+          "id": 492939,
+          "name": "Biomancy",
+          "authors": [
+            {
+              "id": 101279121,
+              "name": "Elenterius",
+              "url": "https://www.curseforge.com/members/elenterius"
+            }
+          ],
+          "gameId": 432,
+          "summary": "The Bio-Punk mod with a cartoony flesh art style and hints of body horror. This is a tech-magic mod that focuses on organic machines, bio-alchemy and more.",
+          "categories": [
+            {
+              "name": "Magic",
+              "slug": "magic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/magic",
+              "dateModified": "2014-05-08T17:40:24.787Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 419,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/34/635351496247862494.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Mobs",
+              "slug": "world-mobs",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/world-gen/world-mobs",
+              "dateModified": "2014-05-08T17:46:59.507Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 411,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/53/635351500195070414.png",
+              "parentCategoryId": 406,
+              "classId": 6
+            },
+            {
+              "name": "Armor, Tools, and Weapons",
+              "slug": "armor-weapons-tools",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/armor-weapons-tools",
+              "dateModified": "2014-05-08T17:44:39.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 434,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/47/635351498790409758.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Food",
+              "slug": "mc-food",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-food",
+              "dateModified": "2014-05-08T17:45:26.55Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 436,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/49/635351499265510402.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Technology",
+              "slug": "technology",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/technology",
+              "dateModified": "2014-05-08T17:37:54.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 412,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/27/635351494745973439.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 412,
+          "classId": 6,
+          "slug": "biomancy",
+          "isFeatured": false,
+          "dateModified": "2025-10-16T19:42:43.377Z",
+          "dateCreated": "2021-06-13T08:07:35.963Z",
+          "dateReleased": "2025-10-16T19:36:13.697Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/biomancy",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/Elenterius/Biomancy/issues",
+            "sourceUrl": "https://github.com/Elenterius/Biomancy"
+          },
+          "logo": {
+            "id": 1167403,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1167/403/256/256/638737971039574333.png",
+            "title": "638737971039574333.png",
+            "url": "https://media.forgecdn.net/avatars/1167/403/638737971039574333.png",
+            "modId": 492939
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 1082057,
+              "description": "text_logo_big.png",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/1082/57/310/172/text_logo_big.png",
+              "title": "text_logo_big.png",
+              "url": "https://media.forgecdn.net/attachments/1082/57/text_logo_big.png",
+              "modId": 492939
+            },
+            {
+              "id": 950971,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/950/971/310/172/misc_things.png",
+              "title": "Miscellaneous Things",
+              "url": "https://media.forgecdn.net/attachments/950/971/misc_things.png",
+              "modId": 492939
+            },
+            {
+              "id": 950834,
+              "description": "Malignant Flesh has spread from the Primordial Cradle and has formed a chamber.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/950/834/310/172/cradle_chamber.png",
+              "title": "Primordial Cradle Chamber (Flesh Mound)",
+              "url": "https://media.forgecdn.net/attachments/950/834/cradle_chamber.png",
+              "modId": 492939
+            },
+            {
+              "id": 892612,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/892/612/310/172/2024-03-16_01.png",
+              "title": "Different Types of Flesh",
+              "url": "https://media.forgecdn.net/attachments/892/612/2024-03-16_01.png",
+              "modId": 492939
+            },
+            {
+              "id": 892611,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/892/611/310/172/2024-03-14_23.png",
+              "title": "Decorational Flesh Blocks",
+              "url": "https://media.forgecdn.net/attachments/892/611/2024-03-14_23.png",
+              "modId": 492939
+            },
+            {
+              "id": 892610,
+              "description": "Various different membranes that filter mobs by filters such as isChild, isAdult, isUndead or isLiving.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/892/610/310/172/2024-02-12_20.png",
+              "title": "Membranes for filtering Mobs",
+              "url": "https://media.forgecdn.net/attachments/892/610/2024-02-12_20.png",
+              "modId": 492939
+            },
+            {
+              "id": 645706,
+              "description": "From left to right: Digester, Decomposer, Bio-Forge and Bio-Lab",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/645/706/310/172/2023-03-06_01.png",
+              "title": "Bio-Machines",
+              "url": "https://media.forgecdn.net/attachments/645/706/2023-03-06_01.png",
+              "modId": 492939
+            },
+            {
+              "id": 645710,
+              "description": "You can fuel your machines with food or nutrients.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/645/710/310/172/2023-03-06_14.png",
+              "title": "Decomposer GUI",
+              "url": "https://media.forgecdn.net/attachments/645/710/2023-03-06_14.png",
+              "modId": 492939
+            },
+            {
+              "id": 645709,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/645/709/310/172/2023-03-06_14.png",
+              "title": "Bio-Forge GUI",
+              "url": "https://media.forgecdn.net/attachments/645/709/2023-03-06_14.png",
+              "modId": 492939
+            },
+            {
+              "id": 645711,
+              "description": "The Digester is even capable of drinking Apple Cider from Farmer's Delight",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/645/711/310/172/2023-03-06_14.png",
+              "title": "Digest Food into Nutrients",
+              "url": "https://media.forgecdn.net/attachments/645/711/2023-03-06_14.png",
+              "modId": 492939
+            },
+            {
+              "id": 645704,
+              "description": "Quickly select what serum you want to force inject into yourself or others.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/645/704/310/172/2023-03-06_01.png",
+              "title": "Bio-Injector GUI",
+              "url": "https://media.forgecdn.net/attachments/645/704/2023-03-06_01.png",
+              "modId": 492939
+            },
+            {
+              "id": 645705,
+              "description": "Counting the resulting piglets after their parents were force bred.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/645/705/310/172/2023-03-06_01.png",
+              "title": "Breeding Stimulant",
+              "url": "https://media.forgecdn.net/attachments/645/705/2023-03-06_01.png",
+              "modId": 492939
+            },
+            {
+              "id": 645703,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/645/703/310/172/2023-03-06_00.png",
+              "title": "Small party of Flesh Blobs",
+              "url": "https://media.forgecdn.net/attachments/645/703/2023-03-06_00.png",
+              "modId": 492939
+            },
+            {
+              "id": 950841,
+              "description": "The flesh mound is a procedural structure which can be slowly grown by yourself.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/950/841/310/172/flesh_mound.png",
+              "title": "Flesh Mound",
+              "url": "https://media.forgecdn.net/attachments/950/841/flesh_mound.png",
+              "modId": 492939
+            },
+            {
+              "id": 950836,
+              "description": "A chamber with Primal Orifices oozing acid.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/950/836/310/172/gastric_acid_chamber.png",
+              "title": "Acid Chamber (Flesh Mound)",
+              "url": "https://media.forgecdn.net/attachments/950/836/gastric_acid_chamber.png",
+              "modId": 492939
+            }
+          ],
+          "mainFileId": 5886758
+        },
+        "curseForgeFile": {
+          "id": 7114505,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "Biomancy 2.9.0.1-alpha.0",
+          "fileName": "biomancy-forge-1.20.1-2.9.0.1-alpha.0.jar",
+          "releaseType": 3,
+          "fileStatus": 4,
+          "fileDate": "2025-10-16T19:36:13.697Z",
+          "fileLength": 5830129,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 250419,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 388172,
+              "relationType": 3
+            },
+            {
+              "fileId": 0,
+              "modId": 319596,
+              "relationType": 2
+            },
+            {
+              "fileId": 0,
+              "modId": 238222,
+              "relationType": 2
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 4127594608,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1584892424,
+              "name": "3RD_PARTY_LICENSE.txt"
+            },
+            {
+              "fingerprint": 2080257136,
+              "name": "CREDITS.md"
+            },
+            {
+              "fingerprint": 1178849886,
+              "name": "LICENSE.txt"
+            },
+            {
+              "fingerprint": 3007409512,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 3787775432,
+              "name": "com"
+            },
+            {
+              "fingerprint": 1448257379,
+              "name": "data"
+            },
+            {
+              "fingerprint": 2948891587,
+              "name": "kubejs.plugins.txt"
+            },
+            {
+              "fingerprint": 3830500340,
+              "name": "mixins.biomancy.json"
+            },
+            {
+              "fingerprint": 2302674761,
+              "name": "mixins.biomancy.refmap.json"
+            },
+            {
+              "fingerprint": 1103409329,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 3528106043,
+              "name": "text_logo_small.png"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "d673eb0bc72c4e229657f9bafcb3777e8bcbcecc",
+              "algo": 1
+            },
+            {
+              "value": "6af1bc5eeaf42e1978ee9016fc7ab66a",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Server"
+            }
+          ],
+          "gameVersions": [
+            "Client",
+            "1.20.1",
+            "Forge",
+            "Server"
+          ],
+          "fileFingerprint": 2079591660,
+          "modId": 492939
+        },
+        "modrinthProject": {
+          "id": "uAAuyU4M",
+          "slug": "biomancy",
+          "project_type": "mod",
+          "team": "8AFrseGH",
+          "title": "Biomancy",
+          "description": "Biopunk inspired tech-magic mod that has a fleshy art theme.... ",
+          "body": "<img src=\"https://raw.githubusercontent.com/Elenterius/Biomancy/mc1.20.1/prod/media/v2/text_logo_big.png\" alt=\"Biomancy Logo\"/>\n\n# Biomancy\n\n<a aria-label=\"Support me on Ko-fi\" href=\"https://ko-fi.com/elenterius\">\n<img alt=\"\" src=\"https://img.shields.io/badge/support me on Ko--fi-F16061?logo=ko-fi&logoColor=white&style=for-the-badge\"></a>\n\n<a aria-label=\"Biomancy Discord\" href=\"https://discord.gg/424awTDdJJ\">\n<img alt=\"\" src=\"https://img.shields.io/discord/920005236645572662?logo=discord&logoColor=white&color=5865F2&label=&style=for-the-badge\"></a>\n\n<a aria-label=\"Project Tracker\" href=\"https://github.com/orgs/Creative-Chasm/projects/2/\">\n<img alt=\"\" src=\"https://img.shields.io/badge/-Project-black?style=for-the-badge&logo=github\"></a>\n\n<img alt=\"\" src=\"https://cf.way2muchnoise.eu/short_492939_downloads(f16436-f16436-fff-000-fff).svg?badge_style=for_the_badge\">\n  \n\n<p>\n\n<a href=\"https://files.minecraftforge.net/net/minecraftforge/forge/index_1.18.2.html\"><img alt=\"forge\" height=\"56\" src=\"https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/forge_vector.svg\">\n</a>\n<a href=\"https://modrinth.com/mod/geckolib\"><img alt=\"geckolib\" height=\"56\" src=\"https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/requires/geckolib_vector.svg\">\n</a>\n</p>\n\n## Contributors\n**RhinoW**, The Shroome, Shorepion, Kitteh6660, ZeoMaddox, ItsLumine, RuskieThe3rd, M4rc3ll0\n\nMany thanks to the members of my discord server for their feedback and ideas.\n\n## Translators\nSlimeSB, Quarkrus, Mexwell12, cabaneter\n\n## Sponsors\n**PonyPon**, **Tapeworm Tim**, **Spedic**, **Adam**, June, Toom, da.shyguy, Zeca, pixel_mode\n\n## General Info\n### No Guide Book\nThe mod will not provide a guide book and most of its progression is described through **advancements** and **tooltips**.\n\nPlease note that at the moment the tooltips & advancements can be too obscure or badly written. This issue will be resolved during the development of the mod.\n\nIf you need help to get started you can watch [this video](https://youtu.be/zXK__qi48kk).\n\n**I recommended the use of JEI to look up recipes.**\n\n### Mod Integrations/Compatibility\n- JEI\n- Enchantment Descriptions\n- Alex's Mobs\n- Pehkui\n- Flesh Door & Iris Door work on Create contraptions/trains\n- Digester accepts any food\n- Raw Meat from Farmer's Delight\n\n### Addons\n- [BioFactory](https://modrinth.com/mod/biofactory)\n- [Biomantic Delight](https://modrinth.com/mod/bio-delight)\n- [Biobutcher's Delight](https://modrinth.com/datapack/biobutchers-delight)\n \n## FAQ\n### Will you port to 1.21?\nsoon(tm)\n\n### Will you port to older versions of minecraft?\nno\n\n### What about a Fabric Version?\nI will create a fabric version eventually.\n\n# Bugs & Crashes\nPlease report any issues to the Biomancy Issue Tracker on GitHub or the bug-and-crashes channel on Discord.\n\n# Videos\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/p8rg_cGPYBk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/FOUpa2CF0yE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+          "published": "2022-12-12T16:10:26.208928Z",
+          "updated": "2025-10-16T19:38:18.390745Z",
+          "status": "approved",
+          "license": {
+            "id": "MIT",
+            "name": "MIT License"
+          },
+          "client_side": "required",
+          "server_side": "required",
+          "categories": [
+            "equipment",
+            "magic",
+            "technology"
+          ],
+          "loaders": [
+            "forge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/uAAuyU4M/7a8c8fa0b4f81e1afb55d33219f4c470b336a051_96.webp",
+          "issues_url": "https://github.com/Elenterius/Biomancy/issues",
+          "source_url": "https://github.com/Elenterius/Biomancy",
+          "discord_url": "https://discord.gg/424awTDdJJ",
+          "donation_urls": [
+            {
+              "id": "ko-fi",
+              "platform": "Ko-fi",
+              "url": "https://ko-fi.com/elenterius"
+            }
+          ],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/uAAuyU4M/images/1ce29eab873e5e54b73317358f2a8c02a41e16ff_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uAAuyU4M/images/a658c47a2dd697c56422b0f67316063fc13c7ddd.png",
+              "featured": false,
+              "title": "Misc Things",
+              "created": "2024-08-26T17:41:36.150074Z",
+              "ordering": -3.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/uAAuyU4M/images/ef2a9fff060b5751a06f60c2fa967997c7a39aa6_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uAAuyU4M/images/f366079ed464230f2320e8334b76b6a8da03cfbc.png",
+              "featured": false,
+              "title": "Primdordial Cradle Chamber (Flesh Mound)",
+              "description": "Malignant Flesh has spread from the Primordial Cradle and has formed a chamber.",
+              "created": "2024-08-26T16:19:41.849169Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/uAAuyU4M/images/04ffa5e92b2525f9c49b579f4c3c1538c8a72a2e_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uAAuyU4M/images/0601ca435f86f5650de49406a83b0b080352b6cc.png",
+              "featured": false,
+              "title": "Flesh Mound",
+              "description": "The flesh mound is a procedural structure which can be slowly grown by yourself.",
+              "created": "2024-08-26T16:20:50.778115Z",
+              "ordering": 1.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/uAAuyU4M/images/072160cea6ff6fe086283d354a91a06e98ba752a_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uAAuyU4M/images/b33e2ca9c3d3b5cbc8bdc4f04497abfb26bc4716.png",
+              "featured": false,
+              "title": "Acid Chamber (Flesh Mound)",
+              "description": "A chamber with Primal Orifices oozing acid.",
+              "created": "2024-08-26T16:22:31.513796Z",
+              "ordering": 1.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/uAAuyU4M/images/748224c9746bea7ca54c8b2e450d5d5c96b0d453_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uAAuyU4M/images/7c8f533d25adb5fb2139d8711178f719260534a6.png",
+              "featured": false,
+              "title": "Bio-Machines",
+              "description": "Digester, Decomposer, Bio-Forge, Bio-Lab",
+              "created": "2023-04-11T00:33:13.765477Z",
+              "ordering": 2.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/uAAuyU4M/images/7ff6cab813b7dfd69c47bcd6454524ac91382acf_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uAAuyU4M/images/c73ba4d2a74c517b703c57b3b0be68a11cb3a0cb.png",
+              "featured": false,
+              "title": "Bio-Forge GUI",
+              "created": "2023-04-11T00:36:42.913288Z",
+              "ordering": 8.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/uAAuyU4M/images/5363da6cc1f764d89d548e4af11c652ed6e08b7a_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uAAuyU4M/images/aceec424c0f721bf033fc8c7b05ccdc6024f85e1.png",
+              "featured": false,
+              "title": "Decomposer GUI",
+              "description": "You can fuel your machines with food or nutrients.",
+              "created": "2023-04-11T00:37:20.852783Z",
+              "ordering": 9.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/uAAuyU4M/images/1c3347db90d9b5bdfd74050f8a01830e352f74f3_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uAAuyU4M/images/17a893eb285bbbbed1588febd79b0c72ee847b19.png",
+              "featured": false,
+              "title": "Digest Food into Nutrients",
+              "description": "The Digester is even capable of drinking Apple Cider from Farmer's Delight",
+              "created": "2023-04-11T00:37:44.784949Z",
+              "ordering": 10.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/uAAuyU4M/images/0123f268bb94926a5ab2859eb6c6d0df0263a02e_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uAAuyU4M/images/e3b14ba9fd80db72b7acae9d107aa53b1ea3727e.png",
+              "featured": false,
+              "title": "Bio-Injector GUI",
+              "description": "Quickly select what serum you want to force inject into yourself or others.",
+              "created": "2023-04-11T00:34:46.282622Z",
+              "ordering": 11.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/uAAuyU4M/images/0daf9416c0f4508ec4d5a709e7c100843154ac6f_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uAAuyU4M/images/3707ef8a71260617bc50cc61bb20f72de1ed3181.png",
+              "featured": false,
+              "title": "Flesh Blob Party",
+              "created": "2023-04-11T00:32:11.539142Z",
+              "ordering": 11.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/uAAuyU4M/images/b1a18a7ca633bbd10cb2ee7b5575a7cf2ddacf6b_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/uAAuyU4M/images/a7e9270a6295a197744b5773c469a4b8370f956d.png",
+              "featured": false,
+              "title": "Result of a Breeding Stimulant injection",
+              "description": "Counting the resulting piglets after their parents were force bred.",
+              "created": "2023-04-11T00:35:47.411822Z",
+              "ordering": 12.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "AkCSiK30",
+          "project_id": "uAAuyU4M",
+          "author_id": "JW4jAhTN",
+          "name": "Biomancy 2.9.0.1-alpha.0",
+          "version_number": "2.9.0.1-alpha.0",
+          "changelog": "- fix critical bug that prevented **dedicated** servers from shutting down",
+          "date_published": "2025-10-16T19:38:18.390745Z",
+          "version_type": "alpha",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "d673eb0bc72c4e229657f9bafcb3777e8bcbcecc",
+                "sha512": "ca130cb1bf44a2aca66060ac9f2de9d42dd050b5b9deac5560dab7f95e69b509ac07e69ae0e75f43f67ae0498fd78e63c793a136e1f4a9d62cf5192539d5e6cf"
+              },
+              "url": "https://cdn.modrinth.com/data/uAAuyU4M/versions/AkCSiK30/biomancy-forge-1.20.1-2.9.0.1-alpha.0.jar",
+              "filename": "biomancy-forge-1.20.1-2.9.0.1-alpha.0.jar",
+              "primary": true,
+              "size": 5830129
+            }
+          ],
+          "dependencies": [
+            {
+              "project_id": "8BmcQJ2H",
+              "dependency_type": "required"
+            },
+            {
+              "project_id": "t5W7Jfwy",
+              "dependency_type": "optional"
+            },
+            {
+              "project_id": "u6dRKJwZ",
+              "dependency_type": "optional"
+            }
+          ],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
       }
     ],
     "ignoredUpdates": [],
