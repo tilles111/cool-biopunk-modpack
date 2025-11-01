@@ -1,0 +1,7 @@
+{
+    "name": "Cool Biopunk Modpack",
+    "version": "0.0.1",
+    "overrides": [
+        "config"
+    ]
+}

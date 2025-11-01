@@ -1,0 +1,2689 @@
+{
+  "uuid": "d4dad16d-d9db-40a8-b725-df3f02fde2c8",
+  "launcher": {
+    "name": "Cool Biopunk Modpack",
+    "pack": "Minecraft",
+    "description": "Cool Biopunk Modpack",
+    "packId": 0,
+    "externalPackId": 0,
+    "version": "1.20.1",
+    "enableCurseForgeIntegration": true,
+    "enableEditingMods": true,
+    "loaderVersion": {
+      "version": "47.4.10",
+      "rawVersion": "1.20.1-47.4.10",
+      "recommended": false,
+      "type": "Forge",
+      "downloadables": {
+        "installer": {
+          "left": "66bfea9963bfa60d88bab6b2750e74a958392715",
+          "right": 6078070
+        },
+        "universal": {
+          "left": "41747347bacead85302e07082073fb46c2f69361",
+          "right": 2777708
+        }
+      }
+    },
+    "requiredMemory": 0,
+    "requiredPermGen": 0,
+    "quickPlay": {},
+    "isDev": false,
+    "isPlayable": true,
+    "assetsMapToResources": false,
+    "overridePaths": [],
+    "checkForUpdates": true,
+    "mods": [
+      {
+        "name": "Just Enough Items (JEI)",
+        "version": "15.20.0.117 for Forge 1.20.1",
+        "optional": true,
+        "file": "jei-1.20.1-forge-15.20.0.117.jar",
+        "type": "mods",
+        "description": "View Items and Recipes",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 238222,
+        "curseForgeFileId": 7173803,
+        "curseForgeProject": {
+          "id": 238222,
+          "name": "Just Enough Items (JEI)",
+          "authors": [
+            {
+              "id": 17072262,
+              "name": "mezz",
+              "url": "https://www.curseforge.com/members/mezz"
+            }
+          ],
+          "gameId": 432,
+          "summary": "View Items and Recipes",
+          "categories": [
+            {
+              "name": "Map and Information",
+              "slug": "map-information",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/map-information",
+              "dateModified": "2014-05-08T17:42:23.74Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 423,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/38/635351497437388438.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 423,
+          "classId": 6,
+          "slug": "jei",
+          "isFeatured": false,
+          "dateModified": "2025-11-01T13:21:06.017Z",
+          "dateCreated": "2015-11-23T23:00:41.923Z",
+          "dateReleased": "2025-11-01T13:18:16.57Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/jei",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/mezz/JustEnoughItems/issues?q=is%3Aissue",
+            "sourceUrl": "https://github.com/mezz/JustEnoughItems"
+          },
+          "logo": {
+            "id": 29069,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/29/69/256/256/635838945588716414.jpeg",
+            "title": "635838945588716414.jpeg",
+            "url": "https://media.forgecdn.net/avatars/29/69/635838945588716414.jpeg",
+            "modId": 238222
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 31420,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/31/420/310/172/tgafkma.png",
+              "title": "Itemlist Edit Mode",
+              "url": "https://media.forgecdn.net/attachments/31/420/tgafkma.png",
+              "modId": 238222
+            },
+            {
+              "id": 31419,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/31/419/310/172/t7f7jh6.png",
+              "title": "Potions",
+              "url": "https://media.forgecdn.net/attachments/31/419/t7f7jh6.png",
+              "modId": 238222
+            },
+            {
+              "id": 31418,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/31/418/310/172/9lngh5f.png",
+              "title": "Big Screen Support",
+              "url": "https://media.forgecdn.net/attachments/31/418/9lngh5f.png",
+              "modId": 238222
+            },
+            {
+              "id": 31417,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/31/417/310/172/thzzdin.png",
+              "title": "Recipe Completion",
+              "url": "https://media.forgecdn.net/attachments/31/417/thzzdin.png",
+              "modId": 238222
+            }
+          ],
+          "mainFileId": 6614392
+        },
+        "curseForgeFile": {
+          "id": 7173803,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "15.20.0.117 for Forge 1.20.1",
+          "fileName": "jei-1.20.1-forge-15.20.0.117.jar",
+          "releaseType": 2,
+          "fileStatus": 4,
+          "fileDate": "2025-11-01T13:13:57.393Z",
+          "fileLength": 1408016,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 92443089,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 3360830157,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 2007185424,
+              "name": "jei-icon.png"
+            },
+            {
+              "fingerprint": 386708339,
+              "name": "mezz"
+            },
+            {
+              "fingerprint": 2606738017,
+              "name": "pack.mcmeta"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "36fd41cd0b9646409b8942228e268dda520ee3e9",
+              "algo": 1
+            },
+            {
+              "value": "347e78569c6983a2402d21a7770d07ad",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 3973679917,
+          "modId": 238222
+        },
+        "modrinthProject": {
+          "id": "u6dRKJwZ",
+          "slug": "jei",
+          "project_type": "mod",
+          "team": "H2zAm1Kt",
+          "title": "Just Enough Items",
+          "description": "JEI - View Items and Recipes",
+          "body": "# Just Enough Items\nJEI is an item and recipe viewing mod for Minecraft, built from the ground up for stability and performance.\n\n![JEI Recipe GUI](https://cdn.modrinth.com/data/u6dRKJwZ/images/ee0ea4051573264d2b4edb53f9d4e634faa11f21.png)\n\n## Controls\n\n### Inventory:\n*(Minecraft Options -> Controls)*\n\nShow **R**ecipes: *Hover over item + R*  \nShow **U**ses: *Hover over item + U*  \nToggle Item List **O**verlay: *Control + O*  \n\n### Item List:\nShow Recipes: *Click Item or type R*  \nShow Uses: *Right-Click Item or type U*  \nNext/Previous page: *Scroll Wheel*  \n\n### Search:\nSelect Search Bar: *Click or Control + F*  \nClear Search: *Right Click*  \nPrevious Search: *Up Arrow * \nSearch by Mod Name: *Type @ in front of a word (@thaum)*  \nMultiple terms work together *(wand @thaum)*  \n\nExclude search terms: *Type - in front of a word (@thaum -wand)*  \n\nSearch terms that have spaces in them: *Type \"\" around the words (\"two words\")*\n\n### Recipe View:\nNext/Previous page: *Scroll Wheel*  \nShow all Recipes: *Click the recipe category's name*  \nMove items into crafting area: *Click the [+] button. Shift-Click to move multiple sets of items.*  \n\n<details>\n<summary>View advanced controls</summary>\n\n### Advanced Search:\nSearch by Tooltip Only: *Type # in front of a word*  \nSearch by OreDict name: *Type $ in front of a word*  \nSearch by Creative Tab: *Type % in front of a word*  \nMultiple Searches: *Separate terms with | characters, like \"wrench|hammer\"*  \n\n### With Cheat Mode Active:\nGet a full stack of Items: *Click Item*  \nGet one Item: *Right-Click Item*  \nDelete Item: *Drop an Item into the Item List*  \n\n### With Item List Edit Mode Active: \n*(These controls are shown in-game on the item tooltip)*\n\nHide Item: *Control-Click Item*  \nHide Items and Sub-Items: *Control-Right-Click Item*  \nHide all Items from a mod: *Control-Shift-Click Item*\n\n</details>\n\n## FAQ\n### Can I include JEI in my mod pack?\nOf course!\n\n### Can JEI run client-only, or with a vanilla server?\nYes, with some features disabled:\n- The \"Move items into crafting area\" [+] buttons.\n- Cheating in items that have lots of NBT data.\n- Deleting items.\n\n### Where can I find the ___ feature from NEI?\n\n[The chart here shows which mods support each feature.](https://docs.google.com/spreadsheets/d/1NEWZjKvWB-SibY1BXc1zoYkK7AhjMMBZess9wMy--6w/edit#gid=0)\n\n### I have an issue / bug / crash / report / request, where can I send it?\n[JEI Github Issues Page](https://github.com/mezz/JustEnoughItems/issues)\n\n## Support\n[Become a patron on Patreon](https://www.patreon.com/mezz)",
+          "published": "2023-01-27T05:19:03.821699Z",
+          "updated": "2025-11-01T13:18:28.850575Z",
+          "status": "approved",
+          "license": {
+            "id": "MIT",
+            "name": "MIT License"
+          },
+          "client_side": "optional",
+          "server_side": "optional",
+          "categories": [
+            "library",
+            "utility"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/u6dRKJwZ/4a3f18ac0d096c9f8e9176984c44be4e58f94c89_96.webp",
+          "issues_url": "https://github.com/mezz/JustEnoughItems/issues?q=is%3Aissue",
+          "source_url": "https://github.com/mezz/JustEnoughItems",
+          "wiki_url": "https://github.com/mezz/JustEnoughItems/wiki",
+          "discord_url": "https://discord.gg/sCQcWU2",
+          "donation_urls": [
+            {
+              "id": "patreon",
+              "platform": "Patreon",
+              "url": "https://www.patreon.com/mezz"
+            }
+          ],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/u6dRKJwZ/images/3eeba45a5139933d338cb1b3d93ba341693f9ed8_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/u6dRKJwZ/images/4ebe4cc9942c4bf0b07fdac67f93026b42f9a4d4.png",
+              "featured": false,
+              "title": "Recipe Completion",
+              "created": "2023-01-27T05:18:47.838148Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/u6dRKJwZ/images/7e845f89fbd1cece7cbec9474c193d500d34e5d9_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/u6dRKJwZ/images/ee0ea4051573264d2b4edb53f9d4e634faa11f21.png",
+              "featured": false,
+              "title": "JEI Recipe GUI",
+              "created": "2023-01-27T05:27:31.621057Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/u6dRKJwZ/images/f281af132332942e0739d557d6608e9263273fbb.jpeg",
+              "raw_url": "https://cdn.modrinth.com/data/u6dRKJwZ/images/f281af132332942e0739d557d6608e9263273fbb.jpeg",
+              "featured": true,
+              "title": "jei-header",
+              "description": "Zoomed image of JEI viewed on a high resolution CRT monitor",
+              "created": "2023-01-29T23:20:13.068911Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/u6dRKJwZ/images/631c360143228a749271d1b01e8c3d9963f9b495_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/u6dRKJwZ/images/156edbd1e04f86d64edc4f41a6d00e849bc7984b.png",
+              "featured": false,
+              "title": "Potions",
+              "created": "2023-01-27T05:18:47.838148Z",
+              "ordering": 1.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/u6dRKJwZ/images/8638bee21682cf82d79f8e841816866aeb13c6a6_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/u6dRKJwZ/images/b9efa7c6ecb817461416e6a30d8dfc0cc01e8566.png",
+              "featured": false,
+              "title": "Itemlist Edit Mode",
+              "created": "2023-01-27T05:18:47.838148Z",
+              "ordering": 2.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/u6dRKJwZ/images/bf2dadec207d0c42818396dd7eefd78fb91748e8_350.webp",
+              "raw_url": "https://cdn.modrinth.com/data/u6dRKJwZ/images/b1d94b5957935666467e1b2073d5cf92993b4078.png",
+              "featured": false,
+              "title": "Big Screen Support",
+              "created": "2023-01-27T05:18:47.838148Z",
+              "ordering": 3.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "FeUpMvfq",
+          "project_id": "u6dRKJwZ",
+          "author_id": "nMXRSbhF",
+          "name": "15.20.0.117 for Forge 1.20.1",
+          "version_number": "15.20.0.117",
+          "changelog": "  * [Backport lookup history feature to 1.20.1 (#4125)](https://github.com/mezz/JustEnoughItems/commit/aa3ebdcae2d00466c3913a3e1719a9126f544dde) - vfyjxf\n",
+          "date_published": "2025-11-01T13:14:09.033215Z",
+          "version_type": "beta",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "c1d940a54d3049550627e21de4b0477c9585c2d2a39d6312af1a9c4bdc40c610676e13d41c953d7bc89237d1fe71700d2a78a1d11100fd6cae7896f021173ccf",
+                "sha1": "36fd41cd0b9646409b8942228e268dda520ee3e9"
+              },
+              "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/FeUpMvfq/jei-1.20.1-forge-15.20.0.117.jar",
+              "filename": "jei-1.20.1-forge-15.20.0.117.jar",
+              "primary": true,
+              "size": 1408016
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "Mouse Tweaks",
+        "version": "[1.20.1 Forge] Mouse Tweaks 2.25.1",
+        "optional": true,
+        "file": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+        "type": "mods",
+        "description": "Enhances inventory management by adding various functions to the mouse buttons.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 60089,
+        "curseForgeFileId": 5338457,
+        "curseForgeProject": {
+          "id": 60089,
+          "name": "Mouse Tweaks",
+          "authors": [
+            {
+              "id": 7495712,
+              "name": "YaLTeR",
+              "url": "https://www.curseforge.com/members/yalter"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Enhances inventory management by adding various functions to the mouse buttons.",
+          "categories": [
+            {
+              "name": "Miscellaneous",
+              "slug": "mc-miscellaneous",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-miscellaneous",
+              "dateModified": "2014-06-15T04:27:14.543Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 425,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/40/635351497693711265.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Storage",
+              "slug": "storage",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/storage",
+              "dateModified": "2014-05-08T17:41:17.203Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 420,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/35/635351496772023801.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 425,
+          "classId": 6,
+          "slug": "mouse-tweaks",
+          "isFeatured": false,
+          "dateModified": "2025-10-08T17:32:34.587Z",
+          "dateCreated": "2013-06-25T13:13:55.087Z",
+          "dateReleased": "2025-10-05T20:00:43.57Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/YaLTeR/MouseTweaks/issues",
+            "sourceUrl": "https://github.com/YaLTeR/MouseTweaks"
+          },
+          "logo": {
+            "id": 467691,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/467/691/256/256/637749969243449870.png",
+            "title": "637749969243449870.png",
+            "url": "https://media.forgecdn.net/avatars/467/691/637749969243449870.png",
+            "modId": 60089
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 10571,
+              "description": "A default image for Mouse Tweaks.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/10/571/310/172/cursebanner.png",
+              "title": "Default Image",
+              "url": "https://media.forgecdn.net/attachments/10/571/cursebanner.png",
+              "modId": 60089
+            }
+          ],
+          "mainFileId": 7071305
+        },
+        "curseForgeFile": {
+          "id": 5338457,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "[1.20.1 Forge] Mouse Tweaks 2.25.1",
+          "fileName": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-05-12T16:26:46.523Z",
+          "fileLength": 76237,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 2407377901,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1722171939,
+              "name": "mousetweaks-fabric.mixins.json"
+            },
+            {
+              "fingerprint": 33962436,
+              "name": "mousetweaks.mixins.json"
+            },
+            {
+              "fingerprint": 3498187526,
+              "name": "mousetweaks.mixins.refmap.json"
+            },
+            {
+              "fingerprint": 1781016577,
+              "name": "mousetweaks_logo.png"
+            },
+            {
+              "fingerprint": 99466122,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 2256984033,
+              "name": "yalter"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "d751153e722a4e014691c83f39f5b07c6ec5333c",
+              "algo": 1
+            },
+            {
+              "value": "ce4b5bbb9ef6a7905c458ab599ef4cb2",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "Client",
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 3001740257,
+          "modId": 60089
+        },
+        "modrinthProject": {
+          "id": "aC3cM3Vq",
+          "slug": "mouse-tweaks",
+          "project_type": "mod",
+          "team": "Gn6mAc1d",
+          "title": "Mouse Tweaks",
+          "description": "Enhances inventory management by adding various functions to the mouse buttons. ",
+          "body": "Mouse Tweaks replaces the standard RMB dragging mechanic, adds two new LMB dragging mechanics and an ability to quickly move items with the scroll wheel.\n\n## Installation\n\n1. Install a compatible mod loader:\n    - 1.16.5 and later: install Minecraft Forge or Fabric.\n    - 1.14.4 and later: install Minecraft Forge.\n    - 1.12.2 and earlier: install either Minecraft Forge or LiteLoader (or both).\n2. Put the Mouse Tweaks jar-file into the mods folder in your .minecraft directory.\n\nMouse Tweaks is purely client-side. There is no server-side component.\n\n### Extras\n\n[**Mouse Tweaks API**](https://github.com/YaLTeR/MouseTweaks/tree/master/src/main/java/yalter/mousetweaks/api)\n\nConfiguration file: `.minecraft/config/MouseTweaks.cfg`\n\n## Tweaks\n\n### RMB Tweak\n\nVery similar to the standard RMB dragging mechanic, with one difference: if you drag over a slot multiple times, an item will be put there multiple times. Replaces the standard mechanic if enabled.\n\n**Configuration setting:** `RMBTweak=1`\n\nHold your right mouse button:\n\n![](https://i.imgur.com/Uo7xF.png)\n\nDrag your mouse around the crafting grid:\n\n![](https://i.imgur.com/NCRED.png)\n\nYou can drag your mouse on top of existing items:\n\n![](https://i.imgur.com/6MQv6.png)\n\n### LMB Tweak (with item)\n\nLets you quickly pick up or move items of the same type.\n\n**Configuration setting:** `LMBTweakWithItem=1`\n\nHold your left mouse button to pick up an item:\n\n![](https://i.imgur.com/ziuGG.png?1)\n\nDrag your mouse across the inventory. Items of the same type will be picked up:\n\n![](https://i.imgur.com/JDjsE.png?2)\n\nHold shift and drag. Items of the same type will get \"shift-clicked\":\n\n![](https://i.imgur.com/YrvmT.png?2)\n\n### LMB Tweak (without item)\n\nQuickly move items into another inventory.\n\n**Configuration setting:** `LMBTweakWithoutItem=1`\n\nHold shift, then hold your left mouse button:\n\n*(Mouse cursor is not visible for some reason)*\n\n![](https://i.imgur.com/f9Ejp.png?1)\n\nDrag your mouse across the inventory. Items will get \"shift-clicked\":\n\n*(Mouse cursor is not visible for some reason)*\n\n![](https://i.imgur.com/qBu6k.png?2)\n\n### Wheel Tweak\n\nScroll to quickly move items between inventories. When you scroll down on an item stack, its items will be moved one by one. When you scroll up, items will be moved into it from another inventory.\n\n**Configuration setting:** `WheelTweak=1`\n\n**Configuration setting:** `WheelSearchOrder=1`\n\nWhen you scroll up, the mod will search for items from last to first (when this is set to 1) or from first to last (when this is set to 0).\n\n**Configuration setting:** `WheelScrollDirection=0`\n\nSet this to 1 to invert the default scroll actions. So, when set to 1, scrolling down will pull the items and scrolling up will push the items.\n\nSet this to 2 to enable the inventory position aware scrolling. Scrolling up will push the items into the other inventory if it's above the selected slot, or pull items from the other inventory if it's below the selected slot. Vice versa for scrolling down.\n\n### Obsolete / Removed Settings\n\nThese settings existed in older Mouse Tweaks versions but were removed since.\n\n**Configuration setting:** `OnTickMethodOrder=Forge, LiteLoader`\n\nMouse Tweaks can use multiple APIs for an OnTick method that it requires. You can use this setting to control the API it prefers. This shouldn't really matter at all. If a method isn't supported (for example, you don't have the API installed) the mod will proceed to check the next ones.\n\n**Configuration setting:** `ScrollHandling=0`\n\nToggles between \"smooth scrolling, minor issues\" (0) and \"non-smooth scrolling, no issues\" (1). When set to smooth scrolling, minor issues may be experienced such as scrolling \"through\" JEI or other mods. When set to non-smooth scrolling, those issues will not happen, but the scrolling will be a little non-smooth. Non-smooth scrolling works only with the Forge OnTick method.\n\nThis option is set to smooth scrolling by default because the aforementioned issues require rather specific conditions to trigger and aren't very impactful, while scrolling items is something you do all the time and want the experience to be as good as possible.\n\n## Compatibility\n\nMouse Tweaks is compatible with everything based on `GuiContainer` (as long as the behavior isn't changed too much).\n\nIf your GUI isn't based on `GuiContainer`, or if you want to improve compatibility (making Mouse Tweaks ignore some slot, for example), take a look at the [API documentation](https://github.com/YaLTeR/MouseTweaks/blob/2dc5bb108c2663f9a07b3a181483733a0274b41a/src/api/java/yalter/mousetweaks/api/IMTModGuiContainer3.java).\n\n## Modpacks\n\nFeel free to include Mouse Tweaks in modpacks.\n",
+          "published": "2021-03-20T15:55:49.895120Z",
+          "updated": "2025-10-05T20:04:35.334114Z",
+          "status": "approved",
+          "license": {
+            "id": "BSD-3-Clause",
+            "name": "BSD 3-Clause \"New\" or \"Revised\" License"
+          },
+          "client_side": "required",
+          "server_side": "unsupported",
+          "categories": [
+            "storage",
+            "utility"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "modloader",
+            "neoforge"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/aC3cM3Vq/6c0eaa4e60a9c87f4766f222ff63286f09da32c0_96.webp",
+          "issues_url": "https://github.com/YaLTeR/MouseTweaks/issues",
+          "source_url": "https://github.com/YaLTeR/MouseTweaks",
+          "donation_urls": [
+            {
+              "id": "github",
+              "platform": "Github",
+              "url": "https://github.com/sponsors/YaLTeR"
+            }
+          ],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "7JVXOe3K",
+          "project_id": "aC3cM3Vq",
+          "author_id": "On32SQVu",
+          "name": "[1.20.1 Forge] Mouse Tweaks 2.25.1",
+          "version_number": "1.20.1-2.25.1-forge",
+          "changelog": "- Fixed an incompatibility with certain mods that was causing a crash (specifically, Nether Chested was triggering this Mouse Tweaks issue).\n- Improved compatibility with slots with custom stack limits (like in the Nether Chested mod).",
+          "date_published": "2024-05-12T16:27:50.280746Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "d751153e722a4e014691c83f39f5b07c6ec5333c",
+                "sha512": "a3bb0272c0a1a3be9250dfee030bb8f86217fa6a32bd534be8c940fdd8c466c800c2df85874877983ced36ecfc28c8ced6c0d42107c1ab621385b4be9a7c65eb"
+              },
+              "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/7JVXOe3K/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+              "filename": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+              "primary": true,
+              "size": 76237
+            },
+            {
+              "hashes": {
+                "sha512": "98916c93bed3ca456c6f0de0f5b52a40a70f88c2d308414e02eb18fee3aeaefe2437fe3fc3cc29bc78a4d06258d158836e85216a7f2c66a838d2ff1b89853abe",
+                "sha1": "abfc1f2e2112efd147cd092122287d3d5a59e35d"
+              },
+              "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/7JVXOe3K/MouseTweaks-forge-mc1.20.1-2.25.1-api.jar",
+              "filename": "MouseTweaks-forge-mc1.20.1-2.25.1-api.jar",
+              "primary": false,
+              "size": 1995
+            },
+            {
+              "hashes": {
+                "sha512": "2f641413fc64371853e1ca07243348de5759d8e30f419347af8c2edc556c010297d8f45f088d4a394f0b5494bd951412c0b9d9dce2eaa29bd5bb0fdf97ac6acd",
+                "sha1": "946f3003fbf087ad5a0361a317afb2bda73b69ce"
+              },
+              "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/7JVXOe3K/MouseTweaks-forge-mc1.20.1-2.25.1-src.jar",
+              "filename": "MouseTweaks-forge-mc1.20.1-2.25.1-src.jar",
+              "primary": false,
+              "size": 19734
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "AppleSkin",
+        "version": "appleskin-forge-mc1.20.1-2.5.1.jar",
+        "optional": true,
+        "file": "appleskin-forge-mc1.20.1-2.5.1.jar",
+        "type": "mods",
+        "description": "Adds some useful information about food/hunger to the HUD",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 248787,
+        "curseForgeFileId": 4770828,
+        "curseForgeProject": {
+          "id": 248787,
+          "name": "AppleSkin",
+          "authors": [
+            {
+              "id": 13914149,
+              "name": "squeek502",
+              "url": "https://www.curseforge.com/members/squeek502"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Adds some useful information about food/hunger to the HUD",
+          "categories": [
+            {
+              "name": "Food",
+              "slug": "mc-food",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-food",
+              "dateModified": "2014-05-08T17:45:26.55Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 436,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/49/635351499265510402.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Map and Information",
+              "slug": "map-information",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/map-information",
+              "dateModified": "2014-05-08T17:42:23.74Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 423,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/38/635351497437388438.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 436,
+          "classId": 6,
+          "slug": "appleskin",
+          "isFeatured": false,
+          "dateModified": "2025-10-07T01:11:13.987Z",
+          "dateCreated": "2016-08-13T20:28:19.243Z",
+          "dateReleased": "2025-10-07T01:08:30.97Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/appleskin",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/squeek502/AppleSkin/issues",
+            "sourceUrl": "https://github.com/squeek502/AppleSkin"
+          },
+          "logo": {
+            "id": 47527,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/47/527/256/256/636066936394500688.png",
+            "title": "636066936394500688.png",
+            "url": "https://media.forgecdn.net/avatars/47/527/636066936394500688.png",
+            "modId": 248787
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 7075798
+        },
+        "curseForgeFile": {
+          "id": 4770828,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "appleskin-forge-mc1.20.1-2.5.1.jar",
+          "fileName": "appleskin-forge-mc1.20.1-2.5.1.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2023-09-27T04:39:49.087Z",
+          "fileLength": 47428,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3491573360,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1383794256,
+              "name": "appleskin.png"
+            },
+            {
+              "fingerprint": 3447702788,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 3071333817,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 2361881143,
+              "name": "squeek"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "81919356f84eab14258db98924b66c3c38e372b1",
+              "algo": 1
+            },
+            {
+              "value": "dae63cea9c951dda542a4005ceef3953",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "NeoForge",
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 1671637789,
+          "modId": 248787
+        },
+        "modrinthProject": {
+          "id": "EsAfCjCV",
+          "slug": "appleskin",
+          "project_type": "mod",
+          "team": "2RI7njA8",
+          "title": "AppleSkin",
+          "description": "Food/hunger-related HUD improvements",
+          "body": "Adds various food-related HUD improvements. This is a mostly client-side mod, but it needs to be on the server in order to display accurate saturation/exhaustion values on the client.\n\n---\n\n*Note: AppleSkin provides information about some mechanics that are invisible by default (it does not add or change any mechanics). To read about Minecraft's exhaustion and saturation mechanics, see the [Minecraft wiki article on Hunger](https://minecraft.wiki/w/Hunger#Mechanics)*\n\n---\n\n### Features\n\n* Adds food value information to tooltips:\n\n![](https://i.imgur.com/YksBaUx.png)\n\n* Adds a visualization of saturation and exhaustion to the HUD:\n\n![](https://i.imgur.com/tmImVqo.gif)\n\n* Adds a visualization of potential hunger/saturation restored while holding food:\n\n![](https://i.imgur.com/aHf1QxQ.gif)\n\n* Adds a visualization of potential health restored while holding food:\n\n![](https://i.imgur.com/jUOKFUl.gif)\n\n* Adds hunger/saturation/exhaustion info to the debug overlay (F3)\n* Syncs the value of saturation and exhaustion to the client.\n\n---\n\n### Misc\nYou are welcome to add this mod to any modpack you'd like.\n\n---\n\n### Use on vanilla servers\n\nOne of the following plugins can be used to get the saturation/exhaustion to work when connecting to vanilla Minecraft servers:\n\n- https://github.com/jmattingley23/AppleSkinSpigot\n- https://www.curseforge.com/minecraft/bukkit-plugins/paperapple\n",
+          "published": "2021-11-20T23:37:39.568172Z",
+          "updated": "2025-10-07T01:09:25.491377Z",
+          "status": "approved",
+          "license": {
+            "id": "Unlicense",
+            "name": "The Unlicense"
+          },
+          "client_side": "optional",
+          "server_side": "optional",
+          "categories": [
+            "food",
+            "utility"
+          ],
+          "loaders": [
+            "fabric",
+            "forge",
+            "neoforge",
+            "quilt"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/EsAfCjCV/icon.png",
+          "issues_url": "https://github.com/squeek502/AppleSkin/issues",
+          "source_url": "https://github.com/squeek502/AppleSkin",
+          "donation_urls": [
+            {
+              "id": "github",
+              "platform": "Github",
+              "url": "https://github.com/sponsors/squeek502"
+            }
+          ],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "XdXDExVF",
+          "project_id": "EsAfCjCV",
+          "author_id": "qB1TNdUc",
+          "name": "appleskin-forge-mc1.20.1-2.5.1",
+          "version_number": "2.5.1+mc1.20.1",
+          "changelog": "- Fixed potential crash from unexpectedly large health/absorption values ([#266](https://github.com/squeek502/AppleSkin/issues/266))\n- Fixed large hunger/saturation text being drawn on top of the icon in tooltips ([#262](https://github.com/squeek502/AppleSkin/issues/262))",
+          "date_published": "2023-09-27T05:07:37.394825Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "81919356f84eab14258db98924b66c3c38e372b1",
+                "sha512": "3176f928fb6c60d27f5edb610ca4ab0236175404eebf32797a1ec6cdd794bb294a260231579578536d03571377e43c6181adc75d8dd2c0733f17fce4f7e636b9"
+              },
+              "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/XdXDExVF/appleskin-forge-mc1.20.1-2.5.1.jar",
+              "filename": "appleskin-forge-mc1.20.1-2.5.1.jar",
+              "primary": true,
+              "size": 47428
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.20.1"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      }
+    ],
+    "ignoredUpdates": [],
+    "ignoreAllUpdates": false,
+    "vanillaInstance": true,
+    "lastPlayed": 0,
+    "numPlays": 0
+  },
+  "id": "1.20.1",
+  "complianceLevel": 1,
+  "javaVersion": {
+    "component": "java-runtime-gamma",
+    "majorVersion": 17
+  },
+  "arguments": {
+    "game": [
+      "--username",
+      "${auth_player_name}",
+      "--version",
+      "${version_name}",
+      "--gameDir",
+      "${game_directory}",
+      "--assetsDir",
+      "${assets_root}",
+      "--assetIndex",
+      "${assets_index_name}",
+      "--uuid",
+      "${auth_uuid}",
+      "--accessToken",
+      "${auth_access_token}",
+      "--clientId",
+      "${clientid}",
+      "--xuid",
+      "${auth_xuid}",
+      "--userType",
+      "${user_type}",
+      "--versionType",
+      "${version_type}",
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "features": {}
+          }
+        ],
+        "value": "--demo"
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "features": {
+              "has_custom_resolution": "true"
+            }
+          }
+        ],
+        "value": [
+          "--width",
+          "${resolution_width}",
+          "--height",
+          "${resolution_height}"
+        ]
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "features": {}
+          }
+        ],
+        "value": [
+          "--quickPlayPath",
+          "${quickPlayPath}"
+        ]
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "features": {}
+          }
+        ],
+        "value": [
+          "--quickPlaySingleplayer",
+          "${quickPlaySingleplayer}"
+        ]
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "features": {}
+          }
+        ],
+        "value": [
+          "--quickPlayMultiplayer",
+          "${quickPlayMultiplayer}"
+        ]
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "features": {}
+          }
+        ],
+        "value": [
+          "--quickPlayRealms",
+          "${quickPlayRealms}"
+        ]
+      },
+      "--launchTarget",
+      "forgeclient",
+      "--fml.forgeVersion",
+      "47.4.10",
+      "--fml.mcVersion",
+      "1.20.1",
+      "--fml.forgeGroup",
+      "net.minecraftforge",
+      "--fml.mcpVersion",
+      "20230612.114412"
+    ],
+    "jvm": [
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "name": "osx"
+            }
+          }
+        ],
+        "value": [
+          "-XstartOnFirstThread"
+        ]
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "name": "windows"
+            }
+          }
+        ],
+        "value": "-XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump"
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "arch": "x86"
+            }
+          }
+        ],
+        "value": "-Xss1M"
+      },
+      "-Djava.library.path=${natives_directory}",
+      "-Djna.tmpdir=${natives_directory}",
+      "-Dorg.lwjgl.system.SharedLibraryExtractPath=${natives_directory}",
+      "-Dio.netty.native.workdir=${natives_directory}",
+      "-Dminecraft.launcher.brand=${launcher_name}",
+      "-Dminecraft.launcher.version=${launcher_version}",
+      "-cp",
+      "${classpath}",
+      "-Djava.net.preferIPv6Addresses=system",
+      "-DignoreList=bootstraplauncher,securejarhandler,asm-commons,asm-util,asm-analysis,asm-tree,asm,JarJarFileSystems,client-extra,fmlcore,javafmllanguage,lowcodelanguage,mclanguage,forge-,${version_name}.jar,client-1.20.1.jar",
+      "-DmergeModules=jna-5.10.0.jar,jna-platform-5.10.0.jar",
+      "-DlibraryDirectory=${library_directory}",
+      "-p",
+      "${library_directory}/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar${classpath_separator}${library_directory}/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar${classpath_separator}${library_directory}/org/ow2/asm/asm/9.8/asm-9.8.jar${classpath_separator}${library_directory}/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar",
+      "--add-modules",
+      "ALL-MODULE-PATH",
+      "--add-opens",
+      "java.base/java.util.jar=cpw.mods.securejarhandler",
+      "--add-opens",
+      "java.base/java.lang.invoke=cpw.mods.securejarhandler",
+      "--add-exports",
+      "java.base/sun.security.util=cpw.mods.securejarhandler",
+      "--add-exports",
+      "jdk.naming.dns/com.sun.jndi.dns=java.naming"
+    ]
+  },
+  "type": "release",
+  "time": "2023-06-12T13:25:51+00:00",
+  "releaseTime": "2023-06-12T13:25:51+00:00",
+  "minimumLauncherVersion": "21",
+  "assetIndex": {
+    "id": "5",
+    "sha1": "839eb0da73c0a4ee71b073cd85af4c692bb0cf01",
+    "size": 412473,
+    "url": "https://piston-meta.mojang.com/v1/packages/839eb0da73c0a4ee71b073cd85af4c692bb0cf01/5.json",
+    "totalSize": 637273337
+  },
+  "assets": "5",
+  "downloads": {
+    "client": {
+      "sha1": "0c3ec587af28e5a785c0b4a7b8a30f9a8f78f838",
+      "size": 23028853,
+      "url": "https://piston-data.mojang.com/v1/objects/0c3ec587af28e5a785c0b4a7b8a30f9a8f78f838/client.jar"
+    },
+    "server": {
+      "sha1": "84194a2f286ef7c14ed7ce0090dba59902951553",
+      "size": 47791053,
+      "url": "https://piston-data.mojang.com/v1/objects/84194a2f286ef7c14ed7ce0090dba59902951553/server.jar"
+    }
+  },
+  "logging": {
+    "client": {
+      "argument": "-Dlog4j.configurationFile=${path}",
+      "file": {
+        "id": "client-1.12.xml",
+        "sha1": "bd65e7d2e3c237be76cfbef4c2405033d7f91521",
+        "size": 888,
+        "url": "https://piston-data.mojang.com/v1/objects/bd65e7d2e3c237be76cfbef4c2405033d7f91521/client-1.12.xml"
+      },
+      "type": "log4j2-xml"
+    }
+  },
+  "libraries": [
+    {
+      "name": "cpw.mods:securejarhandler:2.1.10",
+      "downloads": {
+        "artifact": {
+          "path": "cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar",
+          "sha1": "51e6a22c6c716beb11e244bf5b8be480f51dd6b5",
+          "size": 88749,
+          "url": "https://download.nodecdn.net/containers/atl/maven/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+        }
+      }
+    },
+    {
+      "name": "org.ow2.asm:asm:9.8",
+      "downloads": {
+        "artifact": {
+          "path": "org/ow2/asm/asm/9.8/asm-9.8.jar",
+          "sha1": "dc19ecb3f7889b7860697215cae99c0f9b6f6b4b",
+          "size": 126113,
+          "url": "https://download.nodecdn.net/containers/atl/maven/org/ow2/asm/asm/9.8/asm-9.8.jar"
+        }
+      }
+    },
+    {
+      "name": "org.ow2.asm:asm-commons:9.8",
+      "downloads": {
+        "artifact": {
+          "path": "org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar",
+          "sha1": "36e4d212970388e5bd2c5180292012502df461bb",
+          "size": 73498,
+          "url": "https://download.nodecdn.net/containers/atl/maven/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+        }
+      }
+    },
+    {
+      "name": "org.ow2.asm:asm-tree:9.8",
+      "downloads": {
+        "artifact": {
+          "path": "org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar",
+          "sha1": "018419ca5b77a2f81097c741e7872e6ab8d2f40d",
+          "size": 51934,
+          "url": "https://download.nodecdn.net/containers/atl/maven/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+        }
+      }
+    },
+    {
+      "name": "org.ow2.asm:asm-util:9.8",
+      "downloads": {
+        "artifact": {
+          "path": "org/ow2/asm/asm-util/9.8/asm-util-9.8.jar",
+          "sha1": "395f1c1f035258511f27bc9b2583d76e4b143f59",
+          "size": 94559,
+          "url": "https://download.nodecdn.net/containers/atl/maven/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+        }
+      }
+    },
+    {
+      "name": "org.ow2.asm:asm-analysis:9.8",
+      "downloads": {
+        "artifact": {
+          "path": "org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar",
+          "sha1": "b9747a320844b6cb1eacd90d8ecfd260a16c01d3",
+          "size": 35151,
+          "url": "https://download.nodecdn.net/containers/atl/maven/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraftforge:accesstransformers:8.0.4",
+      "downloads": {
+        "artifact": {
+          "path": "net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar",
+          "sha1": "272d240aa73f42195b2a68e2ebd8b701ecf41f63",
+          "size": 77756,
+          "url": "https://download.nodecdn.net/containers/atl/maven/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+        }
+      }
+    },
+    {
+      "name": "org.antlr:antlr4-runtime:4.9.1",
+      "downloads": {
+        "artifact": {
+          "path": "org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar",
+          "sha1": "428664f05d2b7f7b7610204b5aa7c1763f62011a",
+          "size": 337868,
+          "url": "https://download.nodecdn.net/containers/atl/maven/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraftforge:eventbus:6.0.5",
+      "downloads": {
+        "artifact": {
+          "path": "net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar",
+          "sha1": "699143dd438431d06b57416944f7cedbe52e1475",
+          "size": 53985,
+          "url": "https://download.nodecdn.net/containers/atl/maven/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraftforge:forgespi:7.0.1",
+      "downloads": {
+        "artifact": {
+          "path": "net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar",
+          "sha1": "3b4972a0cdb135853dba219be61a79b22cff1309",
+          "size": 29831,
+          "url": "https://download.nodecdn.net/containers/atl/maven/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraftforge:coremods:5.2.4",
+      "downloads": {
+        "artifact": {
+          "path": "net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar",
+          "sha1": "e30bab269d896613e38396274711410b3a0e4b87",
+          "size": 31872,
+          "url": "https://download.nodecdn.net/containers/atl/maven/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+        }
+      }
+    },
+    {
+      "name": "cpw.mods:modlauncher:10.0.9",
+      "downloads": {
+        "artifact": {
+          "path": "cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar",
+          "sha1": "06d9443f56f50bb85cea383686ff9c867391458b",
+          "size": 130343,
+          "url": "https://download.nodecdn.net/containers/atl/maven/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraftforge:unsafe:0.2.0",
+      "downloads": {
+        "artifact": {
+          "path": "net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar",
+          "sha1": "54d7a0a5e8fdb71b973025caa46f341ae5904f39",
+          "size": 2834,
+          "url": "https://download.nodecdn.net/containers/atl/maven/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraftforge:mergetool:1.1.5:api",
+      "downloads": {
+        "artifact": {
+          "path": "net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar",
+          "sha1": "f3da18e12c696d35a47c82cbb2cc8b5aa15e1154",
+          "size": 2572,
+          "url": "https://download.nodecdn.net/containers/atl/maven/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+        }
+      }
+    },
+    {
+      "name": "com.electronwill.night-config:core:3.6.4",
+      "downloads": {
+        "artifact": {
+          "path": "com/electronwill/night-config/core/3.6.4/core-3.6.4.jar",
+          "sha1": "510f174abbf1c947494db50ef2445683bd52c230",
+          "size": 199834,
+          "url": "https://download.nodecdn.net/containers/atl/maven/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+        }
+      }
+    },
+    {
+      "name": "com.electronwill.night-config:toml:3.6.4",
+      "downloads": {
+        "artifact": {
+          "path": "com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar",
+          "sha1": "51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4",
+          "size": 31816,
+          "url": "https://download.nodecdn.net/containers/atl/maven/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.maven:maven-artifact:3.8.5",
+      "downloads": {
+        "artifact": {
+          "path": "org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar",
+          "sha1": "4433f50c07debefaed0553bd0068f4f48d449313",
+          "size": 58077,
+          "url": "https://download.nodecdn.net/containers/atl/maven/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+        }
+      }
+    },
+    {
+      "name": "net.jodah:typetools:0.6.3",
+      "downloads": {
+        "artifact": {
+          "path": "net/jodah/typetools/0.6.3/typetools-0.6.3.jar",
+          "sha1": "a01aaa6ddaea9ec07ec4f209487b7a46a526283a",
+          "size": 18281,
+          "url": "https://download.nodecdn.net/containers/atl/maven/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecrell:terminalconsoleappender:1.2.0",
+      "downloads": {
+        "artifact": {
+          "path": "net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar",
+          "sha1": "96d02cd3b384ff015a8fef4223bcb4ccf1717c95",
+          "size": 15977,
+          "url": "https://download.nodecdn.net/containers/atl/maven/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+        }
+      }
+    },
+    {
+      "name": "org.jline:jline-reader:3.12.1",
+      "downloads": {
+        "artifact": {
+          "path": "org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar",
+          "sha1": "4382ab1382c7b6f379377ed5f665dc2f6e1218bc",
+          "size": 150765,
+          "url": "https://download.nodecdn.net/containers/atl/maven/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+        }
+      }
+    },
+    {
+      "name": "org.jline:jline-terminal:3.12.1",
+      "downloads": {
+        "artifact": {
+          "path": "org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar",
+          "sha1": "c777448314e050d980a6b697c140f3bfe9eb7416",
+          "size": 211712,
+          "url": "https://download.nodecdn.net/containers/atl/maven/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+        }
+      }
+    },
+    {
+      "name": "org.spongepowered:mixin:0.8.5",
+      "downloads": {
+        "artifact": {
+          "path": "org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar",
+          "sha1": "9d1c0c3a304ae6697ecd477218fa61b850bf57fc",
+          "size": 1089277,
+          "url": "https://download.nodecdn.net/containers/atl/maven/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+        }
+      }
+    },
+    {
+      "name": "org.openjdk.nashorn:nashorn-core:15.4",
+      "downloads": {
+        "artifact": {
+          "path": "org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar",
+          "sha1": "f67f5ffaa5f5130cf6fb9b133da00c7df3b532a5",
+          "size": 2167292,
+          "url": "https://download.nodecdn.net/containers/atl/maven/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraftforge:JarJarSelector:0.3.19",
+      "downloads": {
+        "artifact": {
+          "path": "net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar",
+          "sha1": "376cc9c8ea60720cf027c01fc033de915699801c",
+          "size": 17374,
+          "url": "https://download.nodecdn.net/containers/atl/maven/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraftforge:JarJarMetadata:0.3.19",
+      "downloads": {
+        "artifact": {
+          "path": "net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar",
+          "sha1": "0083feaa9b770e6ac0e96ee4fc23fa89325c5fe2",
+          "size": 15895,
+          "url": "https://download.nodecdn.net/containers/atl/maven/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+        }
+      }
+    },
+    {
+      "name": "cpw.mods:bootstraplauncher:1.1.2",
+      "downloads": {
+        "artifact": {
+          "path": "cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar",
+          "sha1": "0c546e00443d8432cda6baa1c860346980742628",
+          "size": 8284,
+          "url": "https://download.nodecdn.net/containers/atl/maven/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraftforge:JarJarFileSystems:0.3.19",
+      "downloads": {
+        "artifact": {
+          "path": "net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar",
+          "sha1": "2464eb7d6b9ddb9db36a82cf8a95193e5c6fe020",
+          "size": 32195,
+          "url": "https://download.nodecdn.net/containers/atl/maven/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraftforge:fmlloader:1.20.1-47.4.10",
+      "downloads": {
+        "artifact": {
+          "path": "net/minecraftforge/fmlloader/1.20.1-47.4.10/fmlloader-1.20.1-47.4.10.jar",
+          "sha1": "55c46d27e7cfc8b829af8a28e562a7d290fa38b6",
+          "size": 267079,
+          "url": "https://download.nodecdn.net/containers/atl/maven/net/minecraftforge/fmlloader/1.20.1-47.4.10/fmlloader-1.20.1-47.4.10.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.10",
+      "downloads": {
+        "artifact": {
+          "path": "net/minecraftforge/fmlearlydisplay/1.20.1-47.4.10/fmlearlydisplay-1.20.1-47.4.10.jar",
+          "sha1": "a262fa19e65f643aae210b4275b53bee053aa765",
+          "size": 170518,
+          "url": "https://download.nodecdn.net/containers/atl/maven/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.10/fmlearlydisplay-1.20.1-47.4.10.jar"
+        }
+      }
+    },
+    {
+      "name": "ca.weblite:java-objc-bridge:1.1",
+      "downloads": {
+        "artifact": {
+          "path": "ca/weblite/java-objc-bridge/1.1/java-objc-bridge-1.1.jar",
+          "sha1": "1227f9e0666314f9de41477e3ec277e542ed7f7b",
+          "size": 1330045,
+          "url": "https://libraries.minecraft.net/ca/weblite/java-objc-bridge/1.1/java-objc-bridge-1.1.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "com.github.oshi:oshi-core:6.2.2",
+      "downloads": {
+        "artifact": {
+          "path": "com/github/oshi/oshi-core/6.2.2/oshi-core-6.2.2.jar",
+          "sha1": "54f5efc19bca95d709d9a37d19ffcbba3d21c1a6",
+          "size": 947865,
+          "url": "https://libraries.minecraft.net/com/github/oshi/oshi-core/6.2.2/oshi-core-6.2.2.jar"
+        }
+      }
+    },
+    {
+      "name": "com.google.code.gson:gson:2.10",
+      "downloads": {
+        "artifact": {
+          "path": "com/google/code/gson/gson/2.10/gson-2.10.jar",
+          "sha1": "dd9b193aef96e973d5a11ab13cd17430c2e4306b",
+          "size": 286235,
+          "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.10/gson-2.10.jar"
+        }
+      }
+    },
+    {
+      "name": "com.google.guava:failureaccess:1.0.1",
+      "downloads": {
+        "artifact": {
+          "path": "com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
+          "sha1": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9",
+          "size": 4617,
+          "url": "https://libraries.minecraft.net/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar"
+        }
+      }
+    },
+    {
+      "name": "com.google.guava:guava:31.1-jre",
+      "downloads": {
+        "artifact": {
+          "path": "com/google/guava/guava/31.1-jre/guava-31.1-jre.jar",
+          "sha1": "60458f877d055d0c9114d9e1a2efb737b4bc282c",
+          "size": 2959479,
+          "url": "https://libraries.minecraft.net/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar"
+        }
+      }
+    },
+    {
+      "name": "com.ibm.icu:icu4j:71.1",
+      "downloads": {
+        "artifact": {
+          "path": "com/ibm/icu/icu4j/71.1/icu4j-71.1.jar",
+          "sha1": "9e7d3304c23f9ba5cb71915f7cce23231a57a445",
+          "size": 13963762,
+          "url": "https://libraries.minecraft.net/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar"
+        }
+      }
+    },
+    {
+      "name": "com.mojang:authlib:4.0.43",
+      "downloads": {
+        "artifact": {
+          "path": "com/mojang/authlib/4.0.43/authlib-4.0.43.jar",
+          "sha1": "2ff9d747a77570a07a60d32ac77eb6162ad2a2d9",
+          "size": 121766,
+          "url": "https://libraries.minecraft.net/com/mojang/authlib/4.0.43/authlib-4.0.43.jar"
+        }
+      }
+    },
+    {
+      "name": "com.mojang:blocklist:1.0.10",
+      "downloads": {
+        "artifact": {
+          "path": "com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar",
+          "sha1": "5c685c5ffa94c4cd39496c7184c1d122e515ecef",
+          "size": 964,
+          "url": "https://libraries.minecraft.net/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar"
+        }
+      }
+    },
+    {
+      "name": "com.mojang:brigadier:1.1.8",
+      "downloads": {
+        "artifact": {
+          "path": "com/mojang/brigadier/1.1.8/brigadier-1.1.8.jar",
+          "sha1": "5244ce82c3337bba4a196a3ce858bfaecc74404a",
+          "size": 77121,
+          "url": "https://libraries.minecraft.net/com/mojang/brigadier/1.1.8/brigadier-1.1.8.jar"
+        }
+      }
+    },
+    {
+      "name": "com.mojang:datafixerupper:6.0.8",
+      "downloads": {
+        "artifact": {
+          "path": "com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar",
+          "sha1": "3ba4a30557a9b057760af4011f909ba619fc5125",
+          "size": 689960,
+          "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar"
+        }
+      }
+    },
+    {
+      "name": "com.mojang:logging:1.1.1",
+      "downloads": {
+        "artifact": {
+          "path": "com/mojang/logging/1.1.1/logging-1.1.1.jar",
+          "sha1": "832b8e6674a9b325a5175a3a6267dfaf34c85139",
+          "size": 15343,
+          "url": "https://libraries.minecraft.net/com/mojang/logging/1.1.1/logging-1.1.1.jar"
+        }
+      }
+    },
+    {
+      "name": "com.mojang:patchy:2.2.10",
+      "downloads": {
+        "artifact": {
+          "path": "com/mojang/patchy/2.2.10/patchy-2.2.10.jar",
+          "sha1": "da05971b07cbb379d002cf7eaec6a2048211fefc",
+          "size": 4439,
+          "url": "https://libraries.minecraft.net/com/mojang/patchy/2.2.10/patchy-2.2.10.jar"
+        }
+      }
+    },
+    {
+      "name": "com.mojang:text2speech:1.17.9",
+      "downloads": {
+        "artifact": {
+          "path": "com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar",
+          "sha1": "3cad216e3a7f0c19b4b394388bc9ffc446f13b14",
+          "size": 12243,
+          "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar"
+        }
+      }
+    },
+    {
+      "name": "commons-codec:commons-codec:1.15",
+      "downloads": {
+        "artifact": {
+          "path": "commons-codec/commons-codec/1.15/commons-codec-1.15.jar",
+          "sha1": "49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d",
+          "size": 353793,
+          "url": "https://libraries.minecraft.net/commons-codec/commons-codec/1.15/commons-codec-1.15.jar"
+        }
+      }
+    },
+    {
+      "name": "commons-io:commons-io:2.11.0",
+      "downloads": {
+        "artifact": {
+          "path": "commons-io/commons-io/2.11.0/commons-io-2.11.0.jar",
+          "sha1": "a2503f302b11ebde7ebc3df41daebe0e4eea3689",
+          "size": 327135,
+          "url": "https://libraries.minecraft.net/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar"
+        }
+      }
+    },
+    {
+      "name": "commons-logging:commons-logging:1.2",
+      "downloads": {
+        "artifact": {
+          "path": "commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+          "sha1": "4bfc12adfe4842bf07b657f0369c4cb522955686",
+          "size": 61829,
+          "url": "https://libraries.minecraft.net/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+        }
+      }
+    },
+    {
+      "name": "io.netty:netty-buffer:4.1.82.Final",
+      "downloads": {
+        "artifact": {
+          "path": "io/netty/netty-buffer/4.1.82.Final/netty-buffer-4.1.82.Final.jar",
+          "sha1": "a544270cf1ae8b8077082f5036436a9a9971ea71",
+          "size": 304664,
+          "url": "https://libraries.minecraft.net/io/netty/netty-buffer/4.1.82.Final/netty-buffer-4.1.82.Final.jar"
+        }
+      }
+    },
+    {
+      "name": "io.netty:netty-codec:4.1.82.Final",
+      "downloads": {
+        "artifact": {
+          "path": "io/netty/netty-codec/4.1.82.Final/netty-codec-4.1.82.Final.jar",
+          "sha1": "b77200379acb345a9ffdece1c605e591ac3e4e0a",
+          "size": 339155,
+          "url": "https://libraries.minecraft.net/io/netty/netty-codec/4.1.82.Final/netty-codec-4.1.82.Final.jar"
+        }
+      }
+    },
+    {
+      "name": "io.netty:netty-common:4.1.82.Final",
+      "downloads": {
+        "artifact": {
+          "path": "io/netty/netty-common/4.1.82.Final/netty-common-4.1.82.Final.jar",
+          "sha1": "022d148e85c3f5ebdacc0ce1f5aabb1d420f73f3",
+          "size": 653880,
+          "url": "https://libraries.minecraft.net/io/netty/netty-common/4.1.82.Final/netty-common-4.1.82.Final.jar"
+        }
+      }
+    },
+    {
+      "name": "io.netty:netty-handler:4.1.82.Final",
+      "downloads": {
+        "artifact": {
+          "path": "io/netty/netty-handler/4.1.82.Final/netty-handler-4.1.82.Final.jar",
+          "sha1": "644041d1fa96a5d3130a29e8978630d716d76e38",
+          "size": 538569,
+          "url": "https://libraries.minecraft.net/io/netty/netty-handler/4.1.82.Final/netty-handler-4.1.82.Final.jar"
+        }
+      }
+    },
+    {
+      "name": "io.netty:netty-resolver:4.1.82.Final",
+      "downloads": {
+        "artifact": {
+          "path": "io/netty/netty-resolver/4.1.82.Final/netty-resolver-4.1.82.Final.jar",
+          "sha1": "38f665ae8dcd29032eea31245ba7806bed2e0fa8",
+          "size": 37776,
+          "url": "https://libraries.minecraft.net/io/netty/netty-resolver/4.1.82.Final/netty-resolver-4.1.82.Final.jar"
+        }
+      }
+    },
+    {
+      "name": "io.netty:netty-transport-classes-epoll:4.1.82.Final",
+      "downloads": {
+        "artifact": {
+          "path": "io/netty/netty-transport-classes-epoll/4.1.82.Final/netty-transport-classes-epoll-4.1.82.Final.jar",
+          "sha1": "e7c7dd18deac93105797f30057c912651ea76521",
+          "size": 142066,
+          "url": "https://libraries.minecraft.net/io/netty/netty-transport-classes-epoll/4.1.82.Final/netty-transport-classes-epoll-4.1.82.Final.jar"
+        }
+      }
+    },
+    {
+      "name": "io.netty:netty-transport-native-epoll:4.1.82.Final:linux-aarch_64",
+      "downloads": {
+        "artifact": {
+          "path": "io/netty/netty-transport-native-epoll/4.1.82.Final/netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar",
+          "sha1": "476409d6255001ca53a55f65b01c13822f8dc93a",
+          "size": 39489,
+          "url": "https://libraries.minecraft.net/io/netty/netty-transport-native-epoll/4.1.82.Final/netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-transport-native-epoll:4.1.82.Final:linux-x86_64",
+      "downloads": {
+        "artifact": {
+          "path": "io/netty/netty-transport-native-epoll/4.1.82.Final/netty-transport-native-epoll-4.1.82.Final-linux-x86_64.jar",
+          "sha1": "c7350a71920f3ae9142945e25fed4846cce53374",
+          "size": 37922,
+          "url": "https://libraries.minecraft.net/io/netty/netty-transport-native-epoll/4.1.82.Final/netty-transport-native-epoll-4.1.82.Final-linux-x86_64.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    {
+      "name": "io.netty:netty-transport-native-unix-common:4.1.82.Final",
+      "downloads": {
+        "artifact": {
+          "path": "io/netty/netty-transport-native-unix-common/4.1.82.Final/netty-transport-native-unix-common-4.1.82.Final.jar",
+          "sha1": "3e895b35ca1b8a0eca56cacff4c2dde5d2c6abce",
+          "size": 43684,
+          "url": "https://libraries.minecraft.net/io/netty/netty-transport-native-unix-common/4.1.82.Final/netty-transport-native-unix-common-4.1.82.Final.jar"
+        }
+      }
+    },
+    {
+      "name": "io.netty:netty-transport:4.1.82.Final",
+      "downloads": {
+        "artifact": {
+          "path": "io/netty/netty-transport/4.1.82.Final/netty-transport-4.1.82.Final.jar",
+          "sha1": "e431a218d91acb6476ccad5f5aafde50aa3945ca",
+          "size": 485752,
+          "url": "https://libraries.minecraft.net/io/netty/netty-transport/4.1.82.Final/netty-transport-4.1.82.Final.jar"
+        }
+      }
+    },
+    {
+      "name": "it.unimi.dsi:fastutil:8.5.9",
+      "downloads": {
+        "artifact": {
+          "path": "it/unimi/dsi/fastutil/8.5.9/fastutil-8.5.9.jar",
+          "sha1": "bb7ea75ecdb216654237830b3a96d87ad91f8cc5",
+          "size": 23376043,
+          "url": "https://libraries.minecraft.net/it/unimi/dsi/fastutil/8.5.9/fastutil-8.5.9.jar"
+        }
+      }
+    },
+    {
+      "name": "net.java.dev.jna:jna-platform:5.12.1",
+      "downloads": {
+        "artifact": {
+          "path": "net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar",
+          "sha1": "097406a297c852f4a41e688a176ec675f72e8329",
+          "size": 1356627,
+          "url": "https://libraries.minecraft.net/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar"
+        }
+      }
+    },
+    {
+      "name": "net.java.dev.jna:jna:5.12.1",
+      "downloads": {
+        "artifact": {
+          "path": "net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar",
+          "sha1": "b1e93a735caea94f503e95e6fe79bf9cdc1e985d",
+          "size": 1866196,
+          "url": "https://libraries.minecraft.net/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar"
+        }
+      }
+    },
+    {
+      "name": "net.sf.jopt-simple:jopt-simple:5.0.4",
+      "downloads": {
+        "artifact": {
+          "path": "net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar",
+          "sha1": "4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c",
+          "size": 78146,
+          "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.commons:commons-compress:1.21",
+      "downloads": {
+        "artifact": {
+          "path": "org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar",
+          "sha1": "4ec95b60d4e86b5c95a0e919cb172a0af98011ef",
+          "size": 1018316,
+          "url": "https://libraries.minecraft.net/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.commons:commons-lang3:3.12.0",
+      "downloads": {
+        "artifact": {
+          "path": "org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar",
+          "sha1": "c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e",
+          "size": 587402,
+          "url": "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.httpcomponents:httpclient:4.5.13",
+      "downloads": {
+        "artifact": {
+          "path": "org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar",
+          "sha1": "e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada",
+          "size": 780321,
+          "url": "https://libraries.minecraft.net/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.httpcomponents:httpcore:4.4.15",
+      "downloads": {
+        "artifact": {
+          "path": "org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar",
+          "sha1": "7f2e0c573eaa7a74bac2e89b359e1f73d92a0a1d",
+          "size": 328324,
+          "url": "https://libraries.minecraft.net/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.logging.log4j:log4j-api:2.19.0",
+      "downloads": {
+        "artifact": {
+          "path": "org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar",
+          "sha1": "ea1b37f38c327596b216542bc636cfdc0b8036fa",
+          "size": 317566,
+          "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.logging.log4j:log4j-core:2.19.0",
+      "downloads": {
+        "artifact": {
+          "path": "org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar",
+          "sha1": "3b6eeb4de4c49c0fe38a4ee27188ff5fee44d0bb",
+          "size": 1864386,
+          "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.logging.log4j:log4j-slf4j2-impl:2.19.0",
+      "downloads": {
+        "artifact": {
+          "path": "org/apache/logging/log4j/log4j-slf4j2-impl/2.19.0/log4j-slf4j2-impl-2.19.0.jar",
+          "sha1": "5c04bfdd63ce9dceb2e284b81e96b6a70010ee10",
+          "size": 27721,
+          "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-slf4j2-impl/2.19.0/log4j-slf4j2-impl-2.19.0.jar"
+        }
+      }
+    },
+    {
+      "name": "org.joml:joml:1.10.5",
+      "downloads": {
+        "artifact": {
+          "path": "org/joml/joml/1.10.5/joml-1.10.5.jar",
+          "sha1": "22566d58af70ad3d72308bab63b8339906deb649",
+          "size": 712082,
+          "url": "https://libraries.minecraft.net/org/joml/joml/1.10.5/joml-1.10.5.jar"
+        }
+      }
+    },
+    {
+      "name": "org.lwjgl:lwjgl-glfw:3.3.1",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar",
+          "sha1": "cbac1b8d30cb4795149c1ef540f912671a8616d0",
+          "size": 128801,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar"
+        }
+      }
+    },
+    {
+      "name": "org.lwjgl:lwjgl-glfw:3.3.2:natives-linux",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-glfw/lwjgl-glfw-3.3.2-natives-linux.jar",
+          "sha1": "0766bb0e8e829598b1c8052fd8173c62af741c52",
+          "size": 115553,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.3.2/lwjgl-glfw-3.3.2-natives-linux.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-glfw:3.3.1:natives-macos",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-macos.jar",
+          "sha1": "9ec4ce1fc8c85fdef03ef4ff2aace6f5775fb280",
+          "size": 131655,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-macos.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-glfw:3.3.1:natives-macos-arm64",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-macos-arm64.jar",
+          "sha1": "cac0d3f712a3da7641fa174735a5f315de7ffe0a",
+          "size": 129077,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-macos-arm64.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-glfw:3.3.1:natives-windows",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-windows.jar",
+          "sha1": "ed892f945cf7e79c8756796f32d00fa4ceaf573b",
+          "size": 145512,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-windows.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-glfw:3.3.1:natives-windows-arm64",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-windows-arm64.jar",
+          "sha1": "beda65ee503443e60aa196d58ed31f8d001dc22a",
+          "size": 123808,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-windows-arm64.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-glfw:3.3.1:natives-windows-x86",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-windows-x86.jar",
+          "sha1": "b997e3391d6ce8f05487e7335d95c606043884a1",
+          "size": 139251,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-windows-x86.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-jemalloc:3.3.1",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar",
+          "sha1": "a817bcf213db49f710603677457567c37d53e103",
+          "size": 36601,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar"
+        }
+      }
+    },
+    {
+      "name": "org.lwjgl:lwjgl-jemalloc:3.3.1:natives-linux",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-linux.jar",
+          "sha1": "33dbb017b6ed6b25f993ad9d56741a49e7937718",
+          "size": 166524,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-linux.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-jemalloc:3.3.1:natives-macos",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-macos.jar",
+          "sha1": "56424dc8db3cfb8e7b594aa6d59a4f4387b7f544",
+          "size": 117480,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-macos.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-jemalloc:3.3.1:natives-macos-arm64",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-macos-arm64.jar",
+          "sha1": "e577b87d8ad2ade361aaea2fcf226c660b15dee8",
+          "size": 103475,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-macos-arm64.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-jemalloc:3.3.1:natives-windows",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-windows.jar",
+          "sha1": "948a89b76a16aa324b046ae9308891216ffce5f9",
+          "size": 135585,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-windows.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-jemalloc:3.3.1:natives-windows-arm64",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar",
+          "sha1": "cae85c4edb219c88b6a0c26a87955ad98dc9519d",
+          "size": 114250,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-jemalloc:3.3.1:natives-windows-x86",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-windows-x86.jar",
+          "sha1": "fb476c8ec110e1c137ad3ce8a7f7bfe6b11c6324",
+          "size": 110405,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-windows-x86.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-openal:3.3.1",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar",
+          "sha1": "2623a6b8ae1dfcd880738656a9f0243d2e6840bd",
+          "size": 88237,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar"
+        }
+      }
+    },
+    {
+      "name": "org.lwjgl:lwjgl-openal:3.3.1:natives-linux",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-linux.jar",
+          "sha1": "f906b6439f6daa66001182ea7727e3467a93681b",
+          "size": 476825,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-linux.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-openal:3.3.1:natives-macos",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-macos.jar",
+          "sha1": "3a57b8911835fb58b5e558d0ca0d28157e263d45",
+          "size": 397196,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-macos.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-openal:3.3.1:natives-macos-arm64",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-macos-arm64.jar",
+          "sha1": "23d55e7490b57495320f6c9e1936d78fd72c4ef8",
+          "size": 346125,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-macos-arm64.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-openal:3.3.1:natives-windows",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-windows.jar",
+          "sha1": "30a474d0e57193d7bc128849a3ab66bc9316fdb1",
+          "size": 576872,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-windows.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-openal:3.3.1:natives-windows-arm64",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-windows-arm64.jar",
+          "sha1": "40d65f1a7368a2aa47336f9cb69f5a190cf9975a",
+          "size": 505234,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-windows-arm64.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-openal:3.3.1:natives-windows-x86",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-windows-x86.jar",
+          "sha1": "888349f7b1be6fbae58bf8edfb9ef12def04c4e3",
+          "size": 520313,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-windows-x86.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-opengl:3.3.1",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar",
+          "sha1": "831a5533a21a5f4f81bbc51bb13e9899319b5411",
+          "size": 921563,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar"
+        }
+      }
+    },
+    {
+      "name": "org.lwjgl:lwjgl-opengl:3.3.1:natives-linux",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-linux.jar",
+          "sha1": "ab9ab6fde3743e3550fa5d46d785ecb45b047d99",
+          "size": 79125,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-linux.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-opengl:3.3.1:natives-macos",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-macos.jar",
+          "sha1": "a0d12697ea019a7362eff26475b0531340e876a6",
+          "size": 40709,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-macos.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-opengl:3.3.1:natives-macos-arm64",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-macos-arm64.jar",
+          "sha1": "eafe34b871d966292e8db0f1f3d6b8b110d4e91d",
+          "size": 41665,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-macos-arm64.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-opengl:3.3.1:natives-windows",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-windows.jar",
+          "sha1": "c1807e9bd571402787d7e37e3029776ae2513bb8",
+          "size": 100205,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-windows.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-opengl:3.3.1:natives-windows-arm64",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-windows-arm64.jar",
+          "sha1": "527d78f1e9056aff3ed02ce93019c73c5e8f1721",
+          "size": 82445,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-windows-arm64.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-opengl:3.3.1:natives-windows-x86",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-windows-x86.jar",
+          "sha1": "deef3eb9b178ff2ff3ce893cc72ae741c3a17974",
+          "size": 87463,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-windows-x86.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-stb:3.3.1",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar",
+          "sha1": "b119297cf8ed01f247abe8685857f8e7fcf5980f",
+          "size": 112380,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar"
+        }
+      }
+    },
+    {
+      "name": "org.lwjgl:lwjgl-stb:3.3.1:natives-linux",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-linux.jar",
+          "sha1": "3ee7aec8686e52867677110415566a5342a80230",
+          "size": 227237,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-linux.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-stb:3.3.1:natives-macos",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-macos.jar",
+          "sha1": "def8879b8d38a47a4cc1d48b1f9a7b772e51258e",
+          "size": 203582,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-macos.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-stb:3.3.1:natives-macos-arm64",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-macos-arm64.jar",
+          "sha1": "fcf073ed911752abdca5f0b00a53cfdf17ff8e8b",
+          "size": 178408,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-macos-arm64.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-stb:3.3.1:natives-windows",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-windows.jar",
+          "sha1": "86315914ac119efdb02dc9e8e978ade84f1702af",
+          "size": 256301,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-windows.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-stb:3.3.1:natives-windows-arm64",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-windows-arm64.jar",
+          "sha1": "fde63cdd2605c00636721a6c8b961e41d1f6b247",
+          "size": 216848,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-windows-arm64.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-stb:3.3.1:natives-windows-x86",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-windows-x86.jar",
+          "sha1": "a8d41f419eecb430b7c91ea2ce2c5c451cae2091",
+          "size": 225147,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-windows-x86.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-tinyfd:3.3.1",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar",
+          "sha1": "0ff1914111ef2e3e0110ef2dabc8d8cdaad82347",
+          "size": 6767,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar"
+        }
+      }
+    },
+    {
+      "name": "org.lwjgl:lwjgl-tinyfd:3.3.1:natives-linux",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-linux.jar",
+          "sha1": "a35110b9471bea8cde826ab297550ee8c22f5035",
+          "size": 45389,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-linux.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-tinyfd:3.3.1:natives-macos",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-macos.jar",
+          "sha1": "78641a0fa5e9afa714adfdd152c357930c97a1ce",
+          "size": 44821,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-macos.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-tinyfd:3.3.1:natives-macos-arm64",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-macos-arm64.jar",
+          "sha1": "972ecc17bad3571e81162153077b4d47b7b9eaa9",
+          "size": 41380,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-macos-arm64.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-tinyfd:3.3.1:natives-windows",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-windows.jar",
+          "sha1": "a5d830475ec0958d9fdba1559efa99aef211e6ff",
+          "size": 127930,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-windows.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-tinyfd:3.3.1:natives-windows-arm64",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar",
+          "sha1": "83a5e780df610829ff3a737822b4f931cffecd91",
+          "size": 109139,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-tinyfd:3.3.1:natives-windows-x86",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-windows-x86.jar",
+          "sha1": "842eedd876fae354abc308c98a263f6bbc9e8a4d",
+          "size": 110042,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-windows-x86.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl:3.3.1",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar",
+          "sha1": "ae58664f88e18a9bb2c77b063833ca7aaec484cb",
+          "size": 724243,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar"
+        }
+      }
+    },
+    {
+      "name": "org.lwjgl:lwjgl:3.3.1:natives-linux",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-linux.jar",
+          "sha1": "1de885aba434f934201b99f2f1afb142036ac189",
+          "size": 110704,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-linux.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl:3.3.1:natives-macos",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-macos.jar",
+          "sha1": "fc6bb723dec2cd031557dccb2a95f0ab80acb9db",
+          "size": 55706,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-macos.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl:3.3.1:natives-macos-arm64",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-macos-arm64.jar",
+          "sha1": "71d0d5e469c9c95351eb949064497e3391616ac9",
+          "size": 42693,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-macos-arm64.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl:3.3.1:natives-windows",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-windows.jar",
+          "sha1": "0036c37f16ab611b3aa11f3bcf80b1d509b4ce6b",
+          "size": 159361,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-windows.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl:3.3.1:natives-windows-arm64",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-windows-arm64.jar",
+          "sha1": "0f46cadcf95675908fd3a550d63d9d709cb68998",
+          "size": 130064,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-windows-arm64.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl:3.3.1:natives-windows-x86",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-windows-x86.jar",
+          "sha1": "3b14f4beae9dd39791ec9e12190a9380cd8a3ce6",
+          "size": 134695,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-windows-x86.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.slf4j:slf4j-api:2.0.1",
+      "downloads": {
+        "artifact": {
+          "path": "org/slf4j/slf4j-api/2.0.1/slf4j-api-2.0.1.jar",
+          "sha1": "f48d81adce2abf5ad3cfe463df517952749e03bc",
+          "size": 61388,
+          "url": "https://libraries.minecraft.net/org/slf4j/slf4j-api/2.0.1/slf4j-api-2.0.1.jar"
+        }
+      }
+    }
+  ],
+  "mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher"
+}
