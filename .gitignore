@@ -17,3 +17,5 @@ config/emi.css
 config/fml.toml
 config/jei/recipe-category-sort-order.ini
 /screenshots
+/resourcepacks
+config/ae2/client.json

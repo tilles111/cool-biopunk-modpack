@@ -6,6 +6,16 @@
 	id: "49CD86893E852958"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "16AC7A89DAFEF113"
+		tasks: [{
+			id: "4DE4A5FED102AD5C"
+			item: "minecraft:cocoa_beans"
+			type: "item"
+		}]
+		title: "emotiguy eating beans"
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: ":Emotiguy Eating Beans:"
 }

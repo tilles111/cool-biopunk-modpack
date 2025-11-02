@@ -1,0 +1,32 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "6chap_3r"
+	group: "5413685696DD0E6E"
+	id: "4A218D9C40E649BC"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2DDF04ED840F2761"
+			tasks: [{
+				id: "57F5149FC23C7B39"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7E86961C2A8DEE1F"
+			tasks: [{
+				id: "653EBB71010F9A00"
+				item: "chestcavity:chest_opener"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+	]
+	title: "&6chap 3&r ✔"
+}
