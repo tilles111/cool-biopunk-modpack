@@ -4,21 +4,10 @@
 	filename: "emotiguy_eating_beans"
 	group: ""
 	id: "49CD86893E852958"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			id: "6D5FC4B06AB4E7B5"
-			tasks: [{
-				id: "1116696AD38DE219"
-				item: "occultism:golden_sacrificial_bowl"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6D5FC4B06AB4E7B5"]
 			id: "5BD412812BD78604"
 			tasks: [{
 				id: "0052552C22D1A650"
@@ -27,17 +16,6 @@
 			}]
 			x: 1.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["6D5FC4B06AB4E7B5"]
-			id: "172DFE8D86E19672"
-			tasks: [{
-				id: "2E7FA003A60D593A"
-				item: "bloodmagic:altar"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -1.5d
 		}
 		{
 			dependencies: ["5BD412812BD78604"]
@@ -51,17 +29,6 @@
 			y: 0.0d
 		}
 		{
-			id: "3866218A309904F5"
-			tasks: [{
-				id: "47F741E51B7DC5DB"
-				item: "occultism:golden_sacrificial_bowl"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["6D5FC4B06AB4E7B5"]
 			id: "30EEE1BF7D35E858"
 			tasks: [{
 				id: "65732E3E0012DB8C"
@@ -72,7 +39,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6D5FC4B06AB4E7B5"]
 			id: "6ADB75EBABF43395"
 			tasks: [{
 				id: "574493B38919EF2A"
@@ -81,39 +47,6 @@
 			}]
 			x: 1.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["3866218A309904F5"]
-			id: "5A48640FEEABF215"
-			tasks: [{
-				id: "008D44819354EC09"
-				item: "biomancy:primordial_cradle"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["5A48640FEEABF215"]
-			id: "45DBE52237801892"
-			tasks: [{
-				id: "5159BF357D5B2D42"
-				item: "bloodmagic:altar"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["5A48640FEEABF215"]
-			id: "56E0A59DDA77AD6F"
-			tasks: [{
-				id: "3A5382BA739EA5FD"
-				item: "thermal:machine_frame"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 2.0d
 		}
 	]
 	title: ":Emotiguy Eating Beans:"

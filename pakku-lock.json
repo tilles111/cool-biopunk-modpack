@@ -621,6 +621,42 @@
             ]
         },
         {
+            "pakku_id": "X1lLcTKpAOAjjing",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "defaultworldtype"
+            },
+            "name": {
+                "curseforge": "Default World Type [Forge]"
+            },
+            "id": {
+                "curseforge": "373014"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "DefaultWorldType-1.20.1-4.0.4.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/4796/884/DefaultWorldType-1.20.1-4.0.4.jar",
+                    "id": "4796884",
+                    "parent_id": "373014",
+                    "hashes": {
+                        "sha1": "0b6e6f8c7a7c8433280486d841450aa6df0fbee4",
+                        "md5": "956de576d271a90ae7c9b7d532f93b79"
+                    },
+                    "required_dependencies": [],
+                    "size": 10008,
+                    "date_published": "2023-10-13T17:32:47.507Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "liq7SXJPNj9Pe2f1",
             "pakku_links": [
                 "zL2dQaGltWToKVxs"
@@ -979,6 +1015,45 @@
             ]
         },
         {
+            "pakku_id": "67B8QE76Likumd0v",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ftb-ultimine-forge"
+            },
+            "name": {
+                "curseforge": "FTB Ultimine (Forge)"
+            },
+            "id": {
+                "curseforge": "386134"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ftb-ultimine-forge-2001.1.7.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6899/418/ftb-ultimine-forge-2001.1.7.jar",
+                    "id": "6899418",
+                    "parent_id": "386134",
+                    "hashes": {
+                        "sha1": "3cbefa29b387cebb85022cb0ff838fd54b67cf82",
+                        "md5": "79187bd77a9671a94d7cbf8a1aa20ec3"
+                    },
+                    "required_dependencies": [
+                        "404465",
+                        "419699"
+                    ],
+                    "size": 114945,
+                    "date_published": "2025-08-18T08:40:21.680Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "9ffzzYFCSuCzowny",
             "type": "MOD",
             "slug": {
@@ -1051,6 +1126,44 @@
                     "required_dependencies": [],
                     "size": 2978080,
                     "date_published": "2025-08-23T01:46:19.950Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "9gjzdHBQp6Ib4fph",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "fast-leaf-decay"
+            },
+            "name": {
+                "curseforge": "Fast Leaf Decay"
+            },
+            "id": {
+                "curseforge": "230976"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "FastLeafDecay-32.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.1",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5375/681/FastLeafDecay-32.jar",
+                    "id": "5375681",
+                    "parent_id": "230976",
+                    "hashes": {
+                        "sha1": "4a76af4ca71dd9939d3c21206792c0d5f75b93a7",
+                        "md5": "20df3e3525622d6ea38a243be828ef38"
+                    },
+                    "required_dependencies": [],
+                    "size": 9835,
+                    "date_published": "2024-05-27T10:44:41.997Z"
                 }
             ]
         },
@@ -1398,6 +1511,81 @@
             ]
         },
         {
+            "pakku_id": "OZpaW7wvjiYTmfjt",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "kubejs-thermal"
+            },
+            "name": {
+                "curseforge": "KubeJS Thermal"
+            },
+            "id": {
+                "curseforge": "421694"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kubejs-thermal-2001.1.10-build.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5002/992/kubejs-thermal-2001.1.10-build.2.jar",
+                    "id": "5002992",
+                    "parent_id": "421694",
+                    "hashes": {
+                        "sha1": "bace9e49302c3ef2a23b4522ea37b9c78ccf8770",
+                        "md5": "e6e3566d49694f300281482fba0fed5f"
+                    },
+                    "required_dependencies": [
+                        "238086",
+                        "69163"
+                    ],
+                    "size": 25754,
+                    "date_published": "2024-01-02T22:06:44.130Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "1TIvniEL18bv47Pe",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "libx"
+            },
+            "name": {
+                "curseforge": "LibX"
+            },
+            "id": {
+                "curseforge": "412525"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "LibX-1.20.1-5.0.14.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://edge.forgecdn.net/files/5207/625/LibX-1.20.1-5.0.14.jar",
+                    "id": "5207625",
+                    "parent_id": "412525",
+                    "hashes": {
+                        "sha1": "d75610b0c34626cea8b1155a47d28333cc1f58a2",
+                        "md5": "3c0c0cdac0482e1f78a28614bebce36a"
+                    },
+                    "required_dependencies": [],
+                    "size": 1258082,
+                    "date_published": "2024-03-24T12:29:30.913Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Ea44Y0xJdtpaFDwK",
             "type": "MOD",
             "slug": {
@@ -1431,6 +1619,44 @@
                     "required_dependencies": [],
                     "size": 242227,
                     "date_published": "2025-05-08T14:06:39.737Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "vUy3TJhZgR8dwiat",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "lychee"
+            },
+            "name": {
+                "curseforge": "Lychee (Neo/Forge)"
+            },
+            "id": {
+                "curseforge": "567403"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Lychee-1.20.1-Forge-5.1.22.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7015/928/Lychee-1.20.1-Forge-5.1.22.jar",
+                    "id": "7015928",
+                    "parent_id": "567403",
+                    "hashes": {
+                        "sha1": "0628d3202c1f9d096a4f0bb3fa5beadfa89159a8",
+                        "md5": "95d36aa719b09778b1070f4912af2a5b"
+                    },
+                    "required_dependencies": [],
+                    "size": 692289,
+                    "date_published": "2025-09-20T16:57:55.713Z"
                 }
             ]
         },
@@ -1768,6 +1994,44 @@
             ]
         },
         {
+            "pakku_id": "xsjaruVBwMkg8vxX",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "skyblock-builder"
+            },
+            "name": {
+                "curseforge": "Skyblock Builder"
+            },
+            "id": {
+                "curseforge": "446691"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "SkyblockBuilder-1.20.1-5.1.27.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6654/129/SkyblockBuilder-1.20.1-5.1.27.jar",
+                    "id": "6654129",
+                    "parent_id": "446691",
+                    "hashes": {
+                        "sha1": "9eb0fa86488aef6ffafc5b6683dd30bbb141a34e",
+                        "md5": "65be446a5507b9b660f078b80496a329"
+                    },
+                    "required_dependencies": [
+                        "412525"
+                    ],
+                    "size": 447044,
+                    "date_published": "2025-06-15T13:00:48.797Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "y6rhgSptmSFjm8U7",
             "pakku_links": [
                 "BKmUXSVMDASU9ttU"
@@ -1888,6 +2152,43 @@
                     ],
                     "size": 443978,
                     "date_published": "2025-01-18T20:48:18.013Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "It9UlnrgfqBrmW9Z",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "summoningrituals"
+            },
+            "name": {
+                "curseforge": "Summoning Rituals"
+            },
+            "id": {
+                "curseforge": "671040"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "summoningrituals-forge-1.20.1-2.0.8.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5446/506/summoningrituals-forge-1.20.1-2.0.8.jar",
+                    "id": "5446506",
+                    "parent_id": "671040",
+                    "hashes": {
+                        "sha1": "0ff2f9bed3da51b9218497f3761d42c2d53f4862",
+                        "md5": "233178b041c779f52fc45a1c66669c49"
+                    },
+                    "required_dependencies": [],
+                    "size": 218380,
+                    "date_published": "2024-06-19T19:35:24.177Z"
                 }
             ]
         },
@@ -2083,6 +2384,42 @@
                     "required_dependencies": [],
                     "size": 622068,
                     "date_published": "2024-06-24T17:03:52.457Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "leXBfXpIQ3OO7Odl",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "yeetusexperimentus"
+            },
+            "name": {
+                "curseforge": "Yeetus Experimentus"
+            },
+            "id": {
+                "curseforge": "635427"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "YeetusExperimentus-Forge-2.3.1-build.6+mc1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4680/832/YeetusExperimentus-Forge-2.3.1-build.6+mc1.20.1.jar",
+                    "id": "4680832",
+                    "parent_id": "635427",
+                    "hashes": {
+                        "sha1": "6efdaf5d213f779e51aa84631a5f06a306351e75",
+                        "md5": "b6a02a72cc15d1b1228c4b1ecf7fa3ee"
+                    },
+                    "required_dependencies": [],
+                    "size": 568278,
+                    "date_published": "2023-08-03T18:04:25.470Z"
                 }
             ]
         },
