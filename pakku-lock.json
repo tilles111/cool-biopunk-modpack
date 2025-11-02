@@ -543,6 +543,43 @@
             ]
         },
         {
+            "pakku_id": "b6kJRzCN4bTdUUKr",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "construction-wand"
+            },
+            "name": {
+                "curseforge": "Construction Wand"
+            },
+            "id": {
+                "curseforge": "399558"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "constructionwand-1.20.1-2.11.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4684/54/constructionwand-1.20.1-2.11.jar",
+                    "id": "4684054",
+                    "parent_id": "399558",
+                    "hashes": {
+                        "sha1": "80bd5223cd8984dc1038cb9f2d1cb6b97f31998a",
+                        "md5": "e17b0f6b4fa378d6750a9030a5aca9e0"
+                    },
+                    "required_dependencies": [],
+                    "size": 210312,
+                    "date_published": "2023-08-05T20:02:14.447Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "TLtJO1Iv6Y6bsrq8",
             "pakku_links": [
                 "3PpqVUoVyWJlsiHr"

@@ -18,12 +18,12 @@
   "spawn": null,
   
   "spawns": {
-    "default": {
+    "island": {
+      "north": [],
       "east": [],
       "south": [
-        [ 6, 3, 5 ]
+        [ 16, 19, 20 ]
       ],
-      "north": [],
       "west": []
     }
   },
@@ -50,11 +50,10 @@
   // The list of templates being available. The first entry is the default template.
   "templates": [
     {
-      "name": "default",
-      "file": "default.nbt",
-      "spawns": "default",
-      "surroundingBlocks": "default",
-      "spreads": "default"
+      "name": "Default",
+      "desc": "The standard island.",
+      "file": "island.nbt",
+      "spawns": "island"
     }
   ]
 }
