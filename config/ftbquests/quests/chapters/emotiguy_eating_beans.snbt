@@ -4,50 +4,8 @@
 	filename: "emotiguy_eating_beans"
 	group: ""
 	id: "49CD86893E852958"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
-	quests: [
-		{
-			id: "5BD412812BD78604"
-			tasks: [{
-				id: "0052552C22D1A650"
-				item: "biomancy:primordial_cradle"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5BD412812BD78604"]
-			id: "131B7F9A0DC87BC3"
-			tasks: [{
-				id: "2EB4149FE330BEFB"
-				item: "thermal:machine_frame"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			id: "30EEE1BF7D35E858"
-			tasks: [{
-				id: "65732E3E0012DB8C"
-				item: "biomancy:primordial_cradle"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			id: "6ADB75EBABF43395"
-			tasks: [{
-				id: "574493B38919EF2A"
-				item: "biomancy:primordial_cradle"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 0.0d
-		}
-	]
+	quests: [ ]
 	title: ":Emotiguy Eating Beans:"
 }

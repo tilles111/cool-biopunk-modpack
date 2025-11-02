@@ -234,6 +234,43 @@
             ]
         },
         {
+            "pakku_id": "ET3WyF2AhzWESL6i",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "balm"
+            },
+            "name": {
+                "curseforge": "Balm"
+            },
+            "id": {
+                "curseforge": "531761"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "balm-forge-1.20.1-7.3.37-all.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7087/245/balm-forge-1.20.1-7.3.37-all.jar",
+                    "id": "7087245",
+                    "parent_id": "531761",
+                    "hashes": {
+                        "sha1": "bb7af11fd4bc2e76fce98f90c752279ae381b934",
+                        "md5": "e4d3fb7b0d8e9271aca89f7964367b1a"
+                    },
+                    "required_dependencies": [],
+                    "size": 590486,
+                    "date_published": "2025-10-09T16:46:44.680Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "GWqXHdsxgpW1Rnap",
             "pakku_links": [
                 "hg8QGkxhyPsNoeF0"
@@ -1240,6 +1277,44 @@
                     ],
                     "size": 38674,
                     "date_published": "2025-10-05T11:20:34.223Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Fj8FQbVWlQTayCV5",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "forgiving-void"
+            },
+            "name": {
+                "curseforge": "Forgiving Void"
+            },
+            "id": {
+                "curseforge": "271009"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "forgivingvoid-forge-1.20.1-10.0.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7048/450/forgivingvoid-forge-1.20.1-10.0.2.jar",
+                    "id": "7048450",
+                    "parent_id": "271009",
+                    "hashes": {
+                        "sha1": "af45655c4f144a004888313aa48fd2b2d1aea419",
+                        "md5": "d617a24cb521d03a208eda45496d9f15"
+                    },
+                    "required_dependencies": [
+                        "531761"
+                    ],
+                    "size": 69549,
+                    "date_published": "2025-09-30T12:16:45.250Z"
                 }
             ]
         },
@@ -2384,6 +2459,42 @@
                     "required_dependencies": [],
                     "size": 622068,
                     "date_published": "2024-06-24T17:03:52.457Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "LYSKSITfFpegzrUI",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "twigs"
+            },
+            "name": {
+                "curseforge": "Twigs"
+            },
+            "id": {
+                "curseforge": "496913"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Twigs-1.20.1-3.1.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4998/195/Twigs-1.20.1-3.1.0.jar",
+                    "id": "4998195",
+                    "parent_id": "496913",
+                    "hashes": {
+                        "sha1": "704711f8abebf051945dca2ae2a1eba9c3405c57",
+                        "md5": "726e5fbe4661a26c6dcfb24e54607bad"
+                    },
+                    "required_dependencies": [],
+                    "size": 2766476,
+                    "date_published": "2024-01-01T02:09:08.843Z"
                 }
             ]
         },
