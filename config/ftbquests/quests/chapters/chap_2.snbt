@@ -6,15 +6,41 @@
 	id: "2F0ADD23B9968861"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "640BD86D4D3A6DC4"
-		tasks: [{
-			id: "7C349326A39ED2D9"
-			item: "summoningrituals:altar"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "640BD86D4D3A6DC4"
+			tasks: [{
+				id: "7C349326A39ED2D9"
+				item: "summoningrituals:altar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6D21D5110E0D3046"
+			tasks: [{
+				id: "0B0E4186FCA779DF"
+				item: {
+					Count: 1
+					id: "thermal:florb"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "71DF55E30D0EB3D4"
+			tasks: [{
+				id: "03D399A39BF60CAA"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
 	title: "&echap 2&r ✔"
 }
