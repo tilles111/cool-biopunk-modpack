@@ -27,6 +27,26 @@
 			x: 1.0d
 			y: 0.0d
 		}
+		{
+			id: "7D114B1AFD085651"
+			tasks: [{
+				id: "3ACF30BAF1E28D23"
+				item: "architects_palette:nether_brass_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "4A747031B38B98B1"
+			tasks: [{
+				id: "17D0476F73EF22E3"
+				item: "architects_palette:sunmetal_brick"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
 	]
 	title: "&6chap 3&r ✔"
 }

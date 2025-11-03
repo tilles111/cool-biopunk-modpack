@@ -9,11 +9,16 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon: "minecraft:oak_sapling"
 			id: "3F17762B83A76F51"
 			tasks: [{
-				id: "3072C2BCFF356B30"
-				item: "minecraft:oak_sapling"
-				type: "item"
+				icon: "minecraft:oak_sapling"
+				id: "728CB00178106841"
+				observe_type: 1
+				timer: 0L
+				title: "View a Tree!"
+				to_observe: "minecraft:oak_logs"
+				type: "observation"
 			}]
 			title: "The Island"
 			x: 0.0d

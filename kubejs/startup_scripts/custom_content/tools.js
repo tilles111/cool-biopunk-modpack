@@ -5,7 +5,7 @@ ItemEvents.toolTierRegistry(event => {
     tier.attackDamageBonus = 1.5
     tier.level = 1
     tier.enchantmentValue = 20
-    tier.repairIngredient = '#kubejs:bone_material'
+    tier.repairIngredient = '#kubejs:bone_materials'
   })
 
   event.add('living', tier => {
