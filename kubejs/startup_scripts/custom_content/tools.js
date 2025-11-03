@@ -19,6 +19,8 @@ ItemEvents.toolTierRegistry(event => {
 })
 
 StartupEvents.registry('item', event => {
+  event.create('living_tool_smithing_template')
+  
   event.create('bone_sword', 'sword').tier('bone')
     .tag('minecraft:swords')
     .tag('forge:tools/bone')
