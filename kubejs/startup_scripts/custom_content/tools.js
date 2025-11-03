@@ -16,5 +16,5 @@ StartupEvents.registry('item', event => {
   event.create('bone_axe', 'axe').tier('bone')
   event.create('bone_hoe', 'hoe').tier('bone')
   event.create('bone_knife', 'farmersdelight:knife').tier('bone')
-    .tag('#forge:tools/knives')
+    .tag('forge:tools/knives')
 })
