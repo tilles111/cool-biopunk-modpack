@@ -1587,6 +1587,42 @@
             ]
         },
         {
+            "pakku_id": "MyreXH7CQPfJvuFh",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "kubejs-delight"
+            },
+            "name": {
+                "curseforge": "KubeJS Delight"
+            },
+            "id": {
+                "curseforge": "864875"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kubejsdelight-1.1.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5586/257/kubejsdelight-1.1.2.jar",
+                    "id": "5586257",
+                    "parent_id": "864875",
+                    "hashes": {
+                        "sha1": "198fb6534973e04c353287de7234df557834ddc8",
+                        "md5": "f0362736a296e74a4765d8ac0c21ddf0"
+                    },
+                    "required_dependencies": [],
+                    "size": 13371,
+                    "date_published": "2024-08-01T07:25:04.183Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "jiGWqwZWAC4zLRLN",
             "type": "MOD",
             "slug": {
