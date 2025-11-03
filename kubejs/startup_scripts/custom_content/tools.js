@@ -8,12 +8,12 @@ ItemEvents.toolTierRegistry(event => {
     tier.repairIngredient = '#kubejs:bone_materials'
   })
 
-  event.add('living', tier => {
-    tier.uses = 250
-    tier.speed = 6
-    tier.attackDamageBonus = 2
+  event.add('living_bone', tier => {
+    tier.uses = 200
+    tier.speed = 5
+    tier.attackDamageBonus = 1.5
     tier.level = 1
-    tier.enchantmentValue = 22
+    tier.enchantmentValue = 20
     tier.repairIngredient = 'biomancy:flesh_bits'
   })
 })
@@ -38,22 +38,22 @@ StartupEvents.registry('item', event => {
     .tag('forge:tools/knives')
     .tag('forge:tools/bone')
 
-  event.create('living_sword', 'sword').tier('living')
+  event.create('living_bone_sword', 'sword').tier('living_bone')
     .tag('minecraft:swords')
-    .tag('forge:tools/living')
-  event.create('living_pickaxe', 'pickaxe').tier('living')
+    .tag('forge:tools/living_bone')
+  event.create('living_bone_pickaxe', 'pickaxe').tier('living_bone')
     .tag('minecraft:pickaxes')
-    .tag('forge:tools/living')
-  event.create('living_shovel', 'shovel').tier('living')
+    .tag('forge:tools/living_bone')
+  event.create('living_bone_shovel', 'shovel').tier('living_bone')
     .tag('minecraft:shovels')
-    .tag('forge:tools/living')
-  event.create('living_axe', 'axe').tier('living')
+    .tag('forge:tools/living_bone')
+  event.create('living_bone_axe', 'axe').tier('living_bone')
     .tag('minecraft:axes')
-    .tag('forge:tools/living')
-  event.create('living_hoe', 'hoe').tier('living')
+    .tag('forge:tools/living_bone')
+  event.create('living_bone_hoe', 'hoe').tier('living_bone')
     .tag('minecraft:hoes')
-    .tag('forge:tools/living')
-  event.create('living_knife', 'farmersdelight:knife').tier('living')
+    .tag('forge:tools/living_bone')
+  event.create('living_bone_knife', 'farmersdelight:knife').tier('living_bone')
     .tag('forge:tools/knives')
-    .tag('forge:tools/living')
+    .tag('forge:tools/living_bone')
 })

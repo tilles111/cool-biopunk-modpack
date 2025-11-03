@@ -62,6 +62,11 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "apotheosis": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
+  },
   "corpse": {
     "corpse": true
   },
