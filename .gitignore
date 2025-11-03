@@ -19,3 +19,5 @@ config/jei/recipe-category-sort-order.ini
 /screenshots
 /resourcepacks
 config/ae2/client.json
+config/skyblockbuilder/data/dimensions.txt
+config/defaultworldtype/world-presets.txt
