@@ -239,6 +239,51 @@
 			x: 5.5d
 			y: 0.0d
 		}
+		{
+			id: "627C84B92850BA83"
+			tasks: [
+				{
+					id: "1B6DC9A99B957C70"
+					item: {
+						Count: 1
+						id: "kubejs:bone_shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B2C41A2A8131B61"
+					item: "quark:yellow_blossom_sapling"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3F17762B83A76F51"]
+			id: "279561BC7BB96DFB"
+			tasks: [{
+				id: "4A688F963A0E543B"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["279561BC7BB96DFB"]
+			id: "33CBFCBE7500553B"
+			tasks: [{
+				id: "2517B136617CCFB2"
+				item: "thermal:phytogro"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
 	]
 	title: "&aPie in the Sky&r ✔"
 }

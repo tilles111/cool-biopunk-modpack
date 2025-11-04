@@ -77,9 +77,12 @@ StartupEvents.registry('item', event => {
 
   event.create('bone_shears', 'shears')
     .maxDamage(200)
+    .tag('forge:tools/bone')
   event.create('bone_hammer')
     .maxDamage(200)
     .parentModel('minecraft:item/handheld')
+    .tag('forge:tools/hammers')
+    .tag('forge:tools/bone')
 
   event.create('living_bone_sword', 'sword').tier('living_bone')
     .tag('minecraft:swords')
