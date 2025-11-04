@@ -70,4 +70,20 @@ ServerEvents.tags('item', event => {
         'architects_palette:sunmetal_brick'
     ])
 
+    // these names are awful
+    event.add('kubejs:flowers/forest', [
+        'minecraft:dandelion',
+        'minecraft:poppy'
+    ])
+
+    event.add('kubejs:plants/swamp', [
+        'minecraft:lily_pad',
+        'minecraft:vine'
+    ])
+
+    event.add('kubejs:plants/dripleaf', [
+        'minecraft:big_dripleaf',
+        'minecraft:small_dripleaf'
+    ])
+
 })
