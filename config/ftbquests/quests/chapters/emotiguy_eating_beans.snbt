@@ -3,160 +3,26 @@
 	default_quest_shape: ""
 	filename: "emotiguy_eating_beans"
 	group: ""
-	id: "49CD86893E852958"
+	id: "733FBFE07E02AEF4"
 	order_index: 0
 	quest_links: [ ]
-	quests: [
-		{
-			id: "342F3D0D74D92378"
-			tasks: [{
-				id: "32B0F1378626839E"
-				item: "summoningrituals:altar"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -1.0d
-		}
-		{
-			id: "4B63D2BB98513E02"
-			tasks: [{
-				id: "2AD9EB421ED20CDE"
-				item: "minecraft:beetroot_soup"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["6833CC5FCC0E1A60"]
-			id: "038C89BDE7AC250A"
-			tasks: [{
-				id: "29ACBF1DFC3ED87A"
-				item: "minecraft:skeleton_spawn_egg"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -3.0d
-		}
-		{
-			id: "3ACB3DB6D16FEFA5"
-			tasks: [{
-				id: "2FE5F756B8E7CD51"
-				item: "minecraft:composter"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["038C89BDE7AC250A"]
-			id: "024DA963EDC991C9"
-			tasks: [{
-				id: "2D4AA4F40CA68540"
-				item: "minecraft:zombie_spawn_egg"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"4B63D2BB98513E02"
-				"27342CFDB449AEEF"
-			]
-			id: "6833CC5FCC0E1A60"
-			tasks: [{
-				id: "7E0AF73E96D86999"
-				item: "minecraft:pig_spawn_egg"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"342F3D0D74D92378"
-				"3ACB3DB6D16FEFA5"
-			]
-			id: "27342CFDB449AEEF"
-			tasks: [{
-				id: "18C4A0273597487C"
-				item: "biomancy:bone_fragments"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["27342CFDB449AEEF"]
-			id: "6EEF7CF251A0A3DF"
-			tasks: [{
-				id: "13FF2B7861D071E9"
-				item: {
-					Count: 1
-					id: "kubejs:bone_knife"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 4.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["024DA963EDC991C9"]
-			id: "6154151A0B4DC9B7"
-			tasks: [{
-				id: "3DF13544D514702A"
-				item: "chestcavity:iron_scrap"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"6EEF7CF251A0A3DF"
-				"6833CC5FCC0E1A60"
-			]
-			id: "06108FB9A9CF0599"
-			tasks: [{
-				id: "74DBBB3BA00CE8FD"
-				item: "biomancy:mob_gland"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"1571F3988E41404B"
-				"06108FB9A9CF0599"
-			]
-			id: "0124CB9DBEF64BBE"
-			tasks: [{
-				id: "042C715B053A0112"
-				item: "biomancy:primordial_cradle"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"6EEF7CF251A0A3DF"
-				"6154151A0B4DC9B7"
-			]
-			id: "1571F3988E41404B"
-			tasks: [{
-				id: "5A5C3E710DC59170"
-				item: "dungeonsdelight:stained_scrap"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-	]
-	title: ":Emotiguy Eating Beans:"
+	quests: [{
+		can_repeat: true
+		id: "2C4CB0611596F9BB"
+		rewards: [{
+			id: "0C1808B2329335E5"
+			item: "ae2:certus_quartz_crystal"
+			type: "item"
+		}]
+		tasks: [{
+			consume_items: true
+			count: 4096L
+			id: "35E60DD72AFDFEE3"
+			item: "minecraft:cocoa_beans"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: ":emotiguy eating beans:"
 }
