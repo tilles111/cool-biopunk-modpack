@@ -622,7 +622,7 @@
 		"Display Baked Enchantments In Tooltip" = true
 		"Italic Tooltip" = true
 		#Enchantments other than Gold's Fortune/Looting to bake into items. Format is "item+enchant@level", such as "minecraft:stick+sharpness@10".
-		"Baked Enchantments" = ["kubejs:living_bone_sword+mending@1", "kubejs:living_bone_pickaxe+mending@1", "kubejs:living_bone_shovel+mending@1", "kubejs:living_bone_axe+mending@1", "kubejs:living_bone_hoe+mending@1", "kubejs:living_bone_knife+mending@1"]
+		"Baked Enchantments" = ["kubejs:living_bone_sword+mending@1", "kubejs:living_bone_pickaxe+mending@1", "kubejs:living_bone_shovel+mending@1", "kubejs:living_bone_axe+mending@1", "kubejs:living_bone_hoe+mending@1", "kubejs:living_bone_knife+mending@1", "kubejs:living_biobrass_sword+mending@1", "kubejs:living_biobrass_pickaxe+mending@1", "kubejs:living_biobrass_shovel+mending@1", "kubejs:living_biobrass_axe+mending@1", "kubejs:living_biobrass_hoe+mending@1", "kubejs:living_biobrass_knife+mending@1", "kubejs:living_chitinsteel_sword+mending@1", "kubejs:living_chitinsteel_pickaxe+mending@1", "kubejs:living_chitinsteel_shovel+mending@1", "kubejs:living_chitinsteel_axe+mending@1", "kubejs:living_chitinsteel_hoe+mending@1", "kubejs:living_chitinsteel_knife+mending@1"]
 
 	[tweaks.grab_chickens]
 		"Needs No Helmet" = true
