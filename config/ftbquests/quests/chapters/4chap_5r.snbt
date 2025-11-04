@@ -7,15 +7,27 @@
 	id: "2B0BACEF57893877"
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		id: "2F2743EF88BC6DA1"
-		tasks: [{
-			id: "2469EF7FDD402E8E"
-			item: "biomancy:primordial_core"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 1.0d
-	}]
+	quests: [
+		{
+			id: "2F2743EF88BC6DA1"
+			tasks: [{
+				id: "2469EF7FDD402E8E"
+				item: "biomancy:primordial_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "2D22EC92C0F0DCFD"
+			tasks: [{
+				id: "57AFCC61E4372508"
+				item: "biomancy:malignant_flesh"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	title: "&4Feast&r ✔"
 }

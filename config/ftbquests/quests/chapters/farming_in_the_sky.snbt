@@ -170,6 +170,7 @@
 				item: "minecraft:villager_spawn_egg"
 				type: "item"
 			}]
+			title: "A Friend"
 			x: 6.0d
 			y: -1.0d
 		}
@@ -210,6 +211,32 @@
 			]
 			title: "Gathering Flint"
 			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "2CAEC9F4700F0183"
+			tasks: [{
+				id: "7C7CD3122A2BFD23"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			id: "62F122D175F1ABCE"
+			tasks: [{
+				id: "7D379128F871FD68"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:weakness"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
 			y: 0.0d
 		}
 	]

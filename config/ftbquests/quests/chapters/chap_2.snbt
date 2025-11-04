@@ -126,6 +126,16 @@
 			x: 3.0d
 			y: 2.0d
 		}
+		{
+			id: "3563EF82D31355CB"
+			tasks: [{
+				id: "6C0FEAF57151985F"
+				item: "biomancy:elastic_fibers"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
 	]
 	title: "&eSuspicious Summoning&r ✔"
 }
