@@ -82,15 +82,21 @@ ServerEvents.recipes(event => {
 
     }
     
-	event.shaped('kubejs:bone_shears',[
+	event.shaped('kubejs:bone_shears', [
     		' B ',
     		'S B',
     		' S '
-		],{B: 'biomancy:bone_fragments', S: '#forge:rods/wooden'})
+		],{
+            B: 'biomancy:bone_fragments',
+            S: '#forge:rods/wooden'
+        }).id('kubejs:shaped/bone_shears')
     
 	event.shaped('kubejs:bone_hammer',[
     		' B ',
     		' SB',
     		'S  '
-		],{B: 'biomancy:bone_fragments', S: '#forge:rods/wooden'})
+		],{
+            B: 'minecraft:bone_block',
+            S: '#forge:rods/wooden'
+        }).id('kubejs:shaped/bone_hammer')
 })

@@ -3,6 +3,7 @@
 	default_quest_shape: "hexagon"
 	filename: "chap_2"
 	group: "5413685696DD0E6E"
+	icon: "summoningrituals:altar"
 	id: "2F0ADD23B9968861"
 	order_index: 1
 	quest_links: [ ]
@@ -38,9 +39,29 @@
 				item: "biomancy:primordial_cradle"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 7.0d
 			y: 0.0d
 		}
+		{
+			id: "5A0A2ED3DEFD3269"
+			tasks: [{
+				id: "4BB3DED7B76A197B"
+				item: "architects_palette:nether_brass_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "4E2B46DB9F71B08F"
+			tasks: [{
+				id: "4D43926950A07AEE"
+				item: "architects_palette:nether_brass_blend"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
 	]
-	title: "&echap 2&r ✔"
+	title: "&eSuspicious Summoning&r ✔"
 }

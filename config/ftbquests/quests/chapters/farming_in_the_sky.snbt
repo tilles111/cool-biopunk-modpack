@@ -11,6 +11,7 @@
 		{
 			icon: "minecraft:oak_sapling"
 			id: "3F17762B83A76F51"
+			size: 1.5d
 			tasks: [{
 				icon: "minecraft:oak_sapling"
 				id: "728CB00178106841"
@@ -68,8 +69,8 @@
 				}
 			]
 			title: "Tools of the Trade"
-			x: 1.0d
-			y: 2.0d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["28B9B9DC521D1EB1"]
@@ -80,7 +81,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["28B9B9DC521D1EB1"]
@@ -103,8 +104,8 @@
 				}
 			]
 			title: "Seeds"
-			x: 2.0d
-			y: 4.0d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["28B9B9DC521D1EB1"]
@@ -114,7 +115,7 @@
 				item: "minecraft:composter"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -130,8 +131,8 @@
 				to_observe: "summoningrituals:altar"
 				type: "observation"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1ED599712FEBA7C0"]
@@ -141,8 +142,8 @@
 				item: "minecraft:spruce_sapling"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1ED599712FEBA7C0"]
@@ -152,8 +153,18 @@
 				item: "farmersdelight:cabbage_seeds"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.0d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "45BE55CB96FB315A"
+			tasks: [{
+				id: "06AAC0BF41C04DEE"
+				item: "minecraft:villager_spawn_egg"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
 		}
 	]
 	title: "&aPie in the Sky&r ✔"

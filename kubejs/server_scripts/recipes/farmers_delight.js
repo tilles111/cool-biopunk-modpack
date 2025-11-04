@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-	const id_prefix = 'kubejs/cooking_pot/'
+	const id_prefix = 'kubejs:cooking_pot/'
 
 	event.remove({ output: 'farmersdelight:cooking_pot' })
 	event.remove({ output: 'thermal:phytogro' })
@@ -25,5 +25,5 @@ ServerEvents.recipes(event => {
 		],{
 			D: 'minecraft:cobbled_deepslate',
 			S: 'minecraft:wooden_shovel'
-		}).id('kubejs/shaped/cooking_pot')
+		}).id('kubejs:shaped/cooking_pot')
 })

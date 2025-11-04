@@ -3,6 +3,7 @@
 	default_quest_shape: "circle"
 	filename: "4chap_5r"
 	group: "5413685696DD0E6E"
+	icon: "biomancy:primordial_core"
 	id: "2B0BACEF57893877"
 	order_index: 4
 	quest_links: [ ]

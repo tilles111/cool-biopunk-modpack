@@ -3,18 +3,41 @@
 	default_quest_shape: "rsquare"
 	filename: "cchap_4r"
 	group: "5413685696DD0E6E"
+	icon: {
+		Count: 1
+		id: "chestcavity:heart"
+		tag: { }
+	}
 	id: "14195FE725E13791"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		id: "0DC568540DFF871C"
-		tasks: [{
-			id: "253B5DB8F96CB962"
-			item: "architects_palette:entrails"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
-	title: "&cchap 4&r ✔"
+	quests: [
+		{
+			id: "0DC568540DFF871C"
+			tasks: [{
+				id: "253B5DB8F96CB962"
+				item: "architects_palette:entrails"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3ED023EC31DB29F3"
+			tasks: [{
+				id: "3B573F7FB050A915"
+				item: {
+					Count: 1
+					id: "biomancy:injector"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+	]
+	title: "&cThrum of the Beating Heart&r ✔"
 }

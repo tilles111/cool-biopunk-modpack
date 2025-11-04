@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-    const id_prefix = 'kubejs/altar/'
+    const id_prefix = 'kubejs:altar/'
 
     const sapling_recipe = (output, input, outputmod) => {
         event.recipes.summoningrituals.altar('#minecraft:saplings')
@@ -29,9 +29,9 @@ ServerEvents.recipes(event => {
     sapling_recipe('yellow_blossom_sapling', '#forge:dyes/yellow', 'quark')
     sapling_recipe('red_blossom_sapling', '#forge:dyes/red', 'quark')
 
-    event.shapeless(`minecraft:flowering_azalea`, [
+    event.shapeless('minecraft:flowering_azalea', [
         ['twigs:azalea_flowers', 'architects_palette:twisted_leaves'],
         'minecraft:azalea'
-    ])
+    ]).id('kubejs:shapeless/flowering_azalea')
 
 })
