@@ -6,10 +6,10 @@ ServerEvents.tags('item', event => {
         'biomancy:mob_marrow'
     ])
 
-    event.add('kubejs:bone_tool_materials', [
-        'biomancy:bone_fragments',
-        'minecraft:bone_meal'
-    ])
+    // event.add('kubejs:bone_tool_materials', [
+    //     'biomancy:bone_fragments',
+    //     'minecraft:bone_meal'
+    // ])
 
     // Meat for Biomancy
     event.add('biomancy:raw_meats', [

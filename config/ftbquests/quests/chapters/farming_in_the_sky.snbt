@@ -133,6 +133,28 @@
 			x: 2.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["1ED599712FEBA7C0"]
+			id: "18300B5876BCE4F4"
+			tasks: [{
+				id: "46DA4BF57A394542"
+				item: "minecraft:spruce_sapling"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1ED599712FEBA7C0"]
+			id: "67D83B78FE50D6FF"
+			tasks: [{
+				id: "254903DCCA03DA7B"
+				item: "farmersdelight:cabbage_seeds"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
 	]
 	title: "&aPie in the Sky&r ✔"
 }
