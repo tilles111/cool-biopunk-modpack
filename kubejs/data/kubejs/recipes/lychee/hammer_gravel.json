@@ -1,0 +1,24 @@
+{
+  "type": "lychee:block_interacting",
+  "post": [
+    {
+      "type": "place",
+      "block": "minecraft:sand"
+    },
+    {
+      "type": "execute",
+      "command": "playsound minecraft:block.stone.hit block @a ~ ~ ~",
+      "hide": true
+    },
+    {
+      "type": "damage_item",
+      "damage": 1
+    }
+  ],
+  "item_in": [
+    {
+      "item": "kubejs:bone_hammer"
+    }
+  ],
+  "block_in": "minecraft:gravel"
+}

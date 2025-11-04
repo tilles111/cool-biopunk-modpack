@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
 	    5,
 	    200,
 	    'minecraft:glass_bottle'
-	).id(`${id_prefix}healing_potion`)
+	)
 
     event.recipes.farmersdelight.cooking(
 	    ['minecraft:bone_meal','#forge:crops', '#forge:crops'],
@@ -16,6 +16,7 @@ ServerEvents.recipes(event => {
 	    1,
 	    600
 	)
+	
 	event.shaped('farmersdelight:cooking_pot',[
     		'DSD',
     		'DDD'
