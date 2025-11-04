@@ -1,0 +1,7 @@
+{
+  "attachment.thermal.energy_limiter": "Nutrient Limiter",
+  "block.thermal.energy_duct": "Nutrient Conduit",
+  "block.thermal.energy_distributor": "Nutrient Distribution Interface",
+  "info.thermal.energy_limiter_attachment.0": "Limits the amount of Nutrients flowing through it.",
+  "item.thermal.energy_limiter_attachment": "Attachment: Nutrient Limiter"
+}
