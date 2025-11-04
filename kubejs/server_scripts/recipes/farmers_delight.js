@@ -1,4 +1,6 @@
 ServerEvents.recipes(event => {
+	const id_prefix = 'kubejs/cooking_pot/'
+
 	event.remove({ output: 'farmersdelight:cooking_pot' })
 	event.remove({ output: 'thermal:phytogro' })
 
@@ -8,17 +10,20 @@ ServerEvents.recipes(event => {
 	    5,
 	    200,
 	    'minecraft:glass_bottle'
-	)
+	).id(`${id_prefix}healing_potion`)
 
     event.recipes.farmersdelight.cooking(
 	    ['minecraft:bone_meal','#forge:crops', '#forge:crops'],
 	    '16x thermal:phytogro',
 	    1,
 	    600
-	)
+	).id(`${id_prefix}phytogro`)
 	
-	event.shaped('farmersdelight:cooking_pot',[
+	event.shaped('farmersdelight:cooking_pot', [
     		'DSD',
     		'DDD'
-		],{D: 'minecraft:cobbled_deepslate', S: 'minecraft:wooden_shovel'})
+		],{
+			D: 'minecraft:cobbled_deepslate',
+			S: 'minecraft:wooden_shovel'
+		}).id('kubejs/shaped/cooking_pot')
 })
