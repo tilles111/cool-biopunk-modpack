@@ -79,7 +79,7 @@ StartupEvents.registry('item', event => {
     .maxDamage(200)
     .tag('forge:tools/bone')
   event.create('bone_hammer')
-    .maxDamage(200)
+    .maxDamage(1000)
     .parentModel('minecraft:item/handheld')
     .tag('forge:tools/hammers')
     .tag('forge:tools/bone')
