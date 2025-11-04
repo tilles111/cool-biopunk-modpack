@@ -7,33 +7,15 @@
 	id: "2B0BACEF57893877"
 	order_index: 4
 	quest_links: [ ]
-	quests: [
-		{
-			id: "600172040F03973A"
-			tasks: [{
-				id: "08B80C7E70BD0DBA"
-				item: {
-					Count: 1
-					id: "biomancy:injector"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			id: "2F2743EF88BC6DA1"
-			tasks: [{
-				id: "2469EF7FDD402E8E"
-				item: "biomancy:primordial_core"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 1.0d
-		}
-	]
+	quests: [{
+		id: "2F2743EF88BC6DA1"
+		tasks: [{
+			id: "2469EF7FDD402E8E"
+			item: "biomancy:primordial_core"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 1.0d
+	}]
 	title: "&4Feast&r ✔"
 }

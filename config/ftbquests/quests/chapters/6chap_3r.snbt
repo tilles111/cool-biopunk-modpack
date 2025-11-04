@@ -3,7 +3,7 @@
 	default_quest_shape: "square"
 	filename: "6chap_3r"
 	group: "5413685696DD0E6E"
-	icon: "farmersdelight:bone_broth"
+	icon: "farmersdelight:ham"
 	id: "4A218D9C40E649BC"
 	order_index: 2
 	quest_links: [ ]
@@ -36,6 +36,36 @@
 				type: "item"
 			}]
 			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "7F9DC84EA3D07E43"
+			tasks: [{
+				id: "0369065E1D683B99"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "3CCB022330C241F2"
+			tasks: [{
+				id: "7BC3ECAA61BB83E6"
+				item: "thermal:energy_cell_frame"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "469F2710B7090AED"
+			tasks: [{
+				id: "5CAAEAD299859ED2"
+				item: "thermal:fluid_cell_frame"
+				type: "item"
+			}]
+			x: 6.0d
 			y: 0.0d
 		}
 	]

@@ -62,6 +62,70 @@
 			x: 0.5d
 			y: -1.0d
 		}
+		{
+			id: "3CA79CE43669C031"
+			tasks: [{
+				id: "41AB409976D5043E"
+				item: "biomancy:maw_hopper"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			id: "3943C3FBBF55DF49"
+			tasks: [{
+				id: "676EB953477E8CFF"
+				item: "biomancy:tongue"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			id: "5245507A23BAE310"
+			tasks: [{
+				id: "60AE58EE9FBD5A58"
+				item: "biomancy:fleshkin_chest"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			id: "736A92ACD7D6B44F"
+			tasks: [{
+				id: "10DB7F76CA053D80"
+				item: "biomancy:impermeable_membrane"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "76ECC7D40DF2C479"
+			tasks: [{
+				id: "4EE7A1F69D4C3BE9"
+				item: {
+					Count: 1
+					id: "biomancy:storage_sac"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "3F8030FB14071548"
+			tasks: [{
+				id: "07F4E25760896189"
+				item: "biomancy:flesh_spike"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
 	]
 	title: "&eSuspicious Summoning&r ✔"
 }

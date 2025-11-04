@@ -86,4 +86,19 @@ ServerEvents.tags('item', event => {
         'minecraft:small_dripleaf'
     ])
 
+    event.add('kubejs:knives/standard', [
+        'farmersdelight:flint_knife',
+        'farmersdelight:iron_knife',
+        'farmersdelight:diamond_knife',
+        'farmersdelight:netherite_knife',
+        'farmersdelight:golden_knife',
+        'kubejs:bone_knife',
+        'kubejs:living_bone_knife',
+        'kubejs:biobrass_knife',
+        'kubejs:living_biobrass_knife',
+        'kubejs:chitinsteel_knife',
+        'kubejs:living_chitinsteel_knife',
+        'dungeonsdelight:stained_knife'
+    ])
+
 })

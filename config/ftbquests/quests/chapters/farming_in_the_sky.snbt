@@ -35,39 +35,36 @@
 				}
 			}
 			id: "28B9B9DC521D1EB1"
-			tasks: [
-				{
-					id: "655E869FD019E0B5"
-					item: {
-						Count: 1
-						id: "farmersdelight:flint_knife"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "1BBF83155E56B287"
+				item: {
+					Count: 1
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
 					}
-					title: "Any Knife [fix]"
-					type: "item"
 				}
-				{
-					icon: {
-						Count: 1
-						id: "minecraft:wooden_hoe"
-						tag: {
-							Damage: 0
-						}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:wooden_hoe"
+					tag: {
+						Damage: 0
 					}
-					id: "50591023E5EAC405"
-					item: {
-						Count: 1
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:hoes)"
-						}
-					}
-					title: "Any Hoe"
-					type: "item"
 				}
-			]
+				id: "50591023E5EAC405"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:hoes)"
+					}
+				}
+				title: "Any Hoe"
+				type: "item"
+			}]
 			title: "Tools of the Trade"
 			x: 0.5d
 			y: 1.5d
@@ -80,15 +77,25 @@
 				item: "farmersdelight:cutting_board"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["28B9B9DC521D1EB1"]
 			id: "57779BF36F13ECEE"
 			rewards: [{
 				id: "6B5ABC1F3D6D8B9F"
-				item: "quark:seed_pouch"
+				item: {
+					Count: 1
+					id: "quark:seed_pouch"
+					tag: {
+						itemCount: 32
+						storedItem: {
+							Count: 1b
+							id: "minecraft:bone_meal"
+						}
+					}
+				}
 				type: "item"
 			}]
 			tasks: [
@@ -103,7 +110,7 @@
 					type: "item"
 				}
 			]
-			title: "Seeds"
+			title: "Seeds and Straw"
 			x: 1.0d
 			y: 3.0d
 		}
@@ -142,8 +149,8 @@
 				item: "minecraft:spruce_sapling"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1ED599712FEBA7C0"]
@@ -153,8 +160,8 @@
 				item: "farmersdelight:cabbage_seeds"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			id: "45BE55CB96FB315A"
@@ -165,6 +172,45 @@
 			}]
 			x: 6.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["06AD7E0265CB4613"]
+			icon: "minecraft:flint"
+			id: "2D74D727AF42A9A1"
+			rewards: [{
+				id: "0C4723D41C505271"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "044F5675523C5DBF"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:shovels)"
+						}
+					}
+					title: "Any Shovel"
+					type: "item"
+				}
+				{
+					id: "51F476CB4C45CE33"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+			]
+			title: "Gathering Flint"
+			x: 2.5d
+			y: 0.0d
 		}
 	]
 	title: "&aPie in the Sky&r ✔"
