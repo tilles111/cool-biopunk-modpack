@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
     const materials = {
         'bone':
         {
-            'material': '#kubejs:bone_tool_materials',
+            'material': 'biomancy:bone_fragments',
             'handle': '#forge:rods/wooden'
         },
         'biobrass':
