@@ -1,11 +1,12 @@
 ServerEvents.recipes(event => {
 
-    // TODO: smithing template or otherwise, muscles are a stand-in for now
-
     const tool_types = ['sword', 'pickaxe', 'shovel', 'axe', 'hoe', 'knife']
+    const materials = ['bone', 'biobrass', 'chitinsteel']
 
     tool_types.forEach(tool_type => {
-       event.smithing(`kubejs:living_bone_${tool_type}`, '#kubejs:muscles/standard', `kubejs:bone_${tool_type}`, 'biomancy:living_flesh')
+        materials.forEach(material => {
+            event.smithing(`kubejs:living_${material}_${tool_type}`, 'kubejs:living_tool_smithing_template', `kubejs:${material}_${tool_type}`, 'biomancy:living_flesh')
+        })
     });
 
     

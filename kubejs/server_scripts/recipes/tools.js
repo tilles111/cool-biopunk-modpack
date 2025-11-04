@@ -10,28 +10,17 @@ ServerEvents.recipes(event => {
         {
             'material': '#kubejs:bone_tool_materials',
             'handle': '#forge:rods/wooden'
-        }
-        /*
-        'improved_bone':
-        {
-            'material': '#kubejs:bone_tool_materials', // improved bone material??
-            'handle': '#kubejs:bones' // TODO: fill tag with bones
         },
-        */
-       /*
         'biobrass':
         {
             'material': 'architects_palette:nether_brass_ingot',
-            'handle': '#kubejs:bones'
+            'handle': 'minecraft:bone'
         },
-        */
-       /*
         'chitinsteel':
         {
             'material': 'architects_palette:sunmetal_brick',
-            'handle': '#kubejs:bones'
+            'handle': 'minecraft:bone'
         }
-        */
     }
 
 

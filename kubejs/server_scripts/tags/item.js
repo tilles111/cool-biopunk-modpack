@@ -66,4 +66,8 @@ ServerEvents.tags('item', event => {
         'chestcavity:dragon_muscle'
     ])
 
+    event.remove('supplementaries:throwable_bricks', [
+        'architects_palette:sunmetal_brick'
+    ])
+
 })
