@@ -90,7 +90,7 @@ ServerEvents.recipes(event => {
             B: 'biomancy:bone_fragments',
             S: '#forge:rods/wooden'
         }).id('kubejs:shaped/bone_shears')
-    
+
 	event.shaped('kubejs:bone_hammer',[
     		' B ',
     		' SB',

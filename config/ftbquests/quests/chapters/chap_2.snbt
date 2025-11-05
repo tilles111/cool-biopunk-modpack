@@ -29,8 +29,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			id: "71DF55E30D0EB3D4"
