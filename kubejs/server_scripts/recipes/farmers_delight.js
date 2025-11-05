@@ -40,14 +40,14 @@ ServerEvents.recipes(event => {
 	    ['minecraft:bone_meal','#forge:crops', '#forge:crops'],
 	    '16x thermal:phytogro',
 	    1,
-	    600
+	    100
 	).id(`${id_prefix}phytogro`)
 
     event.recipes.farmersdelight.cooking(
 	    ['quark:yellow_blossom_leaves', 'quark:yellow_blossom_leaves', 'quark:yellow_blossom_leaves', 'quark:yellow_blossom_leaves', 'quark:yellow_blossom_leaves', 'minecraft:apple'],
 	    'minecraft:golden_apple',
 	    1,
-	    600
+	    400
 	).id(`${id_prefix}golden_apple`)
 
     event.recipes.farmersdelight.cooking(
