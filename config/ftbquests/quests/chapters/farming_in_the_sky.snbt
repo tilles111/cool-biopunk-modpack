@@ -143,10 +143,18 @@
 		}
 		{
 			dependencies: ["1ED599712FEBA7C0"]
+			icon: "minecraft:birch_sapling"
 			id: "18300B5876BCE4F4"
 			tasks: [{
 				id: "46DA4BF57A394542"
-				item: "minecraft:spruce_sapling"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "not(item(minecraft:oak_sapling))or(item_tag(minecraft:saplings))"
+					}
+				}
+				title: "Any Non-Oak Sapling"
 				type: "item"
 			}]
 			x: 0.0d

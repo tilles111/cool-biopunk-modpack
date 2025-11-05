@@ -59,4 +59,37 @@ ServerEvents.recipes(event => {
     earth_break_recipe('minecraft:sand', 'minecraft:gravel', 'biomancy:stone_powder', 'minecraft:block.gravel.break')
 
     earth_break_recipe('minecraft:coarse_dirt', 'twigs:rocky_dirt')
+
+    const sac_fill_recipe = (fluid, sound) => {
+
+        if (sound == undefined) {
+            sound = 'biomancy:ui.storage_sac.open'
+        }
+
+        event.custom({
+            type: 'lychee:block_interacting',
+            post: [
+                {
+                    type: 'place',
+                    block: 'minecraft:air'
+                }, {
+                    type: 'execute',
+                    command: `playsound ${sound} block @a ~ ~ ~`,
+                    hide: true
+                }, {
+                    type: 'drop_item',
+                    item: 'thermal:florb',
+                    nbt: `{Fluid:{Amount:1000,FluidName:"${fluid}"}}`
+                }
+            ],
+            item_in: [
+                {
+                    item: 'thermal:florb'
+                }
+            ],
+            block_in: fluid
+        }).id(`${id_prefix}sac_filling_${fluid_name(fluid)}`)
+    }
+
+    sac_fill_recipe('minecraft:water')
 })

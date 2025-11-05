@@ -101,4 +101,25 @@ ServerEvents.tags('item', event => {
         'dungeonsdelight:stained_knife'
     ])
 
+    event.add('kubejs:tools/scalpels', [
+        '#ae2:knife'
+    ])
+
+    event.add('kubejs:basalt', [
+        'minecraft:basalt',
+        'minecraft:smooth_basalt',
+        'minecraft:polished_basalt',
+        'architects_palette:basalt_tiles',
+        'architects_palette:cracked_basalt_tiles',
+        'architects_palette:chiseled_basalt_tiles',
+        'twigs:polished_basalt_bricks',
+        'twigs:chiseled_smooth_basalt_bricks',
+        'twigs:smooth_basalt_bricks'
+    ])
+
+    event.add('kubejs:deepslate', [
+        'minecraft:deepslate',
+        'minecraft:cobbled_deepslate'
+    ])
+
 })

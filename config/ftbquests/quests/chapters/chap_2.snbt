@@ -136,6 +136,22 @@
 			x: 3.0d
 			y: 0.0d
 		}
+		{
+			id: "0DCF76028C2D2470"
+			tasks: [{
+				id: "1977F0B2F12C8A3D"
+				item: {
+					Count: 1
+					id: "ae2:nether_quartz_cutting_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
 	]
 	title: "&eSuspicious Summoning&r ✔"
 }
