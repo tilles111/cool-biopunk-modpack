@@ -49,7 +49,7 @@
 				item: "architects_palette:nether_brass_blend"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 0.5d
 			y: -1.0d
 		}
 		{

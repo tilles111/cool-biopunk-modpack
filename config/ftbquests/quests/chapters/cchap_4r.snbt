@@ -19,8 +19,8 @@
 				item: "architects_palette:entrails"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			id: "3ED023EC31DB29F3"
@@ -37,6 +37,16 @@
 			}]
 			x: 0.0d
 			y: -1.0d
+		}
+		{
+			id: "4966C57BB596AE10"
+			tasks: [{
+				id: "527AD977E67E2472"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 	title: "&cThrum of the Beating Heart&r ✔"
