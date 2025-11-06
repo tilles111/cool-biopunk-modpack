@@ -52,6 +52,18 @@ ServerEvents.recipes(event => {
 	).id(`${id_prefix}blood_bottle`)
 
     event.recipes.farmersdelight.cooking(
+	    [
+            'biomancy:flesh_bits',
+            'biomancy:flesh_bits',
+            'biomancy:flesh_bits'
+        ],
+	    'kubejs:bottle_of_blood',
+	    1,
+	    100,
+	    'minecraft:glass_bottle'
+	).id(`${id_prefix}blood_bottle_flesh_bits`)
+
+    event.recipes.farmersdelight.cooking(
         [
             'biomancy:mob_gland'
         ],

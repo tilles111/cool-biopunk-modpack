@@ -29,7 +29,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.5d
 			y: -2.0d
 		}
 		{
@@ -49,7 +49,7 @@
 				item: "architects_palette:nether_brass_ingot"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 5.0d
 			y: -1.0d
 		}
 		{
@@ -59,7 +59,7 @@
 				item: "architects_palette:nether_brass_blend"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 4.0d
 			y: -1.0d
 		}
 		{
@@ -113,7 +113,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.0d
 			y: -1.0d
 		}
 		{
@@ -133,7 +133,7 @@
 				item: "biomancy:elastic_fibers"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -149,8 +149,28 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 0.0d
+		}
+		{
+			id: "6DCB32F3E28D90F0"
+			tasks: [{
+				id: "162FFC190A1E49C7"
+				item: "dungeonsdelight:monster_pot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "5ABC548EF741FB84"
+			tasks: [{
+				id: "74358F8C8A512689"
+				item: "dungeonsdelight:stained_scrap"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
 		}
 	]
 	title: "&eSuspicious Summoning&r ✔"
