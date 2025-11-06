@@ -17,6 +17,9 @@ ServerEvents.recipes(event => {
             }
         })
 
+        var bone_type = 'biomancy:bone_fragments'
+        var bone_amount = bone
+
         if (chances == undefined) {
             chances = {
                 'leftover': 0.5
@@ -24,8 +27,15 @@ ServerEvents.recipes(event => {
             if (flesh > 0) {
                 chances['flesh'] = 0.7
             }
-            if (bone > 0) {
-                chances['bone'] = 0.2
+            if (bone == 'full') {
+                bone_type = 'minecraft:bone'
+                bone_amount = 1
+                chances['bone'] = 1
+            } else { // TODO: this is so ass lmao
+                console.log(input_meat)
+                if (bone > 0) {
+                    chances['bone'] = 0.2
+                }
             }
             if (sinew > 0) {
                 chances['sinew'] = 0.4
@@ -39,8 +49,8 @@ ServerEvents.recipes(event => {
         if (flesh > 0) {
             output_array.push(Item.of('biomancy:flesh_bits', flesh).withChance(chances['flesh']))
         }
-        if (bone > 0) {
-            output_array.push(Item.of('biomancy:bone_fragments', bone).withChance(chances['bone']))
+        if (bone > 0 | bone == 'full') {
+            output_array.push(Item.of(bone_type, bone_amount).withChance(chances['bone']))
         }
         if (sinew > 0) {
             output_array.push(Item.of('biomancy:mob_sinew', sinew).withChance(chances['sinew']))
@@ -60,6 +70,6 @@ ServerEvents.recipes(event => {
     scalpel_recipe('biomancy:flesh_bits', 'minecraft:rabbit', 2, 0, 1, 2)
     scalpel_recipe('farmersdelight:cod_slice', 'minecraft:cod', 2, 0, 2, 1)
     scalpel_recipe('farmersdelight:salmon_slice', 'minecraft:salmon', 2, 0, 2, 1)
-    scalpel_recipe('minecraft:porkchop', 'farmersdelight:ham', 2, 3, 0, 1)
+    scalpel_recipe('minecraft:porkchop', 'farmersdelight:ham', 2, 3, 'full', 1)
 
 })

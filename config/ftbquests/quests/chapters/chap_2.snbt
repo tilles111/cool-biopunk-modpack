@@ -90,7 +90,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			id: "76ECC7D40DF2C479"
@@ -151,6 +151,16 @@
 			}]
 			x: 1.5d
 			y: -1.0d
+		}
+		{
+			id: "3A1DE1A2CBF89601"
+			tasks: [{
+				id: "7E0D90090576EF3E"
+				item: "dungeonsdelight:monster_pot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
 		}
 	]
 	title: "&eSuspicious Summoning&r ✔"
