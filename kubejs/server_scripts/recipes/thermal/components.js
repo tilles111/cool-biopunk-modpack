@@ -1,22 +1,28 @@
 ServerEvents.recipes(event => {
 	event.remove({ id: /industrialforegoing:.*_gear/ })
     
+    event.replaceInput(
+        { output: /.*_gear/ },
+        '#forge:nuggets/iron',
+        'chestcavity:iron_scrap'
+    )
+
 	event.shaped('kubejs:biobrass_gear', [
     		' I ',
-    		'INI',
+    		'ISI',
             ' I '
 		],{
 			I: 'architects_palette:nether_brass_ingot',
-			N: '#forge:nuggets/iron'
+			S: 'chestcavity:iron_scrap'
 	}).id('kubejs:shaped/biobrass_gear')
 
 	event.shaped('kubejs:chitinsteel_gear', [
     		' I ',
-    		'INI',
+    		'ISI',
             ' I '
 		],{
 			I: 'architects_palette:sunmetal_brick',
-			N: '#forge:nuggets/iron'
+			S: 'chestcavity:iron_scrap'
 	}).id('kubejs:shaped/chitinsteel_gear')
 
     event.recipes.thermal.press('kubejs:biobrass_plate', 'architects_palette:nether_brass_ingot')
