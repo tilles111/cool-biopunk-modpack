@@ -7,8 +7,8 @@ ServerEvents.recipes(event => {
     event.recipes.farmersdelight.cooking(
 	    [
             'minecraft:bone_meal',
-            '#forge:crops',
-            '#forge:crops'
+            ['#forge:crops', 'quark:moss_paste'],
+            ['#forge:crops', 'quark:moss_paste']
         ],
 	    '16x thermal:phytogro',
 	    1,

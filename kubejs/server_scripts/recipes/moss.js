@@ -7,4 +7,6 @@ ServerEvents.recipes(event => {
     event.shapeless('minecraft:moss_block', ['quark:moss_paste']).id('kubejs:shapeless/moss_block_from_moss_paste')
     event.shapeless('2x quark:moss_paste', ['minecraft:moss_carpet', 'minecraft:moss_carpet', 'minecraft:moss_carpet']).id('kubejs:shapeless/moss_paste_from_moss_carpet')
 
+    event.shapeless('4x thermal:phytogro', ['minecraft:bone_meal', 'quark:moss_paste']).id('kubejs:shapeless/phytogro_from_moss_paste')
+
 })

@@ -39,7 +39,7 @@
 				item: "biomancy:primordial_cradle"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -113,8 +113,8 @@
 				item: "biomancy:flesh_spike"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.0d
+			x: 8.0d
+			y: 1.5d
 		}
 		{
 			id: "3563EF82D31355CB"
@@ -139,8 +139,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: 0.5d
+			y: 1.0d
 		}
 		{
 			id: "208BB09978B30317"
