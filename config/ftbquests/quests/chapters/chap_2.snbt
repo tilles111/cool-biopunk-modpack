@@ -29,7 +29,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
+			x: 5.0d
 			y: -2.0d
 		}
 		{
@@ -89,7 +89,7 @@
 				item: "biomancy:impermeable_membrane"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -103,7 +103,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.5d
 			y: -1.0d
 		}
 		{
