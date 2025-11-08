@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
 	event.remove({ id: /industrialforegoing:.*_gear/ })
     
     event.replaceInput(
-        { output: /.*_gear/ },
+        { id: /thermal:parts\/.*_gear/ },
         '#forge:nuggets/iron',
         'chestcavity:iron_scrap'
     )

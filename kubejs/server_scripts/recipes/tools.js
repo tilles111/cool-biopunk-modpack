@@ -2,9 +2,6 @@ ServerEvents.recipes(event => {
 
     const id_prefix = 'kubejs:shaped/'
 
-    // Reference stand-in
-    const tool_types = ['sword', 'pickaxe', 'shovel', 'axe', 'hoe', 'knife']
-
     const materials = {
         'bone':
         {
@@ -99,4 +96,14 @@ ServerEvents.recipes(event => {
             B: 'minecraft:bone_block',
             S: '#forge:rods/wooden'
         }).id('kubejs:shaped/bone_hammer')
+
+    const bone_tools = ['sword', 'pickaxe', 'shovel', 'axe', 'hoe', 'knife']
+
+    bone_tools.forEach(tool_type => {
+        event.recipes.summoningrituals.altar(`kubejs:bone_${tool_type}`)
+            .input('2x kubejs:bottle_of_blood', '8x biomancy:flesh_bits', '6x biomancy:elastic_fibers')
+            .itemOutput(`kubejs:living_bone_${tool_type}`)
+            .itemOutput('2x minecraft:glass_bottle')
+            .id(`kubejs:altar/living_bone_${tool_type}`)
+    })
 })

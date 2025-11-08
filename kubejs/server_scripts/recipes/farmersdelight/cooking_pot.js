@@ -81,4 +81,33 @@ ServerEvents.recipes(event => {
         200
     ).id(`${id_prefix}gelling_agent_4`)
 
+
+    event.remove({ id: 'architects_palette:nether_brass_blend' })
+
+    event.recipes.farmersdelight.cooking(
+	    [
+            'kubejs:copper_scrap',
+            'kubejs:copper_scrap',
+            'biomancy:tough_fibers',
+            'biomancy:tough_fibers',
+            'biomancy:elastic_fibers',
+            'biomancy:gelling_agent'
+        ],
+	    '4x architects_palette:nether_brass_blend',
+	    0,
+	    300
+	).id(`${id_prefix}/nether_brass_blend`)
+
+    event.recipes.farmersdelight.cooking(
+	    [
+            'biomancy:elastic_fibers',
+            'biomancy:elastic_fibers',
+            'biomancy:elastic_fibers'
+        ],
+	    'biomancy:impermeable_membrane',
+	    0,
+	    300,
+        'biomancy:gelling_agent'
+	).id(`${id_prefix}impermeable_membrane`)
+
 })
