@@ -65,7 +65,17 @@
 				item: "thermal:fluid_cell_frame"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "174C38D7F18C7A94"
+			tasks: [{
+				id: "21D540C30796DE4E"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 8.0d
 			y: 0.0d
 		}
 	]

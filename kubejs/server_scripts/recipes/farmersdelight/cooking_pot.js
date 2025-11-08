@@ -102,7 +102,7 @@ ServerEvents.recipes(event => {
 	    [
             'biomancy:elastic_fibers',
             'biomancy:elastic_fibers',
-            'biomancy:elastic_fibers'
+            'biomancy:tough_fibers'
         ],
 	    'biomancy:impermeable_membrane',
 	    0,

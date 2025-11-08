@@ -84,6 +84,7 @@
 					type: "item"
 				}
 			]
+			title: "Wooden Wonders"
 			x: 1.5d
 			y: -0.5d
 		}
@@ -287,6 +288,7 @@
 					type: "item"
 				}
 			]
+			title: "Stone Stations"
 			x: 0.5d
 			y: -1.5d
 		}

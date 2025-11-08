@@ -72,4 +72,16 @@ ServerEvents.recipes(event => {
     scalpel_recipe('farmersdelight:salmon_slice', 'minecraft:salmon', 2, 0, 2, 1)
     scalpel_recipe('minecraft:porkchop', 'farmersdelight:ham', 2, 3, 'full', 1)
 
+    event.recipes.farmersdelight.cutting([
+        '#forge:leather'
+    ], '#kubejs:tools/scalpels', [
+        Item.of('minecraft:rabbit_hide', 2).withChance(0.4),
+        Item.of('biomancy:tough_fibers', 2).withChance(0.6)
+    ])
+    event.recipes.farmersdelight.cutting([
+        'minecraft:rabbit_hide'
+    ], '#kubejs:tools/scalpels', [
+        Item.of('biomancy:tough_fibers', 2).withChance(0.6)
+    ])
+
 })

@@ -29,8 +29,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: 3.5d
+			y: 1.0d
 		}
 		{
 			id: "71DF55E30D0EB3D4"
@@ -39,7 +39,7 @@
 				item: "biomancy:primordial_cradle"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -59,8 +59,8 @@
 				item: "biomancy:maw_hopper"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -0.5d
+			x: 8.0d
+			y: -2.0d
 		}
 		{
 			id: "3943C3FBBF55DF49"
@@ -69,8 +69,8 @@
 				item: "biomancy:tongue"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 0.5d
+			x: 7.5d
+			y: -1.0d
 		}
 		{
 			id: "5245507A23BAE310"
@@ -79,8 +79,8 @@
 				item: "biomancy:fleshkin_chest"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -0.5d
+			x: 8.5d
+			y: -1.0d
 		}
 		{
 			id: "736A92ACD7D6B44F"
@@ -103,7 +103,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
@@ -113,8 +113,8 @@
 				item: "biomancy:flesh_spike"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 1.5d
+			x: 7.0d
+			y: 0.0d
 		}
 		{
 			id: "3563EF82D31355CB"
@@ -159,7 +159,43 @@
 				item: "dungeonsdelight:monster_pot"
 				type: "item"
 			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "7ADDAAFBA80A6F4B"
+			tasks: [{
+				id: "7D8057DC976F4836"
+				item: "minecraft:phantom_membrane"
+				type: "item"
+			}]
 			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "76BE3041281A8C00"
+			tasks: [{
+				id: "794AC548A6A64871"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "1255CBA472E4F497"
+			tasks: [{
+				id: "18DAD1FA3616D634"
+				item: "biomancy:active_muscle"
+				type: "item"
+			}]
+			x: 5.5d
 			y: 1.0d
 		}
 	]

@@ -48,6 +48,124 @@
 			x: 0.0d
 			y: 0.0d
 		}
+		{
+			id: "2AC6FEE081CD0007"
+			tasks: [{
+				id: "293596306CA3A30B"
+				item: {
+					Count: 1
+					id: "chestcavity:heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "70F79C4723CE4DBB"
+			tasks: [{
+				id: "1397CE092B590054"
+				item: {
+					Count: 1
+					id: "chestcavity:kidney"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "736970AE64E8D86D"
+			tasks: [{
+				id: "66752AF00BDB0F29"
+				item: {
+					Count: 1
+					id: "chestcavity:muscle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "7D309010BB465111"
+			tasks: [{
+				id: "189A50A4B7FB437E"
+				item: {
+					Count: 1
+					id: "chestcavity:intestine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "6D2A84F4CFE56C4A"
+			tasks: [{
+				id: "20E904C8F89999E9"
+				item: {
+					Count: 1
+					id: "chestcavity:liver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "3159E13BA9029D14"
+			tasks: [{
+				id: "09FBCBBDF86E8762"
+				item: {
+					Count: 1
+					id: "chestcavity:stomach"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "293508BDDEC6B4CA"
+			tasks: [{
+				id: "50ABC8C87C20A4E4"
+				item: {
+					Count: 1
+					id: "chestcavity:spleen"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "501C9DCB95CBA0A7"
+			tasks: [{
+				id: "68CCF8DBCE52DD3E"
+				item: "biomancy:decomposer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "5A830F0BD801DF68"
+			tasks: [{
+				id: "2B10C7E0602052BE"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
 	]
 	title: "&cThrum of the Beating Heart&r ✔"
 }
