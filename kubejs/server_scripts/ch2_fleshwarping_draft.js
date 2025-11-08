@@ -26,8 +26,8 @@ ServerEvents.recipes(event => {
     //     .itemOutput('minecraft:glass_bottle')
 
     event.recipes.summoningrituals.altar('biomancy:fleshkin_chest')
-        .input('8x kubejs:bottle_of_blood', '16x biomancy:flesh_bits', '4x biomancy:mob_gland', '8x biomancy:elastic_fibers', '8x biomancy:flesh_spike', '4x architects_palette:nether_brass_ingot')
+        .input('2x kubejs:bottle_of_blood', '4x biomancy:flesh_spike', '6x biomancy:flesh')
         .sacrifice('villager')
         .itemOutput('biomancy:primordial_cradle')
-        .itemOutput('8x minecraft:glass_bottle')
+        .itemOutput('2x minecraft:glass_bottle')
 })

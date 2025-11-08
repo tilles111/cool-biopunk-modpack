@@ -95,8 +95,8 @@ ServerEvents.recipes(event => {
         ],
 	    '4x architects_palette:nether_brass_blend',
 	    0,
-	    300
-	).id(`${id_prefix}/nether_brass_blend`)
+	    200
+	).id(`${id_prefix}nether_brass_blend`)
 
     event.recipes.farmersdelight.cooking(
 	    [
@@ -106,8 +106,21 @@ ServerEvents.recipes(event => {
         ],
 	    'biomancy:impermeable_membrane',
 	    0,
-	    300,
+	    200,
         'biomancy:gelling_agent'
 	).id(`${id_prefix}impermeable_membrane`)
+
+    event.recipes.farmersdelight.cooking(
+        [
+            'biomancy:flesh_bits',
+            'biomancy:flesh_bits',
+            'biomancy:flesh_bits',
+            'biomancy:flesh_bits',
+            'biomancy:flesh_bits'
+        ],
+        'biomancy:flesh',
+        0,
+        200
+    ).id(`${id_prefix}flesh`)
 
 })

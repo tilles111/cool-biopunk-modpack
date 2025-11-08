@@ -96,11 +96,11 @@ ServerEvents.recipes(event => {
         'biomancy:fleshkin_chest',
         [
             'biomancy:tongue',
+            'biomancy:bone_fragments',
+            'biomancy:bone_fragments',
             'biomancy:flesh_bits',
             'biomancy:flesh_bits',
-            'biomancy:flesh_bits',
-            'biomancy:flesh_bits',
-            'architects_palette:nether_brass_ingot'
+            'biomancy:flesh'
         ],
         'biomancy:impermeable_membrane'
     )
@@ -126,6 +126,16 @@ ServerEvents.recipes(event => {
             'biomancy:flesh_bits',
             'biomancy:elastic_fibers',
             'biomancy:elastic_fibers'
+        ]
+    )
+
+    monster_cooking_recipe(
+        'biomancy:flesh',
+        [
+            'biomancy:flesh_bits',
+            'biomancy:flesh_bits',
+            'biomancy:flesh_bits',
+            'biomancy:flesh_bits'
         ]
     )
 })
