@@ -18,3 +18,10 @@ StartupEvents.registry('item', event => {
     event.create('chitinsteel_gear')
         .tag('forge:gears/chitinsteel')
 })
+
+StartupEvents.registry('fluid', event => {
+  event.create('blood')
+    .thinTexture(0x790026)
+    .bucketColor(0x790026)
+    .displayName('Blood')
+})

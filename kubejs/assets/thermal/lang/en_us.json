@@ -24,5 +24,9 @@
     "item.thermal.rf_coil_storage_augment": "Stabilized Nutrient Coil",
     "item.thermal.rf_coil_xfer_augment": "High-Flux Nutrient Coil",
     "item.thermal.rf_potato.desc": "Stores Nutrients.",
-    "item.thermal.florb": "Fluid Sac"
+    "item.thermal.florb": "Fluid Sac",
+    "block.thermal.machine_furnace": "Gastric Kiln",
+    "info.thermal.machine_furnace.0": "Smelts things using Nutrients.",
+    "info.thermal.machine_furnace.2": "Om nom nom.",
+  "subtitles.thermal.block.machine_furnace": "Gastric Kiln hums and crackles"
 }

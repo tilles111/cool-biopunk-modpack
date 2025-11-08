@@ -72,10 +72,10 @@ ServerEvents.recipes(event => {
 	}).id('kubejs:shaped/dynamo_gourmand')
 
 	event.shaped('8x thermal:energy_duct', [
-    		'SMS'
+    		'SNS'
 		],{
 			S: 'architects_palette:sunmetal_brick',
-            M: 'biomancy:impermeable_membrane'
+            N: 'biomancy:nutrient_paste'
 	}).id('kubejs:shaped/energy_duct')
 
 	event.shaped('thermal:energy_cell_frame', [
@@ -88,14 +88,14 @@ ServerEvents.recipes(event => {
 	}).id('kubejs:shaped/energy_cell_frame')
 
 	event.shaped('thermal:energy_cell', [
-    		'TST',
+    		'NSN',
             'MFM',
-            'TLT'
+            'NLN'
 		],{
 			F: 'thermal:energy_cell_frame',
             M: 'biomancy:impermeable_membrane',
             S: 'biomancy:storage_sac',
             L: 'biomancy:living_flesh',
-            T: 'biomancy:tough_fibers'
+            N: 'biomancy:nutrient_paste'
 	}).id('kubejs:shaped/energy_cell')
 })
