@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
 
     const tool_types = ['sword', 'pickaxe', 'shovel', 'axe', 'hoe', 'knife']
-    const materials = ['biobrass', 'chitinsteel']
+    const materials = ['bone', 'biobrass', 'chitinsteel']
 
     tool_types.forEach(tool_type => {
         materials.forEach(material => {

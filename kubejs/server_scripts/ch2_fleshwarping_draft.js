@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
     
 	event.remove({ id: 'biomancy:crafting/primordial_cradle' })
-    
+
     // event.recipes.summoningrituals.altar('kubejs:bottle_of_blood')
     //     .input('3x biomancy:impermeable_membrane', 'biomancy:mob_gland', '4x biomancy:flesh_bits', '4x biomancy:tough_fibers')
     //     .itemOutput('biomancy:storage_sac')
@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
     //     .itemOutput('biomancy:tongue')
     //     .itemOutput('minecraft:glass_bottle')
 
-    event.recipes.summoningrituals.altar('minecraft:spawner')
+    event.recipes.summoningrituals.altar('biomancy:fleshkin_chest')
         .input('8x kubejs:bottle_of_blood', '16x biomancy:flesh_bits', '4x biomancy:mob_gland', '8x biomancy:elastic_fibers', '8x biomancy:flesh_spike', '4x architects_palette:nether_brass_ingot')
         .sacrifice('villager')
         .itemOutput('biomancy:primordial_cradle')
