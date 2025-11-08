@@ -1,6 +1,12 @@
 StartupEvents.registry('item', event => {
     event.create('bottle_of_blood')
     event.create('copper_scrap')
+
+    event.create('crushed_chitin')
+    event.create('crushed_iron_scrap')
+    event.create('charcoal_dust')
+        .tag('forge:dusts/charcoal')
+    event.create('chtinsteel_grit')
     
     event.create('biobrass_plate')
         .tag('forge:plates/biobrass')
