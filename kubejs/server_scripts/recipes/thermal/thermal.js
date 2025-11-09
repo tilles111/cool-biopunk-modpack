@@ -7,6 +7,10 @@ ServerEvents.recipes(event => {
 	event.remove({ output: 'thermal:energy_duct' })
 	event.remove({ output: 'thermal:energy_cell_frame' })
 	event.remove({ output: 'thermal:energy_cell' })
+	event.remove({ output: 'thermal:fluid_duct' })
+	event.remove({ output: 'thermal:fluid_duct_windowed' })
+	event.remove({ output: 'thermal:fluid_cell_frame' })
+	event.remove({ output: 'thermal:fluid_cell' })
 
 	event.shaped('thermal:machine_furnace', [
     		'ISI',
@@ -98,4 +102,37 @@ ServerEvents.recipes(event => {
             L: 'biomancy:living_flesh',
             N: 'biomancy:nutrient_paste'
 	}).id('kubejs:shaped/energy_cell')
+
+	event.shaped('8x thermal:fluid_duct', [
+    		'BCB'
+		],{
+			B: 'architects_palette:nether_brass_ingot',
+            C: 'kubejs:copper_scrap'
+	}).id('kubejs:shaped/fluid_duct')
+
+	event.shaped('8x thermal:fluid_duct_windowed', [
+    		'BMB'
+		],{
+			B: 'architects_palette:nether_brass_ingot',
+            M: 'biomancy:impermeable_membrane'
+	}).id('kubejs:shaped/fluid_duct_windowed')
+
+	event.shaped('thermal:fluid_cell_frame', [
+    		'BCB',
+            'C C',
+            'BCB'
+		],{
+			B: 'architects_palette:nether_brass_ingot',
+			C: 'kubejs:copper_scrap'
+	}).id('kubejs:shaped/fluid_cell_frame')
+
+	event.shaped('thermal:fluid_cell', [
+    		'SMS',
+            'MFM',
+            'SMS'
+		],{
+			F: 'thermal:fluid_cell_frame',
+            M: 'biomancy:impermeable_membrane',
+            S: 'thermal:florb'
+	}).id('kubejs:shaped/fluid_cell')
 })

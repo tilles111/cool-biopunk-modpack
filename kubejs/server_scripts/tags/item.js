@@ -101,9 +101,9 @@ ServerEvents.tags('item', event => {
         'dungeonsdelight:stained_knife'
     ])
 
-    event.add('kubejs:tools/scalpels', [
-        '#ae2:knife'
-    ])
+    // event.add('kubejs:tools/scalpels', [
+    //     '#ae2:knife'
+    // ])
 
     event.add('kubejs:basalt', [
         'minecraft:basalt',

@@ -17,6 +17,9 @@ StartupEvents.registry('item', event => {
         .tag('forge:plates/chitinsteel')
     event.create('chitinsteel_gear')
         .tag('forge:gears/chitinsteel')
+
+    event.create('player_heart')
+        .maxStackSize(1)
 })
 
 StartupEvents.registry('fluid', event => {

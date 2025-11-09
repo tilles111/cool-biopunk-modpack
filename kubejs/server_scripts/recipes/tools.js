@@ -97,6 +97,16 @@ ServerEvents.recipes(event => {
             S: '#forge:rods/wooden'
         }).id('kubejs:shaped/bone_hammer')
 
+    event.shaped('kubejs:stained_scalpel', [
+    		'  B',
+    		' B ',
+    		'SS '
+		],{
+			S: 'dungeonsdelight:stained_scrap',
+            B: 'minecraft:bone'
+
+	}).id('kubejs:shaped/nether_quartz_cutting_knife')
+
     const bone_tools = ['sword', 'pickaxe', 'shovel', 'axe', 'hoe', 'knife']
 
     bone_tools.forEach(tool_type => {

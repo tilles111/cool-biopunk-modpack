@@ -123,4 +123,32 @@ ServerEvents.recipes(event => {
         200
     ).id(`${id_prefix}flesh`)
 
+    event.recipes.farmersdelight.cooking(
+        [
+            'minecraft:stone',
+            'minecraft:stone',
+            'minecraft:stone',
+            'minecraft:stone',
+            'minecraft:stone',
+            'minecraft:charcoal'
+        ],
+        '5x minecraft:deepslate',
+        0,
+        20
+    ).id(`${id_prefix}deepslate`)
+
+    event.recipes.farmersdelight.cooking(
+        [
+            'minecraft:cobblestone',
+            'minecraft:cobblestone',
+            'minecraft:cobblestone',
+            'minecraft:cobblestone',
+            'minecraft:cobblestone',
+            'minecraft:charcoal'
+        ],
+        '5x minecraft:basalt',
+        0,
+        20
+    ).id(`${id_prefix}basalt`)
+
 })

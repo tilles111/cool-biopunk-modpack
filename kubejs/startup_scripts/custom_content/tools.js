@@ -178,4 +178,8 @@ StartupEvents.registry('item', event => {
   event.create('living_chitinsteel_knife', 'farmersdelight:knife').tier('living_chitinsteel')
     .tag('forge:tools/knives')
     .tag('forge:tools/living_chitinsteel')
+
+  event.create('stained_scalpel')
+    .maxDamage(1000)
+    .tag('kubejs:tools/scalpels')
 })
