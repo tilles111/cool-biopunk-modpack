@@ -1392,6 +1392,43 @@
             ]
         },
         {
+            "pakku_id": "RJbdVvVmMDwn2pf7",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "global-gamerules"
+            },
+            "name": {
+                "curseforge": "Global GameRules"
+            },
+            "id": {
+                "curseforge": "227657"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "GlobalGameRules-1.20.1-8.1.0.12.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7172/469/GlobalGameRules-1.20.1-8.1.0.12.jar",
+                    "id": "7172469",
+                    "parent_id": "227657",
+                    "hashes": {
+                        "sha1": "13a9e41740aa17a31f81beba233055bc84152eb0",
+                        "md5": "29e67410430795f70b3ee5fc39df5b40"
+                    },
+                    "required_dependencies": [],
+                    "size": 24511,
+                    "date_published": "2025-11-01T01:05:12.750Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "hgPjNOn96jlafnLr",
             "type": "MOD",
             "slug": {
