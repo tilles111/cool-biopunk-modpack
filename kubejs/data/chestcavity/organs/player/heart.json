@@ -1,0 +1,6 @@
+{
+  "itemID": "kubejs:player_heart",
+  "organScores": [
+    {"id":"chestcavity:health","value": "1"}
+  ]
+}
