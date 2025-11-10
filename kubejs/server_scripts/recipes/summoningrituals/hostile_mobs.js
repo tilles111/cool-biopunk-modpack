@@ -37,6 +37,18 @@ ServerEvents.recipes(event => {
         .mobOutput('creeper')
 
     event.recipes.summoningrituals.altar('kubejs:bottle_of_blood')
+        .input('2x biomancy:bile', 'biomancy:exotic_dust', 'dungeonsdelight:spider_extract')
+        .itemOutput('2x minecraft:glass_bottle')
+        .sacrifice('zombie')
+        .mobOutput('enderman')
+
+    event.recipes.summoningrituals.altar('kubejs:bottle_of_blood')
+        .input('2x biomancy:volatile_gland', '4x biomancy:bone_fragments', 'dungeonsdelight:spider_extract')
+        .itemOutput('2x minecraft:glass_bottle')
+        .sacrifice('skeleton')
+        .mobOutput('blaze')
+
+    event.recipes.summoningrituals.altar('kubejs:bottle_of_blood')
         .input('dungeonsdelight:stained_scrap', 'minecraft:egg')
         .itemOutput('minecraft:skeleton_spawn_egg')
         .itemOutput('minecraft:glass_bottle')
@@ -59,4 +71,16 @@ ServerEvents.recipes(event => {
         .itemOutput('minecraft:creeper_spawn_egg')
         .itemOutput('minecraft:glass_bottle')
         .sacrifice('creeper')
+
+    event.recipes.summoningrituals.altar('kubejs:bottle_of_blood')
+        .input('2x dungeonsdelight:stained_scrap', 'minecraft:egg', 'chestcavity:heart')
+        .itemOutput('minecraft:enderman_spawn_egg')
+        .itemOutput('minecraft:glass_bottle')
+        .sacrifice('enderman')
+
+    event.recipes.summoningrituals.altar('kubejs:bottle_of_blood')
+        .input('2x dungeonsdelight:stained_scrap', 'minecraft:egg', 'chestcavity:heart')
+        .itemOutput('minecraft:blaze_spawn_egg')
+        .itemOutput('minecraft:glass_bottle')
+        .sacrifice('blaze')
 })

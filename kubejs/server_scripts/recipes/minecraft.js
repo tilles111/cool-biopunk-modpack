@@ -7,6 +7,7 @@ ServerEvents.recipes(event => {
 	event.remove({ output: 'minecraft:lantern' })
 	event.remove({ output: 'minecraft:stonecutter' })
 	event.remove({ output: 'minecraft:anvil' })
+	event.remove({ output: 'minecraft:bucket' })
 
 	event.shaped('minecraft:spawner', [
     		'SIS',
@@ -76,5 +77,13 @@ ServerEvents.recipes(event => {
 			B: 'architects_palette:nether_brass_block'
 		}
 	).id('kubejs:shaped/anvil')
+
+	event.shaped('minecraft:bucket', [
+    		'I I',
+			' I '
+		], {
+			I: 'architects_palette:sunmetal_brick'
+		}
+	).id('kubejs:shaped/bucket')
 	
 })

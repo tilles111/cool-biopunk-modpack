@@ -151,4 +151,19 @@ ServerEvents.recipes(event => {
         20
     ).id(`${id_prefix}basalt`)
 
+    event.recipes.farmersdelight.cooking(
+        [
+            'minecraft:deepslate',
+            'minecraft:deepslate',
+            'minecraft:deepslate',
+            'minecraft:deepslate',
+            'minecraft:deepslate',
+            'minecraft:deepslate'
+        ],
+        'minecraft:lava_bucket',
+        0,
+        1200,
+        'minecraft:bucket'
+    ).id(`${id_prefix}lava`)
+
 })

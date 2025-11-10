@@ -138,4 +138,16 @@ ServerEvents.recipes(event => {
             'biomancy:flesh_bits'
         ]
     )
+
+    monster_cooking_recipe(
+        '2x biomancy:active_muscle',
+        [
+            'biomancy:flesh_slab',
+            'biomancy:flesh_bits',
+            'biomancy:elastic_fibers',
+            'biomancy:elastic_fibers',
+            'biomancy:elastic_fibers',
+            'biomancy:gelling_agent'
+        ]
+    )
 })
