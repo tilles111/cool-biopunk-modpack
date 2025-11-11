@@ -2,6 +2,8 @@ StartupEvents.registry('item', event => {
     event.create('bottle_of_blood')
     event.create('copper_scrap')
     event.create('mineral_brick')
+    event.create('bio_core')
+      .texture('biomancy:item/tab_icon')
 
     event.create('crushed_chitin')
     event.create('crushed_iron_scrap')

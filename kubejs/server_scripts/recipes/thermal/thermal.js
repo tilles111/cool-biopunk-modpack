@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
             C: 'kubejs:copper_scrap',
             F: 'biomancy:living_flesh',
             S: 'biomancy:storage_sac',
-            A: 'biomancy:acid_extract',
+            A: 'dungeonsdelight:spider_extract',
             U: 'minecraft:furnace'
 	}).id('kubejs:shaped/machine_furnace')
 

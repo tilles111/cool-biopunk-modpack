@@ -1,0 +1,7 @@
+{
+    "block.industrialforegoing.dissolution_chamber": "Synthetic Cradle",
+    "item.industrialforegoing.pink_slime_ingot": "Pureflesh Ingot",
+    "item.industrialforegoing.pink_slime": "Pureflesh Blob",
+    "item.industrialforegoing.pink_slime_bucket": "Bucket of Pureflesh Slurry",
+    "fluid_type.industrialforegoing.pink_slime": "Pureflesh Slurry"
+}

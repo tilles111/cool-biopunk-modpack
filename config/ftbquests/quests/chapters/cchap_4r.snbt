@@ -284,7 +284,7 @@
 				item: "industrialforegoing:mob_slaughter_factory"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
@@ -311,6 +311,39 @@
 			}]
 			x: 1.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["39357EF309E4E3E5"]
+			id: "63F3918241BD3D0C"
+			tasks: [{
+				id: "7985D8DA17889A34"
+				item: "biomancy:bio_lab"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["535FC82039A4CC84"]
+			id: "380835F46A2521D1"
+			tasks: [{
+				id: "7A147560059F13E8"
+				item: "kubejs:living_tool_smithing_template"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["395DF4D2BAE75F35"]
+			id: "39357EF309E4E3E5"
+			tasks: [{
+				id: "4FF03059EE987AB2"
+				item: "industrialforegoing:pink_slime_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
 		}
 	]
 	title: "&cThrum of the Beating Heart&r ✔"
