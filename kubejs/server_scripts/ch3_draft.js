@@ -133,14 +133,15 @@ ServerEvents.recipes(event => {
 	).id('kubejs:shaped/machine_crucible')
 
 	event.shaped('thermal:machine_refinery', [
-    		'BSB',
+    		'PBP',
     		'SFS',
     		'CGC'
 		], {
 			C: 'architects_palette:sunmetal_brick',
-			B: '#forge:plates/biobrass',
+			P: '#forge:plates/biobrass',
 			G: '#forge:gears/chitinsteel',
 			S: 'biomancy:storage_sac',
+			B: 'minecraft:blaze_rod',
 			F: 'thermal:machine_frame'
 		}
 	).id('kubejs:shaped/machine_refinery')
