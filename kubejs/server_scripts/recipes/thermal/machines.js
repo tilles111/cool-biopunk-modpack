@@ -2,6 +2,7 @@
 ServerEvents.recipes(event => {
     event.remove({ type: 'thermal:smelter' })
     event.remove({ type: 'thermal:smelter_recycle' })
+    event.remove({ type: 'thermal:smelter_catalyst' })
     event.remove({ output: 'architects_palette:sunmetal_blend' })
 
     event.recipes.thermal.furnace('dungeonsdelight:smoked_spider_meat', 'dungeonsdelight:spider_meat')
@@ -18,4 +19,6 @@ ServerEvents.recipes(event => {
 
     event.recipes.thermal.bottler('architects_palette:sunmetal_blend', ['kubejs:chitinsteel_grit', Fluid.of('kubejs:blood', 250)])
     event.recipes.thermal.bottler('kubejs:bottle_of_blood', ['minecraft:glass_bottle', Fluid.of('kubejs:blood', 250)])
+
+    event.recipes.thermal.smelter([Item.of('kubejs:mineral_brick').withChance(1), Item.of('kubejs:mineral_brick').withChance(0.75)], ['4x biomancy:mineral_fragment', 'chestcavity:raw_organ_meat', '2x biomancy:bone_fragments'])
 })
