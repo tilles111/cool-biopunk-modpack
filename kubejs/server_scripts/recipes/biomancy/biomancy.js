@@ -13,9 +13,9 @@ ServerEvents.recipes(event => {
         .itemOutput('biomancy:primordial_cradle')
         .itemOutput('2x minecraft:glass_bottle')
     
-    event.recipes.thermal.smelter('kubejs:bio_core', ['2x architects_palette:entrails', 'chestcavity:heart', '1x biomancy:living_flesh'])
-    event.recipes.thermal.smelter('biomancy:digester', ['kubejs:bio_core', '2x architects_palette:entrails', 'chestcavity:stomach'])
-    event.recipes.thermal.smelter('biomancy:decomposer', ['kubejs:bio_core', '4x architects_palette:entrails', '4x biomancy:mob_fang'])
+    event.recipes.thermal.smelter('kubejs:biologic_core', ['2x architects_palette:entrails', 'chestcavity:heart', '1x biomancy:living_flesh'])
+    event.recipes.thermal.smelter('biomancy:digester', ['kubejs:biologic_core', '2x architects_palette:entrails', 'chestcavity:stomach'])
+    event.recipes.thermal.smelter('biomancy:decomposer', ['kubejs:biologic_core', '4x architects_palette:entrails', '4x biomancy:mob_fang'])
 
     event.recipes.biomancy.decomposing('chestcavity:iron_scrap', ['6x biomancy:mineral_fragment'])
     event.recipes.biomancy.decomposing('kubejs:copper_scrap', ['8x biomancy:mineral_fragment'])
