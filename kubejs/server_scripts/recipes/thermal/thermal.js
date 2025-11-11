@@ -11,6 +11,16 @@ ServerEvents.recipes(event => {
 	event.remove({ output: 'thermal:fluid_duct_windowed' })
 	event.remove({ output: 'thermal:fluid_cell_frame' })
 	event.remove({ output: 'thermal:fluid_cell' })
+    event.remove({ output: 'thermal:machine_frame' })
+    event.remove({ output: 'thermal:saw_blade' })
+    event.remove({ output: 'thermal:machine_sawmill' })
+    event.remove({ output: 'thermal:machine_crafter' })
+    event.remove({ output: 'thermal:machine_press' })
+    event.remove({ output: 'thermal:machine_insolator' })
+    event.remove({ output: 'thermal:machine_crucible' })
+    event.remove({ output: 'thermal:machine_refinery' })
+    event.remove({ output: 'thermal:machine_crystallizer' })
+    event.remove({ output: 'thermal:machine_smelter' })
 
 	event.shaped('thermal:machine_furnace', [
     		'ISI',
@@ -135,4 +145,137 @@ ServerEvents.recipes(event => {
             M: 'biomancy:impermeable_membrane',
             S: 'thermal:florb'
 	}).id('kubejs:shaped/fluid_cell')
+
+	event.shaped('thermal:machine_frame', [
+    		'BGB',
+    		'M M',
+    		'CFC'
+		], {
+			C: 'architects_palette:sunmetal_brick',
+			B: '#forge:plates/biobrass',
+			G: '#forge:gears/biobrass',
+			M: 'biomancy:impermeable_membrane',
+			F: 'biomancy:living_flesh'
+		}
+	).id('kubejs:shaped/machine_frame')
+
+	event.shaped('thermal:saw_blade', [
+    		'BSF',
+    		'S S',
+    		'FSB'
+		], {
+			B: 'minecraft:bone',
+			S: 'biomancy:bone_fragments',
+			F: 'biomancy:mob_fang'
+		}
+	).id('kubejs:shaped/saw_blade')
+
+	event.shaped('thermal:machine_sawmill', [
+    		'BSB',
+    		'OFO',
+    		'CLC'
+		], {
+			C: 'architects_palette:sunmetal_brick',
+			B: 'architects_palette:nether_brass_ingot',
+			S: 'biomancy:storage_sac',
+			L: 'biomancy:living_flesh',
+            F: 'biomancy:flesh',
+            O: 'thermal:saw_blade'
+		}
+	).id('kubejs:shaped/machine_sawmill')
+
+	event.shaped('thermal:machine_press', [
+    		'BSB',
+    		'OFO',
+    		'CLC'
+		], {
+			C: 'architects_palette:sunmetal_brick',
+			B: 'architects_palette:nether_brass_ingot',
+			S: 'biomancy:storage_sac',
+			L: 'biomancy:living_flesh',
+            F: 'biomancy:flesh',
+            O: 'minecraft:bone'
+		}
+	).id('kubejs:shaped/machine_press')
+
+	event.shaped('thermal:machine_crafter', [
+    		'BSB',
+    		'OFO',
+    		'CLC'
+		], {
+			C: 'architects_palette:sunmetal_brick',
+			B: 'architects_palette:nether_brass_ingot',
+			S: 'biomancy:storage_sac',
+			L: 'biomancy:living_flesh',
+            F: 'biomancy:flesh',
+            O: 'minecraft:crafting_table'
+		}
+	).id('kubejs:shaped/machine_crafter')
+
+	event.shaped('thermal:machine_insolator', [
+    		'GLG',
+    		'BFB',
+    		'SSS'
+		], {
+			B: 'architects_palette:nether_brass_ingot',
+			G: '#forge:gears/chitinsteel',
+			S: 'farmersdelight:rich_soil',
+			L: 'architects_palette:nether_brass_lantern',
+			F: 'thermal:machine_frame'
+		}
+	).id('kubejs:shaped/machine_insolator')
+
+	event.shaped('thermal:machine_crucible', [
+    		'SGS',
+    		'BFB',
+    		'SCS'
+		], {
+			S: 'architects_palette:sunmetal_brick',
+			G: '#forge:gears/biobrass',
+			B: 'minecraft:blaze_rod',
+			C: 'thermal:fluid_cell',
+			F: 'thermal:machine_frame'
+		}
+	).id('kubejs:shaped/machine_crucible')
+
+	event.shaped('thermal:machine_refinery', [
+    		'PBP',
+    		'SFS',
+    		'CGC'
+		], {
+			C: 'architects_palette:sunmetal_brick',
+			P: '#forge:plates/biobrass',
+			G: '#forge:gears/chitinsteel',
+			S: 'biomancy:storage_sac',
+			B: 'minecraft:blaze_rod',
+			F: 'thermal:machine_frame'
+		}
+	).id('kubejs:shaped/machine_refinery')
+
+	event.shaped('thermal:machine_crystallizer', [
+    		'PCP',
+    		'BFB',
+    		'PLP'
+		], {
+			P: '#forge:plates/chitinsteel',
+			B: 'kubejs:blood_bucket',
+			L: 'biomancy:living_flesh',
+			C: 'biomancy:fleshkin_chest',
+			F: 'thermal:machine_frame'
+		}
+	).id('kubejs:shaped/machine_crystallizer')
+
+	event.shaped('thermal:machine_smelter', [
+    		'BGB',
+    		'PMP',
+    		'CFC'
+		], {
+			C: 'architects_palette:sunmetal_brick',
+			P: '#forge:plates/biobrass',
+			G: '#forge:gears/biobrass',
+			M: 'dungeonsdelight:monster_pot',
+			B: 'minecraft:blaze_rod',
+			F: 'thermal:machine_frame'
+		}
+	).id('kubejs:shaped/machine_smelter')
 })

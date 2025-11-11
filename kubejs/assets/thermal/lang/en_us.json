@@ -33,8 +33,12 @@
     "info.thermal.machine_crystallizer.0": "Grows and reforms flesh, meat, and bone.",
     "info.thermal.machine_crystallizer.1": "Requires a fluid and at least one item.",
     "info.thermal.machine_crystallizer.2": "Mad science at its finest.",
-    "block.thermal.machine_crucible": "Flesh Liquefier",
+    "block.thermal.machine_crucible": "Meat Liquefier",
     "info.thermal.machine_crucible.0": "Liquefies meat into a liquid form, at high heat.",
     "info.thermal.machine_crucible.1": "Very useful for creating advanced blocks.",
-    "info.thermal.machine_crucible.2": "Keep away from small children and pets."
+    "info.thermal.machine_crucible.2": "Keep away from small children and pets.",
+    "block.thermal.machine_smelter": "Flesh Melder",
+    "info.thermal.machine_smelter.0": "Melds flesh and other materials together into useful forms.",
+    "info.thermal.machine_smelter.1": "Useful for creating augments and advanced blocks.",
+    "info.thermal.machine_smelter.2": "Will absolutely not cook food."
 }

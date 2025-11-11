@@ -166,4 +166,17 @@ ServerEvents.recipes(event => {
         'minecraft:bucket'
     ).id(`${id_prefix}lava`)
 
+    event.recipes.farmersdelight.cooking(
+	    [
+            'kubejs:crushed_chitin',
+            'kubejs:crushed_iron_scrap',
+            'kubejs:crushed_iron_scrap',
+            '#forge:dusts/charcoal',
+            'biomancy:bile',
+            'biomancy:organic_matter'
+        ],
+	    '4x kubejs:chitinsteel_grit',
+	    0,
+	    600
+	).id(`kubejs:cooking_pot/chitinsteel_grit`)
 })

@@ -107,13 +107,14 @@ ServerEvents.recipes(event => {
 
 	}).id('kubejs:shaped/nether_quartz_cutting_knife')
 
-    const bone_tools = ['sword', 'pickaxe', 'shovel', 'axe', 'hoe', 'knife']
+    const living_tools = ['sword', 'pickaxe', 'shovel', 'axe', 'hoe', 'knife']
 
-    bone_tools.forEach(tool_type => {
+    living_tools.forEach(tool_type => {
         event.recipes.summoningrituals.altar(`kubejs:bone_${tool_type}`)
             .input('2x kubejs:bottle_of_blood', '8x biomancy:flesh_bits', '6x biomancy:elastic_fibers')
             .itemOutput(`kubejs:living_bone_${tool_type}`)
             .itemOutput('2x minecraft:glass_bottle')
             .id(`kubejs:altar/living_bone_${tool_type}`)
+        event.recipes.thermal.smelter([`kubejs:living_biobrass_${tool_type}`, '2x minecraft:glass_bottle'], [`kubejs:biobrass_${tool_type}`, 'biomancy:living_flesh', '2x kubejs:bottle_of_blood'])
     })
 })

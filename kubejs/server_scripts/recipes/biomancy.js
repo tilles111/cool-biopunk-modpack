@@ -1,4 +1,6 @@
 ServerEvents.recipes(event => {
+	event.remove({ id: 'biomancy:crafting/primordial_cradle' })
+
     event.custom({
         type: 'dungeonsdelight:monster_cooking',
         container: {
@@ -17,4 +19,10 @@ ServerEvents.recipes(event => {
             count: 2
         }
     }).id(`kubejs:monster_cooking/gastric_juice`)
+
+    event.recipes.summoningrituals.altar('biomancy:fleshkin_chest')
+        .input('2x kubejs:bottle_of_blood', '4x biomancy:flesh_spike', '6x biomancy:flesh')
+        .sacrifice('villager')
+        .itemOutput('biomancy:primordial_cradle')
+        .itemOutput('2x minecraft:glass_bottle')
 })
