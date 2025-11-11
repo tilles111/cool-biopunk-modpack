@@ -28,6 +28,16 @@
 			x: 0.0d
 			y: 0.0d
 		}
+		{
+			id: "730FF4D11458CDBD"
+			tasks: [{
+				id: "447A21F3A15AF966"
+				title: "start"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
 	]
 	title: "&4Feast&r ✔"
 }

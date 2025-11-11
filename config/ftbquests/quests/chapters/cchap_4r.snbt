@@ -166,6 +166,18 @@
 			x: 2.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["7E86961C2A8DEE1F"]
+			hide_until_deps_complete: true
+			id: "40CACC20B5EC746A"
+			tasks: [{
+				id: "64C9D5347BE2FE4D"
+				title: "start"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
 	]
 	title: "&cThrum of the Beating Heart&r ✔"
 }

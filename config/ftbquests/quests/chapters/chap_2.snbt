@@ -9,6 +9,8 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["45BE55CB96FB315A"]
+			hide_until_deps_complete: true
 			id: "640BD86D4D3A6DC4"
 			tasks: [{
 				id: "7C349326A39ED2D9"
@@ -49,8 +51,8 @@
 				item: "architects_palette:nether_brass_blend"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.0d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			id: "3CA79CE43669C031"
@@ -132,15 +134,15 @@
 				id: "1977F0B2F12C8A3D"
 				item: {
 					Count: 1
-					id: "ae2:nether_quartz_cutting_knife"
+					id: "kubejs:stained_scalpel"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			id: "208BB09978B30317"
@@ -149,8 +151,8 @@
 				item: "architects_palette:nether_brass_ingot"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.0d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			id: "3A1DE1A2CBF89601"
@@ -159,8 +161,8 @@
 				item: "dungeonsdelight:monster_pot"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			id: "7ADDAAFBA80A6F4B"
@@ -197,6 +199,38 @@
 			}]
 			x: 5.5d
 			y: 1.0d
+		}
+		{
+			id: "5DD379EF2A7BDF57"
+			tasks: [{
+				id: "6CE84B0AB7DFC87E"
+				item: {
+					Count: 1
+					id: "kubejs:bone_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "2A05826884901172"
+			tasks: [{
+				id: "0D13083A49698B36"
+				item: {
+					Count: 1
+					id: "kubejs:biobrass_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
 		}
 	]
 	title: "&eSuspicious Summoning&r ✔"

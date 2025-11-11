@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
         bonecarving(bone_thing, 'minecraft:bone_block')
     })
 
-    event.remove({id: '/bonezone:*wither_*/'})
+    event.remove({id: '/bonezone:.*wither_.*/'})
 
     const wither_stuff = [
         'bonezone:empty_wither_pot_flipped',

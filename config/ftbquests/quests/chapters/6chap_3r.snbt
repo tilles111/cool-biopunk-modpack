@@ -78,6 +78,18 @@
 			x: 8.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["71DF55E30D0EB3D4"]
+			hide_until_deps_complete: true
+			id: "18AF75905185E072"
+			tasks: [{
+				id: "3437F33C0631E6F8"
+				title: "start"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
 	]
 	title: "&6No Regrets&r ✔"
 }
