@@ -99,13 +99,13 @@ ServerEvents.recipes(event => {
     ], 'minecraft:rabbit_hide')
 
     scalpel_recipe_2([
-        Item.of('minecraft:bone').withChance(0.8),
+        Item.of('minecraft:bone').withChance(0.2),
         Item.of('farmersdelight:cod_slice', 2).withChance(0.6),
         Item.of('biomancy:tough_fibers', 6).withChance(0.7)
     ], 'architects_palette:cod_log')
 
     scalpel_recipe_2([
-        Item.of('minecraft:bone').withChance(0.8),
+        Item.of('minecraft:bone').withChance(0.2),
         Item.of('farmersdelight:salmon_slice', 2).withChance(0.6),
         Item.of('biomancy:tough_fibers', 6).withChance(0.7)
     ], 'architects_palette:salmon_log')

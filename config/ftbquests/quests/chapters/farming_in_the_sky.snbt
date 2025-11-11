@@ -9,6 +9,10 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"I'm on an island in the sky. frog and tilles are really clever for this one."
+				"(PLACEHOLDER)"
+			]
 			icon: "minecraft:oak_sapling"
 			id: "3F17762B83A76F51"
 			size: 1.5d
@@ -27,6 +31,7 @@
 		}
 		{
 			dependencies: ["3F17762B83A76F51"]
+			description: ["I'm going to need some &aFarming Tools&r to make my way in this world - A &aHoe&r should be a good start."]
 			icon: {
 				Count: 1
 				id: "minecraft:wooden_hoe"
@@ -124,6 +129,7 @@
 		}
 		{
 			dependencies: ["3F17762B83A76F51"]
+			description: ["There seems to be the remains of an interesting structure here - I will take note. Maybe it can help me survive."]
 			icon: "twigs:smooth_basalt_bricks"
 			id: "1ED599712FEBA7C0"
 			tasks: [{
@@ -270,6 +276,7 @@
 		}
 		{
 			dependencies: ["3F17762B83A76F51"]
+			description: ["The stone here "]
 			id: "279561BC7BB96DFB"
 			rewards: [{
 				id: "35C85CA10891AE23"

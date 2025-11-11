@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["44CDA749D4028348"]
 			id: "2DDF04ED840F2761"
 			tasks: [{
 				id: "57F5149FC23C7B39"
@@ -19,6 +20,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["44CDA749D4028348"]
 			id: "7E86961C2A8DEE1F"
 			tasks: [{
 				id: "653EBB71010F9A00"
@@ -29,6 +31,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["44CDA749D4028348"]
 			id: "4A747031B38B98B1"
 			tasks: [{
 				id: "17D0476F73EF22E3"
@@ -39,6 +42,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["44CDA749D4028348"]
 			id: "7F9DC84EA3D07E43"
 			tasks: [{
 				id: "0369065E1D683B99"
@@ -49,6 +53,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["44CDA749D4028348"]
 			id: "3CCB022330C241F2"
 			tasks: [{
 				id: "7BC3ECAA61BB83E6"
@@ -59,16 +64,18 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["44CDA749D4028348"]
 			id: "469F2710B7090AED"
 			tasks: [{
 				id: "5CAAEAD299859ED2"
 				item: "thermal:fluid_cell_frame"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.0d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["44CDA749D4028348"]
 			id: "174C38D7F18C7A94"
 			tasks: [{
 				id: "21D540C30796DE4E"
@@ -89,6 +96,17 @@
 			}]
 			x: -1.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["18AF75905185E072"]
+			id: "44CDA749D4028348"
+			tasks: [{
+				id: "23541D6F5ACABE97"
+				title: "hiding"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
 		}
 	]
 	title: "&6No Regrets&r ✔"

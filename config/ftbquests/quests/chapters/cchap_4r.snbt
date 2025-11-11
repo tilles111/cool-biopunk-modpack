@@ -13,6 +13,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6D0583B440D9117D"]
 			id: "0DC568540DFF871C"
 			tasks: [{
 				id: "253B5DB8F96CB962"
@@ -23,6 +24,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["6D0583B440D9117D"]
 			id: "3ED023EC31DB29F3"
 			tasks: [{
 				id: "3B573F7FB050A915"
@@ -39,6 +41,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["6D0583B440D9117D"]
 			id: "4966C57BB596AE10"
 			tasks: [{
 				id: "527AD977E67E2472"
@@ -49,6 +52,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6D0583B440D9117D"]
 			id: "2AC6FEE081CD0007"
 			tasks: [{
 				id: "293596306CA3A30B"
@@ -63,6 +67,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6D0583B440D9117D"]
 			id: "70F79C4723CE4DBB"
 			tasks: [{
 				id: "1397CE092B590054"
@@ -77,6 +82,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6D0583B440D9117D"]
 			id: "736970AE64E8D86D"
 			tasks: [{
 				id: "66752AF00BDB0F29"
@@ -91,6 +97,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["6D0583B440D9117D"]
 			id: "7D309010BB465111"
 			tasks: [{
 				id: "189A50A4B7FB437E"
@@ -105,6 +112,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6D0583B440D9117D"]
 			id: "6D2A84F4CFE56C4A"
 			tasks: [{
 				id: "20E904C8F89999E9"
@@ -119,6 +127,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["6D0583B440D9117D"]
 			id: "3159E13BA9029D14"
 			tasks: [{
 				id: "09FBCBBDF86E8762"
@@ -133,6 +142,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["6D0583B440D9117D"]
 			id: "293508BDDEC6B4CA"
 			tasks: [{
 				id: "50ABC8C87C20A4E4"
@@ -147,6 +157,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6D0583B440D9117D"]
 			id: "501C9DCB95CBA0A7"
 			tasks: [{
 				id: "68CCF8DBCE52DD3E"
@@ -157,6 +168,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["6D0583B440D9117D"]
 			id: "5A830F0BD801DF68"
 			tasks: [{
 				id: "2B10C7E0602052BE"
@@ -177,6 +189,28 @@
 			}]
 			x: 0.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["6D0583B440D9117D"]
+			id: "67CDFEE321B0604D"
+			tasks: [{
+				id: "7FE137AA7ED5BFA8"
+				item: "biomancy:bio_lab"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40CACC20B5EC746A"]
+			id: "6D0583B440D9117D"
+			tasks: [{
+				id: "70CA7D77DB98A2F0"
+				title: "test"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -4.0d
 		}
 	]
 	title: "&cThrum of the Beating Heart&r ✔"

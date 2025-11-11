@@ -9,6 +9,7 @@
 	quests: [{
 		can_repeat: true
 		id: "2C4CB0611596F9BB"
+		invisible: true
 		rewards: [{
 			id: "0C1808B2329335E5"
 			item: "ae2:certus_quartz_crystal"
