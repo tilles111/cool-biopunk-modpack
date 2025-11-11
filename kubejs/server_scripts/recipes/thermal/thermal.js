@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'thermal:machine_insolator' })
     event.remove({ output: 'thermal:machine_crucible' })
     event.remove({ output: 'thermal:machine_refinery' })
-    event.remove({ output: 'thermal:machine_crystallizer' })
+    //event.remove({ output: 'thermal:machine_crystallizer' })
     event.remove({ output: 'thermal:machine_smelter' })
 
 	event.shaped('thermal:machine_furnace', [
@@ -252,18 +252,18 @@ ServerEvents.recipes(event => {
 		}
 	).id('kubejs:shaped/machine_refinery')
 
-	event.shaped('thermal:machine_crystallizer', [
-    		'PCP',
-    		'BFB',
-    		'PLP'
-		], {
-			P: '#forge:plates/chitinsteel',
-			B: 'kubejs:blood_bucket',
-			L: 'biomancy:living_flesh',
-			C: 'biomancy:fleshkin_chest',
-			F: 'thermal:machine_frame'
-		}
-	).id('kubejs:shaped/machine_crystallizer')
+	//event.shaped('thermal:machine_crystallizer', [
+    //		'PCP',
+    //		'BFB',
+    //		'PLP'
+	//	], {
+	//		P: '#forge:plates/chitinsteel',
+	//		B: 'kubejs:blood_bucket',
+	//		L: 'biomancy:living_flesh',
+	//		C: 'biomancy:fleshkin_chest',
+	//		F: 'thermal:machine_frame'
+	//	}
+	//.id('kubejs:shaped/machine_crystallizer')
 
 	event.shaped('thermal:machine_smelter', [
     		'BGB',
