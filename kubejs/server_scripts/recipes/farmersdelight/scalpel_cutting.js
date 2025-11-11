@@ -60,6 +60,8 @@ ServerEvents.recipes(event => {
             input_meat
         ], '#kubejs:tools/scalpels', output_array, 'minecraft:entity.sheep.shear').id(`${id_prefix}scalpel_${item_name(input_meat)}`)
 
+        event.recipes.thermal.sawmill(output_array, input_meat).id(`kubejs:sawmill/${item_name(input_meat)}`)
+
     }
 
     // TODO: make these numbers more informative, idk
@@ -72,16 +74,51 @@ ServerEvents.recipes(event => {
     scalpel_recipe('farmersdelight:salmon_slice', 'minecraft:salmon', 2, 0, 2, 1)
     scalpel_recipe('minecraft:porkchop', 'farmersdelight:ham', 2, 3, 'full', 1)
 
-    event.recipes.farmersdelight.cutting([
-        '#forge:leather'
-    ], '#kubejs:tools/scalpels', [
+    scalpel_recipe('biomancy:flesh_bits', 'farmersdelight:minced_beef', 2, 0, 0, 1)
+    scalpel_recipe('biomancy:flesh_bits', 'farmersdelight:bacon', 2, 0, 0, 1)
+    scalpel_recipe('biomancy:flesh_bits', 'farmersdelight:chicken_cuts', 2, 0, 1, 2)
+    scalpel_recipe('biomancy:flesh_bits', 'farmersdelight:mutton_chops', 2, 0, 1, 1)
+    scalpel_recipe('biomancy:flesh_bits', 'farmersdelight:cod_slice', 1, 0, 0, 1)
+    scalpel_recipe('biomancy:flesh_bits', 'farmersdelight:salmon_slice', 1, 0, 0, 1)
+
+    const scalpel_recipe_2 = (output_array, input) => {
+        event.recipes.farmersdelight.cutting([
+            input
+        ], '#kubejs:tools/scalpels', output_array).id(`${id_prefix}scalpel_${item_name(input)}`)
+
+        event.recipes.thermal.sawmill(output_array, input).id(`kubejs:sawmill/${item_name(input)}`)
+    }
+
+    scalpel_recipe_2([
         Item.of('minecraft:rabbit_hide', 2).withChance(0.4),
         Item.of('biomancy:tough_fibers', 2).withChance(0.6)
-    ])
-    event.recipes.farmersdelight.cutting([
-        'minecraft:rabbit_hide'
-    ], '#kubejs:tools/scalpels', [
+    ], '#forge:leather')
+    
+    scalpel_recipe_2([
         Item.of('biomancy:tough_fibers', 2).withChance(0.6)
-    ])
+    ], 'minecraft:rabbit_hide')
+
+    scalpel_recipe_2([
+        Item.of('minecraft:bone').withChance(0.8),
+        Item.of('farmersdelight:cod_slice', 2).withChance(0.6),
+        Item.of('biomancy:tough_fibers', 6).withChance(0.7)
+    ], 'architects_palette:cod_log')
+
+    scalpel_recipe_2([
+        Item.of('minecraft:bone').withChance(0.8),
+        Item.of('farmersdelight:salmon_slice', 2).withChance(0.6),
+        Item.of('biomancy:tough_fibers', 6).withChance(0.7)
+    ], 'architects_palette:salmon_log')
+
+    scalpel_recipe_2([
+        Item.of('farmersdelight:cod_slice', 2).withChance(0.6),
+        Item.of('biomancy:tough_fibers', 8).withChance(0.7)
+    ], 'architects_palette:cod_scales')
+    scalpel_recipe_2([
+        Item.of('farmersdelight:salmon_slice', 2).withChance(0.6),
+        Item.of('biomancy:tough_fibers', 8).withChance(0.7)
+    ], 'architects_palette:salmon_scales')
+
+    
 
 })
