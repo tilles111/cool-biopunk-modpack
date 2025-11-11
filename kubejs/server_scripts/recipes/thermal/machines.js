@@ -21,4 +21,5 @@ ServerEvents.recipes(event => {
     event.recipes.thermal.bottler('kubejs:bottle_of_blood', ['minecraft:glass_bottle', Fluid.of('kubejs:blood', 250)])
 
     event.recipes.thermal.smelter([Item.of('kubejs:mineral_brick').withChance(1), Item.of('kubejs:mineral_brick').withChance(0.75)], ['4x biomancy:mineral_fragment', 'chestcavity:raw_organ_meat', '2x biomancy:bone_fragments'])
+    event.recipes.thermal.smelter('architects_palette:entrails', ['chestcavity:intestine', '2x chestcavity:muscle', 'chestcavity:raw_human_organ_meat'])
 })

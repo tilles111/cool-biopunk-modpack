@@ -212,6 +212,106 @@
 			x: 2.0d
 			y: -4.0d
 		}
+		{
+			id: "4F0F17AFC90181BD"
+			tasks: [{
+				id: "33E3F523420AC5C5"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "647A9AB008A245E8"
+			tasks: [{
+				id: "101805AF21ED01B6"
+				item: "chestcavity:chest_opener"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0B8DD68A38F53340"]
+			id: "12E38F44086A9088"
+			tasks: [{
+				id: "78BB92C64DFC2F13"
+				item: "biomancy:decomposer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["12E38F44086A9088"]
+			id: "76361BD91F02EFFC"
+			tasks: [{
+				id: "19BBB2897A12A461"
+				item: "kubejs:mineral_brick"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["76361BD91F02EFFC"]
+			id: "73E342F464FD7DBE"
+			tasks: [{
+				id: "34964F48A588E6A7"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["535FC82039A4CC84"]
+			id: "3B7C1A1356D461AA"
+			tasks: [{
+				id: "41D99491FC859818"
+				item: "industrialforegoing:animal_feeder"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["535FC82039A4CC84"]
+			id: "395DF4D2BAE75F35"
+			tasks: [{
+				id: "15BFF2F7F7FF22F6"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["73E342F464FD7DBE"]
+			id: "535FC82039A4CC84"
+			tasks: [{
+				id: "19728DE52E36E86E"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"647A9AB008A245E8"
+				"4F0F17AFC90181BD"
+			]
+			id: "0B8DD68A38F53340"
+			tasks: [{
+				id: "5CA1B961EE137885"
+				item: "architects_palette:entrails"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
 	]
 	title: "&cThrum of the Beating Heart&r ✔"
 }
