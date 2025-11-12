@@ -1,4 +1,5 @@
 ItemEvents.toolTierRegistry(event => {
+  // TODO: fix repair ingredient, tag??
   event.add('bone', tier => {
     tier.uses = 200
     tier.speed = 5
