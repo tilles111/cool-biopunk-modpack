@@ -16,4 +16,10 @@ ServerEvents.recipes(event => {
 			G: '#forge:gears/biobrass'
 		}
 	).id('kubejs:shaped/press_gear_die')
+
+    event.remove({ id: 'thermal:aquachow_4' })
+    event.shapeless('4x thermal:aquachow', [
+        'quark:moss_paste',
+        'thermal:phytogro'
+    ])
 })

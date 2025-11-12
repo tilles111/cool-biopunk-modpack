@@ -44,11 +44,11 @@ ServerEvents.recipes(event => {
         .itemOutput('4x farmersdelight:onion')
 
     event.recipes.summoningrituals.altar('minecraft:bone_meal')
-        .input('farmersdelight:carrot')
+        .input('minecraft:carrot')
         .itemOutput('4x minecraft:carrot')
 
     event.recipes.summoningrituals.altar('minecraft:bone_meal')
-        .input('farmersdelight:potato')
+        .input('minecraft:potato')
         .itemOutput('4x minecraft:potato')
 
     event.recipes.summoningrituals.altar('minecraft:bone_meal')
@@ -60,6 +60,10 @@ ServerEvents.recipes(event => {
         .sacrifice('zombie')
         .itemOutput('4x dungeonsdelight:stained_scrap')
         .itemOutput('minecraft:glass_bottle')
+
+    event.recipes.summoningrituals.altar('minecraft:bone_meal')
+        .input('minecraft:grass')
+        .itemOutput('minecraft:cactus')
     
     // event.recipes.summoningrituals.altar('kubejs:bottle_of_blood')
     //     .input('3x biomancy:impermeable_membrane', 'biomancy:mob_gland', '4x biomancy:flesh_bits', '4x biomancy:tough_fibers')

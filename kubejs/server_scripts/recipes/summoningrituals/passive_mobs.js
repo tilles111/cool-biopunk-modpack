@@ -35,4 +35,20 @@ ServerEvents.recipes(event => {
             SummoningOutput.mob('bee')
                 .count(3)
         )
+
+    event.recipes.summoningrituals.altar(Item.of('minecraft:potion', '{Potion:"minecraft:water"}'))
+        .input('2x biomancy:bone_fragments', '2x thermal:aquachow', '#forge:dyes/white')
+        .itemOutput('minecraft:glass_bottle')
+        .mobOutput(
+            SummoningOutput.mob('cod')
+                .count(3)
+        )
+
+    event.recipes.summoningrituals.altar(Item.of('minecraft:potion', '{Potion:"minecraft:water"}'))
+        .input('2x biomancy:bone_fragments', '2x thermal:aquachow', '#forge:dyes/red')
+        .itemOutput('minecraft:glass_bottle')
+        .mobOutput(
+            SummoningOutput.mob('salmon')
+                .count(3)
+        )
 })

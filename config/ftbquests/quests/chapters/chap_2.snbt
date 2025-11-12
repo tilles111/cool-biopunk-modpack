@@ -232,6 +232,16 @@
 			x: 6.0d
 			y: -2.0d
 		}
+		{
+			id: "34AE5F7030F7D136"
+			tasks: [{
+				id: "62F3AFDF5E8DB7E3"
+				item: "biomancy:chrysalis"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
 	]
 	title: "&eSuspicious Summoning&r ✔"
 }

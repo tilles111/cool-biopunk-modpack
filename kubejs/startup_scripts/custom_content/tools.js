@@ -22,7 +22,7 @@ ItemEvents.toolTierRegistry(event => {
     tier.attackDamageBonus = 2.5
     tier.level = 2
     tier.enchantmentValue = 18
-    tier.repairIngredient = '#kubejs:bone_materials'
+    tier.repairIngredient = 'architects_palette:nether_brass_ingot'
   })
 
   event.add('living_biobrass', tier => {
@@ -40,7 +40,7 @@ ItemEvents.toolTierRegistry(event => {
     tier.attackDamageBonus = 3.5
     tier.level = 3
     tier.enchantmentValue = 15
-    tier.repairIngredient = '#kubejs:bone_materials'
+    tier.repairIngredient = 'architects_palette:sunmetal_brick'
   })
 
   event.add('living_chitinsteel', tier => {
