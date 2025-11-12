@@ -278,4 +278,6 @@ ServerEvents.recipes(event => {
 			F: 'thermal:machine_frame'
 		}
 	).id('kubejs:shaped/machine_smelter')
+
+	event.recipes.biomancy.bio_forging(['2x #forge:plates/chitinsteel', '2x #forge:plates/biobrass', 'kubejs:mineral_brick', 'biomancy:impermeable_membrane', 'biomancy:living_flesh'], 'thermal:machine_frame', 'biomancy:components', 25)
 })

@@ -19,4 +19,19 @@ ServerEvents.recipes(event => {
 
     event.recipes.biomancy.decomposing('chestcavity:iron_scrap', ['6x biomancy:mineral_fragment'])
     event.recipes.biomancy.decomposing('kubejs:copper_scrap', ['8x biomancy:mineral_fragment'])
+
+    event.recipes.industrialforegoing.dissolution_chamber([
+            'biomancy:impermeable_membrane',
+            'kubejs:biological_core',
+            'biomancy:impermeable_membrane',
+            'architects_palette:entrails',
+            'architects_palette:entrails',
+            'kubejs:mineral_brick',
+            'kubejs:mineral_brick',
+            'kubejs:mineral_brick'
+        ], 
+        Fluid.of('industrialforegoing:meat', 1000), 
+        'biomancy:bio_forge', 
+        400
+    )
 })
