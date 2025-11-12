@@ -17,6 +17,7 @@
 				item: "summoningrituals:altar"
 				type: "item"
 			}]
+			title: "Back to the Beastmaker"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -201,6 +202,7 @@
 			y: 1.0d
 		}
 		{
+			description: ["This "]
 			id: "5DD379EF2A7BDF57"
 			tasks: [{
 				id: "6CE84B0AB7DFC87E"

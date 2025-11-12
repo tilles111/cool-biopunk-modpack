@@ -42,6 +42,27 @@
 			x: -1.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["2D22EC92C0F0DCFD"]
+			id: "50D7A52C6D95F64A"
+			tasks: [
+				{
+					id: "2F6506F7C15360E4"
+					item: "biomancy:acid_bucket"
+					type: "item"
+				}
+				{
+					icon: "biomancy:primal_orifice"
+					id: "4C33E445562C5FFA"
+					observe_type: 0
+					timer: 0L
+					to_observe: "biomancy:primal_orifice"
+					type: "observation"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
 	]
 	title: "&4Feast&r ✔"
 }

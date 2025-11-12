@@ -95,6 +95,7 @@
 		}
 		{
 			dependencies: ["28B9B9DC521D1EB1"]
+			description: ["Using a &aKnife&r on tall grass should get me some straw and seeds."]
 			id: "57779BF36F13ECEE"
 			rewards: [{
 				id: "6B5ABC1F3D6D8B9F"
