@@ -21,13 +21,6 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'thermal:machine_refinery' })
     //event.remove({ output: 'thermal:machine_crystallizer' })
     event.remove({ output: 'thermal:machine_smelter' })
-    event.remove({ output: 'thermal:device_fisher' })
-    event.remove({ output: 'thermal:device_composter' })
-    event.remove({ output: 'thermal:device_water_gen' })
-    event.remove({ output: 'thermal:device_rock_gen' })
-    event.remove({ output: 'thermal:device_collector' })
-    event.remove({ output: 'thermal:device_xp_condenser' })
-    event.remove({ output: 'thermal:device_nullifier' })
 
 	event.shaped('thermal:machine_furnace', [
     		'ISI',
@@ -285,6 +278,93 @@ ServerEvents.recipes(event => {
 			F: 'thermal:machine_frame'
 		}
 	).id('kubejs:shaped/machine_smelter')
+
+    event.remove({ output: 'thermal:device_fisher' })
+    event.remove({ output: 'thermal:device_composter' })
+    event.remove({ output: 'thermal:device_water_gen' })
+    event.remove({ output: 'thermal:device_rock_gen' })
+    event.remove({ output: 'thermal:device_collector' })
+    event.remove({ output: 'thermal:device_xp_condenser' })
+    event.remove({ output: 'thermal:device_nullifier' })
+
+	event.shaped('thermal:device_fisher', [
+    		'PSP',
+    		'NFN',
+    		'PSP'
+		], {
+			S: 'chestcavity:iron_scrap',
+			P: '#minecraft:planks',
+			N: 'farmersdelight:safety_net',
+			F: 'minecraft:fishing_rod'
+		}
+	).id('kubejs:shaped/device_fisher')
+	event.shaped('thermal:device_composter', [
+    		'S S',
+    		'PCP',
+    		'SPS'
+		], {
+			S: 'chestcavity:iron_scrap',
+			P: '#minecraft:planks',
+			C: 'minecraft:composter'
+		}
+	).id('kubejs:shaped/device_composter')
+	event.shaped('thermal:device_water_gen', [
+    		'SGS',
+    		'G G',
+    		'BCB'
+		], {
+			S: 'kubejs:copper_scrap',
+			G: 'biomancy:gelling_agent',
+			B: 'architects_palette:nether_brass_ingot',
+			C: 'thermal:fluid_cell'
+		}
+	).id('kubejs:shaped/device_water_gen')
+	event.shaped('thermal:device_rock_gen', [
+    		'SMS',
+    		'GBG',
+    		'SFS'
+		], {
+			S: 'chestcavity:iron_scrap',
+			G: '#forge:gears/biobrass',
+			M: 'biomancy:impermeable_membrane',
+			B: 'industrialforegoing:block_breaker',
+			F: 'thermal:machine_frame'
+		}
+	).id('kubejs:shaped/device_rock_gen')
+	event.shaped('8x thermal:device_collector', [
+    		'SLS',
+    		'TFT',
+    		'BMB'
+		], {
+			S: 'chestcavity:iron_scrap',
+			B: 'architects_palette:nether_brass_ingot',
+			L: 'chestcavity:ender_lung',
+			T: 'biomancy:tongue',
+			M: 'biomancy:maw_hopper',
+			F: 'thermal:machine_frame'
+		}
+	).id('kubejs:shaped/device_collector')
+	event.shaped('thermal:device_xp_condenser', [
+    		'SMS',
+    		'MXM',
+    		'SMS'
+		], {
+			S: 'chestcavity:iron_scrap',
+			M: 'biomancy:impermeable_membrane',
+			X: 'thermal:xp_storage_augment'
+		}
+	).id('kubejs:shaped/device_xp_condenser')
+	event.shaped('2x thermal:device_nullifier', [
+    		'BSB',
+    		'LFL',
+    		'BSB'
+		], {
+			S: 'chestcavity:iron_scrap',
+			B: 'architects_palette:nether_brass_ingot',
+			L: 'minecraft:lava_bucket',
+			F: 'thermal:machine_frame'
+		}
+	).id('kubejs:shaped/device_nullifier')
 
 	event.recipes.biomancy.bio_forging(['2x #forge:plates/chitinsteel', '2x #forge:plates/biobrass', 'kubejs:mineral_brick', 'biomancy:impermeable_membrane', 'biomancy:living_flesh'], 'thermal:machine_frame', 'biomancy:components', 25)
 })
