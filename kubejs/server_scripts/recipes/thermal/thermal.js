@@ -215,9 +215,10 @@ ServerEvents.recipes(event => {
 	event.shaped('thermal:machine_insolator', [
     		'GLG',
     		'BFB',
-    		'SSS'
+    		'SCS'
 		], {
-			B: 'architects_palette:nether_brass_ingot',
+			B: 'kubejs:mineral_brick',
+			C: 'kubejs:biological_core',
 			G: '#forge:gears/chitinsteel',
 			S: 'farmersdelight:rich_soil',
 			L: 'architects_palette:nether_brass_lantern',

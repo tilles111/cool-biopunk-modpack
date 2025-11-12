@@ -657,6 +657,43 @@
             ]
         },
         {
+            "pakku_id": "TYYNSDe4SdQBpZ9V",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "crafting-on-a-stick"
+            },
+            "name": {
+                "curseforge": "Crafting on a stick"
+            },
+            "id": {
+                "curseforge": "577850"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "crafting-on-a-stick-1.20.1-1.1.5.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5429/170/crafting-on-a-stick-1.20.1-1.1.5.jar",
+                    "id": "5429170",
+                    "parent_id": "577850",
+                    "hashes": {
+                        "sha1": "5531e149477b9e540684a296fb196238bf1d85e8",
+                        "md5": "8158077880aea9cacd4eabb6f47b67b9"
+                    },
+                    "required_dependencies": [],
+                    "size": 55252,
+                    "date_published": "2024-06-14T21:20:12.517Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "oGc3aXFiU83OszB6",
             "type": "MOD",
             "slug": {
