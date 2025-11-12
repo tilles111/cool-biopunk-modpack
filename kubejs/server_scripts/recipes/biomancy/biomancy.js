@@ -6,6 +6,7 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'biomancy:bio_forging/decomposer' })
 	event.remove({ id: 'biomancy:bio_forging/digester' })
 	event.remove({ id: 'biomancy:bio_forging/bio_forge' })
+	event.remove({ id: 'biomancy:bio_forging/bio_lab' })
 
     event.recipes.summoningrituals.altar('biomancy:fleshkin_chest')
         .input('2x kubejs:bottle_of_blood', '4x biomancy:flesh_spike', '6x biomancy:flesh')
@@ -20,6 +21,9 @@ ServerEvents.recipes(event => {
     event.recipes.biomancy.decomposing('chestcavity:iron_scrap', ['6x biomancy:mineral_fragment'])
     event.recipes.biomancy.decomposing('kubejs:copper_scrap', ['8x biomancy:mineral_fragment'])
 
+    event.recipes.biomancy.bio_forging(['4x industrialforegoing:pink_slime_ingot', '2x architects_palette:entrails', 'kubejs:biological_core', 'chestcavity:ender_liver', 'biomancy:creator_mix'], 'biomancy:bio_lab', 'biomancy:machines', 150)
+    event.recipes.biomancy.bio_forging(['4x #forge:plates/chitinsteel', '2x architects_palette:entrails', '4x kubejs:mineral_brick', 'chestcavity:heart', 'biomancy:living_flesh'], 'kubejs:living_tool_smithing_template', 'biomancy:tools', 75)
+
     event.recipes.industrialforegoing.dissolution_chamber([
             'biomancy:impermeable_membrane',
             'kubejs:biological_core',
@@ -33,5 +37,19 @@ ServerEvents.recipes(event => {
         Fluid.of('industrialforegoing:meat', 1000), 
         'biomancy:bio_forge', 
         400
+    )
+    event.recipes.industrialforegoing.dissolution_chamber([
+            'biomancy:gelling_agent',
+            'biomancy:gelling_agent',
+            'biomancy:gelling_agent',
+            'biomancy:gelling_agent',
+            'biomancy:mineral_fragment',
+            'biomancy:mineral_fragment',
+            'biomancy:mineral_fragment',
+            'biomancy:mineral_fragment'
+        ], 
+        Fluid.of('industrialforegoing:pink_slime', 500), 
+        '2x industrialforegoing:pink_slime_ingot', 
+        200
     )
 })

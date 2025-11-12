@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
     event.recipes.thermal.bottler('kubejs:bottle_of_blood', ['minecraft:glass_bottle', Fluid.of('kubejs:blood', 250)])
 
     event.recipes.thermal.smelter([Item.of('kubejs:mineral_brick').withChance(1), Item.of('kubejs:mineral_brick').withChance(0.75)], ['4x biomancy:mineral_fragment', 'chestcavity:raw_organ_meat', '2x biomancy:bone_fragments'])
-    event.recipes.thermal.smelter('architects_palette:entrails', ['chestcavity:intestine', '2x chestcavity:muscle', 'chestcavity:raw_human_organ_meat'])
+    event.recipes.thermal.smelter('4x architects_palette:entrails', ['chestcavity:intestine', '2x chestcavity:muscle', 'chestcavity:raw_human_organ_meat'])
     event.recipes.thermal.smelter([Item.of('3x architects_palette:nether_brass_ingot').withChance(1), Item.of('architects_palette:nether_brass_ingot').withChance(0.75), Item.of('2x architects_palette:nether_brass_ingot').withChance(0.5)], ['3x kubejs:copper_scrap', '2x biomancy:elastic_fibers', '2x biomancy:tough_fibers'])
     event.recipes.thermal.smelter([Item.of('2x kubejs:chitinsteel_grit').withChance(1), Item.of('kubejs:chitinsteel_grit').withChance(0.75), Item.of('2x kubejs:chitinsteel_grit').withChance(0.5)], ['3x chestcavity:iron_scrap', 'kubejs:crushed_chitin', '2x biomancy:organic_matter'])
     event.recipes.thermal.smelter(['2x architects_palette:sunmetal_brick', Item.of('minecraft:glass_bottle').withChance(0.5)], ['2x kubejs:chitinsteel_grit', 'kubejs:bottle_of_blood'])

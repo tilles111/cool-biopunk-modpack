@@ -267,17 +267,6 @@
 		}
 		{
 			dependencies: ["535FC82039A4CC84"]
-			id: "3B7C1A1356D461AA"
-			tasks: [{
-				id: "41D99491FC859818"
-				item: "industrialforegoing:animal_feeder"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["535FC82039A4CC84"]
 			id: "395DF4D2BAE75F35"
 			tasks: [{
 				id: "15BFF2F7F7FF22F6"

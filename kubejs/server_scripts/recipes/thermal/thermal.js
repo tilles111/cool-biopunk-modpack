@@ -21,6 +21,13 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'thermal:machine_refinery' })
     //event.remove({ output: 'thermal:machine_crystallizer' })
     event.remove({ output: 'thermal:machine_smelter' })
+    event.remove({ output: 'thermal:device_fisher' })
+    event.remove({ output: 'thermal:device_composter' })
+    event.remove({ output: 'thermal:device_water_gen' })
+    event.remove({ output: 'thermal:device_rock_gen' })
+    event.remove({ output: 'thermal:device_collector' })
+    event.remove({ output: 'thermal:device_xp_condenser' })
+    event.remove({ output: 'thermal:device_nullifier' })
 
 	event.shaped('thermal:machine_furnace', [
     		'ISI',
