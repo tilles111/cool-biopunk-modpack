@@ -2,21 +2,28 @@ ServerEvents.recipes(event => {
 
     const id_prefix = 'kubejs:shaped/'
 
+    event.remove({ output: 'constructionwand:iron_wand' })
+    event.remove({ output: 'constructionwand:diamond_wand' })
+    event.remove({ output: 'constructionwand:infinity_wand' })
+
     const materials = {
         'bone':
         {
             'material': 'biomancy:bone_fragments',
-            'handle': '#forge:rods/wooden'
+            'handle': '#forge:rods/wooden',
+            'construction_wand': 'constructionwand:iron_wand'
         },
         'biobrass':
         {
             'material': 'architects_palette:nether_brass_ingot',
-            'handle': 'minecraft:bone'
+            'handle': 'minecraft:bone',
+            'construction_wand': 'constructionwand:diamond_wand'
         },
         'chitinsteel':
         {
             'material': 'architects_palette:sunmetal_brick',
-            'handle': 'minecraft:bone'
+            'handle': 'minecraft:bone',
+            'construction_wand': 'constructionwand:infinity_wand'
         }
     }
 
@@ -76,6 +83,15 @@ ServerEvents.recipes(event => {
             A: part['material'],
             B: part['handle']
         }).id(`${id_prefix}${material}_knife`)
+
+        event.shaped(part['construction_wand'], [
+            '  A',
+            ' B ',
+            'B  '
+        ], {
+            A: part['material'],
+            B: part['handle']
+        }).id(`${id_prefix}${material}_construction_wand`)
 
     }
     
