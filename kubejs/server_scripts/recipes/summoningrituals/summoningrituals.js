@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
         .itemOutput('4x minecraft:sugar_cane')
 
     event.recipes.summoningrituals.altar('minecraft:bone_meal')
-        .input('minecraft:beetroot', 'minecraft:sugar')
+        .input('minecraft:sugar')
         .itemOutput('4x minecraft:sweet_berries')
 
     event.recipes.summoningrituals.altar('minecraft:bone_meal')

@@ -78,7 +78,7 @@ ServerEvents.recipes(event => {
     		'BBB'
 		], {
 			S: 'chestcavity:iron_scrap',
-            B: 'architects_palette:nether_brass_ingot',
+            B: 'kubejs:mineral_brick',
             F: 'thermal:machine_frame',
             G: 'minecraft:golden_carrot'
 		}
@@ -89,7 +89,7 @@ ServerEvents.recipes(event => {
     		'BBB'
 		], {
 			S: 'kubejs:copper_scrap',
-            B: 'architects_palette:nether_brass_ingot',
+            B: 'kubejs:mineral_brick',
             F: 'thermal:machine_frame',
             G: 'minecraft:golden_carrot'
 		}
@@ -100,7 +100,7 @@ ServerEvents.recipes(event => {
     		'BFB'
 		], {
 			S: 'chestcavity:iron_scrap',
-            B: 'architects_palette:nether_brass_ingot',
+            B: 'kubejs:mineral_brick',
             F: 'thermal:item_filter_augment',
             G: 'minecraft:golden_carrot'
 		}
@@ -110,7 +110,7 @@ ServerEvents.recipes(event => {
     		'BFB',
     		'SGS'
 		], {
-			S: 'chestcavity:iron_scrap',
+			S: 'kubejs:mineral_brick',
             P: '#forge:plates/biobrass',
             G: '#forge:gears/chitinsteel',
             B: 'thermal:saw_blade',
@@ -123,7 +123,7 @@ ServerEvents.recipes(event => {
     		'BHB'
 		], {
 			S: 'chestcavity:iron_scrap',
-            B: 'architects_palette:nether_brass_ingot',
+            B: 'kubejs:mineral_brick',
             F: 'thermal:machine_frame',
 			H: 'kubejs:bone_hoe',
 			O: 'industrialforegoing:block_placer'
@@ -135,7 +135,7 @@ ServerEvents.recipes(event => {
     		'BHB'
 		], {
 			S: 'chestcavity:iron_scrap',
-            B: 'architects_palette:nether_brass_ingot',
+            B: 'kubejs:mineral_brick',
             F: 'thermal:machine_frame',
 			H: 'kubejs:bone_hoe',
 			O: 'biomancy:tongue'
