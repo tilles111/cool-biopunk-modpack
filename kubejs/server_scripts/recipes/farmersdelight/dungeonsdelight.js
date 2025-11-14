@@ -150,4 +150,25 @@ ServerEvents.recipes(event => {
             'biomancy:gelling_agent'
         ]
     )
+
+    monster_cooking_recipe(
+        'kubejs:bottle_of_blood',
+        [
+            'biomancy:flesh_bits',
+            'biomancy:flesh_bits'
+        ],
+        'minecraft:glass_bottle'
+    )
+
+    monster_cooking_recipe(
+        'biomancy:chrysalis',
+        [
+            'biomancy:impermeable_membrane',
+            'biomancy:impermeable_membrane',
+            'biomancy:flesh_bits',
+            'biomancy:flesh_bits',
+            'minecraft:phantom_membrane',
+            'minecraft:phantom_membrane'
+        ]
+    )
 })

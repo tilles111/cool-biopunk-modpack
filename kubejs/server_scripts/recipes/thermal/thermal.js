@@ -234,7 +234,7 @@ ServerEvents.recipes(event => {
 			S: 'architects_palette:sunmetal_brick',
 			G: '#forge:gears/biobrass',
 			B: 'minecraft:blaze_rod',
-			C: 'thermal:fluid_cell',
+			C: 'thermal:fluid_cell_frame',
 			F: 'thermal:machine_frame'
 		}
 	).id('kubejs:shaped/machine_crucible')
@@ -317,7 +317,7 @@ ServerEvents.recipes(event => {
 			S: 'kubejs:copper_scrap',
 			G: 'biomancy:gelling_agent',
 			B: 'architects_palette:nether_brass_ingot',
-			C: 'thermal:fluid_cell'
+			C: 'thermal:fluid_cell_frame'
 		}
 	).id('kubejs:shaped/device_water_gen')
 	event.shaped('thermal:device_rock_gen', [
