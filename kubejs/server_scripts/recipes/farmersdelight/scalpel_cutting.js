@@ -84,39 +84,39 @@ ServerEvents.recipes(event => {
     const scalpel_recipe_2 = (output_array, input) => {
         event.recipes.farmersdelight.cutting([
             input
-        ], '#kubejs:tools/scalpels', output_array).id(`${id_prefix}scalpel_${item_name(input)}`)
+        ], '#kubejs:tools/scalpels', output_array, 'minecraft:entity.sheep.shear').id(`${id_prefix}scalpel_${item_name(input)}`)
 
         event.recipes.thermal.sawmill(output_array, input).id(`kubejs:sawmill/${item_name(input)}`)
     }
 
     scalpel_recipe_2([
         Item.of('minecraft:rabbit_hide', 2).withChance(0.4),
-        Item.of('biomancy:tough_fibers', 2).withChance(0.6)
+        Item.of('biomancy:tough_fibers', 6).withChance(0.6)
     ], '#forge:leather')
     
     scalpel_recipe_2([
-        Item.of('biomancy:tough_fibers', 2).withChance(0.6)
+        Item.of('biomancy:tough_fibers', 6).withChance(0.6)
     ], 'minecraft:rabbit_hide')
 
     scalpel_recipe_2([
         Item.of('minecraft:bone').withChance(0.2),
         Item.of('farmersdelight:cod_slice', 2).withChance(0.6),
-        Item.of('biomancy:tough_fibers', 6).withChance(0.7)
+        Item.of('biomancy:tough_fibers', 2).withChance(0.7)
     ], 'architects_palette:cod_log')
 
     scalpel_recipe_2([
         Item.of('minecraft:bone').withChance(0.2),
         Item.of('farmersdelight:salmon_slice', 2).withChance(0.6),
-        Item.of('biomancy:tough_fibers', 6).withChance(0.7)
+        Item.of('biomancy:tough_fibers', 2).withChance(0.7)
     ], 'architects_palette:salmon_log')
 
     scalpel_recipe_2([
         Item.of('farmersdelight:cod_slice', 2).withChance(0.6),
-        Item.of('biomancy:tough_fibers', 8).withChance(0.7)
+        Item.of('biomancy:tough_fibers', 3).withChance(0.7)
     ], 'architects_palette:cod_scales')
     scalpel_recipe_2([
         Item.of('farmersdelight:salmon_slice', 2).withChance(0.6),
-        Item.of('biomancy:tough_fibers', 8).withChance(0.7)
+        Item.of('biomancy:tough_fibers', 3).withChance(0.7)
     ], 'architects_palette:salmon_scales')
 
     

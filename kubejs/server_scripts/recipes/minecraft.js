@@ -95,8 +95,8 @@ ServerEvents.recipes(event => {
 		'CDC',
 		'C C'
 	], {
-		A: 'biomancy:flesh',
-		B: 'biomancy:sinew',
+		A: 'biomancy:mob_sinew',
+		B: 'biomancy:flesh',
 		C: 'minecraft:phantom_membrane',
 		D: 'biomancy:impermeable_membrane'
 	}).id('kubejs:shaped/elytra')

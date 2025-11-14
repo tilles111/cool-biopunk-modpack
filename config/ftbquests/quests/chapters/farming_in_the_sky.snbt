@@ -30,7 +30,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3F17762B83A76F51"]
+			dependencies: ["06AD7E0265CB4613"]
 			description: ["I'm going to need some &aFarming Tools&r to make my way in this world - A &aHoe&r should be a good start."]
 			icon: {
 				Count: 1
@@ -71,16 +71,26 @@
 				type: "item"
 			}]
 			title: "Tools of the Trade"
-			x: -0.5d
+			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["3F17762B83A76F51"]
+			description: ["As always, &aWood&r is a farmer's best friend."]
+			icon: "minecraft:composter"
 			id: "06AD7E0265CB4613"
 			tasks: [
 				{
+					icon: "minecraft:crafting_table"
 					id: "225D00DD1E04CD6D"
-					item: "farmersdelight:cutting_board"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(minecraft:crafting_table)item(crafting_on_a_stick:crafting_table))"
+						}
+					}
+					title: "Any Crafting Table"
 					type: "item"
 				}
 				{
@@ -88,14 +98,24 @@
 					item: "minecraft:composter"
 					type: "item"
 				}
+				{
+					id: "27F6183C752E563D"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
 			]
 			title: "Wooden Wonders"
 			x: 1.5d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["28B9B9DC521D1EB1"]
-			description: ["Using a &aKnife&r on tall grass should get me some straw and seeds."]
+			description: [
+				"Using a &aKnife&r on tall grass should get me some straw and seeds."
+				""
+				"Straw can be used for leads."
+			]
+			icon: "farmersdelight:straw"
 			id: "57779BF36F13ECEE"
 			rewards: [{
 				id: "6B5ABC1F3D6D8B9F"
@@ -125,8 +145,8 @@
 				}
 			]
 			title: "Seeds and Straw"
-			x: -1.0d
-			y: 3.0d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3F17762B83A76F51"]
@@ -142,8 +162,8 @@
 				to_observe: "summoningrituals:altar"
 				type: "observation"
 			}]
-			x: -1.5d
-			y: -0.5d
+			x: -0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1ED599712FEBA7C0"]
@@ -161,19 +181,8 @@
 				title: "Any Non-Oak Sapling"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["1ED599712FEBA7C0"]
-			id: "67D83B78FE50D6FF"
-			tasks: [{
-				id: "254903DCCA03DA7B"
-				item: "farmersdelight:cabbage_seeds"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 1.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			id: "45BE55CB96FB315A"
@@ -186,8 +195,8 @@
 				type: "observation"
 			}]
 			title: "A Friend"
-			x: 6.0d
-			y: -1.0d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["06AD7E0265CB4613"]
@@ -225,8 +234,8 @@
 				}
 			]
 			title: "Gathering Flint"
-			x: 2.0d
-			y: -1.0d
+			x: 1.0d
+			y: -1.5d
 		}
 		{
 			id: "2CAEC9F4700F0183"
@@ -235,7 +244,7 @@
 				item: "minecraft:golden_apple"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.5d
 			y: -2.0d
 		}
 		{
@@ -251,8 +260,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.0d
+			x: 8.0d
+			y: -1.0d
 		}
 		{
 			icon: "quark:yellow_blossom_leaves"
@@ -275,11 +284,10 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: -2.5d
+			x: 7.0d
+			y: -3.5d
 		}
 		{
-			dependencies: ["3F17762B83A76F51"]
 			description: ["The stone here "]
 			id: "279561BC7BB96DFB"
 			rewards: [{
@@ -287,32 +295,14 @@
 				item: "minecraft:campfire"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "4A688F963A0E543B"
-					item: "farmersdelight:cooking_pot"
-					type: "item"
-				}
-				{
-					id: "6C6DBEDD8CA1C632"
-					item: "bonezone:bonecarver"
-					type: "item"
-				}
-			]
-			title: "Stone Stations"
-			x: 0.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["279561BC7BB96DFB"]
-			id: "33CBFCBE7500553B"
 			tasks: [{
-				id: "2517B136617CCFB2"
-				item: "thermal:phytogro"
+				id: "4A688F963A0E543B"
+				item: "farmersdelight:cooking_pot"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.0d
+			title: "Cooking"
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["06AD7E0265CB4613"]
@@ -322,42 +312,38 @@
 				item: "minecraft:bone_meal"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: 2.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["2F57755A36695B88"]
-			id: "20AFFAC547AA72BB"
-			tasks: [{
-				id: "797A4B97F7B3B102"
-				item: "minecraft:leather"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["1ED599712FEBA7C0"]
+			dependencies: ["3F17762B83A76F51"]
+			description: ["There's a little &aCave&r under the ruins - I can use that for renewable &aStone&r."]
 			id: "2F57755A36695B88"
 			tasks: [{
 				id: "16C4971A1EBED648"
 				item: "minecraft:brown_mushroom"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.0d
+			x: -1.5d
+			y: -0.5d
 		}
 		{
+			dependencies: [
+				"2D74D727AF42A9A1"
+				"5386C4708219F65F"
+			]
+			description: ["It seems that the altar has an affinity for these &aBone Fragments&r."]
 			id: "281AB3122C15393C"
 			tasks: [{
 				id: "216ADCDABEF5F5DF"
 				item: "biomancy:bone_fragments"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.5d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
+			dependencies: ["5386C4708219F65F"]
 			id: "1A0446F72C5A782E"
 			tasks: [{
 				id: "353F0CD4B641C54D"
@@ -371,6 +357,40 @@
 				type: "item"
 			}]
 			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2F57755A36695B88"
+				"281AB3122C15393C"
+			]
+			icon: "bonezone:bonecarver"
+			id: "081E92EDA2ABA1B8"
+			tasks: [
+				{
+					id: "098EA4FD7C5B9D14"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					id: "6072E2582B896445"
+					item: "bonezone:bonecarver"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5386C4708219F65F"]
+			description: ["This fertilizer is much better than bone meal. I can make a lot of it in the cooking pot."]
+			id: "50E8483B05020CA8"
+			tasks: [{
+				id: "1FB7189E1D31B633"
+				item: "thermal:phytogro"
+				type: "item"
+			}]
+			x: 3.5d
 			y: -1.0d
 		}
 	]

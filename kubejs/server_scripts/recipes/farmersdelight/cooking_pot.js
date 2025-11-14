@@ -44,7 +44,9 @@ ServerEvents.recipes(event => {
 	).id(`${id_prefix}golden_carrot`)
 
     event.recipes.farmersdelight.cooking(
-	    ['minecraft:rotten_flesh'],
+	    [
+            'dungeonsdelight:rotten_tripe'
+        ],
 	    'kubejs:bottle_of_blood',
 	    1,
 	    100,
