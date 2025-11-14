@@ -244,6 +244,16 @@
 			x: 4.0d
 			y: 0.0d
 		}
+		{
+			id: "244DA7522E043EC5"
+			tasks: [{
+				id: "7C2D4C18086EDD3F"
+				item: "thermal:fluid_cell_frame"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
 	]
 	title: "&eSuspicious Summoning&r ✔"
 }

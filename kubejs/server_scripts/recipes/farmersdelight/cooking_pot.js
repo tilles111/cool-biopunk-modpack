@@ -179,4 +179,15 @@ ServerEvents.recipes(event => {
 	    0,
 	    600
 	).id(`kubejs:cooking_pot/chitinsteel_grit`)
+
+    event.recipes.farmersdelight.cooking(
+        [
+            'biomancy:impermeable_membrane_pane',
+            'biomancy:tough_fibers',
+            'biomancy:elastic_fibers'
+        ],
+        'minecraft:phantom_membrane',
+        0,
+        200
+    ).id(`${id_prefix}phantom_membrane`)
 })

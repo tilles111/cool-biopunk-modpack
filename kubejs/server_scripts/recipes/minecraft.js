@@ -89,5 +89,15 @@ ServerEvents.recipes(event => {
 			I: 'architects_palette:sunmetal_brick'
 		}
 	).id('kubejs:shaped/bucket')
-	
+
+	event.shaped('minecraft:elytra', [
+		'ABA',
+		'CDC',
+		'C C'
+	], {
+		A: 'biomancy:flesh',
+		B: 'biomancy:sinew',
+		C: 'minecraft:phantom_membrane',
+		D: 'biomancy:impermeable_membrane'
+	}).id('kubejs:shaped/elytra')
 })

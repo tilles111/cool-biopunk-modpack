@@ -178,9 +178,12 @@
 		{
 			id: "45BE55CB96FB315A"
 			tasks: [{
-				id: "06AAC0BF41C04DEE"
-				item: "minecraft:villager_spawn_egg"
-				type: "item"
+				icon: "minecraft:villager_spawn_egg"
+				id: "774BC1A848949CE5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:villager"
+				type: "observation"
 			}]
 			title: "A Friend"
 			x: 6.0d
@@ -353,6 +356,22 @@
 			}]
 			x: 2.5d
 			y: -2.5d
+		}
+		{
+			id: "1A0446F72C5A782E"
+			tasks: [{
+				id: "353F0CD4B641C54D"
+				item: {
+					Count: 1
+					id: "kubejs:bone_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
 		}
 	]
 	title: "&aPie in the Sky&r ✔"
