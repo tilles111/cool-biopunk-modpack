@@ -1883,6 +1883,42 @@
             ]
         },
         {
+            "pakku_id": "KEKK7rOcb1TQWFYd",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "mcjtylib"
+            },
+            "name": {
+                "curseforge": "McJtyLib"
+            },
+            "id": {
+                "curseforge": "233105"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "mcjtylib-1.20-8.0.7.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6586/28/mcjtylib-1.20-8.0.7.jar",
+                    "id": "6586028",
+                    "parent_id": "233105",
+                    "hashes": {
+                        "sha1": "3e50e0dafdbb0b1197dc7a958b86ca033abaca7d",
+                        "md5": "82737486fb2a3f5c693c9d2ee40e0828"
+                    },
+                    "required_dependencies": [],
+                    "size": 714330,
+                    "date_published": "2025-05-28T03:54:11.280Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "kxLubx3wJsgbwwII",
             "type": "MOD",
             "slug": {
@@ -2215,6 +2251,83 @@
                     ],
                     "size": 14935230,
                     "date_published": "2025-04-16T02:35:10.557Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "dPYyYgJrMM8Ncajh",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "rftools-base"
+            },
+            "name": {
+                "curseforge": "RFTools Base"
+            },
+            "id": {
+                "curseforge": "326041"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "rftoolsbase-1.20-5.0.6.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6195/123/rftoolsbase-1.20-5.0.6.jar",
+                    "id": "6195123",
+                    "parent_id": "326041",
+                    "hashes": {
+                        "sha1": "255c0ab024a5e94deffece648b8aa1237f88c05b",
+                        "md5": "1d33a2a24c03ce853fba6371dcdea6bf"
+                    },
+                    "required_dependencies": [
+                        "233105"
+                    ],
+                    "size": 419413,
+                    "date_published": "2025-02-15T07:07:07.620Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "loTAF1DBxJAnAs6y",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "rftools-storage"
+            },
+            "name": {
+                "curseforge": "RFTools Storage"
+            },
+            "id": {
+                "curseforge": "350006"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "rftoolsstorage-1.20-5.0.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5283/903/rftoolsstorage-1.20-5.0.3.jar",
+                    "id": "5283903",
+                    "parent_id": "350006",
+                    "hashes": {
+                        "sha1": "d0d93b857720a4f5165ae0c6c9c37b6cbad4a631",
+                        "md5": "64679963482e52aa5eae95040b8caf0a"
+                    },
+                    "required_dependencies": [
+                        "326041",
+                        "233105"
+                    ],
+                    "size": 372408,
+                    "date_published": "2024-04-23T04:58:41.100Z"
                 }
             ]
         },

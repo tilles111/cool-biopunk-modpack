@@ -219,6 +219,10 @@ quark:lavender_blossom
 quark:orange_blossom
 quark:red_blossom
 quark:yellow_blossom
+rftoolsbase:dimshard_dimensions
+rftoolsbase:dimshard_end
+rftoolsbase:dimshard_nether
+rftoolsbase:dimshard_overworld
 supplementaries:basalt_ash
 supplementaries:cave_urns
 supplementaries:road_sign
