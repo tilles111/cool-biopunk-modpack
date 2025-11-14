@@ -3,6 +3,7 @@
 	default_quest_shape: "rsquare"
 	filename: "cchap_4r"
 	group: "5413685696DD0E6E"
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
 		id: "chestcavity:heart"
@@ -13,235 +14,15 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["6D0583B440D9117D"]
-			id: "0DC568540DFF871C"
-			tasks: [{
-				id: "253B5DB8F96CB962"
-				item: "architects_palette:entrails"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["6D0583B440D9117D"]
-			id: "3ED023EC31DB29F3"
-			tasks: [{
-				id: "3B573F7FB050A915"
-				item: {
-					Count: 1
-					id: "biomancy:injector"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 0.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["6D0583B440D9117D"]
-			id: "4966C57BB596AE10"
-			tasks: [{
-				id: "527AD977E67E2472"
-				item: "biomancy:primordial_cradle"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6D0583B440D9117D"]
-			id: "2AC6FEE081CD0007"
-			tasks: [{
-				id: "293596306CA3A30B"
-				item: {
-					Count: 1
-					id: "chestcavity:heart"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6D0583B440D9117D"]
-			id: "70F79C4723CE4DBB"
-			tasks: [{
-				id: "1397CE092B590054"
-				item: {
-					Count: 1
-					id: "chestcavity:kidney"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6D0583B440D9117D"]
-			id: "736970AE64E8D86D"
-			tasks: [{
-				id: "66752AF00BDB0F29"
-				item: {
-					Count: 1
-					id: "chestcavity:muscle"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["6D0583B440D9117D"]
-			id: "7D309010BB465111"
-			tasks: [{
-				id: "189A50A4B7FB437E"
-				item: {
-					Count: 1
-					id: "chestcavity:intestine"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6D0583B440D9117D"]
-			id: "6D2A84F4CFE56C4A"
-			tasks: [{
-				id: "20E904C8F89999E9"
-				item: {
-					Count: 1
-					id: "chestcavity:liver"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 3.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["6D0583B440D9117D"]
-			id: "3159E13BA9029D14"
-			tasks: [{
-				id: "09FBCBBDF86E8762"
-				item: {
-					Count: 1
-					id: "chestcavity:stomach"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 4.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["6D0583B440D9117D"]
-			id: "293508BDDEC6B4CA"
-			tasks: [{
-				id: "50ABC8C87C20A4E4"
-				item: {
-					Count: 1
-					id: "chestcavity:spleen"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6D0583B440D9117D"]
-			id: "501C9DCB95CBA0A7"
-			tasks: [{
-				id: "68CCF8DBCE52DD3E"
-				item: "biomancy:decomposer"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["6D0583B440D9117D"]
-			id: "5A830F0BD801DF68"
-			tasks: [{
-				id: "2B10C7E0602052BE"
-				item: "biomancy:bio_forge"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["7E86961C2A8DEE1F"]
-			hide_until_deps_complete: true
-			id: "40CACC20B5EC746A"
-			tasks: [{
-				id: "64C9D5347BE2FE4D"
-				title: "start"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["6D0583B440D9117D"]
-			id: "67CDFEE321B0604D"
-			tasks: [{
-				id: "7FE137AA7ED5BFA8"
-				item: "biomancy:bio_lab"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["40CACC20B5EC746A"]
-			id: "6D0583B440D9117D"
-			tasks: [{
-				id: "70CA7D77DB98A2F0"
-				title: "test"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: -4.0d
-		}
-		{
-			id: "4F0F17AFC90181BD"
-			tasks: [{
-				id: "33E3F523420AC5C5"
-				item: "thermal:machine_smelter"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			id: "647A9AB008A245E8"
-			tasks: [{
-				id: "101805AF21ED01B6"
-				item: "chestcavity:chest_opener"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["0B8DD68A38F53340"]
+			dependencies: ["30627FA572672459"]
 			id: "12E38F44086A9088"
 			tasks: [{
 				id: "78BB92C64DFC2F13"
 				item: "biomancy:decomposer"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.0d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["12E38F44086A9088"]
@@ -251,8 +32,8 @@
 				item: "kubejs:mineral_brick"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.0d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["76361BD91F02EFFC"]
@@ -263,7 +44,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["535FC82039A4CC84"]
@@ -273,8 +54,8 @@
 				item: "industrialforegoing:mob_slaughter_factory"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: 4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["73E342F464FD7DBE"]
@@ -285,21 +66,19 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
-			dependencies: [
-				"647A9AB008A245E8"
-				"4F0F17AFC90181BD"
-			]
+			dependencies: ["7F27DD7AA10890E4"]
+			hide_until_deps_complete: true
 			id: "0B8DD68A38F53340"
 			tasks: [{
 				id: "5CA1B961EE137885"
 				item: "architects_palette:entrails"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.0d
+			x: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["39357EF309E4E3E5"]
@@ -309,8 +88,8 @@
 				item: "biomancy:bio_lab"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["535FC82039A4CC84"]
@@ -320,8 +99,8 @@
 				item: "kubejs:living_tool_smithing_template"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.0d
+			x: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["395DF4D2BAE75F35"]
@@ -333,6 +112,50 @@
 			}]
 			x: 4.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["0B8DD68A38F53340"]
+			id: "30627FA572672459"
+			tasks: [{
+				id: "5EDCE9BE9A8A0E6B"
+				item: "kubejs:biological_core"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["30627FA572672459"]
+			id: "55B373908613EC6F"
+			tasks: [{
+				id: "662F081C49FF471A"
+				item: "biomancy:digester"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["76361BD91F02EFFC"]
+			id: "3264601C5F859AFA"
+			tasks: [{
+				id: "5575EBCB4873AD50"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["76361BD91F02EFFC"]
+			id: "3655163D793E1BC3"
+			tasks: [{
+				id: "643CE39B218B9F98"
+				item: "industrialforegoing:animal_feeder"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
 		}
 	]
 	title: "&cThrum of the Beating Heart&r ✔"

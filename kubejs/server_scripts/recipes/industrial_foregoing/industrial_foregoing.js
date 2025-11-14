@@ -123,7 +123,7 @@ ServerEvents.recipes(event => {
     		'BHB'
 		], {
 			S: 'chestcavity:iron_scrap',
-            B: 'kubejs:mineral_brick',
+            B: 'architects_palette:sunmetal_brick',
             F: 'thermal:machine_frame',
 			H: 'kubejs:bone_hoe',
 			O: 'industrialforegoing:block_placer'
@@ -135,7 +135,7 @@ ServerEvents.recipes(event => {
     		'BHB'
 		], {
 			S: 'chestcavity:iron_scrap',
-            B: 'kubejs:mineral_brick',
+            B: 'architects_palette:sunmetal_brick',
             F: 'thermal:machine_frame',
 			H: 'kubejs:bone_hoe',
 			O: 'biomancy:tongue'

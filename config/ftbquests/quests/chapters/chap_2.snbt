@@ -3,6 +3,7 @@
 	default_quest_shape: "hexagon"
 	filename: "chap_2"
 	group: "5413685696DD0E6E"
+	hide_quest_until_deps_visible: true
 	icon: "summoningrituals:altar"
 	id: "2F0ADD23B9968861"
 	order_index: 1
@@ -36,6 +37,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["5245507A23BAE310"]
 			id: "71DF55E30D0EB3D4"
 			tasks: [{
 				id: "03D399A39BF60CAA"
@@ -252,6 +254,16 @@
 				type: "item"
 			}]
 			x: 5.5d
+			y: -3.0d
+		}
+		{
+			id: "3FEC0DD6A6F2EC07"
+			tasks: [{
+				id: "02B0F9FA8846FAC2"
+				item: "industrialforegoing:block_breaker"
+				type: "item"
+			}]
+			x: 4.5d
 			y: -3.0d
 		}
 	]
