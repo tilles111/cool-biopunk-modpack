@@ -20,8 +20,12 @@ ServerEvents.recipes(event => {
     })
     const dragon_organs = ['heart', 'lung', 'liver', 'kidney', 'spleen', 'appendix', 'rib', 'spine']
     dragon_organs.forEach(organ => {
-        event.recipes.industrialforegoing.dissolution_chamber([`chestcavity:${organ}`, 'chestcavity:raw_dragon_organ_meat'], Fluid.of('thermal:ender', 250), `chestcavity:dragon_${organ}`, 1800)
-        event.recipes.industrialforegoing.dissolution_chamber([`chestcavity:${organ}`, 'biomancy:malignant_flesh', 'biomancy:malignant_flesh', 'biomancy:malignant_flesh', 'biomancy:malignant_flesh'], Fluid.of('thermal:ender', 1000), `chestcavity:dragon_${organ}`, 1800)
+        event.recipes.industrialforegoing.dissolution_chamber([`chestcavity:${organ}`, 'chestcavity:raw_dragon_organ_meat'], Fluid.of('kubejs:primordial_blood', 250), `chestcavity:dragon_${organ}`, 1800)
+        event.recipes.industrialforegoing.dissolution_chamber([`chestcavity:${organ}`, 'chestcavity:dragon_muscle'], Fluid.of('kubejs:primordial_blood', 250), `chestcavity:dragon_${organ}`, 1800)
+        event.recipes.industrialforegoing.dissolution_chamber([`chestcavity:${organ}`, 'biomancy:malignant_flesh', 'biomancy:malignant_flesh', 'biomancy:malignant_flesh', 'biomancy:malignant_flesh'], Fluid.of('kubejs:primordial_blood', 1000), `chestcavity:dragon_${organ}`, 1800)
     })
-    event.recipes.industrialforegoing.dissolution_chamber(['chestcavity:muscle', 'biomancy:malignant_flesh'], Fluid.of('thermal:ender', 125), 'chestcavity:dragon_muscle', 1800)
+    event.recipes.industrialforegoing.dissolution_chamber(['chestcavity:muscle', 'biomancy:malignant_flesh'], Fluid.of('kubejs:primordial_blood', 125), 'chestcavity:dragon_muscle', 1800)
+    event.recipes.industrialforegoing.dissolution_chamber(['chestcavity:stomach', 'chestcavity:intestine', 'chestcavity:intestine', 'chestcavity:intestine', 'chestcavity:intestine', 'biomancy:malignant_flesh', 'biomancy:malignant_flesh', 'biomancy:malignant_flesh'], Fluid.of('kubejs:primordial_blood', 1000), 'chestcavity:mana_reactor', 1800)
+    event.recipes.industrialforegoing.dissolution_chamber(['chestcavity:stomach', 'chestcavity:intestine', 'chestcavity:intestine', 'chestcavity:intestine', 'chestcavity:raw_dragon_organ_meat'], Fluid.of('kubejs:primordial_blood', 1000), 'chestcavity:mana_reactor', 1800)
+    event.recipes.industrialforegoing.dissolution_chamber(['chestcavity:stomach', 'chestcavity:intestine', 'chestcavity:intestine', 'chestcavity:intestine', 'chestcavity:dragon_muscle'], Fluid.of('kubejs:primordial_blood', 1000), 'chestcavity:mana_reactor', 1800)
 })

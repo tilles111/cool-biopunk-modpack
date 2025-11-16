@@ -30,6 +30,11 @@ StartupEvents.registry('fluid', event => {
     .thinTexture(0x790026)
     .bucketColor(0x790026)
     .displayName('Blood')
+
+  event.create('primordial_blood')
+    .thinTexture(0xcc00ff)
+    .bucketColor(0xcc00ff)
+    .displayName('Primordial Blood')
     
   event.create('organ_slurry')
     .thickTexture(0xb33e44)
@@ -50,4 +55,9 @@ StartupEvents.registry('fluid', event => {
     .thickTexture(0x394a01)
     .bucketColor(0x394a01)
     .displayName('Toxic Meat Slurry')
+    
+  event.create('malignant_organ_slurry')
+    .thickTexture(0x2e0c20)
+    .bucketColor(0x2e0c20)
+    .displayName('Malignant Organ Slurry')
 })

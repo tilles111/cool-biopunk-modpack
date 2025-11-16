@@ -17,9 +17,12 @@ ServerEvents.recipes(event => {
     event.recipes.thermal.crucible(Fluid.of('kubejs:alien_organ_slurry', 100),'#chestcavity:salvageable_alien_meat')
     event.recipes.thermal.crucible(Fluid.of('kubejs:rotten_organ_slurry', 250),'#dungeonsdelight:fleshes')
     event.recipes.thermal.crucible(Fluid.of('kubejs:toxic_meat_slurry', 250),'dungeonsdelight:spider_meat')
+    event.recipes.thermal.crucible(Fluid.of('kubejs:malignant_organ_slurry', 500),'#chestcavity:salvageable_dragon_organ_meat')
+    event.recipes.thermal.crucible(Fluid.of('kubejs:malignant_organ_slurry', 250),'#chestcavity:salvageable_dragon_meat')
     
     event.recipes.thermal.refinery([Fluid.of('industrialforegoing:meat', 125), Fluid.of('kubejs:blood', 125), Item.of('chestcavity:raw_organ_meat').withChance(0.25)],Fluid.of('kubejs:organ_slurry', 250))
     event.recipes.thermal.refinery([Fluid.of('industrialforegoing:meat', 125), Fluid.of('thermal:ender', 125), Item.of('chestcavity:raw_alien_organ_meat').withChance(0.25)],Fluid.of('kubejs:alien_organ_slurry', 250))
     event.recipes.thermal.refinery([Fluid.of('industrialforegoing:meat', 175), Fluid.of('kubejs:blood', 75), Item.of('dungeonsdelight:rotten_tripe').withChance(0.25)],Fluid.of('kubejs:rotten_organ_slurry', 250))
     event.recipes.thermal.refinery([Fluid.of('industrialforegoing:meat', 100), Fluid.of('kubejs:blood', 150), Item.of('chestcavity:raw_toxic_organ_meat').withChance(0.25)],Fluid.of('kubejs:toxic_meat_slurry', 250))
+    event.recipes.thermal.refinery([Fluid.of('industrialforegoing:meat', 100), Fluid.of('kubejs:primordial_blood', 150), Item.of('chestcavity:raw_dragon_organ_meat').withChance(0.25)],Fluid.of('kubejs:malignant_organ_slurry', 250))
 })
