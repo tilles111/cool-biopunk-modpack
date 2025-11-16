@@ -9,14 +9,14 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["730FF4D11458CDBD"]
+			dependencies: ["2F533D9A0C486C19"]
 			id: "2F2743EF88BC6DA1"
 			tasks: [{
 				id: "2469EF7FDD402E8E"
 				item: "biomancy:primordial_core"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 7.0d
 			y: 1.0d
 		}
 		{
@@ -62,6 +62,220 @@
 			]
 			x: 1.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["730FF4D11458CDBD"]
+			id: "68CF3929C04632B1"
+			tasks: [{
+				id: "3BA8C64EEE08D785"
+				item: "biomancy:toxin_gland"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "4328D4E25B4D7B6C"
+			tasks: [{
+				id: "18F9294504B2852A"
+				item: {
+					Count: 1
+					id: "biomancy:injector"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["68CF3929C04632B1"]
+			id: "236BB9B426C18722"
+			tasks: [{
+				id: "0C681C531BC12DA4"
+				title: "custom organ"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "28D74E1362BC385A"
+			tasks: [{
+				id: "504DA404A3ECAD50"
+				item: {
+					Count: 1
+					id: "biomancy:ravenous_claws"
+					tag: {
+						LivingToolState: 1b
+						"biomancy:nutrients": 250
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			id: "20583058FA705573"
+			tasks: [{
+				id: "107399DBB167FC1B"
+				item: {
+					Count: 1
+					id: "biomancy:caustic_gunblade"
+					tag: {
+						"biomancy:nutrients": 200
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			id: "552DF0CED0B687E7"
+			tasks: [{
+				id: "7B96F9453E141EA8"
+				item: {
+					Count: 1
+					id: "biomancy:impaler"
+					tag: {
+						"biomancy:nutrients": 200
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			id: "6511E32BC8703A78"
+			tasks: [{
+				id: "3AB1C746A58CC0BB"
+				item: {
+					Count: 1
+					id: "biomancy:thorn_shield"
+					tag: {
+						"biomancy:nutrients": 250
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1747F50B9C6777C5"]
+			id: "45EA303484EFC27D"
+			subtitle: "organs as ingredients and/or used for custom organs"
+			tasks: [{
+				id: "16369896A09CE98E"
+				title: "remove bio recipes for these and change them"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2D22EC92C0F0DCFD"]
+			id: "20D9231CB4278B0B"
+			tasks: [
+				{
+					icon: "biomancy:primal_bloom"
+					id: "463CDDE81AA0698B"
+					observe_type: 0
+					timer: 0L
+					to_observe: "biomancy:primal_bloom"
+					type: "observation"
+				}
+				{
+					id: "35815D6DA3281C37"
+					item: "biomancy:bloomberry"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20D9231CB4278B0B"]
+			id: "245FC1018C92FED2"
+			tasks: [{
+				id: "2843574627E08724"
+				item: {
+					Count: 1
+					id: "chestcavity:dragon_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20D9231CB4278B0B"]
+			id: "2E5D6082D42D265C"
+			tasks: [{
+				id: "4564839F911E5E46"
+				item: {
+					Count: 1
+					id: "chestcavity:dragon_muscle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"20D9231CB4278B0B"
+				"50D7A52C6D95F64A"
+				"68CF3929C04632B1"
+			]
+			id: "1747F50B9C6777C5"
+			tasks: [{
+				id: "2BB61EF0C7540709"
+				title: "malignant -> dragon organs -> custom stuff"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["45EA303484EFC27D"]
+			description: [
+				"dragon organs?"
+				"combination of biomancy weapons and such?"
+				"malignant stuff?"
+				"mana reactor??"
+			]
+			id: "2F533D9A0C486C19"
+			subtitle: "maybe final recipe is a bunch of uh"
+			tasks: [{
+				id: "69CC87C8B7735104"
+				title: "not sure"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["20D9231CB4278B0B"]
+			id: "736D87F8D3D9D591"
+			tasks: [{
+				id: "250DFE688E4E726C"
+				item: {
+					Count: 1
+					id: "chestcavity:mana_reactor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
 		}
 	]
 	title: "&4Feast&r ✔"

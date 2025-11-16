@@ -284,6 +284,20 @@
 			x: 8.0d
 			y: -1.5d
 		}
+		{
+			id: "4323243069BA135B"
+			tasks: [{
+				id: "17C8706A3C0D737E"
+				item: {
+					Count: 1
+					id: "thermal:wrench"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
 	]
 	title: "&6No Regrets&r ✔"
 }
