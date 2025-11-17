@@ -18,6 +18,11 @@ ServerEvents.recipes(event => {
         event.recipes.industrialforegoing.dissolution_chamber([`chestcavity:rotten_${organ}`, 'chestcavity:raw_toxic_organ_meat', 'chestcavity:raw_toxic_organ_meat'], Fluid.of('industrialforegoing:meat', 500), `chestcavity:insect_${organ}`, 400)
         event.recipes.industrialforegoing.dissolution_chamber([`chestcavity:rotten_${organ}`, 'chestcavity:insect_muscle', 'chestcavity:insect_muscle'], Fluid.of('industrialforegoing:meat', 500), `chestcavity:insect_${organ}`, 400)
     })
+    const ender_bones = ['rib', 'spine']
+    ender_bones.forEach(organ => {
+        event.recipes.industrialforegoing.dissolution_chamber([`chestcavity:${organ}`, 'chestcavity:raw_alien_organ_meat'], Fluid.of('thermal:ender', 250), `chestcavity:ender_${organ}`, 1200)
+        event.recipes.industrialforegoing.dissolution_chamber([`chestcavity:${organ}`, 'chestcavity:ender_muscle'], Fluid.of('thermal:ender', 250), `chestcavity:ender_${organ}`, 1200)
+    })
     const dragon_organs = ['heart', 'lung', 'liver', 'kidney', 'spleen', 'appendix', 'rib', 'spine']
     dragon_organs.forEach(organ => {
         event.recipes.industrialforegoing.dissolution_chamber([`chestcavity:${organ}`, 'chestcavity:raw_dragon_organ_meat'], Fluid.of('kubejs:primordial_blood', 250), `chestcavity:dragon_${organ}`, 1800)

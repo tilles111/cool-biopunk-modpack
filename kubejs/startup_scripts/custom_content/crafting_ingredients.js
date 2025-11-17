@@ -20,9 +20,6 @@ StartupEvents.registry('item', event => {
         .tag('forge:plates/chitinsteel')
     event.create('chitinsteel_gear')
         .tag('forge:gears/chitinsteel')
-
-    event.create('player_heart')
-        .maxStackSize(1)
 })
 
 StartupEvents.registry('fluid', event => {
@@ -57,7 +54,7 @@ StartupEvents.registry('fluid', event => {
     .displayName('Toxic Meat Slurry')
     
   event.create('malignant_organ_slurry')
-    .thickTexture(0x2e0c20)
-    .bucketColor(0x2e0c20)
+    .thickTexture(0x5b0035)
+    .bucketColor(0x5b0035)
     .displayName('Malignant Organ Slurry')
 })

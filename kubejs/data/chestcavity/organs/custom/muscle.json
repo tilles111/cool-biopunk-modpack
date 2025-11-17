@@ -1,0 +1,7 @@
+{
+  "itemID": "kubejs:dense_muscle",
+  "organScores": [
+    {"id":"chestcavity:strength","value": "2"},
+    {"id":"chestcavity:speed","value": "3"}
+  ]
+}

@@ -264,7 +264,9 @@
 		}
 		{
 			dependencies: ["20D9231CB4278B0B"]
+			description: [""]
 			id: "736D87F8D3D9D591"
+			subtitle: "Give better recipe"
 			tasks: [{
 				id: "250DFE688E4E726C"
 				item: {

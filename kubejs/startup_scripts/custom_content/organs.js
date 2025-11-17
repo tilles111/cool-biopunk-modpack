@@ -1,0 +1,17 @@
+StartupEvents.registry('item', event => {
+    event.create('emerald_appendix')
+        .maxStackSize(1)
+    event.create('aquatic_lung')
+        .maxStackSize(1)
+    event.create('dense_muscle')
+        .maxStackSize(32)
+    event.create('chitinsteel_rib')
+        .maxStackSize(4)
+    event.create('chitinsteel_spine')
+        .maxStackSize(1)
+    event.create('fleshkin_stomach')
+        .maxStackSize(1)
+
+    event.create('player_heart')
+        .maxStackSize(1)
+})

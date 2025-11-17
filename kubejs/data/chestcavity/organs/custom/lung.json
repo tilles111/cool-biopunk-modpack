@@ -1,0 +1,9 @@
+{
+  "itemID": "kubejs:aquatic_lung",
+  "organScores": [
+    {"id":"chestcavity:breath_recovery","value": "4"},
+    {"id":"chestcavity:breath_capacity","value": "2"},
+    {"id":"chestcavity:endurance","value": "1"},
+    {"id":"chestcavity:water_breath","value": "4"}
+  ]
+}
