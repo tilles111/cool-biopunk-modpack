@@ -1,13 +1,4 @@
 ServerEvents.recipes(event => {
-	event.remove({ id: 'biomancy:crafting/primordial_cradle' })
-	event.remove({ id: 'biomancy:crafting/decomposer' })
-	event.remove({ id: 'biomancy:crafting/digester' })
-	event.remove({ id: 'biomancy:crafting/bio_forge' })
-	event.remove({ id: 'biomancy:bio_forging/decomposer' })
-	event.remove({ id: 'biomancy:bio_forging/digester' })
-	event.remove({ id: 'biomancy:bio_forging/bio_forge' })
-	event.remove({ id: 'biomancy:bio_forging/bio_lab' })
-
     event.recipes.summoningrituals.altar('biomancy:fleshkin_chest')
         .input('2x kubejs:bottle_of_blood', '4x biomancy:flesh_spike', '6x biomancy:flesh')
         .sacrifice('villager')
@@ -21,9 +12,6 @@ ServerEvents.recipes(event => {
     event.recipes.biomancy.decomposing('chestcavity:iron_scrap', ['8x biomancy:mineral_fragment'])
     event.recipes.biomancy.decomposing('kubejs:copper_scrap', ['8x biomancy:mineral_fragment'])
     event.recipes.biomancy.decomposing('biomancy:acid_bucket', ['4x biomancy:acid_extract', 'minecraft:bucket'])
-
-    event.recipes.biomancy.bio_forging(['4x industrialforegoing:pink_slime_ingot', '2x architects_palette:entrails', 'kubejs:biological_core', 'chestcavity:ender_liver', 'biomancy:creator_mix'], 'biomancy:bio_lab', 'biomancy:machines', 150)
-    event.recipes.biomancy.bio_forging(['4x #forge:plates/chitinsteel', '2x architects_palette:entrails', '4x kubejs:mineral_brick', 'chestcavity:heart', 'biomancy:living_flesh'], 'kubejs:living_tool_smithing_template', 'biomancy:tools', 75)
 
     event.recipes.industrialforegoing.dissolution_chamber([
             'biomancy:impermeable_membrane',

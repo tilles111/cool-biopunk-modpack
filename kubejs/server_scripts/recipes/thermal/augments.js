@@ -1,5 +1,6 @@
 ServerEvents.recipes(event => {
 	event.remove({ id: /thermal:augments.*/ })
+	event.remove({ id: /thermal:.*attachment.*/ })
 
 	event.shaped('thermal:upgrade_augment_1', [
     		'IMI',
@@ -61,6 +62,47 @@ ServerEvents.recipes(event => {
 			P: 'minecraft:paper'
 		}
 	).id('kubejs:shaped/fluid_filter_augment')
+
+	event.shaped('thermal:filter_attachment', [
+    		'NMN',
+			'SFS'
+		], {
+			S: 'chestcavity:iron_scrap',
+			N: 'architects_palette:nether_brass_nugget',
+			M: 'biomancy:impermeable_membrane',
+			F: 'thermal:item_filter_augment'
+		}
+	).id('kubejs:shaped/filter_attachment')
+	event.shaped('2x thermal:servo_attachment', [
+    		'NMN',
+			'SHS'
+		], {
+			S: 'chestcavity:iron_scrap',
+			N: 'architects_palette:nether_brass_nugget',
+			M: 'biomancy:impermeable_membrane',
+			H: 'biomancy:maw_hopper'
+		}
+	).id('kubejs:shaped/servo_attachment')
+	event.shaped('2x thermal:turbo_servo_attachment', [
+    		'NMN',
+			'PHP'
+		], {
+			P: '#forge:plates/chitinsteel',
+			N: 'architects_palette:nether_brass_nugget',
+			M: 'biomancy:impermeable_membrane',
+			H: 'biomancy:maw_hopper'
+		}
+	).id('kubejs:shaped/turbo_servo_attachment')
+	event.shaped('2x thermal:energy_limiter_attachment', [
+    		'NMN',
+			'IPI'
+		], {
+			I: 'architects_palette:nether_brass_ingot',
+			N: 'architects_palette:nether_brass_nugget',
+			M: 'biomancy:impermeable_membrane',
+			P: 'biomancy:nutrient_paste'
+		}
+	).id('kubejs:shaped/energy_limiter_attachment')
 
     event.recipes.thermal.smelter(['thermal:upgrade_augment_1'], ['chestcavity:rotten_heart', '2x architects_palette:nether_brass_ingot', 'biomancy:storage_sac'])
     event.recipes.thermal.smelter(['thermal:upgrade_augment_2'], ['thermal:upgrade_augment_1', 'chestcavity:heart', '4x architects_palette:sunmetal_brick'])
