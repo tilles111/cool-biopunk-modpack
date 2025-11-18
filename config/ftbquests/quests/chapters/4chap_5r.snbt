@@ -279,6 +279,26 @@
 			x: 3.0d
 			y: 1.0d
 		}
+		{
+			id: "0262F6EDDFBE760B"
+			tasks: [{
+				id: "5756B570A83893FD"
+				item: {
+					Count: 1
+					id: "biomancy:potion_serum"
+					tag: {
+						"biomancy:serum_data": {
+							color: 12467937
+							name: "effect.biomancy.primordial_infestation"
+							potion: "biomancy:long_primordial_infestation"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
 	]
 	title: "&4Feast&r ✔"
 }

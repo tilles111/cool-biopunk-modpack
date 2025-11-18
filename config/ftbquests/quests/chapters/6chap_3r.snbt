@@ -298,6 +298,22 @@
 			x: 3.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["362763D8E192CF20"]
+			id: "147E6D51143B8EBB"
+			tasks: [{
+				icon: "biomancy:malignant_flesh_veins"
+				id: "4E1D9D1D00A807C2"
+				observe_type: 0
+				timer: 0L
+				title: "Look at Malignant Flesh Veins"
+				to_observe: "biomancy:malignant_flesh_veins"
+				type: "observation"
+			}]
+			title: "Strange Growths"
+			x: 1.5d
+			y: -3.0d
+		}
 	]
 	title: "&6No Regrets&r ✔"
 }
