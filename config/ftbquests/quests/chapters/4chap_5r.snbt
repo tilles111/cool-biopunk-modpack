@@ -299,6 +299,22 @@
 			x: -1.0d
 			y: 0.0d
 		}
+		{
+			id: "6F7770609ABEA1CB"
+			tasks: [{
+				id: "5436B8C5F8ADFD1A"
+				item: {
+					Count: 1
+					id: "biomancy:extractor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
 	]
 	title: "&4Feast&r ✔"
 }
