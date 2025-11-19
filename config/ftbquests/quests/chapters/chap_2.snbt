@@ -14,15 +14,19 @@
 			hide_until_deps_complete: true
 			id: "640BD86D4D3A6DC4"
 			tasks: [{
-				id: "7C349326A39ED2D9"
-				item: "summoningrituals:altar"
-				type: "item"
+				icon: "summoningrituals:altar"
+				id: "5813A877A3EBB723"
+				observe_type: 0
+				timer: 0L
+				to_observe: "summoningrituals:altar"
+				type: "observation"
 			}]
 			title: "Back to the Beastmaker"
-			x: 0.0d
-			y: 0.0d
+			x: 1.5d
+			y: 1.0d
 		}
 		{
+			dependencies: ["736A92ACD7D6B44F"]
 			id: "6D21D5110E0D3046"
 			tasks: [{
 				id: "0B0E4186FCA779DF"
@@ -37,57 +41,65 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["5245507A23BAE310"]
+			dependencies: [
+				"5245507A23BAE310"
+				"3F8030FB14071548"
+			]
 			id: "71DF55E30D0EB3D4"
 			tasks: [{
 				id: "03D399A39BF60CAA"
 				item: "biomancy:primordial_cradle"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["3563EF82D31355CB"]
 			id: "4E2B46DB9F71B08F"
 			tasks: [{
 				id: "4D43926950A07AEE"
 				item: "architects_palette:nether_brass_blend"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: -2.0d
 		}
 		{
+			dependencies: ["3A1DE1A2CBF89601"]
 			id: "3CA79CE43669C031"
 			tasks: [{
 				id: "41AB409976D5043E"
 				item: "biomancy:maw_hopper"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.0d
+			x: 7.5d
+			y: 1.0d
 		}
 		{
+			dependencies: ["3A1DE1A2CBF89601"]
 			id: "3943C3FBBF55DF49"
 			tasks: [{
 				id: "676EB953477E8CFF"
 				item: "biomancy:tongue"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.5d
 			y: -1.0d
 		}
 		{
+			dependencies: ["3943C3FBBF55DF49"]
 			id: "5245507A23BAE310"
 			tasks: [{
 				id: "60AE58EE9FBD5A58"
 				item: "biomancy:fleshkin_chest"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 7.5d
 			y: -1.0d
 		}
 		{
+			dependencies: ["3563EF82D31355CB"]
 			id: "736A92ACD7D6B44F"
 			tasks: [{
 				id: "10DB7F76CA053D80"
@@ -98,6 +110,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["736A92ACD7D6B44F"]
 			id: "76ECC7D40DF2C479"
 			tasks: [{
 				id: "4EE7A1F69D4C3BE9"
@@ -112,6 +125,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["3A1DE1A2CBF89601"]
 			id: "3F8030FB14071548"
 			tasks: [{
 				id: "07F4E25760896189"
@@ -122,6 +136,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["0DCF76028C2D2470"]
 			id: "3563EF82D31355CB"
 			tasks: [{
 				id: "6C0FEAF57151985F"
@@ -132,6 +147,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["640BD86D4D3A6DC4"]
 			id: "0DCF76028C2D2470"
 			tasks: [{
 				id: "1977F0B2F12C8A3D"
@@ -144,40 +160,44 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["4E2B46DB9F71B08F"]
 			id: "208BB09978B30317"
 			tasks: [{
 				id: "31E072DEE266016B"
 				item: "architects_palette:nether_brass_ingot"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
+			dependencies: ["0DCF76028C2D2470"]
 			id: "3A1DE1A2CBF89601"
 			tasks: [{
 				id: "7E0D90090576EF3E"
 				item: "dungeonsdelight:monster_pot"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 5.0d
 			y: 2.0d
 		}
 		{
+			dependencies: ["736A92ACD7D6B44F"]
 			id: "7ADDAAFBA80A6F4B"
 			tasks: [{
 				id: "7D8057DC976F4836"
 				item: "minecraft:phantom_membrane"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["7ADDAAFBA80A6F4B"]
 			id: "76BE3041281A8C00"
 			tasks: [{
 				id: "794AC548A6A64871"
@@ -190,80 +210,86 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.0d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["7ADDAAFBA80A6F4B"]
 			id: "1255CBA472E4F497"
 			tasks: [{
 				id: "18DAD1FA3616D634"
 				item: "biomancy:active_muscle"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: 1.0d
 		}
 		{
-			description: ["This "]
-			id: "5DD379EF2A7BDF57"
-			tasks: [{
-				id: "6CE84B0AB7DFC87E"
-				item: {
-					Count: 1
-					id: "kubejs:bone_knife"
-					tag: {
-						Damage: 0
-					}
+			dependencies: ["208BB09978B30317"]
+			icon: {
+				Count: 1
+				id: "kubejs:biobrass_knife"
+				tag: {
+					Damage: 0
 				}
-				type: "item"
-			}]
-			x: 1.0d
-			y: 0.0d
-		}
-		{
+			}
 			id: "2A05826884901172"
-			tasks: [{
-				id: "0D13083A49698B36"
-				item: {
-					Count: 1
-					id: "kubejs:biobrass_knife"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "0D13083A49698B36"
+					item: {
+						Count: 1
+						id: "kubejs:biobrass_knife"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 6.0d
+				{
+					id: "7AC0702FE99ABBFB"
+					item: {
+						Count: 1
+						id: "thermal:wrench"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
 			y: -2.0d
 		}
 		{
+			dependencies: ["7ADDAAFBA80A6F4B"]
 			id: "34AE5F7030F7D136"
 			tasks: [{
 				id: "62F3AFDF5E8DB7E3"
 				item: "biomancy:chrysalis"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 4.5d
+			y: -1.0d
 		}
 		{
+			dependencies: ["208BB09978B30317"]
 			id: "244DA7522E043EC5"
 			tasks: [{
 				id: "7C2D4C18086EDD3F"
 				item: "thermal:fluid_cell_frame"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: -3.0d
 		}
 		{
+			dependencies: ["208BB09978B30317"]
 			id: "3FEC0DD6A6F2EC07"
 			tasks: [{
 				id: "02B0F9FA8846FAC2"
 				item: "industrialforegoing:block_breaker"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: -3.0d
 		}
 	]

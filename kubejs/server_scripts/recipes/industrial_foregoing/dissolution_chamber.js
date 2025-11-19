@@ -29,6 +29,7 @@ ServerEvents.recipes(event => {
         event.recipes.industrialforegoing.dissolution_chamber([`chestcavity:${organ}`, 'chestcavity:dragon_muscle'], Fluid.of('kubejs:primordial_blood', 250), `chestcavity:dragon_${organ}`, 1800)
         event.recipes.industrialforegoing.dissolution_chamber([`chestcavity:${organ}`, 'biomancy:malignant_flesh', 'biomancy:malignant_flesh', 'biomancy:malignant_flesh', 'biomancy:malignant_flesh'], Fluid.of('kubejs:primordial_blood', 1000), `chestcavity:dragon_${organ}`, 1800)
     })
-    event.recipes.industrialforegoing.dissolution_chamber(['chestcavity:muscle', 'biomancy:malignant_flesh'], Fluid.of('kubejs:primordial_blood', 125), 'chestcavity:dragon_muscle', 1800)
+    event.recipes.industrialforegoing.dissolution_chamber(['chestcavity:muscle', 'biomancy:malignant_flesh'], Fluid.of('kubejs:primordial_blood', 125), 'chestcavity:dragon_muscle', 300)
     event.recipes.industrialforegoing.dissolution_chamber(['chestcavity:dragon_heart', 'chestcavity:dragon_muscle', 'chestcavity:dragon_muscle', 'chestcavity:ender_intestine', 'chestcavity:ender_intestine', 'chestcavity:ender_stomach', 'industrialforegoing:pink_slime_ingot', 'industrialforegoing:pink_slime_ingot'], Fluid.of('kubejs:primordial_blood', 1000), 'chestcavity:mana_reactor', 1800)
+    event.recipes.industrialforegoing.dissolution_chamber(['kubejs:dense_muscle', 'kubejs:dense_muscle', 'kubejs:dense_muscle', 'kubejs:dense_muscle', 'biomancy:primal_flesh', 'biomancy:primal_flesh', 'biomancy:chrysalis', 'biomancy:living_flesh'], Fluid.of('kubejs:malignant_organ_slurry', 2000), 'kubejs:primordial_vessel', 1200)
 })

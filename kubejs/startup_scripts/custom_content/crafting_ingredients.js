@@ -4,6 +4,9 @@ StartupEvents.registry('item', event => {
     event.create('mineral_brick')
     event.create('biological_core')
       .texture('biomancy:item/tab_icon')
+      
+    event.create('primordial_eye')
+    event.create('primordial_vessel')
 
     event.create('crushed_chitin')
     event.create('crushed_iron_scrap')

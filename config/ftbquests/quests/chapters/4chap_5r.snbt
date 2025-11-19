@@ -9,15 +9,16 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2F533D9A0C486C19"]
+			dependencies: ["736D87F8D3D9D591"]
+			description: ["Note: Acts as a heart."]
 			id: "2F2743EF88BC6DA1"
 			tasks: [{
 				id: "2469EF7FDD402E8E"
 				item: "biomancy:primordial_core"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.0d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["730FF4D11458CDBD"]
@@ -39,8 +40,8 @@
 				title: "start"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2D22EC92C0F0DCFD"]
@@ -64,17 +65,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["730FF4D11458CDBD"]
-			id: "68CF3929C04632B1"
-			tasks: [{
-				id: "3BA8C64EEE08D785"
-				item: "biomancy:toxin_gland"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 2.0d
-		}
-		{
+			dependencies: ["736D87F8D3D9D591"]
 			id: "4328D4E25B4D7B6C"
 			tasks: [{
 				id: "18F9294504B2852A"
@@ -87,21 +78,11 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: -5.0d
+			x: 2.5d
+			y: -3.5d
 		}
 		{
-			dependencies: ["68CF3929C04632B1"]
-			id: "236BB9B426C18722"
-			tasks: [{
-				id: "0C681C531BC12DA4"
-				title: "custom organ"
-				type: "checkmark"
-			}]
-			x: 1.0d
-			y: 2.0d
-		}
-		{
+			dependencies: ["736D87F8D3D9D591"]
 			id: "28D74E1362BC385A"
 			tasks: [{
 				id: "504DA404A3ECAD50"
@@ -115,10 +96,11 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
+			dependencies: ["736D87F8D3D9D591"]
 			id: "20583058FA705573"
 			tasks: [{
 				id: "107399DBB167FC1B"
@@ -131,10 +113,11 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -5.0d
+			x: 3.5d
+			y: -3.5d
 		}
 		{
+			dependencies: ["736D87F8D3D9D591"]
 			id: "552DF0CED0B687E7"
 			tasks: [{
 				id: "7B96F9453E141EA8"
@@ -147,10 +130,11 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -3.0d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
+			dependencies: ["736D87F8D3D9D591"]
 			id: "6511E32BC8703A78"
 			tasks: [{
 				id: "3AB1C746A58CC0BB"
@@ -163,20 +147,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["1747F50B9C6777C5"]
-			id: "45EA303484EFC27D"
-			subtitle: "organs as ingredients and/or used for custom organs"
-			tasks: [{
-				id: "16369896A09CE98E"
-				title: "remove bio recipes for these and change them"
-				type: "checkmark"
-			}]
-			x: 5.0d
-			y: -4.0d
+			x: 4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2D22EC92C0F0DCFD"]
@@ -200,7 +172,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["20D9231CB4278B0B"]
+			dependencies: ["3EB14D797E855231"]
 			id: "245FC1018C92FED2"
 			tasks: [{
 				id: "2843574627E08724"
@@ -212,10 +184,10 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["20D9231CB4278B0B"]
+			dependencies: ["3EB14D797E855231"]
 			id: "2E5D6082D42D265C"
 			tasks: [{
 				id: "4564839F911E5E46"
@@ -227,46 +199,12 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
-			dependencies: [
-				"20D9231CB4278B0B"
-				"50D7A52C6D95F64A"
-				"68CF3929C04632B1"
-			]
-			id: "1747F50B9C6777C5"
-			tasks: [{
-				id: "2BB61EF0C7540709"
-				title: "malignant -> dragon organs -> custom stuff"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["45EA303484EFC27D"]
-			description: [
-				"dragon organs?"
-				"combination of biomancy weapons and such?"
-				"malignant stuff?"
-				"mana reactor??"
-			]
-			id: "2F533D9A0C486C19"
-			subtitle: "maybe final recipe is a bunch of uh"
-			tasks: [{
-				id: "69CC87C8B7735104"
-				title: "not sure"
-				type: "checkmark"
-			}]
-			x: 7.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["20D9231CB4278B0B"]
+			dependencies: ["3EB14D797E855231"]
 			description: [""]
 			id: "736D87F8D3D9D591"
-			subtitle: "Give better recipe"
 			tasks: [{
 				id: "250DFE688E4E726C"
 				item: {
@@ -277,29 +215,10 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 1.0d
+			y: -2.0d
 		}
 		{
-			id: "0262F6EDDFBE760B"
-			tasks: [{
-				id: "5756B570A83893FD"
-				item: {
-					Count: 1
-					id: "biomancy:potion_serum"
-					tag: {
-						"biomancy:serum_data": {
-							color: 12467937
-							name: "effect.biomancy.primordial_infestation"
-							potion: "biomancy:long_primordial_infestation"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: -1.0d
-			y: 0.0d
-		}
-		{
+			dependencies: ["736D87F8D3D9D591"]
 			id: "6F7770609ABEA1CB"
 			tasks: [{
 				id: "5436B8C5F8ADFD1A"
@@ -312,8 +231,22 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -5.0d
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"50D7A52C6D95F64A"
+				"20D9231CB4278B0B"
+			]
+			id: "3EB14D797E855231"
+			tasks: [{
+				id: "4DD564E6C34CB4B0"
+				item: "kubejs:primordial_blood_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
 		}
 	]
 	title: "&4Feast&r ✔"
