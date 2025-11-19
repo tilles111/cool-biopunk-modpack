@@ -34,5 +34,6 @@ ServerEvents.recipes(event => {
 
     sac_fill_recipe('minecraft:water')
     sac_fill_recipe('industrialforegoing:meat')
+    sac_fill_recipe('thermal:ender_fluid')
     sac_fill_recipe('kubejs:blood')
 })

@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
     const moss_recipes = (standard_block, mossy_block) => {
 
         event.custom({
-        type: 'lychee:block_interacting',
+            type: 'lychee:block_interacting',
             post: [
                 {
                     type: 'place',
@@ -99,7 +99,7 @@ ServerEvents.recipes(event => {
         }).id(`${id_prefix}${item_name(standard_block)}_from_${item_name(mossy_block)}_${item_mod_name(mossy_block)}`)
 
         event.custom({
-        type: 'lychee:block_interacting',
+            type: 'lychee:block_interacting',
             post: [
                 {
                     type: 'place',
@@ -137,7 +137,5 @@ ServerEvents.recipes(event => {
     moss_conversions.forEach(blocks => {
         moss_recipes(blocks[0], blocks[1])
     })
-    
-
     
 })

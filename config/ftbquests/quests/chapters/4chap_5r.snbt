@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["736D87F8D3D9D591"]
+			dependencies: ["6F7770609ABEA1CB"]
 			description: ["Note: Acts as a heart."]
 			id: "2F2743EF88BC6DA1"
 			tasks: [{
@@ -17,7 +17,7 @@
 				item: "biomancy:primordial_core"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: -1.0d
 		}
 		{
@@ -130,8 +130,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["736D87F8D3D9D591"]
@@ -165,6 +165,12 @@
 				{
 					id: "35815D6DA3281C37"
 					item: "biomancy:bloomberry"
+					type: "item"
+				}
+				{
+					id: "13AF7417E6445955"
+					item: "biomancy:fertilizer"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -231,8 +237,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.0d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [

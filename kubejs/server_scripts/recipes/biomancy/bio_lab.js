@@ -11,5 +11,5 @@ ServerEvents.recipes(event => {
     event.recipes.biomancy.bio_brewing(['biomancy:digester', 'biomancy:living_flesh', 'biomancy:acid_extract', 'biomancy:acid_extract'], 'chestcavity:stomach', 'kubejs:fleshkin_stomach', 1200)
 
     event.recipes.biomancy.bio_brewing(['biomancy:essence', 'biomancy:essence', 'biomancy:essence', 'biomancy:essence'], 'minecraft:ender_eye', 'kubejs:primordial_eye', 1200)
-    event.recipes.biomancy.bio_brewing(['kubejs:primordial_eye', 'kubejs:primordial_vessel', 'chestcavity:mana_reactor', 'minecraft:golden_apple'], 'kubejs:player_heart', 'biomancy:primordial_core', 600)
+    event.recipes.biomancy.bio_brewing(['kubejs:primordial_eye', 'kubejs:player_heart', 'chestcavity:mana_reactor', 'minecraft:golden_apple'], 'kubejs:primordial_vessel', 'biomancy:primordial_core', 600)
 })
