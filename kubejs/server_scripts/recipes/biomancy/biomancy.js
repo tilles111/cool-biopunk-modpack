@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
 
     event.recipes.biomancy.decomposing('chestcavity:iron_scrap', ['8x biomancy:mineral_fragment'])
     event.recipes.biomancy.decomposing('kubejs:copper_scrap', ['8x biomancy:mineral_fragment'])
-    event.recipes.biomancy.decomposing('biomancy:acid_bucket', ['4x biomancy:acid_extract', 'minecraft:bucket'])
+    event.recipes.biomancy.decomposing('biomancy:acid_bucket', ['16x biomancy:acid_extract', 'minecraft:bucket'])
 
     event.recipes.industrialforegoing.dissolution_chamber([
             'biomancy:impermeable_membrane',
