@@ -145,8 +145,8 @@
 				}
 			]
 			title: "Seeds and Straw"
-			x: 2.5d
-			y: 2.5d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3F17762B83A76F51"]
@@ -162,8 +162,8 @@
 				to_observe: "summoningrituals:altar"
 				type: "observation"
 			}]
-			x: 0.0d
-			y: 1.5d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1ED599712FEBA7C0"]
@@ -181,8 +181,8 @@
 				title: "Any Non-Oak Sapling"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			id: "45BE55CB96FB315A"
@@ -195,8 +195,8 @@
 				type: "observation"
 			}]
 			title: "A Friend"
-			x: 8.0d
-			y: 0.0d
+			x: 9.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["06AD7E0265CB4613"]
@@ -244,7 +244,7 @@
 				item: "minecraft:golden_apple"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
 			y: -2.0d
 		}
 		{
@@ -260,8 +260,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.0d
+			x: 8.5d
+			y: 0.0d
 		}
 		{
 			icon: "quark:yellow_blossom_leaves"
@@ -284,8 +284,9 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: -3.5d
+			title: "Leaves of Gold"
+			x: 9.5d
+			y: -2.5d
 		}
 		{
 			description: ["The stone here "]
@@ -301,7 +302,7 @@
 				type: "item"
 			}]
 			title: "Cooking"
-			x: 4.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -312,11 +313,11 @@
 				item: "minecraft:bone_meal"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: -1.5d
 		}
 		{
-			dependencies: ["3F17762B83A76F51"]
+			dependencies: ["1ED599712FEBA7C0"]
 			description: ["There's a little &aCave&r under the ruins - I can use that for renewable &aStone&r."]
 			id: "2F57755A36695B88"
 			tasks: [{
@@ -325,7 +326,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -356,8 +357,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -378,8 +379,9 @@
 					type: "item"
 				}
 			]
+			title: "Carving Bone"
 			x: -1.5d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5386C4708219F65F"]
@@ -390,8 +392,25 @@
 				item: "thermal:phytogro"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.0d
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "29931C95F8D64852"
+			tasks: [
+				{
+					id: "4C47B69B71696DB1"
+					item: "minecraft:poisonous_potato"
+					type: "item"
+				}
+				{
+					id: "143B81B74415DAD5"
+					item: "farmersdelight:rotten_tomato"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 0.5d
 		}
 	]
 	title: "&aPie in the Sky&r ✔"
