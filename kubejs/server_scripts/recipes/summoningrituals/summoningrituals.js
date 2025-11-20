@@ -8,6 +8,10 @@ ServerEvents.recipes(event => {
         .itemOutput('4x minecraft:sugar_cane')
 
     event.recipes.summoningrituals.altar('minecraft:bone_meal')
+        .input('2x #forge:rods/wooden')
+        .itemOutput('4x minecraft:bamboo')
+
+    event.recipes.summoningrituals.altar('minecraft:bone_meal')
         .input('minecraft:sugar')
         .itemOutput('4x minecraft:sweet_berries')
 

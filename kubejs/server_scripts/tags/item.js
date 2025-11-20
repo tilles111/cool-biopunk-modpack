@@ -23,7 +23,8 @@ ServerEvents.tags('item', event => {
         '#chestcavity:salvageable_burnable_meat',
         '#chestcavity:salvageable_toxic_organ_meat',
         '#chestcavity:salvageable_alien_organ_meat',
-        '#chestcavity:salvageable_dragon_organ_meat'
+        '#chestcavity:salvageable_dragon_organ_meat',
+        'kubejs:muscles/standard'
     ])
 
     event.add('biomancy:cooked_meats', [
@@ -48,10 +49,18 @@ ServerEvents.tags('item', event => {
         'chestcavity:rich_alien_sausage',
         'chestcavity:rich_dragon_sausage',
         'chestcavity:mini_sausage',
-        'chestcavity:rich_mini_sausage'
+        'chestcavity:rich_mini_sausage',
+        'dungeonsdelight:smoked_spider_meat'
+    ])
+
+    event.add('kubejs:monster_meat', [
+        '#dungeonsdelight:fleshes',
+        'dungeonsdelight:spider_meat'
     ])
 
     // TODO: dungeons delight meat compat
+    // Done maybe?
+    
     // TODO: other chest cavity, special muscles? add to biomancy raw meat
 
     event.add('kubejs:muscles/standard', [

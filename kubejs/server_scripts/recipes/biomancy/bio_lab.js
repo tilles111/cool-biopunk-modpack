@@ -12,4 +12,6 @@ ServerEvents.recipes(event => {
 
     event.recipes.biomancy.bio_brewing(['biomancy:essence', 'biomancy:essence', 'biomancy:essence', 'biomancy:essence'], 'minecraft:ender_eye', 'kubejs:primordial_eye', 1200)
     event.recipes.biomancy.bio_brewing(['kubejs:primordial_eye', 'kubejs:player_heart', 'chestcavity:mana_reactor', 'minecraft:golden_apple'], 'kubejs:primordial_vessel', 'biomancy:primordial_core', 600)
+
+    event.recipes.biomancy.bio_brewing(['biomancy:malignant_flesh_veins', 'biomancy:malignant_flesh_veins', 'biomancy:malignant_flesh_veins', 'biomancy:malignant_flesh_veins'], 'minecraft:sweet_berries', 'biomancy:primal_bloom', 300)
 })

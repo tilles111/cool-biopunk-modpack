@@ -5,6 +5,10 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'minecraft:gold_nugget_from_smelting' })
 	event.remove({ id: 'farmersdelight:iron_nugget_from_smelting_knife' })
 	event.remove({ id: 'farmersdelight:gold_nugget_from_smelting_knife' })
+	event.remove({ id: 'minecraft:iron_nugget_from_blasting' })
+	event.remove({ id: 'minecraft:gold_nugget_from_blasting' })
+	event.remove({ id: 'farmersdelight:iron_nugget_from_blasting_knife' })
+	event.remove({ id: 'farmersdelight:gold_nugget_from_blasting_knife' })
 
 	event.remove({ output: 'minecraft:smithing_table' })
 	event.remove({ output: 'minecraft:cauldron' })

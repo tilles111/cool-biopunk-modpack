@@ -32,4 +32,6 @@ ServerEvents.recipes(event => {
     event.recipes.industrialforegoing.dissolution_chamber(['chestcavity:muscle', 'biomancy:malignant_flesh'], Fluid.of('kubejs:primordial_blood', 125), 'chestcavity:dragon_muscle', 300)
     event.recipes.industrialforegoing.dissolution_chamber(['chestcavity:dragon_heart', 'chestcavity:dragon_muscle', 'chestcavity:dragon_muscle', 'chestcavity:ender_intestine', 'chestcavity:ender_intestine', 'chestcavity:ender_stomach', 'industrialforegoing:pink_slime_ingot', 'industrialforegoing:pink_slime_ingot'], Fluid.of('kubejs:primordial_blood', 1000), 'chestcavity:mana_reactor', 1800)
     event.recipes.industrialforegoing.dissolution_chamber(['kubejs:dense_muscle', 'kubejs:dense_muscle', 'kubejs:dense_muscle', 'kubejs:dense_muscle', 'biomancy:primal_flesh', 'biomancy:primal_flesh', 'biomancy:chrysalis', 'biomancy:living_flesh'], Fluid.of('kubejs:malignant_organ_slurry', 2000), 'kubejs:primordial_vessel', 1200)
+    
+    event.recipes.industrialforegoing.dissolution_chamber(['biomancy:malignant_flesh', 'biomancy:malignant_flesh', 'dungeonsdelight:spider_extract', 'dungeonsdelight:spider_extract', 'biomancy:mob_gland', 'biomancy:mob_gland', 'biomancy:mob_gland', 'biomancy:mob_gland'], Fluid.of('kubejs:toxic_meat_slurry', 1000), '2x biomancy:primal_orifice', 600)
 })

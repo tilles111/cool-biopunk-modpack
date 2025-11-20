@@ -36,4 +36,48 @@ ServerEvents.recipes(event => {
     sac_fill_recipe('industrialforegoing:meat')
     sac_fill_recipe('thermal:ender_fluid')
     sac_fill_recipe('kubejs:blood')
+
+    event.custom({
+        type: 'lychee:item_inside',
+        post: [
+            {
+                type: 'place',
+                block: 'minecraft:air'
+            }, {
+                type: 'execute',
+                command: `playsound minecraft:item.bucket.fill block @a ~ ~ ~`,
+                hide: true
+            }, {
+                type: 'drop_item',
+                item: 'minecraft:clay_ball'
+            }
+        ],
+        item_in: [
+            {
+                item: 'biomancy:stone_powder'
+            },
+            {
+                item: 'biomancy:stone_powder'
+            },
+            {
+                item: 'biomancy:stone_powder'
+            },
+            {
+                item: 'biomancy:stone_powder'
+            },
+            {
+                item: 'biomancy:stone_powder'
+            },
+            {
+                item: 'biomancy:stone_powder'
+            },
+            {
+                item: 'biomancy:stone_powder'
+            },
+            {
+                item: 'biomancy:stone_powder'
+            }
+        ],
+        block_in: 'minecraft:water'
+    }).id(`${id_prefix}clay_ball`)
 })

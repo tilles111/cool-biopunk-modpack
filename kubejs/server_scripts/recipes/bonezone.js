@@ -89,9 +89,4 @@ ServerEvents.recipes(event => {
     bonecarving('biomancy:bone_fragments', 'minecraft:bone_meal')
     bonecarving('5x biomancy:bone_fragments', 'minecraft:bone')
     bonecarving('3x biomancy:bone_fragments', 'biomancy:mob_fang')
-    
-
-
-
-
 })

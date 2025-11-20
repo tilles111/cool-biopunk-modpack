@@ -50,6 +50,13 @@ ServerEvents.recipes(event => {
             'farmersdelight:rotten_tomato',
             'minecraft:charcoal',
             'minecraft:chicken'
+        ],
+        'biomancy:primordial_infestation': [
+            'biomancy:malignant_flesh_veins',
+            'biomancy:creator_mix',
+            'biomancy:creator_mix',
+            'kubejs:charcoal_dust',
+            'chestcavity:muscle'
         ]
     }
 
