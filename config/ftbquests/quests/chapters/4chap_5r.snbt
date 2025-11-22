@@ -299,6 +299,36 @@
 			x: 2.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["50D7A52C6D95F64A"]
+			id: "60C51E80CFD25FD8"
+			tasks: [{
+				id: "7C33DDEF34055C5C"
+				item: {
+					Count: 1
+					id: "kubejs:fleshkin_stomach"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E5D6082D42D265C"]
+			id: "7E22CC164DE5D621"
+			tasks: [{
+				id: "2AD2C9811C9F4BE4"
+				item: {
+					Count: 1
+					id: "kubejs:aquatic_lung"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
 	]
 	title: "&4Feast&r ✔"
 }

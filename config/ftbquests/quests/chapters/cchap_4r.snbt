@@ -15,6 +15,7 @@
 	quests: [
 		{
 			dependencies: ["30627FA572672459"]
+			description: ["This will be perfect for breaking some more things down - &cNutrients&r and &cMineral Fragments&r in particular will be useful for a few things."]
 			id: "12E38F44086A9088"
 			tasks: [{
 				id: "78BB92C64DFC2F13"
@@ -104,6 +105,7 @@
 		}
 		{
 			dependencies: ["39357EF309E4E3E5"]
+			hide_until_deps_complete: true
 			id: "63F3918241BD3D0C"
 			shape: "circle"
 			tasks: [{
@@ -139,6 +141,7 @@
 		}
 		{
 			dependencies: ["0B8DD68A38F53340"]
+			description: ["The &cBiological Core&r will be necessary to make the purest of &cFlesh Constructs&r."]
 			icon: "kubejs:biological_core"
 			id: "30627FA572672459"
 			tasks: [

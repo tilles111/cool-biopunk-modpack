@@ -242,6 +242,7 @@
 		}
 		{
 			dependencies: ["71DF55E30D0EB3D4"]
+			description: ["Creepers' &6Volatile Glands&r can be used to summon &6Blazes&r. I'll need some rods for some of these more intricate machines."]
 			hide_until_deps_complete: true
 			icon: "minecraft:blaze_rod"
 			id: "49D97B87E421D5B1"
