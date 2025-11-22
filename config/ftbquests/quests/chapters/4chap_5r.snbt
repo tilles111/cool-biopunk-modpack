@@ -37,18 +37,46 @@
 		}
 		{
 			dependencies: ["63F3918241BD3D0C"]
+			description: [
+				"I can kill mobs infected with &4Primordial Infestation&r to further the spread of &4Malignant Flesh&r."
+				""
+				"I can use a &4Scalpel&r to scrape off the Malignant Flesh Veins if I so desire."
+			]
 			hide_until_deps_complete: true
+			icon: "biomancy:malignant_flesh_veins"
 			id: "730FF4D11458CDBD"
-			tasks: [{
-				id: "447A21F3A15AF966"
-				title: "start"
-				type: "checkmark"
-			}]
-			x: 0.0d
+			tasks: [
+				{
+					id: "5DCB91E07A00EEE8"
+					item: "biomancy:malignant_flesh_veins"
+					type: "item"
+				}
+				{
+					id: "6CC0D24B4CB3901F"
+					item: {
+						Count: 1
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "biomancy:primordial_infestation"
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Dark Desire"
+			x: -1.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["2D22EC92C0F0DCFD"]
+			description: [
+				"&4Primal Orifices&r slowly build up &4Acid&r and eventually release it below them, making them particularly dangerous."
+				""
+				"I can harvest this acid either from the Orifice or from the ground beneath it after it has dropped it."
+			]
+			icon: "biomancy:primal_orifice"
 			id: "50D7A52C6D95F64A"
 			tasks: [
 				{
@@ -156,6 +184,12 @@
 		}
 		{
 			dependencies: ["2D22EC92C0F0DCFD"]
+			description: [
+				"I can use &4Bio-Alchemical Fertilizer&r on &4Primal Blooms&r to make them blossom immediately."
+				""
+				"Their &4Bloomberries&r will be imperative for my conquest."
+			]
+			icon: "biomancy:bloomberry"
 			id: "20D9231CB4278B0B"
 			tasks: [
 				{

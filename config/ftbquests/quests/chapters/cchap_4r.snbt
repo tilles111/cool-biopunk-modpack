@@ -48,12 +48,29 @@
 		}
 		{
 			dependencies: ["535FC82039A4CC84"]
+			icon: "industrialforegoing:mob_slaughter_factory"
 			id: "395DF4D2BAE75F35"
-			tasks: [{
-				id: "15BFF2F7F7FF22F6"
-				item: "industrialforegoing:mob_slaughter_factory"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "15BFF2F7F7FF22F6"
+					item: "industrialforegoing:mob_slaughter_factory"
+					type: "item"
+				}
+				{
+					id: "14DEDA461083A648"
+					item: {
+						Count: 1
+						id: "industrialforegoing:range_addon4"
+						tag: {
+							TitaniumAugment: {
+								Range: 4.0f
+							}
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 1.5d
 		}
@@ -70,6 +87,7 @@
 		}
 		{
 			dependencies: ["7F27DD7AA10890E4"]
+			description: ["With the ability to harvest &cOrgans&r, the way is wide open..."]
 			hide_until_deps_complete: true
 			id: "0B8DD68A38F53340"
 			tasks: [{

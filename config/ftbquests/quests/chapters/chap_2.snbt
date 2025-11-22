@@ -53,7 +53,13 @@
 				"5245507A23BAE310"
 				"3F8030FB14071548"
 			]
-			description: ["&eThis is it.&r"]
+			description: [
+				"&eThis is it.&r"
+				""
+				"All of my work thus far has led up to this..."
+				""
+				"Can I do it, though? Can I sacrifice the &eFriend&r I made to call forth the &ePrimordial Cradle&r?"
+			]
 			hide_until_deps_complete: true
 			id: "71DF55E30D0EB3D4"
 			size: 1.5d
@@ -67,6 +73,7 @@
 		}
 		{
 			dependencies: ["3A1DE1A2CBF89601"]
+			description: [""]
 			hide_dependent_lines: true
 			id: "3CA79CE43669C031"
 			tasks: [{
@@ -79,6 +86,7 @@
 		}
 		{
 			dependencies: ["3A1DE1A2CBF89601"]
+			description: [""]
 			id: "3943C3FBBF55DF49"
 			tasks: [{
 				id: "676EB953477E8CFF"
@@ -90,6 +98,7 @@
 		}
 		{
 			dependencies: ["3943C3FBBF55DF49"]
+			description: [""]
 			id: "5245507A23BAE310"
 			tasks: [{
 				id: "60AE58EE9FBD5A58"
@@ -130,6 +139,7 @@
 		}
 		{
 			dependencies: ["3A1DE1A2CBF89601"]
+			description: ["This should help poke away at the many &eMobs&r I'll need to source my ingredients from."]
 			id: "3F8030FB14071548"
 			tasks: [{
 				id: "07F4E25760896189"
