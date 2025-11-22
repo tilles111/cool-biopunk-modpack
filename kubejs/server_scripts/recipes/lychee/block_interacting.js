@@ -137,5 +137,41 @@ ServerEvents.recipes(event => {
     moss_conversions.forEach(blocks => {
         moss_recipes(blocks[0], blocks[1])
     })
-    
+
+    const scalpel_recipe = (input_block, sound) => {
+
+        if (sound == undefined) {
+            sound = 'minecraft:entity.sheep.shear'
+        }
+
+        event.custom({
+            type: 'lychee:block_interacting',
+            post: [
+                {
+                    type: 'place',
+                    block: 'minecraft:air'
+                }, {
+                    type: 'execute',
+                    command: `playsound ${sound} block @a ~ ~ ~`,
+                    hide: true
+                }, {
+                    type: 'damage_item',
+                    damage: 1
+                }, {
+                    type: 'drop_item',
+                    item: input_block
+                }
+            ],
+            item_in: [
+                {
+                    tag: 'kubejs:tools/scalpels'
+                }
+            ],
+            block_in: input_block
+        }).id(`${id_prefix}scalpel_on_${item_name(input_block)}`)
+
+    }
+
+    scalpel_recipe('biomancy:malignant_flesh_veins')
+
 })

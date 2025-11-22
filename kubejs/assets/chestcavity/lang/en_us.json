@@ -8,5 +8,13 @@
     "item.chestcavity.dragon_rib": "Malignant Rib",
     "item.chestcavity.dragon_spine": "Malignant Spine",
     "item.chestcavity.dragon_spleen": "Malignant Spleen",
-    "item.chestcavity.mana_reactor": "Primordial Gland"
+    "item.chestcavity.mana_reactor": "Primordial Gland",
+    "item.chestcavity.raw_dragon_organ_meat": "Raw Malignant Organ Meat",
+    "item.chestcavity.cooked_dragon_organ_meat": "Cooked Malignant Organ Meat",
+    "item.chestcavity.raw_dragon_meat": "Raw Malignant Meat",
+    "item.chestcavity.cooked_dragon_meat": "Cooked Malignant Meat",
+    "item.chestcavity.raw_dragon_sausage": "Raw Malignant Sausage",
+    "item.chestcavity.cooked_dragon_sausage": "Cooked Malignant Sausage",
+    "item.chestcavity.raw_rich_dragon_sausage": "Raw Rich Malignant Sausage",
+    "item.chestcavity.cooked_rich_dragon_sausage": "Cooked Rich Malignant Sausage"
 }

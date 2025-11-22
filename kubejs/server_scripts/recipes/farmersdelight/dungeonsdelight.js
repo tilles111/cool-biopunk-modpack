@@ -171,4 +171,71 @@ ServerEvents.recipes(event => {
             'minecraft:phantom_membrane'
         ]
     )
+
+    // TODO: This is so fucking awful lmao
+    const monster_cooking_recipe_2 = (output, inputs, container, cookingtime, xp) => {
+
+        if (xp == undefined) {
+            xp = 0
+        }
+        if (cookingtime == undefined) {
+            cookingtime = 200
+        }
+
+        var recipe = {
+            type: 'dungeonsdelight:monster_cooking',
+            result: Item.of(output).toJson(),
+            ingredients: inputs.map(input => Ingredient.of(input).toJson()),
+            cookingtime: cookingtime,
+            experience: xp
+        }
+
+        if (container != undefined) {
+            recipe['container'] = Ingredient.of(container).toJson()
+        }
+
+        event.custom(recipe).id(`${id_prefix}${item_name(output)}_2`)
+
+    }
+
+    monster_cooking_recipe_2(
+        'kubejs:bottle_of_blood',
+        [
+            'dungeonsdelight:rotten_tripe'
+        ]
+    )
+
+    // TODO: This is even worse
+    const monster_cooking_recipe_3 = (output, inputs, container, cookingtime, xp) => {
+
+        if (xp == undefined) {
+            xp = 0
+        }
+        if (cookingtime == undefined) {
+            cookingtime = 200
+        }
+
+        var recipe = {
+            type: 'dungeonsdelight:monster_cooking',
+            result: Item.of(output).toJson(),
+            ingredients: inputs.map(input => Ingredient.of(input).toJson()),
+            cookingtime: cookingtime,
+            experience: xp
+        }
+
+        if (container != undefined) {
+            recipe['container'] = Ingredient.of(container).toJson()
+        }
+
+        event.custom(recipe).id(`${id_prefix}${item_name(output)}_3`)
+
+    }
+
+    monster_cooking_recipe_3(
+        Item.of('kubejs:bottle_of_blood', 3),
+        [
+            'minecraft:rotten_flesh'
+        ]
+    )
+
 })

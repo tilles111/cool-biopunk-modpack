@@ -10,7 +10,11 @@
 	quests: [
 		{
 			dependencies: ["6F7770609ABEA1CB"]
-			description: ["Note: Acts as a heart."]
+			description: [
+				"Finally, the &4Culmination&r of my achievements."
+				""
+				"I must replace my still-beating &4Heart&r with the &4Primordial Core&r to become the &4Ultimate Life-Form&r."
+			]
 			id: "2F2743EF88BC6DA1"
 			tasks: [{
 				id: "2469EF7FDD402E8E"

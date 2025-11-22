@@ -10,8 +10,9 @@
 	quests: [
 		{
 			description: [
-				"I'm on an island in the sky. frog and tilles are really clever for this one."
-				"(PLACEHOLDER)"
+				"It looks like I'm alone on an island in the sky again."
+				""
+				"I wonder what awaits me on this adventure?"
 			]
 			icon: "minecraft:oak_sapling"
 			id: "3F17762B83A76F51"
@@ -21,7 +22,7 @@
 				id: "728CB00178106841"
 				observe_type: 1
 				timer: 0L
-				title: "View a Tree!"
+				title: "View a Tree"
 				to_observe: "minecraft:oak_logs"
 				type: "observation"
 			}]
@@ -71,8 +72,8 @@
 				type: "item"
 			}]
 			title: "Tools of the Trade"
-			x: 1.5d
-			y: 1.5d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3F17762B83A76F51"]
@@ -106,12 +107,12 @@
 			]
 			title: "Wooden Wonders"
 			x: 1.5d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["28B9B9DC521D1EB1"]
 			description: [
-				"Using a &aKnife&r on tall grass should get me some straw and seeds."
+				"Breaking tall grass with a &aKnife&r should get me some &aStraw&r and &aSeeds&r."
 				""
 				"Straw can be used for leads."
 			]
@@ -145,8 +146,8 @@
 				}
 			]
 			title: "Seeds and Straw"
-			x: 0.0d
-			y: 1.5d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3F17762B83A76F51"]
@@ -162,11 +163,16 @@
 				to_observe: "summoningrituals:altar"
 				type: "observation"
 			}]
-			x: -1.5d
-			y: 0.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1ED599712FEBA7C0"]
+			description: [
+				"This strange &aAltar&r seems to be very useful for &aPlant Transmutation&r. All I need to do is add some prerequisite &aIngredients&r and complete the ritual with a central &aOffering&r."
+				""
+				"Perhaps it can transmute other things..."
+			]
 			icon: "minecraft:birch_sapling"
 			id: "18300B5876BCE4F4"
 			tasks: [{
@@ -181,13 +187,33 @@
 				title: "Any Non-Oak Sapling"
 				type: "item"
 			}]
-			x: -1.5d
+			title: "Other Wood"
+			x: 0.0d
 			y: 1.5d
 		}
 		{
+			dependencies: [
+				"2CAEC9F4700F0183"
+				"62F122D175F1ABCE"
+			]
+			description: [
+				"It will surely take a while, but feeding a weakened &aZombie Villager&r will produce a &aFriend&r!"
+				""
+				"It'll be nice to have some company on the island."
+				""
+				"{@pagebreak}"
+				"To imbue a &aZombie&r with intelligence, I'll have to keep it alive nearby while I give the offerings to the &aAltar&r."
+			]
 			id: "45BE55CB96FB315A"
+			size: 1.5d
 			tasks: [{
-				icon: "minecraft:villager_spawn_egg"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbchunks:textures/faces/minecraft/villager.png"
+					}
+				}
 				id: "774BC1A848949CE5"
 				observe_type: 5
 				timer: 0L
@@ -195,11 +221,12 @@
 				type: "observation"
 			}]
 			title: "A Friend"
-			x: 9.5d
-			y: -1.0d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["06AD7E0265CB4613"]
+			description: ["I can dig into &aGravel&r on a &aCutting Board&r for a chance at &aFlint&r."]
 			icon: "minecraft:flint"
 			id: "2D74D727AF42A9A1"
 			rewards: [{
@@ -224,30 +251,51 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:shovels)"
 						}
 					}
+					optional_task: true
 					title: "Any Shovel"
 					type: "item"
 				}
 				{
 					id: "51F476CB4C45CE33"
 					item: "minecraft:gravel"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "55F7F4A2F881B330"
+					item: "minecraft:flint"
 					type: "item"
 				}
 			]
 			title: "Gathering Flint"
-			x: 0.0d
-			y: -1.5d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
+			dependencies: [
+				"627C84B92850BA83"
+				"279561BC7BB96DFB"
+			]
+			description: ["These &aSunny Trumpet Leaves&r are a lot more potent than they seem. With only a few of them, I can turn a regular &aApple&r into a &aGolden Apple&r."]
+			hide_until_deps_complete: true
 			id: "2CAEC9F4700F0183"
 			tasks: [{
 				id: "7C7CD3122A2BFD23"
 				item: "minecraft:golden_apple"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -2.0d
+			x: 4.5d
+			y: 4.5d
 		}
 		{
+			dependencies: [
+				"29931C95F8D64852"
+				"56AA3FD28A9D7F2C"
+				"279561BC7BB96DFB"
+				"75A944AF6D9B9C36"
+			]
+			description: ["I can get a &aPotion of Weakness&r by mixing some eclectic ingredients together - by adding an &aEgg&r, I can make it a throwable &aSplash Potion&r!"]
+			hide_until_deps_complete: true
 			id: "62F122D175F1ABCE"
 			tasks: [{
 				id: "7D379128F871FD68"
@@ -258,12 +306,16 @@
 						Potion: "minecraft:weakness"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
-			x: 8.5d
-			y: 0.0d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
+			dependencies: ["281AB3122C15393C"]
+			description: ["As Iron seems to be scarce, I can fashion &aShears&r out of &aBone&r. I can then use the leaves from a &aSunny Trumpet Tree&r..."]
+			hide_dependent_lines: true
 			icon: "quark:yellow_blossom_leaves"
 			id: "627C84B92850BA83"
 			tasks: [
@@ -285,36 +337,58 @@
 				}
 			]
 			title: "Leaves of Gold"
-			x: 9.5d
-			y: -2.5d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
-			description: ["The stone here "]
+			dependencies: ["1ED599712FEBA7C0"]
+			description: [
+				"The stone here works well enough for &aCooking Appliances&r, weirdly enough."
+				""
+				"This will be very important, I can tell!"
+			]
+			hide_dependency_lines: true
+			icon: "farmersdelight:cooking_pot"
 			id: "279561BC7BB96DFB"
 			rewards: [{
 				id: "35C85CA10891AE23"
 				item: "minecraft:campfire"
 				type: "item"
 			}]
-			tasks: [{
-				id: "4A688F963A0E543B"
-				item: "farmersdelight:cooking_pot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4A688F963A0E543B"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "531E106622D4BECA"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "Cooking"
 			x: 3.0d
-			y: 0.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["06AD7E0265CB4613"]
+			description: ["&aBone Meal&r is always useful for farmers."]
 			id: "5386C4708219F65F"
 			tasks: [{
 				id: "5A231758BA007BDB"
 				item: "minecraft:bone_meal"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1ED599712FEBA7C0"]
@@ -325,26 +399,29 @@
 				item: "minecraft:brown_mushroom"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			title: "Hidden Cave"
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
 				"2D74D727AF42A9A1"
 				"5386C4708219F65F"
+				"1ED599712FEBA7C0"
 			]
-			description: ["It seems that the altar has an affinity for these &aBone Fragments&r."]
+			description: ["It seems that the altar has an affinity for these &aBone Fragments&r. They seem to be important for summoning &aLife&r..."]
 			id: "281AB3122C15393C"
 			tasks: [{
 				id: "216ADCDABEF5F5DF"
 				item: "biomancy:bone_fragments"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5386C4708219F65F"]
+			description: ["With enough &aBone Meal&r, I can craft up a &aHammer&r. It can help me mash rocks."]
 			id: "1A0446F72C5A782E"
 			tasks: [{
 				id: "353F0CD4B641C54D"
@@ -357,14 +434,15 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.0d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"2F57755A36695B88"
 				"281AB3122C15393C"
 			]
+			description: ["I can summon forth &aMooshrooms&r to gather &aLeather&r. I can also shear them for more mushrooms."]
 			icon: "bonezone:bonecarver"
 			id: "081E92EDA2ABA1B8"
 			tasks: [
@@ -378,10 +456,22 @@
 					item: "bonezone:bonecarver"
 					type: "item"
 				}
+				{
+					id: "31F3B10E2773F2D2"
+					item: {
+						Count: 1
+						id: "kubejs:bone_shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
 			]
 			title: "Carving Bone"
-			x: -1.5d
-			y: -3.0d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5386C4708219F65F"]
@@ -392,10 +482,14 @@
 				item: "thermal:phytogro"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 4.5d
+			y: 1.5d
 		}
 		{
+			dependencies: ["50E8483B05020CA8"]
+			description: ["These crops don't seem to be very nutritious, but I have a bit of an &aIdea&r..."]
+			hide_dependent_lines: true
+			icon: "minecraft:poisonous_potato"
 			id: "29931C95F8D64852"
 			tasks: [
 				{
@@ -409,8 +503,67 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
-			y: 0.5d
+			title: "Crap Crops"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["281AB3122C15393C"]
+			description: [
+				"Summoning &aChickens&r will be a fine first experiment. Their meat and eggs may be useful in the near future."
+				""
+				"Making &aLeads&r and &aCages&r may be worthwhile."
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:egg"
+			id: "56AA3FD28A9D7F2C"
+			rewards: [{
+				id: "25F580E67D6C5606"
+				item: "supplementaries:cage"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbchunks:textures/faces/minecraft/chicken.png"
+					}
+				}
+				id: "2D960D288E1708F1"
+				observe_type: 5
+				timer: 0L
+				title: "Look at a Chicken"
+				to_observe: "minecraft:chicken"
+				type: "observation"
+			}]
+			title: "Chickens and Eggs"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A0446F72C5A782E"]
+			description: [
+				"I can mash &aCobblestone&r into &aGravel&r, and then mash that into &aSand&r, and make &aGlass Bottles&r..."
+				"It's all coming together now..."
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:glass"
+			id: "75A944AF6D9B9C36"
+			tasks: [
+				{
+					id: "53BEA61E7FB3C1C3"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					id: "78466D10AF335D95"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
 		}
 	]
 	title: "&aPie in the Sky&r ✔"
