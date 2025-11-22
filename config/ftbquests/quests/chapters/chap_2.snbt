@@ -62,6 +62,7 @@
 			]
 			hide_until_deps_complete: true
 			id: "71DF55E30D0EB3D4"
+			shape: "square"
 			size: 1.5d
 			tasks: [{
 				id: "03D399A39BF60CAA"
@@ -96,6 +97,7 @@
 			dependencies: ["3943C3FBBF55DF49"]
 			description: ["This &eChest&r doesn't have all too many uses on its own if nobody else is around."]
 			id: "5245507A23BAE310"
+			shape: "square"
 			tasks: [{
 				id: "60AE58EE9FBD5A58"
 				item: "biomancy:fleshkin_chest"
@@ -135,8 +137,13 @@
 		}
 		{
 			dependencies: ["3A1DE1A2CBF89601"]
-			description: ["This should help poke away at the many &eMobs&r I'll need to source my ingredients from."]
+			description: [
+				"This should help poke away at the many &eMobs&r I'll need to source my ingredients from."
+				""
+				"&eSpiders&r should be a fine source of &eSharp Fangs&r."
+			]
 			id: "3F8030FB14071548"
+			shape: "square"
 			tasks: [{
 				id: "07F4E25760896189"
 				item: "biomancy:flesh_spike"

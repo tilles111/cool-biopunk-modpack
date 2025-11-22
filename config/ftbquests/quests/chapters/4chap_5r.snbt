@@ -15,7 +15,9 @@
 				""
 				"I must replace my still-beating &4Heart&r with the &4Primordial Core&r to become the &4Ultimate Life-Form&r."
 			]
+			hide_until_deps_complete: true
 			id: "2F2743EF88BC6DA1"
+			shape: "heart"
 			tasks: [{
 				id: "2469EF7FDD402E8E"
 				item: "biomancy:primordial_core"
@@ -38,6 +40,8 @@
 		{
 			dependencies: ["63F3918241BD3D0C"]
 			description: [
+				"It is time... I'll need the &4Malignant Flesh&r I observed earlier."
+				""
 				"I can kill mobs infected with &4Primordial Infestation&r to further the spread of &4Malignant Flesh&r."
 				""
 				"I can use a &4Scalpel&r to scrape off the Malignant Flesh Veins if I so desire."
@@ -72,7 +76,7 @@
 		{
 			dependencies: ["2D22EC92C0F0DCFD"]
 			description: [
-				"&4Primal Orifices&r slowly build up &4Acid&r and eventually release it below them, making them particularly dangerous."
+				"&4Primal Orifices&r slowly build up &4Acid&r and eventually release it below them, making them particularly dangerous. They grow naturally from the &4Primordial Cradle&r when provoked, but I have the tools to create these on my own."
 				""
 				"I can harvest this acid either from the Orifice or from the ground beneath it after it has dropped it."
 			]
@@ -93,6 +97,7 @@
 					type: "observation"
 				}
 			]
+			title: "Acid"
 			x: 1.0d
 			y: 0.0d
 		}
@@ -185,7 +190,7 @@
 		{
 			dependencies: ["2D22EC92C0F0DCFD"]
 			description: [
-				"I can use &4Bio-Alchemical Fertilizer&r on &4Primal Blooms&r to make them blossom immediately."
+				"I can use &4Bio-Alchemical Fertilizer&r on &4Primal Blooms&r to make them blossom immediately. These blooms form naturally on Malignance born from the &4Primordial Cradle&r, but I can synthesize them if I must."
 				""
 				"Their &4Bloomberries&r will be imperative for my conquest."
 			]
@@ -212,6 +217,7 @@
 					type: "item"
 				}
 			]
+			title: "Bloomberries"
 			x: 1.0d
 			y: -1.0d
 		}
@@ -264,6 +270,7 @@
 		{
 			dependencies: ["736D87F8D3D9D591"]
 			id: "6F7770609ABEA1CB"
+			shape: "heart"
 			tasks: [{
 				id: "5436B8C5F8ADFD1A"
 				item: {

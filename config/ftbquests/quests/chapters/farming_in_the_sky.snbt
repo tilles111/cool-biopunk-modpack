@@ -206,6 +206,7 @@
 				"To imbue a &aZombie&r with intelligence, I'll have to keep it alive nearby while I give the offerings to the &aAltar&r."
 			]
 			id: "45BE55CB96FB315A"
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				icon: {
@@ -280,6 +281,7 @@
 			description: ["These &aSunny Trumpet Leaves&r are a lot more potent than they seem. With only a few of them, I can turn a regular &aApple&r into a &aGolden Apple&r."]
 			hide_until_deps_complete: true
 			id: "2CAEC9F4700F0183"
+			shape: "hexagon"
 			tasks: [{
 				id: "7C7CD3122A2BFD23"
 				item: "minecraft:golden_apple"
@@ -298,6 +300,7 @@
 			description: ["I can get a &aPotion of Weakness&r by mixing some eclectic ingredients together - by adding an &aEgg&r, I can make it a throwable &aSplash Potion&r!"]
 			hide_until_deps_complete: true
 			id: "62F122D175F1ABCE"
+			shape: "hexagon"
 			tasks: [{
 				id: "7D379128F871FD68"
 				item: {
@@ -356,6 +359,7 @@
 				item: "minecraft:campfire"
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "4A688F963A0E543B"
