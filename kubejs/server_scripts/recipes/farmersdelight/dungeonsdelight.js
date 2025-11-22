@@ -172,6 +172,13 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    monster_cooking_recipe(
+        Item.of('biomancy:gelling_agent', 3),
+        [
+            'biomancy:mob_gland'
+        ]
+    )
+
     // TODO: This is so fucking awful lmao
     const monster_cooking_recipe_2 = (output, inputs, container, cookingtime, xp) => {
 
@@ -202,6 +209,13 @@ ServerEvents.recipes(event => {
         'kubejs:bottle_of_blood',
         [
             'dungeonsdelight:rotten_tripe'
+        ]
+    )
+
+    monster_cooking_recipe_2(
+        Item.of('biomancy:gelling_agent', 5),
+        [
+            'biomancy:mob_marrow'
         ]
     )
 

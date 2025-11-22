@@ -159,10 +159,11 @@
 				id: "5A3245AF218BABAC"
 				observe_type: 0
 				timer: 0L
-				title: "Strange Ruins"
+				title: "Look at the Altar"
 				to_observe: "summoningrituals:altar"
 				type: "observation"
 			}]
+			title: "Strange Ruins"
 			x: 1.5d
 			y: 1.5d
 		}
@@ -564,6 +565,28 @@
 			]
 			x: 6.0d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"281AB3122C15393C"
+				"28B9B9DC521D1EB1"
+			]
+			description: ["While &aKnives&r can guarantee certain drops like &aLeather&r when used to kill animals, &aBone Knives&r seem to cut even deeper. I wonder what sorts of things are dropped by hostiles?"]
+			hide_dependency_lines: true
+			id: "51703A42F6FFECB7"
+			tasks: [{
+				id: "3CCEBF1DEF5B14F2"
+				item: {
+					Count: 1
+					id: "kubejs:bone_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
 		}
 	]
 	title: "&aPie in the Sky&r ✔"

@@ -11,22 +11,30 @@
 	quests: [
 		{
 			dependencies: ["45BE55CB96FB315A"]
+			description: ["There's more I can do with this, I can feel it."]
 			hide_until_deps_complete: true
 			id: "640BD86D4D3A6DC4"
+			size: 1.5d
 			tasks: [{
 				icon: "summoningrituals:altar"
 				id: "5813A877A3EBB723"
 				observe_type: 0
 				timer: 0L
+				title: "Look at the Altar again"
 				to_observe: "summoningrituals:altar"
 				type: "observation"
 			}]
-			title: "Back to the Beastmaker"
+			title: "Return to the Altar"
 			x: 1.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["736A92ACD7D6B44F"]
+			description: [
+				"These &eMembranes&r seem to work well for holding &eFluid&r, but they lack an easy way to get the fluid out."
+				""
+				"At least they can be thrown!"
+			]
 			id: "6D21D5110E0D3046"
 			tasks: [{
 				id: "0B0E4186FCA779DF"
@@ -37,44 +45,37 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.0d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
 				"5245507A23BAE310"
 				"3F8030FB14071548"
 			]
+			description: ["&eThis is it.&r"]
+			hide_until_deps_complete: true
 			id: "71DF55E30D0EB3D4"
+			size: 1.5d
 			tasks: [{
 				id: "03D399A39BF60CAA"
 				item: "biomancy:primordial_cradle"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3563EF82D31355CB"]
-			id: "4E2B46DB9F71B08F"
-			tasks: [{
-				id: "4D43926950A07AEE"
-				item: "architects_palette:nether_brass_blend"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -2.0d
+			x: 6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3A1DE1A2CBF89601"]
+			hide_dependent_lines: true
 			id: "3CA79CE43669C031"
 			tasks: [{
 				id: "41AB409976D5043E"
 				item: "biomancy:maw_hopper"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3A1DE1A2CBF89601"]
@@ -84,8 +85,8 @@
 				item: "biomancy:tongue"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -1.0d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3943C3FBBF55DF49"]
@@ -95,22 +96,25 @@
 				item: "biomancy:fleshkin_chest"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.0d
+			x: 5.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3563EF82D31355CB"]
+			description: ["&eMembranes&r are quite simple to fashion out of the scalpel cuts. They can serve a variety of purposes for me."]
 			id: "736A92ACD7D6B44F"
 			tasks: [{
 				id: "10DB7F76CA053D80"
 				item: "biomancy:impermeable_membrane"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			title: "Membrane"
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["736A92ACD7D6B44F"]
+			description: ["This marvelous construction of &eMembranes&r will be great for storage, both on and off my person."]
 			id: "76ECC7D40DF2C479"
 			tasks: [{
 				id: "4EE7A1F69D4C3BE9"
@@ -121,8 +125,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.0d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3A1DE1A2CBF89601"]
@@ -132,100 +136,184 @@
 				item: "biomancy:flesh_spike"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.0d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0DCF76028C2D2470"]
+			description: ["These fleshy scraps are a little slimy, but they seem useful."]
+			icon: "biomancy:elastic_fibers"
 			id: "3563EF82D31355CB"
-			tasks: [{
-				id: "6C0FEAF57151985F"
-				item: "biomancy:elastic_fibers"
-				type: "item"
-			}]
-			x: 2.0d
+			tasks: [
+				{
+					id: "6C0FEAF57151985F"
+					item: "biomancy:elastic_fibers"
+					type: "item"
+				}
+				{
+					id: "1BF393E7CB4E7C8D"
+					item: "biomancy:tough_fibers"
+					type: "item"
+				}
+				{
+					id: "211F49637A9CCF09"
+					item: "biomancy:gelling_agent"
+					type: "item"
+				}
+				{
+					id: "709F79E42CA27A12"
+					item: "biomancy:flesh_bits"
+					type: "item"
+				}
+			]
+			title: "Tiny Tidbits"
+			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["640BD86D4D3A6DC4"]
-			id: "0DCF76028C2D2470"
-			tasks: [{
-				id: "1977F0B2F12C8A3D"
-				item: {
-					Count: 1
-					id: "kubejs:stained_scalpel"
-					tag: {
-						Damage: 0
-					}
+			description: [
+				"I need something sharper. Something like a &eScalpel&r."
+				""
+				"I can use the Altar to make some sharp &eStained Scrap&r. That should be sharp enough. I'll just need some &eBone Marrow&r from a &eSkeleton&r killed with a &eBone Knife&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:stained_scalpel"
+				tag: {
+					Damage: 0
 				}
-				type: "item"
-			}]
-			x: 3.0d
+			}
+			id: "0DCF76028C2D2470"
+			tasks: [
+				{
+					id: "1977F0B2F12C8A3D"
+					item: "biomancy:mob_marrow"
+					type: "item"
+				}
+				{
+					id: "6F5DC76C240B5E08"
+					item: "dungeonsdelight:stained_scrap"
+					type: "item"
+				}
+				{
+					id: "0835A547DAC19D2E"
+					item: {
+						Count: 1
+						id: "kubejs:stained_scalpel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Deep Cuts"
+			x: 2.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["4E2B46DB9F71B08F"]
+			dependencies: ["3563EF82D31355CB"]
+			description: [
+				"Perhaps I'll consider what happens when I use these to make some sort of &eAlloy&r..."
+				""
+				"This brassy substance is a fair bit more &edurable&r than anything else I have available, but it seems to &ework best&r with other biological materials, like &eBone&r."
+				""
+				"This merits further research."
+			]
+			icon: "architects_palette:nether_brass_ingot"
 			id: "208BB09978B30317"
-			tasks: [{
-				id: "31E072DEE266016B"
-				item: "architects_palette:nether_brass_ingot"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -2.0d
+			tasks: [
+				{
+					id: "31E072DEE266016B"
+					item: "architects_palette:nether_brass_blend"
+					type: "item"
+				}
+				{
+					id: "19EFB0CA279B7E27"
+					item: "architects_palette:nether_brass_ingot"
+					type: "item"
+				}
+			]
+			title: "Metal?"
+			x: 1.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["0DCF76028C2D2470"]
+			dependencies: ["3563EF82D31355CB"]
+			description: ["The bile-filled &eMonster Pot&r seems to be better suited to fleshy tasks than its standard cooking counterpart."]
 			id: "3A1DE1A2CBF89601"
+			rewards: [{
+				id: "0DBBD7FC99E06E7D"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E0D90090576EF3E"
 				item: "dungeonsdelight:monster_pot"
 				type: "item"
 			}]
-			x: 5.0d
+			title: "Monstrous Meals"
+			x: 4.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["736A92ACD7D6B44F"]
+			description: ["This familiar material is an even more refined membrane."]
 			id: "7ADDAAFBA80A6F4B"
 			tasks: [{
 				id: "7D8057DC976F4836"
 				item: "minecraft:phantom_membrane"
 				type: "item"
 			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7ADDAAFBA80A6F4B"]
+			description: [
+				"&ePhantom Membranes&r, being suited for &eFlight&r, are not too hard to manipulate into human-sized &eElytra&r."
+				""
+				"Using &eActive Muscle Pads&r to get some extra height isn't a bad idea, either."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "76BE3041281A8C00"
+			tasks: [
+				{
+					id: "794AC548A6A64871"
+					item: {
+						Count: 1
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12572CD1C88B6796"
+					item: "biomancy:active_muscle"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Taking Flight"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["7ADDAAFBA80A6F4B"]
-			id: "76BE3041281A8C00"
-			tasks: [{
-				id: "794AC548A6A64871"
-				item: {
-					Count: 1
-					id: "minecraft:elytra"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 5.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7ADDAAFBA80A6F4B"]
-			id: "1255CBA472E4F497"
-			tasks: [{
-				id: "18DAD1FA3616D634"
-				item: "biomancy:active_muscle"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 1.0d
-		}
-		{
 			dependencies: ["208BB09978B30317"]
+			description: [
+				"The &eBiobrass Knife&r seems even better at collecting glands and marrow than the &eBone&r variant."
+				""
+				"Also, if I'm to work with &eMachines&r at all, a &eWrench&r will surely be of use."
+			]
 			icon: {
 				Count: 1
 				id: "kubejs:biobrass_knife"
@@ -253,44 +341,104 @@
 						id: "thermal:wrench"
 						tag: { }
 					}
+					optional_task: true
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: -2.0d
+			title: "Biobrass Tools"
+			x: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7ADDAAFBA80A6F4B"]
+			description: ["This &eChrysalis&r is almost like a biological &eCage&r, but it can hold much bigger subjects."]
 			id: "34AE5F7030F7D136"
 			tasks: [{
 				id: "62F3AFDF5E8DB7E3"
 				item: "biomancy:chrysalis"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.0d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["208BB09978B30317"]
+			dependencies: [
+				"208BB09978B30317"
+				"6D21D5110E0D3046"
+			]
+			description: ["If ever I need to store more &eFluid&r than can fit in a pool, I can use &eBiobrass&r to make a &eFluid Cell&r. It should work quite well with &eFluid Sacs&r."]
+			icon: {
+				Count: 1
+				id: "thermal:fluid_cell"
+				tag: {
+					BlockEntityTag: {
+						TankInv: [{
+							Amount: 0
+							Capacity: 32000
+							FluidName: "minecraft:empty"
+							Tank: 0b
+						}]
+					}
+				}
+			}
 			id: "244DA7522E043EC5"
 			tasks: [{
-				id: "7C2D4C18086EDD3F"
-				item: "thermal:fluid_cell_frame"
+				id: "431A37159C9B76D2"
+				item: {
+					Count: 1
+					id: "thermal:fluid_cell"
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								Amount: 0
+								Capacity: 32000
+								FluidName: "minecraft:empty"
+								Tank: 0b
+							}]
+						}
+					}
+				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["208BB09978B30317"]
+			dependencies: [
+				"208BB09978B30317"
+				"3CA79CE43669C031"
+			]
+			description: ["It's not much, but &eBiobrass&r seems to work well enough for some primitive &eMachinery&r."]
 			id: "3FEC0DD6A6F2EC07"
+			tasks: [
+				{
+					id: "02B0F9FA8846FAC2"
+					item: "industrialforegoing:block_breaker"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "35FB84C9FF044DBD"
+					item: "industrialforegoing:block_placer"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Blockworks"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0DCF76028C2D2470"]
+			description: ["It may be prudent for me to make use of &eMonster Spawners&r to ease the burden of constant offerings to the &eAltar&r."]
+			id: "6C2F8FEF9ACDBF7A"
 			tasks: [{
-				id: "02B0F9FA8846FAC2"
-				item: "industrialforegoing:block_breaker"
+				id: "0B702472D794AB90"
+				item: "minecraft:spawner"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -3.0d
+			x: 2.5d
+			y: 3.0d
 		}
 	]
 	title: "&eSuspicious Summoning&r ✔"
