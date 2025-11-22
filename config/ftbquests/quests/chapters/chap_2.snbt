@@ -73,32 +73,28 @@
 		}
 		{
 			dependencies: ["3A1DE1A2CBF89601"]
-			description: [""]
-			hide_dependent_lines: true
-			id: "3CA79CE43669C031"
-			tasks: [{
-				id: "41AB409976D5043E"
-				item: "biomancy:maw_hopper"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["3A1DE1A2CBF89601"]
-			description: [""]
+			description: ["&eMachines&r don't seem to work with &eTongues&r, but &eMaw Hoppers&r work just fine."]
+			icon: "biomancy:maw_hopper"
 			id: "3943C3FBBF55DF49"
-			tasks: [{
-				id: "676EB953477E8CFF"
-				item: "biomancy:tongue"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "676EB953477E8CFF"
+					item: "biomancy:tongue"
+					type: "item"
+				}
+				{
+					id: "2C3172EC59C6E386"
+					item: "biomancy:maw_hopper"
+					type: "item"
+				}
+			]
+			title: "Item Movement"
 			x: 4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["3943C3FBBF55DF49"]
-			description: [""]
+			description: ["This &eChest&r doesn't have all too many uses on its own if nobody else is around."]
 			id: "5245507A23BAE310"
 			tasks: [{
 				id: "60AE58EE9FBD5A58"
@@ -151,7 +147,7 @@
 		}
 		{
 			dependencies: ["0DCF76028C2D2470"]
-			description: ["These fleshy scraps are a little slimy, but they seem useful."]
+			description: ["These fleshy scraps are a little slimy, but they will undoubtedly be very useful."]
 			icon: "biomancy:elastic_fibers"
 			id: "3563EF82D31355CB"
 			tasks: [
@@ -414,10 +410,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"208BB09978B30317"
-				"3CA79CE43669C031"
-			]
+			dependencies: ["208BB09978B30317"]
 			description: ["It's not much, but &eBiobrass&r seems to work well enough for some primitive &eMachinery&r."]
 			id: "3FEC0DD6A6F2EC07"
 			tasks: [

@@ -14,7 +14,11 @@
 			description: [
 				"&6What have I done?&r"
 				""
-				"In order to get &6Living Flesh&r, I need to feed the &6Primordial Cradle&r some raw meat, and then kill the resulting &6Flesh Blob&r."
+				"I wonder if I've made a grave mistake, but &6the wheel of progress turns ever forward...&r"
+				""
+				"Perhaps I can pivot towards &6Machinery&r. Surely that will require less unnecessary &6Sacrifice&r..."
+				""
+				"In order to get &6Living Flesh&r, I will need to feed the &6Primordial Cradle&r some raw meat and health potions, and then kill the &6Flesh Blob&r that pops out."
 			]
 			hide_until_deps_complete: true
 			icon: "biomancy:living_flesh"
@@ -56,6 +60,7 @@
 		}
 		{
 			dependencies: ["3B4A6960DC7A0C0A"]
+			description: ["The &6Centrifugal Separator&r works by twisting and releasing strong elastic fibers."]
 			id: "34A217407B463584"
 			tasks: [{
 				id: "6DC9C21A37E05DA1"
@@ -63,10 +68,11 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3B4A6960DC7A0C0A"]
+			description: ["The gnashing fangs of the &6Pulverizer&r are great for crushing things like &6Charcoal&r, &6Iron Scrap&r, and &6Ancient Chitin&r."]
 			id: "7D5B0EE041DD4EAB"
 			tasks: [{
 				id: "5574E03AFD225BFB"
@@ -74,10 +80,11 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3B4A6960DC7A0C0A"]
+			description: ["The membranes in the &6Fluid Encapsulator&r funnel fluid into items."]
 			id: "5802BD1BD18084DB"
 			tasks: [{
 				id: "1A662764CEE6A2FC"
@@ -100,11 +107,12 @@
 				item: "architects_palette:sunmetal_brick"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0A72AEAE36636CED"]
+			description: ["The trusty &6Bucket&r is a bit less unwieldy than the &6Fluid Sac&r."]
 			id: "39518956553AEBB9"
 			tasks: [{
 				id: "5C02416365A517C6"
@@ -115,7 +123,11 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["0A72AEAE36636CED"]
+			dependencies: [
+				"0A72AEAE36636CED"
+				"0814C512F239EE6A"
+			]
+			description: ["It looks like you can cram a bunch of &6Fleshkin Chests&r together and they will hold a lot more than usual."]
 			icon: "rftoolsstorage:modular_storage"
 			id: "6CDEFFBB409CB84A"
 			tasks: [
@@ -127,12 +139,20 @@
 				{
 					id: "3A584DE4793D40C2"
 					item: "rftoolsstorage:storage_scanner"
+					optional_task: true
 					type: "item"
 				}
 				{
+					icon: "rftoolsstorage:storage_module0"
 					id: "0F300115B37BFC48"
-					item: "rftoolsstorage:storage_module0"
-					optional_task: true
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(rftoolsstorage:storage_module0)item(rftoolsstorage:storage_module1)item(rftoolsstorage:storage_module2)item(rftoolsstorage:storage_module3))"
+						}
+					}
+					title: "Any Storage Module"
 					type: "item"
 				}
 			]
@@ -141,6 +161,7 @@
 		}
 		{
 			dependencies: ["0A72AEAE36636CED"]
+			description: ["I can use &6Conduits&r and &6Cells&r to transport and store &6Nutrients&r."]
 			icon: "thermal:energy_duct"
 			id: "4FB719BF896FABD1"
 			tasks: [
@@ -163,11 +184,12 @@
 							}
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 			]
 			x: 5.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0A72AEAE36636CED"]
@@ -177,7 +199,7 @@
 				item: "thermal:machine_press"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -188,7 +210,7 @@
 				item: "thermal:machine_sawmill"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: 1.5d
 		}
 		{
@@ -199,11 +221,12 @@
 				item: "thermal:machine_frame"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3B4A6960DC7A0C0A"]
+			description: ["This machine uses nutrients and "]
 			id: "2FEBB8F2E726AFB2"
 			tasks: [{
 				id: "349E87AA075D51AC"
@@ -231,7 +254,7 @@
 				}
 			]
 			title: "Getting Hot"
-			x: 9.5d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -245,7 +268,7 @@
 				item: "thermal:machine_smelter"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: 1.5d
 		}
 		{
@@ -266,15 +289,18 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
+			x: 9.0d
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"0814C512F239EE6A"
-				"4F42EA10476B83F3"
+			dependencies: ["0814C512F239EE6A"]
+			description: [
+				"Living Flesh is all well and good, but it is clear that I need &6more&r."
+				""
+				"The &6Chest Opener&r will be my solution - a way to peer into the insides of any living creature."
+				""
+				"I need to right-click in the air to open my own chest, and right click another entity to open its chest."
 			]
-			description: ["I need to right-click in the air to open my own chest, and right click another entity to open its chest."]
 			hide_until_deps_complete: true
 			id: "7F27DD7AA10890E4"
 			tasks: [{
@@ -283,7 +309,7 @@
 				type: "item"
 			}]
 			title: "Dark Harvest"
-			x: 6.5d
+			x: 6.0d
 			y: 1.5d
 		}
 		{
@@ -316,12 +342,18 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 7.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["362763D8E192CF20"]
+			description: [
+				"This &6Malignant Flesh&r grows when I feed the cradle &6Rotten&r or &6Living&r flesh..."
+				""
+				"It intrigues me, but I should take care not to let it &6grow&r too much... at least &6not yet&r."
+			]
 			id: "147E6D51143B8EBB"
+			optional: true
 			tasks: [{
 				icon: "biomancy:malignant_flesh_veins"
 				id: "4E1D9D1D00A807C2"
