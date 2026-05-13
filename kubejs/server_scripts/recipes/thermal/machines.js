@@ -13,6 +13,7 @@ ServerEvents.recipes(event => {
 
     event.recipes.thermal.centrifuge(['2x biomancy:bile', Item.of('biomancy:bile').withChance(0.5), Item.of('2x biomancy:flesh_bits').withChance(0.8), Item.of('biomancy:elastic_fibers').withChance(0.75)], 'biomancy:mob_gland')
     event.recipes.thermal.centrifuge([Fluid.of('kubejs:blood', 100)], 'biomancy:flesh_bits')
+    event.recipes.thermal.centrifuge(['minecraft:glass_bottle', Fluid.of('kubejs:blood', 250)], 'kubejs:bottle_of_blood')
     event.recipes.thermal.centrifuge(['2x biomancy:flesh_bits', Item.of('biomancy:flesh_bits').withChance(0.75), Item.of('biomancy:nutrient_paste').withChance(0.75), Item.of('biomancy:mob_sinew').withChance(0.85), Fluid.of('kubejs:blood', 250)], '#biomancy:raw_meats')
     event.recipes.thermal.centrifuge(['biomancy:organic_matter', Item.of('biomancy:organic_matter').withChance(0.5), Item.of('biomancy:nutrient_paste').withChance(0.5), Item.of('thermal:compost').withChance(0.33)], '#forge:crops')
     event.recipes.thermal.centrifuge(['biomancy:bone_fragments', Item.of('minecraft:string').withChance(0.75), Item.of('biomancy:nutrient_paste').withChance(0.75), Item.of('minecraft:netherite_scrap').withChance(0.35), Fluid.of('kubejs:blood', 125)], 'dungeonsdelight:smoked_spider_meat')

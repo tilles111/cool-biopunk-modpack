@@ -209,7 +209,8 @@ ServerEvents.recipes(event => {
         'kubejs:bottle_of_blood',
         [
             'dungeonsdelight:rotten_tripe'
-        ]
+        ],
+        'minecraft:glass_bottle'
     )
 
     monster_cooking_recipe_2(
@@ -249,7 +250,8 @@ ServerEvents.recipes(event => {
         Item.of('kubejs:bottle_of_blood', 3),
         [
             'minecraft:rotten_flesh'
-        ]
+        ],
+        'minecraft:glass_bottle'
     )
 
 })
